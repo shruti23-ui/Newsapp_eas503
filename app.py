@@ -441,7 +441,9 @@ def update_briefing(snap, cats, theme):
     f_cat = styled(go.Figure(go.Bar(x=means.values, y=means.index, orientation="h",
                                     marker_color=[CAT_COLORS.get(c, "#999") for c in means.index],
                                     text=[f"{v:+.2f}" for v in means.values], textposition="outside")), theme, 300)
-    f_cat.update_xaxes(title="Average mood (−1 to +1)")
+    # symmetric axis of at least ±0.25, so tiny averages do not fill the whole chart
+    reach = max(0.25, float(means.abs().max()) * 1.3)
+    f_cat.update_xaxes(title="Average mood (−1 to +1)", range=[-reach, reach])
 
     f_op = go.Figure()
     for c in [c for c in CATS if c in set(sub["category"])]:

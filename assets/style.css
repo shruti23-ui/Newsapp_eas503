@@ -133,7 +133,7 @@ body {
 
 /* top stories */
 .lede { margin: 0; padding-left: 14px; border-left: 3px solid var(--accent); font-size: 17px; line-height: 1.6; }
-.stories { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+.stories { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
 .story { min-width: 0; display: flex; flex-direction: column; gap: 8px; padding: 14px;
          background: var(--panel2); border: 1px solid var(--border); border-radius: 10px; }
 .story-head { display: flex; gap: 10px; align-items: flex-start; }
