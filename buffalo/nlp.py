@@ -5,7 +5,7 @@ import re
 import pandas as pd
 from textblob import TextBlob
 
-import config
+from . import config
 
 SENTIMENTS = ["positive", "negative", "neutral"]
 ZSC_CACHE_FILE = config.CACHE_DIR / "zsc_cache.json"

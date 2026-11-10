@@ -1,58 +1,77 @@
-# The Buffalo Times: News Intelligence Dashboard (EAS 503)
+# The Buffalo Times: News Intelligence Dashboard
 
-A Dash app that extends the class news app with three new analytical features.
-Without API keys it runs offline on the four real NewsAPI snapshots saved in class.
+**Course:** EAS 503, Programming and Database Fundamentals for Data Scientists
+**Assignment:** Extra credit, three missed opportunities in the class news app
+**Student:** Shruti Priya
+**Demo video:** [VIDEO_URL]
 
-## Run it
+## Summary
+
+The class news app fetched headlines, ran sentiment and NER, and asked Gemini for a summary, but it
+did not use most of what it computed. This project turns three of those gaps into analytical features
+in a Dash dashboard. It runs offline on the four real NewsAPI snapshots saved in the class notebooks.
+
+## The three features
+
+| # | Tab | Missed opportunity | What it computes |
+|---|---|---|---|
+| 1 | **Entity Explorer** | spaCy entities were extracted but never used | Ranked entities with mean sentiment, entity by category heatmap, co-mentions. An EntityRuler fixes spaCy's mislabels first. |
+| 2 | **Echo Index** | Each notebook saved a different day's news, never compared | Echo score per headline (TF-IDF cosine to the closest earlier headline), repeated stories, rising and fading words (log-odds with Dirichlet prior) |
+| 3 | **Newsroom Check** | Gemini's JSON summary was never parsed or checked | Coverage of the news by the summary, Tavily check of weak claims, Gemini rewrite re-scored with the same metric, ElevenLabs audio bulletin, ZIP report |
+
+Also: opinion map (polarity vs subjectivity), Ask The Buffalo Times (cited answers with a grounding check),
+TextBlob vs zero-shot agreement (Cohen's kappa), dark and light themes.
+
+## How to run
+
+Requires Python 3.12.
 
 ```bash
 python -m venv .venv
 .venv\Scripts\activate            # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
-copy .env.example .env            # optional: add your API keys here
 python app.py                     # open http://127.0.0.1:8080
-pytest -q                         # offline tests
+pytest -q                         # 10 offline tests
 ```
 
-Python 3.12 is required. Optional zero-shot sentiment: `pip install -r requirements-zsc.txt`.
-
-## Features
-
-| Tab | What it does | Methods |
-|---|---|---|
-| **Entity Explorer** | Ranks the people, places and organizations in the news, with sentiment, category heatmap and co-mentions | spaCy NER + EntityRuler, groupby, co-occurrence |
-| **Echo Index** | Scores how much each headline repeats earlier days' news, and finds rising and fading words | TF-IDF, cosine similarity, log-odds with Dirichlet prior |
-| **Newsroom Check** | Measures how much of the news the Gemini summary covers, checks weak claims with Tavily, rewrites and re-scores it, reads it aloud with ElevenLabs | TF-IDF coverage, threshold sweep, before/after evaluation |
-
-Also included: an opinion map (polarity vs subjectivity), Ask The Buffalo Times (cited answers from headlines),
-sentiment model agreement (Cohen's kappa), and dark/light themes.
-
-## Modes
-
-- **No `NEWS_API_KEY`:** demo mode on the saved snapshots (Oct 19, 21, 26, Nov 2).
-- **With keys:** fetches live headlines and saves each fetch as a new snapshot.
-- **If a call fails:** falls back to saved data and shows the reason on screen.
-
-Gemini, Tavily and ElevenLabs results are cached in `data/cache/`.
-
-## Files
+With no keys the app runs in demo mode on the saved snapshots. To use live APIs, create a `.env` file:
 
 ```
-app.py              Dash app (main submission)
-analytics.py        statistics for the three features
-nlp.py              TextBlob, zero-shot, spaCy
-data_pipeline.py    NewsAPI fetch and snapshot archive
-ai_summary.py       Gemini summary
-newsroom.py         rewrite, Ask, radio bulletin
-external.py         Yahoo Finance, Bluesky, Tavily
-streamlit_app.py    Streamlit version for Streamlit Cloud
-docs/               GitHub Pages showcase
-data/               saved class snapshots, Gemini output, stock prices
-tests/              pytest tests
+NEWS_API_KEY=...
+GEMINI_API_KEY=...
+TAVILY_API_KEY=...
+ELEVENLABS_API_KEY=...
 ```
 
-## Deploy
+API results are cached in `data/cache/`. Optional zero-shot sentiment: `pip install -r requirements-zsc.txt`.
 
-- **Streamlit Cloud:** share.streamlit.io, New app, pick this repo and `streamlit_app.py`, Python 3.12. Add keys under Secrets.
+## Project structure
+
+```
+app.py                  Dash app: data loading, layout, callbacks (main submission)
+streamlit_app.py        Streamlit version of the same app
+buffalo/
+  config.py             settings and paths, keys read from .env
+  data_pipeline.py      NewsAPI fetch, snapshot archive, DataFrame
+  nlp.py                TextBlob, zero-shot sentiment, spaCy NER
+  analytics.py          statistics for the three features
+  ai_summary.py         Gemini summary and JSON parsing
+  newsroom.py           Gemini rewrite, Ask, ElevenLabs bulletin
+  external.py           Yahoo Finance, Bluesky, Tavily
+assets/style.css        dark and light themes
+data/                   saved class snapshots, Gemini output, stock prices
+docs/                   GitHub Pages showcase
+scripts/build_pages.py  builds docs/data.js
+tests/test_app.py       pytest tests
+```
+
+## Data sources
+
+NewsAPI (4 snapshots from the class notebooks), Gemini (saved Nov 2 output), Yahoo Finance (saved prices),
+Tavily and ElevenLabs (live, optional).
+
+## Deployment
+
+- **Streamlit Cloud:** New app, pick this repo and `streamlit_app.py`, Python 3.12, add keys under Secrets.
 - **GitHub Pages:** run `python scripts/build_pages.py`, then Settings, Pages, branch `main`, folder `/docs`.
 - **Render:** New Blueprint from this repo (`render.yaml`), add keys as environment variables.

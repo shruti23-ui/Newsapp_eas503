@@ -9,8 +9,8 @@ import requests
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-import config
-from analytics import split_sentences
+from . import config
+from .analytics import split_sentences
 
 CACHE = config.CACHE_DIR
 AUDIO_DIR = CACHE / "audio"
@@ -147,7 +147,8 @@ def grounding(answer, hits):
 
 
 # Listen: ElevenLabs radio bulletin
-DEFAULT_VOICES = ["21m00Tcm4TlvDq8ikWAM", "pNInz6obpgDQGcFmaJgB",
+# Premade voices that free ElevenLabs accounts can use through the API
+DEFAULT_VOICES = ["JBFqnCBsd6RMkjVDRZzb", "pNInz6obpgDQGcFmaJgB",
                   "EXAVITQu4vr4xnSDxMaL", "ErXwobaYiN019PkySvjV"]
 
 
@@ -180,6 +181,11 @@ def radio_bulletin(bulletin):
             return None, script, "Add ELEVENLABS_API_KEY to .env to hear the bulletin"
         try:
             audio = b"".join(_tts(text, voices[v]) for _, v, text in script)
+        except requests.HTTPError as exc:
+            # show ElevenLabs' own reason, e.g. "voice needs a paid plan"
+            detail = exc.response.json().get("detail", {}) if "json" in exc.response.headers.get("Content-Type", "") else {}
+            reason = detail.get("message", "") if isinstance(detail, dict) else str(detail)
+            return None, script, f"ElevenLabs error {exc.response.status_code}: {reason[:120]}"
         except requests.RequestException as exc:
             return None, script, f"ElevenLabs request failed ({type(exc).__name__})"
         path.write_bytes(audio)

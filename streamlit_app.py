@@ -14,8 +14,8 @@ def load_core():
 
 
 A = load_core()
-import analytics  # noqa: E402  (after the cached import so paths/env are set)
-import newsroom  # noqa: E402
+from buffalo import analytics  # noqa: E402  (after the cached import so paths/env are set)
+from buffalo import newsroom  # noqa: E402
 
 THEME = "dark" if st.sidebar.radio("Chart theme", ["Dark", "Light"]) == "Dark" else "light"
 st.sidebar.caption(A.STATUS["message"])

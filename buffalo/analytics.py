@@ -189,7 +189,7 @@ def coverage_by_category(heads, threshold, categories):
 def sentiment_agreement(df):
     """TextBlob vs zero-shot labels. Returns (confusion table, Cohen's kappa, n, rows)."""
     from sklearn.metrics import cohen_kappa_score
-    from nlp import SENTIMENTS, polarity_to_label
+    from .nlp import SENTIMENTS, polarity_to_label
     arts = unique_articles(df)
     arts = arts[arts["sentiment_method"] == "zsc"].copy()
     if len(arts) < 5:

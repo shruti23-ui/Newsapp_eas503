@@ -62,4 +62,4 @@ Every external call has a timeout, returns a status message instead of raising, 
 to saved or cached data. `pytest -q` runs entirely offline.
 
 **Where are the API keys?**
-Only in `.env`, which `.gitignore` excludes. `config.py` reads them with python-dotenv.
+Only in `.env`, which `.gitignore` excludes. `buffalo/config.py` reads them with python-dotenv.

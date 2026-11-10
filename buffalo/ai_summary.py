@@ -2,7 +2,7 @@
 import json
 import re
 
-import config
+from . import config
 
 PROMPT_TEMPLATE = """
 You are a news assistant. I will give you a bunch of news headlines.

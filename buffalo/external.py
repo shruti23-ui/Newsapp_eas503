@@ -3,7 +3,7 @@ import json
 
 import requests
 
-import config
+from . import config
 
 # 1. Stocks (P8)
 SYMBOLS = ["NVDA", "AAPL", "MSFT", "AMZN", "GOOGL", "GOOG", "AVGO", "META", "TSLA",

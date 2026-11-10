@@ -11,10 +11,10 @@ os.environ["DEMO_MODE"] = "true"          # never touch the network in tests
 os.environ["ENABLE_ZSC"] = "false"
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-import analytics  # noqa: E402
+from buffalo import analytics  # noqa: E402
 import app as A  # noqa: E402
-import newsroom  # noqa: E402
-import nlp  # noqa: E402
+from buffalo import newsroom  # noqa: E402
+from buffalo import nlp  # noqa: E402
 
 FOCUS = "2026-11-02"
 
@@ -48,7 +48,7 @@ def test_audit_finds_missing_categories():
 
 
 def test_no_key_paths_do_not_crash():
-    import config
+    from buffalo import config
     if not config.GEMINI_API_KEY:
         assert "Could not create the rewrite" in A.fix_summary(1, FOCUS, 0.10, "dark")[0].children
     dl = A.download_report(1, FOCUS, 0.10, None, None)

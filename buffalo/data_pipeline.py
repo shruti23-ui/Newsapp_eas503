@@ -4,7 +4,7 @@ from datetime import datetime
 
 import pandas as pd
 
-import config
+from . import config
 
 
 # fetching

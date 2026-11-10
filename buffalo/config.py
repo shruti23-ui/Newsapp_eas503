@@ -2,14 +2,15 @@
 import os
 from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent.parent   # project root (this file is in buffalo/)
+
 try:
-    # python-dotenv reads key=value pairs from a .env file into os.environ
+    # python-dotenv reads key=value pairs from .env into os.environ
     from dotenv import load_dotenv
-    load_dotenv()
+    load_dotenv(BASE_DIR / ".env")
 except ImportError:  # the app still works if python-dotenv is missing
     pass
 
-BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 SNAPSHOT_DIR = DATA_DIR / "snapshots"   # archive of every NewsAPI fetch
 DEMO_DIR = DATA_DIR / "demo"            # saved class outputs (prices, Gemini JSON)

@@ -8,13 +8,13 @@ import pandas as pd
 import plotly.graph_objects as go
 from dash import Dash, Input, Output, State, ctx, dash_table, dcc, html, no_update
 
-import ai_summary
-import analytics
-import config
-import data_pipeline
-import external
-import newsroom
-import nlp
+from buffalo import ai_summary
+from buffalo import analytics
+from buffalo import config
+from buffalo import data_pipeline
+from buffalo import external
+from buffalo import newsroom
+from buffalo import nlp
 
 # 1. DATA
 DF, STATUS = data_pipeline.get_news_data()

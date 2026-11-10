@@ -9,7 +9,7 @@ os.environ["DEMO_MODE"] = "true"        # always build from the saved class data
 os.environ["ENABLE_ZSC"] = "false"
 os.chdir(ROOT)
 
-import analytics  # noqa: E402
+from buffalo import analytics  # noqa: E402
 import app as A  # noqa: E402
 
 focus = A.SNAPS[-1]
