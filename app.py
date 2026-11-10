@@ -100,6 +100,11 @@ def control(label, component):
     return html.Div([html.Label(label), component], className="control")
 
 
+def note(id_):
+    """A short 'what this shows' line under a chart, filled in by a callback."""
+    return html.P(id=id_, className="note")
+
+
 def graph(id_):
     return dcc.Loading(dcc.Graph(id=id_, config={"displayModeBar": False}), type="dot")
 
@@ -199,11 +204,11 @@ def tab_briefing():
                   control("Categories", dcc.Dropdown(id="b-cats", options=CAT_OPTIONS, multi=True, placeholder="All categories"))],
                  className="controls"),
         html.Div(id="b-summary"),
-        html.Div([card("Headline mood", "How many headlines read positive, negative or neutral", graph("b-sent")),
-                  card("Mood scores", "From −1 (very negative) to +1 (very positive)", graph("b-pol")),
-                  card("Average mood by category", None, graph("b-catpol"))], className="row"),
+        html.Div([card("Headline mood", "How many headlines read positive, negative or neutral", graph("b-sent"), note("b-sent-note")),
+                  card("Mood scores", "From −1 (very negative) to +1 (very positive)", graph("b-pol"), note("b-pol-note")),
+                  card("Average mood by category", None, graph("b-catpol"), note("b-cat-note"))], className="row"),
         card("Opinion map", "Each dot is a headline. Left to right: negative to positive. "
-             "Bottom to top: factual to opinionated. Hover over a dot to read it.", graph("b-opinion"), wide=True),
+             "Bottom to top: factual to opinionated. Hover over a dot to read it.", graph("b-opinion"), note("b-op-note"), wide=True),
         card("All headlines", "Click a column name to sort. Click a headline to open the article.", table("b-table", headline_columns(), 10),
              html.P(f"Confidence is how sure the sentiment model was. Labels under {LOW_CONF:.0%} are faded.", className="sub")
              if ZSC_OK else None, wide=True),
@@ -366,21 +371,49 @@ def story_card(i, cluster, matched):
     ], id={"type": "story", "index": i}, className="story")
 
 
-def summary_cards(snap):
+def top_headlines(snap, cats, per_category=3):
+    """The first headlines NewsAPI returned for each category (NewsAPI's order is its 'top' order)."""
+    sub = analytics.unique_articles(DF[DF["snapshot"] == snap])
+    chosen = cats or CATS
+    items = []
+    for c in chosen:
+        for r in sub[sub["category"] == c].head(per_category).itertuples():
+            items.append(html.Div([html.A([dot(c), r.title], href=r.url, target="_blank"),
+                                   html.Span(f"{r.source} · {c.title()}", className="meta"),
+                                   html.Span(r.description[:220], className="meta") if r.description else None],
+                                  className="list-item"))
+    names = ", ".join(c.title() for c in chosen) if cats else "each category"
+    return html.Div([html.H4(f"Top headlines in {names}", className="list-title")] + items) if items else None
+
+
+def summary_cards(snap, cats=None):
     title = "Today's top stories" if snap == LATEST else f"Top stories on {nice_date(snap)}"
+    if cats:
+        title += " · " + ", ".join(c.title() for c in cats)
     summ = SUMMARIES.get(snap)
     if not summ:
-        dates = ", ".join(nice_date(s) for s in reversed(SNAPS) if s in SUMMARIES)
-        return card(title, None, html.Div(f"No AI summary for this date. Summaries exist for: {dates or 'none yet'}.",
-                                          className="notice"), wide=True)
+        # no AI summary for this date: show the real top headlines instead
+        return card(title, "No AI summary was made for this date, so these are the top headlines from NewsAPI.",
+                    top_headlines(snap, cats), wide=True)
+
     heads = AUDITS[snap]["heads"]
+    if cats:
+        heads = heads[heads["category"].isin(cats)]   # keep only headlines from the selected categories
     stories = []
     for i, cluster in enumerate(summ["clusters"]):
         matched = heads[(heads["cluster"] == i) & (heads["similarity"] >= STORY_MATCH)].sort_values("similarity", ascending=False)
+        if cats and matched.empty:
+            continue   # with a category filter, skip stories that have no headline from it
         stories.append(story_card(i, cluster, matched))
-    return card(title, "AI summary grouped into stories. The colored bar shows which categories each story's headlines come from.",
-                html.P(summ.get("global_summary", ""), className="lede"),
-                html.Div(stories, className="stories"), wide=True)
+
+    if not cats:
+        return card(title, "AI summary grouped into stories. The colored bar shows which categories each story's headlines come from.",
+                    html.P(summ.get("global_summary", ""), className="lede"),
+                    html.Div(stories, className="stories"), wide=True)
+    intro = ("AI stories that draw on these categories, then the top headlines from them." if stories
+             else "No AI story draws on these categories today, so here are their top headlines.")
+    return card(title, intro, html.Div(stories, className="stories") if stories else None,
+                top_headlines(snap, cats, per_category=5), wide=True)
 
 
 def update_briefing(snap, cats, theme):
@@ -390,7 +423,7 @@ def update_briefing(snap, cats, theme):
         sub = sub[sub["category"].isin(cats)]
     if sub.empty:
         e = empty_fig("No headlines for this selection", theme)
-        return summary_cards(snap), e, e, e, e, []
+        return summary_cards(snap, cats), e, e, e, e, []
 
     counts = sub["zsc_sentiment"].value_counts().reindex(nlp.SENTIMENTS, fill_value=0)
     f_sent = styled(go.Figure(go.Bar(x=counts.index, y=counts.values, marker_color=[SENT_COLORS[s] for s in counts.index],
@@ -432,12 +465,59 @@ def update_briefing(snap, cats, theme):
              "sentiment": r.zsc_sentiment,
              "confidence": round(r.zsc_scores, 2) if pd.notna(r.zsc_scores) else ""}
             for r in sub.itertuples()]
-    return summary_cards(snap), f_sent, f_pol, f_cat, f_op, rows
+    return summary_cards(snap, cats), f_sent, f_pol, f_cat, f_op, rows
 
 
 app.callback(Output("b-summary", "children"), Output("b-sent", "figure"), Output("b-pol", "figure"),
              Output("b-catpol", "figure"), Output("b-opinion", "figure"), Output("b-table", "data"),
              Input("b-snap", "value"), Input("b-cats", "value"), Input("theme", "data"))(update_briefing)
+
+
+def briefing_notes(snap, cats):
+    """One or two plain sentences under each Briefing chart, computed from the same headlines."""
+    sub = analytics.unique_articles(DF[DF["snapshot"] == snap]) if snap else DF.head(0)
+    if cats:
+        sub = sub[sub["category"].isin(cats)]
+    if sub.empty:
+        return "", "", "", ""
+    n = len(sub)
+
+    # Headline mood
+    counts = sub["zsc_sentiment"].value_counts()
+    pos, neg = int(counts.get("positive", 0)), int(counts.get("negative", 0))
+    mood = f"What this shows: the largest group is {counts.idxmax()} ({counts.max()} of {n}, {counts.max() / n:.0%}). "
+    if pos != neg:
+        mood += f"{'Positive' if pos > neg else 'Negative'} headlines outnumber {'negative' if pos > neg else 'positive'} ones {max(pos, neg)} to {min(pos, neg)}."
+    else:
+        mood += f"Positive and negative are tied at {pos}."
+
+    # Mood scores
+    near_zero = (sub["polarity"].abs() < 0.1).mean()
+    strong = int((sub["polarity"].abs() >= 0.5).sum())
+    scores = (f"What this shows: {near_zero:.0%} of headlines score close to 0, because short headlines rarely use "
+              f"emotional words. {strong} headline{'s are' if strong != 1 else ' is'} strongly worded (beyond ±0.5).")
+
+    # Average mood by category
+    means = sub.groupby("category")["polarity"].mean().sort_values()
+    if len(means) > 1:
+        by_cat = (f"What this shows: {means.index[-1].title()} reads most positive ({means.iloc[-1]:+.2f}) and "
+                  f"{means.index[0].title()} most negative ({means.iloc[0]:+.2f}).")
+        if means.abs().max() < 0.2:
+            by_cat += " All averages are close to 0, so the differences are small."
+    else:
+        by_cat = f"What this shows: the average mood of {means.index[0].title()} headlines is {means.iloc[0]:+.2f}."
+
+    # Opinion map
+    factual = (sub["subjectivity"] < 0.5).mean()
+    opinion = f"What this shows: {factual:.0%} of headlines use mostly factual wording (the lower half of the map)."
+    subj = sub.groupby("category")["subjectivity"].mean()
+    if len(subj) > 1:
+        opinion += f" {subj.idxmax().title()} is the most opinionated category (average {subj.max():.2f})."
+    return mood, scores, by_cat, opinion
+
+
+app.callback(Output("b-sent-note", "children"), Output("b-pol-note", "children"), Output("b-cat-note", "children"),
+             Output("b-op-note", "children"), Input("b-snap", "value"), Input("b-cats", "value"))(briefing_notes)
 
 
 # story cards: each card has its own buttons, matched by index (MATCH = the card that was clicked)
