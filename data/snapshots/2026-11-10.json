@@ -1,0 +1,1737 @@
+{
+ "snapshot": "2026-11-10",
+ "source_notebook": null,
+ "fetched_by": "live NewsAPI fetch",
+ "articles": {
+  "business": [
+   {
+    "source": {
+     "id": null,
+     "name": "MarketWatch"
+    },
+    "author": "Joy Wiltermuth, Tomi Kilgore, Nora Redmond, Jamie Chisholm, Steve Goldstein",
+    "title": "Stock Market Today: Dow jumps 1,000 points, S&P 500 and Nasdaq surge after last week\u2019s selloff; Nvidia stock drops as CEO probe launched: live updates - MarketWatch",
+    "description": "Stocks closed sharply higher Monday despite a retreat in Nvidia shares.",
+    "url": "https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-nvidia-investigation-ceo-jensen-huang-relationship-chinese-spy",
+    "urlToImage": "https://images.mktw.net/im-28641878/social",
+    "publishedAt": "2026-11-09T19:10:00Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "CNBC"
+    },
+    "author": "Ashley Capoot",
+    "title": "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds - CNBC",
+    "description": "The launch comes as Anthropic is gearing up for what is widely expected to be a blockbuster IPO",
+    "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/108342843-1785448090042-gettyimages-2280291466-ANTHROPIC_CIRCUIT.jpeg?v=1785448353&w=1920&h=1080",
+    "publishedAt": "2026-11-09T19:00:01Z",
+    "content": "Anthropic on Monday released two new artificial intelligence models, Claude Fable 5.2 and Claude Mythos 5.2, as the company readies for a potentially historic IPO that could take place as soon as nex\u2026 [+2852 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Yahoo Entertainment"
+    },
+    "author": "Claire Boston",
+    "title": "October inflation data is expected to be cooler, helped by steadying energy prices - Yahoo Finance",
+    "description": "Economists expect a 0.3% month-over-month jump in prices in October, reflecting cooler but still-sticky inflation.",
+    "url": "https://finance.yahoo.com/economy/article/october-inflation-data-is-expected-to-be-cooler-helped-by-steadying-energy-prices-190000304.html",
+    "urlToImage": "https://s.yimg.com/lo/mysterio/api/ce1cfd812e4596bb72813d7b47a73060db37c2159b1ee716883dfcfba3348515/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F2d7fc5b6-0342-4930-8609-78c488bf609f",
+    "publishedAt": "2026-11-09T19:00:00Z",
+    "content": "October inflation data coming on Tuesday is expected to show that inflation cooled somewhat from September's elevated levels but remains sticky.\u00a0\r\nEconomists surveyed by Bloomberg expect the Consumer\u2026 [+2129 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "New York Post"
+    },
+    "author": "Sheetal Banchariya",
+    "title": "Plane, terminal evacuated at California airport after passenger overhears spine-chilling conversation - New York Post",
+    "description": "A passenger on a Frontier Airlines flight overheard another passenger having a questionable phone conversation around 10 p.m. Sunday.",
+    "url": "https://nypost.com/2026/11/09/us-news/frontier-plane-evacuated-after-game-chatter-mistaken-for-bomb/",
+    "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2026/11/148120285.jpg?quality=75&strip=all&w=1200",
+    "publishedAt": "2026-11-09T18:43:00Z",
+    "content": "An emergency evacuation was ordered Sunday evening after a passenger on a Frontier Airlines flight overheard a suspicious conversation.\r\nA passenger aboard the flight at Inland Empire\u2019s Ontario Inter\u2026 [+2753 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Yahoo Entertainment"
+    },
+    "author": "Yahoo Finance",
+    "title": "Nvidia live updates: Nvidia stock falls 5% as board investigates CEO's affair with alleged Chinese spy - Yahoo Finance",
+    "description": "Follow along for live updates and reactions regarding the revelation that Nvidia CEO Jensen Huang had a romantic relationship, reportedly with a woman believ...",
+    "url": "https://finance.yahoo.com/technology/live/nvidia-scandal-live-updates-nvidia-stock--board-investigates-ceo-jensen-huang-affair-alleged-chinese-spy-163130372.html",
+    "urlToImage": "https://s.yimg.com/lo/mysterio/api/a34d3f7bf62c173409e6bef4a7334414ee5eaf9f1f7c382cb8736a5d88ae08c6/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2F0cd53bcc-959a-4d7b-8b1a-960fd4d9c2dd_ac3cb57621238ab5dd60f852e9b1771c203641f343dd80dd113fe96d74716bc2.jpg",
+    "publishedAt": "2026-11-09T18:42:29Z",
+    "content": "Months before Nvidia's (NVDA) CEO Jensen Huang's admitted affair and the board investigation into the matter made headlines, concerns over the world's leading AI chipmaker's exposure to China had alr\u2026 [+1561 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "CNBC"
+    },
+    "author": "Hugh Son",
+    "title": "Goldman CEO Solomon says AI financing remains strong despite market jitters - CNBC",
+    "description": "Goldman CEO David Solomon says investor appetite for AI infrastructure remains strong despite a reset in AI stocks and political uncertainty around data centers.",
+    "url": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/108546539-1794244522835-108546539-1794244383968-solomon1.jpg?v=1794244529&w=1920&h=1080",
+    "publishedAt": "2026-11-09T18:14:47Z",
+    "content": "Goldman Sachs CEO David Solomon told CNBC on Monday that financing demand for artificial intelligence infrastructure remains strong despite recent market jitters as investors reassess the risks invol\u2026 [+1846 chars]"
+   },
+   {
+    "source": {
+     "id": "nbc-news",
+     "name": "NBC News"
+    },
+    "author": "Berkeley Lovelace Jr.",
+    "title": "FDA orders new warning on GLP-1s over rare eye condition linked to sudden blindness - NBC News",
+    "description": "The Food and Drug Administration said Monday that GLP-1 drugmakers must add a warning label about a rare eye condition that can cause sudden blindness.",
+    "url": "https://www.nbcnews.com/health/health-care/fda-orders-new-warning-glp-1s-rare-eye-condition-linked-sudden-blindne-rcna608309",
+    "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2022-03/220328-fda-headquarters-2020-ac-611p-17ec72.jpg",
+    "publishedAt": "2026-11-09T18:14:12Z",
+    "content": "The Food and Drug Administration said Monday that GLP-1 drugmakers must add a warning label about a rare eye condition that can cause sudden blindness. \r\nThe condition, called nonarteritic anterior i\u2026 [+3139 chars]"
+   },
+   {
+    "source": {
+     "id": "the-washington-post",
+     "name": "The Washington Post"
+    },
+    "author": "Julie Z. Weil",
+    "title": "People are paying thousands for a home upgrade that\u2019s often unnecessary - The Washington Post",
+    "description": "Outdated practices and codes are resulting in a costly recommendation.",
+    "url": "https://www.washingtonpost.com/business/2026/11/09/people-are-paying-thousands-home-upgrade-thats-often-unnecessary/",
+    "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/CYK3RDNNOI4R3IFCHNS5NCFHXQ.jpg&w=1440",
+    "publishedAt": "2026-11-09T18:00:00Z",
+    "content": "When Jacob Baskin bought a Brooklyn brownstone, he wanted to replace the old gas stove and oven with an up-to-date induction range that runs on electric power. But his contractor told him his electri\u2026 [+196 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Yahoo Entertainment"
+    },
+    "author": "Jared Blikre",
+    "title": "SpaceX, Rocket Lab blast higher as NASA hands out $10 billion in moon base awards - Yahoo Finance",
+    "description": "The space trade came roaring back as NASA handed out moon base contracts and Rocket Lab heads into its earnings.",
+    "url": "https://finance.yahoo.com/markets/article/spacex-rocket-lab-blast-higher-as-nasa-hands-out-10-billion-in-moon-base-awards-164320855.html",
+    "urlToImage": "https://s.yimg.com/lo/mysterio/api/e8b639b43c4f4453e8fa77e2946eeeb91204b02af75314e33a019e756956b29e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2Fc394249c-a631-4044-b89c-79213bfbe1fd",
+    "publishedAt": "2026-11-09T17:43:19Z",
+    "content": "NASA wants a base on the moon, and Wall Street is suddenly buying the ride there. Space stocks are ripping for a second session as SpaceX (SPCX) and seven other companies line up for lunar delivery w\u2026 [+2782 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "The Seattle Times"
+    },
+    "author": "Lauren Rosenblatt",
+    "title": "Boeing will cut 5% of its commercial airplane workforce - The Seattle Times",
+    "description": "Boeing is trimming its workforce by about 5% and slowing its commercial airplane production ramp-up, the head of Boeing Commercial Airplanes, Stephanie Pope, told employees Monday.",
+    "url": "https://www.seattletimes.com/business/boeing-aerospace/boeing-will-cut-5-of-its-commercial-airplane-workforce/",
+    "urlToImage": "https://images.seattletimes.com/wp-content/uploads/2026/11/11092026_Boeing-Layoffs_tzr_090007.jpg?d=1200x630",
+    "publishedAt": "2026-11-09T17:30:00Z",
+    "content": "Boeing is trimming its workforce by about 5% and slowing its commercial airplane production ramp-up, the head of Boeing Commercial Airplanes, Stephanie Pope, told employees Monday.\r\nThe 5% workforce \u2026 [+1473 chars]"
+   },
+   {
+    "source": {
+     "id": "techcrunch",
+     "name": "TechCrunch"
+    },
+    "author": "Tim De Chant",
+    "title": "Anthropic joins AI\u2019s natural gas frenzy, buys $3.4B worth of turbines - TechCrunch",
+    "description": "Anthropic bought billions of dollars worth of natural gas turbines in a deal that could give it buyer's remorse.",
+    "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/12/GettyImages-155376474.jpeg?resize=1200,800",
+    "publishedAt": "2026-11-09T16:56:54Z",
+    "content": "AIs power crunch has become so acute that Anthropic, a company that has generally avoided buying physical infrastructure, is spending $3.4 billion on natural gas turbines.\u00a0\r\nThe AI company, which is \u2026 [+2314 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "BBC News"
+    },
+    "author": null,
+    "title": "Poundland unable to buy new stock as fears over collapse grow - BBC",
+    "description": "The discount chain is continuing to edge towards collapse and is said to be \"running on fumes\", according to one insider.",
+    "url": "https://www.bbc.com/news/articles/cw1l3lmem165o",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/4c59/live/3c72aa60-dc53-11f1-b8a2-9782924402f8.jpg",
+    "publishedAt": "2026-11-09T16:46:40Z",
+    "content": "Last week, Poundland boss Barry Williams told staff like-for-like sales, which exclude new store openings, were up 11.4% last week, which included Halloween, but said this was \u00a31.5m ahead of budget."
+   },
+   {
+    "source": {
+     "id": "bloomberg",
+     "name": "Bloomberg"
+    },
+    "author": "Erik Schatzker",
+    "title": "Carney Recruits Bridgewater Co-CIO to Run Canada Sovereign Wealth Fund - Bloomberg.com",
+    "description": "Karen Karniol-Tambour is leaving her role as co-chief investment officer of Bridgewater Associates to run Canada\u2019s new sovereign wealth fund, lending Wall Street credibility and expertise to one of Prime Minister Mark Carney\u2019s signature economic initiatives.",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-09/canada-s-carney-hires-bridgewater-co-cio-karniol-tambour-to-run-sovereign-fund",
+    "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ilYrvChc11Zs/v1/1200x799.jpg",
+    "publishedAt": "2026-11-09T16:45:21Z",
+    "content": "Karen Karniol-Tambour is leaving her role as co-chief investment officer of Bridgewater Associates to run Canadas new sovereign wealth fund, lending Wall Street credibility and expertise to one of Pr\u2026 [+402 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "TODAY"
+    },
+    "author": "Joseph Lamour",
+    "title": "Starbucks Reveals Surprise Box Edition Bearista Cups: See the Designs - TODAY.com",
+    "description": "Starbucks has revealed its Bearista Glass Cold Cup Surprise Box Edition cup designs \u2014 well, almost all of them. Here are the details.",
+    "url": "https://www.today.com/food/restaurants/starbucks-bearista-cups-surprise-box-rcna607740",
+    "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/rockcms/2025-12/starbucks-bearista-cup-restock-jl-5f2633.png",
+    "publishedAt": "2026-11-09T16:35:48Z",
+    "content": "Starbucks has finally spilled the coffee beans on its mystery box collection.\r\nOn Nov. 9, the colossal coffee chain announced that its Bearista Glass Cold Cup Surprise Box Edition drops Tuesday, Nov.\u2026 [+3243 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "CNBC"
+    },
+    "author": "Michael Wayland",
+    "title": "Honda to invest $3 billion in new vehicle assembly plant in Ohio - CNBC",
+    "description": "The Japanese automaker said the plant will focus on hybrid vehicles and is expected to begin production in 2029.",
+    "url": "https://www.cnbc.com/2026/11/09/honda-to-invest-3-billion-in-new-vehicle-assembly-plant-in-ohio.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/108095724-1738345729872-IMG_3109.jpeg?v=1738346588&w=1920&h=1080",
+    "publishedAt": "2026-11-09T16:10:33Z",
+    "content": "MARYSVILLE, Ohio Honda Motor plans to invest $3 billion to build a new vehicle assembly plant in Ohio, the automaker announced Monday.\r\nHonda said the new plant, which will be near its other faciliti\u2026 [+3148 chars]"
+   },
+   {
+    "source": {
+     "id": "the-verge",
+     "name": "The Verge"
+    },
+    "author": "Jess Weatherbed",
+    "title": "Disney and Adobe are building generative AI tools together - The Verge",
+    "description": "The Walt Disney Company has teamed up with Adobe to develop proprietary \u201cartist-led\u201d generative AI models to support Disney\u2019s production pipeline.\ufeff",
+    "url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+    "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Disney-Adobe-AI-partnership.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "publishedAt": "2026-11-09T15:38:56Z",
+    "content": "<ul><li></li><li></li><li></li></ul>\r\nThe partnership will give Disney early access to AI tech for its resorts, cruise line, ESPN graphics, and more.\r\nThe partnership will give Disney early access to\u2026 [+3400 chars]"
+   },
+   {
+    "source": {
+     "id": "techcrunch",
+     "name": "TechCrunch"
+    },
+    "author": "Kirsten Korosec",
+    "title": "Waymo robotaxis kept illegally passing school buses after software fix, feds say - TechCrunch",
+    "description": "The update to Waymo's self-driving system was rolled out nearly a year ago.",
+    "url": "https://techcrunch.com/2026/11/09/waymo-robotaxis-kept-illegally-passing-school-buses-after-software-fix-feds-say/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2026/02/waymo-getty-streets.jpg?resize=1200,800",
+    "publishedAt": "2026-11-09T15:24:59Z",
+    "content": "Nearly a year ago, Waymo updated its self-driving software and issued a recall after numerous reports that its robotaxis were illegally passing school buses that had stopped and deployed flashing red\u2026 [+2240 chars]"
+   },
+   {
+    "source": {
+     "id": "the-washington-post",
+     "name": "The Washington Post"
+    },
+    "author": "Elizabeth Dwoskin, Ian Duncan",
+    "title": "Trump\u2019s tech allies face a revolt from within their own industry - The Washington Post",
+    "description": "As public anger over AI grows, some Silicon Valley leaders are calling for a sharp break with the build-at-all-costs ethos that dominated Trump\u2019s Washington.",
+    "url": "https://www.washingtonpost.com/technology/2026/11/09/trumps-tech-allies-face-revolt-within-their-own-industry/",
+    "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WMOXTMSE66ZRPUV44IVMRHQKMQ_size-normalized.jpg&w=1440",
+    "publishedAt": "2026-11-09T15:24:28Z",
+    "content": "In President Donald Trumps second term, Silicon Valleys most powerful executives made an unusually public show of allegiance. Top CEOs took prominent seats on the dais at Trumps inauguration, showeri\u2026 [+94 chars]"
+   }
+  ],
+  "entertainment": [
+   {
+    "source": {
+     "id": null,
+     "name": "BBC News"
+    },
+    "author": null,
+    "title": "Russell Brand's ex Jemima Goldsmith accuses him of violence and abuse against her - BBC",
+    "description": "She accuses the disgraced performer of \"violence, coercive control and abuse\" while the two were together.",
+    "url": "https://www.bbc.com/news/articles/c95ynylr8j6xo",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/fc6f/live/9dd1bab0-dc78-11f1-b23d-9526db010e6c.jpg",
+    "publishedAt": "2026-11-09T20:05:20Z",
+    "content": "In her statement, she also addressed reports of an injunction taken out by her and Brand in October 2015 that banned a woman, Szilvia Berki, from talking about an alleged assault by Brand at Goldsmit\u2026 [+23 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Page Six"
+    },
+    "author": "Nicki Gostin",
+    "title": "Jennifer Garner reflects on \u2018incredible\u2019 chapter in Ben Affleck marriage - Page Six",
+    "description": "Garner and Affleck finalized their divorce in 2018.",
+    "url": "https://pagesix.com/2026/11/09/celebrity-news/jennifer-garner-reflects-on-incredible-chapter-in-ben-affleck-marriage/",
+    "urlToImage": "https://pagesix.com/wp-content/uploads/sites/3/2026/11/148115148.jpg?quality=75&strip=all&w=1200",
+    "publishedAt": "2026-11-09T19:35:00Z",
+    "content": "They\u2019ll always have Paris.\r\nJennifer Garner remembered a \u201cwonderful\u201d trip to France with her kids and then-husband Ben Affleck that was inspired by advice from Ina Garten.\r\nWhen my kids were really l\u2026 [+2406 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Rolling Stone"
+    },
+    "author": "Brian Hiatt",
+    "title": "Fall Out Boy Announce Biggest Tour Yet \u2014 and New Single \u2018Aces\u2019 - Rolling Stone",
+    "description": "Patrick Stump and Pete Wentz discuss the band's return with new single \"Aces\" and 2027's Twilight of the Punks tour",
+    "url": "http://www.rollingstone.com/music/music-features/fall-out-boy-interview-tour-dates-new-single-aces-1235654708/",
+    "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2026/11/fall-out-boy-tour-and-single.jpg?crop=0px%2C0px%2C1800px%2C1014px&resize=1600%2C900",
+    "publishedAt": "2026-11-09T18:30:00Z",
+    "content": "Fall Out Boy will head out on the biggest headlining tour of their career next year, with stops including several massive U.S. baseball stadiums, and they\u2019ve marked the announcement \u2014 which arrives i\u2026 [+10964 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Variety"
+    },
+    "author": "Steven J. Horowitz",
+    "title": "Paul McCartney Becomes a Billionaire, Making Him the World\u2019s Third-Richest Musician - Variety",
+    "description": "Forbes estimates that the singer-songwriter makes the bulk of his fortune from catalog, touring, art and more.",
+    "url": "https://variety.com/2026/music/news/paul-mccartney-becomes-billionaire-third-richest-musician-1236943191/",
+    "urlToImage": "https://variety.com/wp-content/uploads/2026/05/1981727968-e1778548978740.jpg?w=1000&h=563&crop=1",
+    "publishedAt": "2026-11-09T18:05:00Z",
+    "content": "Paul McCartney has joined the pantheon of billionaires as Forbes has ranked his net worth at approximately $1.4 billion.\r\nThe publication gave Sir Paul the designation with the launch of its newslett\u2026 [+1737 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Hollywood Reporter"
+    },
+    "author": "Borys Kit",
+    "title": "DC Studios Shocker: James Gunn, Peter Safran Stepping Down with Marvel Alum Jeremy Latcham to Take Over - The Hollywood Reporter",
+    "description": "The duo were believed to be safe amid the Skydance takeover of Warner Bros., but now have a former Kevin Feige protege taking over their division.",
+    "url": "http://www.hollywoodreporter.com/movies/movie-news/dc-studios-shocker-james-gunn-peter-safran-stepping-1236750902/",
+    "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/Jeremy-Latcham-split-with-a-two-shot-of-James-Gunn-Peter-Safran-Split-Getty-H-2026.jpg?w=1296&h=730&crop=1",
+    "publishedAt": "2026-11-09T17:51:21Z",
+    "content": "In a major shakeup that will send shock waves throughout Hollywood and the comic book world, James Gunn and Peter Safran are stepping down as co-CEOs of DC studios.\r\nSkydance, which now oversees the \u2026 [+5454 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "The Cut"
+    },
+    "author": "Grace Klara Marshall",
+    "title": "Amanda Seyfried Is Posting About Her Divorce - The Cut",
+    "description": "Amanda Seyfried posted an aspirational quote about divorce to her Instagram Stories, followed by a photo of her and her now ex-husband, Thomas Sadoski, hugging. Something tells me she\u2019s a fan of conscious uncoupling.",
+    "url": "http://www.thecut.com/article/amanda-seyfried-is-posting-about-her-divorce.html",
+    "urlToImage": "https://pyxis.nymag.com/v1/imgs/e4b/c00/cac1e0fa90a7a388868a86ee1c1461bd08-amanda-seyfried-divorce-ig.1x.rsocial.w1200.jpg",
+    "publishedAt": "2026-11-09T17:37:25Z",
+    "content": "Amanda Seyfried is still shy about discussing You Can See Everything, but shes not afraid to post about her divorce. Seyfried, who announced in September that she and her husband, Thomas Sadoski, had\u2026 [+1223 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Deadline"
+    },
+    "author": "Jake Kanter",
+    "title": "\u2018Love Island\u2019 UK Host Maya Jama Strikes Netflix Deal - Deadline",
+    "description": "Maya Jama is teaming up with Netflix for the next chapter of her career after leaving 'Love Island.'",
+    "url": "http://deadline.com/2026/11/love-island-uk-maya-jama-netflix-deal-1237217399/",
+    "urlToImage": "https://deadline.com/wp-content/uploads/2025/06/maya-jama-love-island-uk-hulu.jpg?w=1024",
+    "publishedAt": "2026-11-09T17:33:00Z",
+    "content": "Maya Jama is teaming up with Netflix for the next chapter of her career.\r\nJama revealed on Sunday that she was quitting as the host of Love Island in the UK after nine seasons. Now, the presenter and\u2026 [+1123 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Hollywood Reporter"
+    },
+    "author": "Erik Hayden",
+    "title": "WME Shake Up: Motion Picture Literary and Talent Divisions to Merge - The Hollywood Reporter",
+    "description": "The Beverly Hills-based representation giant unveiled a sweeping reorganization tailored to making the agency \"nimbler\" in a consolidated Hollywood.",
+    "url": "http://www.hollywoodreporter.com/business/business-news/wme-motion-picture-merge-1236750841/",
+    "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/Blank-2000-x-1127-1.jpg?w=1440&h=810&crop=1",
+    "publishedAt": "2026-11-09T17:16:42Z",
+    "content": "Major talent agency WME is cutting red tape and rolling up several of its own fiefdoms into a single Motion Picture division with a trio of leaders upped to lead the Hollywood-focused unit. \r\nThe Bev\u2026 [+3023 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Broadway World"
+    },
+    "author": "Nicole Rosky",
+    "title": "Tony Hale, Jessie Mueller, Leslie Rodriguez Kritzer & More Will Lead PADDINGTON on Broadway - BroadwayWorld",
+    "description": "Paddington is officially Broadway-bound! BroadwayWorld has just learned that the Broadway cast of PADDINGTON The Musical will include Kelvin Dukes, Drew\u2026",
+    "url": "https://www.broadwayworld.com/article/Tony-Hale-Jessie-Mueller-Leslie-Rodriguez-Kritzer-More-Will-Lead-PADDINGTON-on-Broadway-20261109",
+    "urlToImage": "https://cloudimages2.broadwayworld.com/columnpiccloud/PADDINGTON-1794241662.jpg?format=jpeg&quality=80&width=1200",
+    "publishedAt": "2026-11-09T17:15:07Z",
+    "content": "Paddington is officially Broadway-bound! BroadwayWorld has just learned that the Broadway cast of PADDINGTON The Musical will be led by Kelvin Dukes (\u201cAmerica\u2019s Got\u00a0Talent\u201d) as Tony, Drew Gehling (Wa\u2026 [+8458 chars]"
+   },
+   {
+    "source": {
+     "id": "usa-today",
+     "name": "USA Today"
+    },
+    "author": "Morgan Evans, USA TODAY",
+    "title": "Kim Kardashian gives refunds for 'lackluster' Skims advent calendar after backlash - Yahoo",
+    "description": "Kim Kardashian's brand Skims is offering refunds to buyers of its pricey holiday advent calendar after a flood of online criticism.",
+    "url": "https://www.usatoday.com/story/entertainment/style/2026/11/09/kim-kardashian-skims-advent-calendar-refunds-backlash/92689097007/",
+    "urlToImage": "https://s.yimg.com/lo/mysterio/api/638bf9c8d6c65ec5dd67611d1f6fd13b801d22c2582288db73b769ccd03b111a/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fusa_today_entertainment_893%2F3bc3a529429bece30a76a8f5be9c68fd.jpg",
+    "publishedAt": "2026-11-09T17:11:13Z",
+    "content": "Skims is delivering holiday cheer this season in the form of refunds.\r\nThe lingerie and loungewear brand, founded by Kim Kardashian in 2019, is giving money back to the fans who bought the brand's pr\u2026 [+3429 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Entertainment Weekly"
+    },
+    "author": "https://www.facebook.com/entertainmentweekly",
+    "title": "\u2018Little Rascals\u2019 star Bug Hall defends GoFundMe amid backlash: \u2018I\u2019m going to keep impregnating my wife\u2019 - Entertainment Weekly",
+    "description": "Bug Hall of \u2018Little Rascals\u2019 fame is defending himself after asking for financial help amid his chosen off-the-grid lifestyle with his wife and children.",
+    "url": "https://ew.com/little-rascals-star-bug-hall-defends-gofundme-to-support-family-amid-backlash-12244816",
+    "urlToImage": "https://ew.com/thmb/OUCrAChzirQThocAVQDIiQ9IPqY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bug-hall-1-c62789323ddc4283a012022d1943b242.jpg",
+    "publishedAt": "2026-11-09T17:03:04Z",
+    "content": "The Little Rascals alum Brandon Bug Hall is defending his decision to ask for financial aid to support his family amid backlash to his GoFundMe campaign.\r\nNine months after he vowed to live off the g\u2026 [+4392 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "STYLECASTER"
+    },
+    "author": "Lizzie Lanuza",
+    "title": "Why Wasn't Meghan Markle at Remembrance Day with Prince Harry? - StyleCaster",
+    "description": "Is the marriage OK?",
+    "url": "http://stylecaster.com/entertainment/celebrity-news/1234971676/meghan-remembrance-day-harry/",
+    "urlToImage": "https://stylecaster.com/wp-content/uploads/2026/10/royal-family-response-harry-meghan-title.jpg?w=650",
+    "publishedAt": "2026-11-09T17:00:02Z",
+    "content": "After they returned to the UK, Prince Harry and Meghan Markle were never expected to jump back into royal duties. In fact, after they moved, the British royal family went out of their way to make it \u2026 [+2729 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Variety"
+    },
+    "author": "Jem Aswad",
+    "title": "Kanye West Breaks His Own Record for Biggest Rap Concert in U.S. History \u2014 Again \u2014 With 83,132 Fans - Variety",
+    "description": "For the third time this year, Kanye West has broken the record for the most-attended hip-hop concert in U.S. history, with over 83,000 fans in Dallas.",
+    "url": "https://variety.com/2026/music/news/kanye-west-biggest-rap-concert-1236943088/",
+    "urlToImage": "https://variety.com/wp-content/uploads/2026/11/IMG_7441-e1794242837788.jpg?w=1000&h=563&crop=1",
+    "publishedAt": "2026-11-09T16:49:00Z",
+    "content": "Kanye West broke his own record this past Saturday as his show at Dallas\u2019 AT&amp;T Stadium became the most-attended hip-hop concert in U.S. history, with 83,132 fans, and the fifth-highest-grossing c\u2026 [+1783 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Pitchfork"
+    },
+    "author": "Jazz Monroe",
+    "title": "GTA VI Is Putting on a Music Festival - Pitchfork",
+    "description": "Sure, why not",
+    "url": "https://pitchfork.com/story/gta-vi-is-putting-on-a-music-festival/",
+    "urlToImage": "https://media.pitchfork.com/photos/6af20b2666555f23ece979b9/16:9/w_1280,c_limit/gta-vi-festival.jpeg",
+    "publishedAt": "2026-11-09T16:22:53Z",
+    "content": "Not content with securing an original Justice score, anything-goes soundtrack, and bundle of superstar-curated radio stations, Rockstar Games has announced Grand Theft Auto VI: The Festival. Coming t\u2026 [+880 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Hollywood Reporter"
+    },
+    "author": "Mike Barnes",
+    "title": "Toukie Smith, Top Runway Model and \u2018227\u2019 Actress, Dies at 74 - The Hollywood Reporter",
+    "description": "Her late brother was fashion designer Willi Smith, and she had twins with Robert De Niro.",
+    "url": "http://www.hollywoodreporter.com/tv/tv-news/toukie-smith-227-model-robert-de-niro-1236750848/",
+    "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/Toukie-Smith-Obit-Template-Headshot-Getty-H-2026.jpg?w=1296&h=730&crop=1",
+    "publishedAt": "2026-11-09T15:48:12Z",
+    "content": "Toukie Smith, a top model in the 1970s and an actress who appeared as Eva Rawley on the Marla Gibbs-starring NBC sitcom 227, has died. She was 74.\r\nSmith died Wednesday in a New York hospital after a\u2026 [+2017 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Stereogum"
+    },
+    "author": "Margaret Farrell",
+    "title": "Robbie Williams Explains Olivia Rodrigo Tweet: \u201cI\u2019m Not Going After Her\u201d - Stereogum",
+    "description": "Last Thursday, Olivia Rodrigo shared her first-ever Christmas song \u201ctake me home (4 christmas).\u201d It has been surprisingly controversial. Holiday songs already tend to be pretty polarizing \u2014 some people love \u2019em, and some people can\u2019t stand \u2019em (moi). But Rodr\u2026",
+    "url": "https://stereogum.com/2517053/robbie-williams-explains-olivia-rodrigo-tweet-im-not-going-after-her/news",
+    "urlToImage": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Screenshot-2026-11-09-at-2.32.29-PM.png",
+    "publishedAt": "2026-11-09T15:25:00Z",
+    "content": "Last Thursday, Olivia Rodrigo shared her first-ever Christmas song \"take me home (4 christmas).\" It has been surprisingly controversial. Holiday songs already tend to be pretty polarizing some people\u2026 [+3621 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "TVInsider"
+    },
+    "author": "Dan Clarendon",
+    "title": "Fox News\u2019 Declining Ratings, Explained \u2014 Is It Really Just \u2018Viewer Fatigue\u2019? - TV Insider",
+    "description": "In October, Fox News\u2019 total day audience of 25-to-54-year-olds dropped to 98,000, its lowest monthly level in 25 years.",
+    "url": "https://www.tvinsider.com/1302379/fox-news-ratings-decline-viewer-fatigue/",
+    "urlToImage": "https://www.tvinsider.com/wp-content/uploads/2026/07/JD-Vance-Jessica-Tarlov-Jesse-Watters-Dana-Perino-Greg-Guttfeld-The-Five-Fox-News-June-16-2026-1420x798.jpg",
+    "publishedAt": "2026-11-09T15:00:39Z",
+    "content": "Fox News contends the business is in incredibly good shape. Its viewership figures may suggest a different situation.\r\nThis October, Fox News audience levels were down 28 percent from October 2025, a\u2026 [+4860 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Pitchfork"
+    },
+    "author": "Jeremy D. Larson",
+    "title": "What Is Indie Rock? We Asked 33 Artists, Labels, and Critics - Pitchfork",
+    "description": "One simple question. No simple answer. Featuring Ben Gibbard, Lou Barlow, Mitski, Kill Rock Stars, Matador, Sub Pop, Anthony Fantano, Michael Azerrad, Ryan Schreiber, and many more",
+    "url": "https://pitchfork.com/story/what-is-indie-rock-we-asked-33-artists-labels-and-critics/",
+    "urlToImage": "https://media.pitchfork.com/photos/6aee393cb0fa15a54106c0b5/16:9/w_1280,c_limit/P4K26_Indie%20Rock_What%20Is%20it",
+    "publishedAt": "2026-11-09T15:00:00Z",
+    "content": "Something existential, economical, emotional, geographical\r\nMarnie Stern: To me, indie rock is defined by an ethos that is unpolished, unmaterialistic, urgent, music-loving, and driven by a creative,\u2026 [+2031 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "The Cut"
+    },
+    "author": "Olivia Craighead",
+    "title": "Taylor Swift and Karlie Kloss Are Officially Friends Again - The Cut",
+    "description": "Swift and Kloss publicly reunited for the first time since 2018 on Sunday, cheering for the Chiefs together in the singer\u2019s suite at Arrowhead Stadium.",
+    "url": "http://www.thecut.com/article/taylor-swift-karlie-kloss-friends-again-chiefs-game.html",
+    "urlToImage": "https://pyxis.nymag.com/v1/imgs/b30/182/8abb8d1e7d3a2400ae70ee9139b04cd86a-taylor-karlie-chiefs-game.1x.rsocial.w1200.jpg",
+    "publishedAt": "2026-11-09T14:57:22Z",
+    "content": "Its official: Taylor Swift and Karlie Kloss are friends again. On Sunday, Swift brought Kloss to the Chiefs game in Kansas City, marking the first time the public has seen the former best friends tog\u2026 [+2246 chars]"
+   }
+  ],
+  "health": [
+   {
+    "source": {
+     "id": "fox-news",
+     "name": "Fox News"
+    },
+    "author": null,
+    "title": "Men and women who smoke marijuana may experience different effects, study suggests - Fox News",
+    "description": "UCLA researchers found occasional male cannabis users reported stronger effects like anxiety and elevated heart rate than women with similar THC levels.",
+    "url": "https://www.foxnews.com/health/men-women-smoke-marijuana-may-experience-different-effects-study-suggests",
+    "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2026/11/man-lighting-joint.jpg",
+    "publishedAt": "2026-11-09T16:55:22Z",
+    "content": "Men who use cannabis occasionally may feel stronger effects from the drug than women with similar use habits, new research suggests.\r\nThe UCLA Health study, published in the journal Neuropsychopharma\u2026 [+3644 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "hays Post"
+    },
+    "author": null,
+    "title": "GoFundMe account set up to help former Wilson Elementary teacher fighting cancer - Hays Post",
+    "description": "A GoFundMe has been created for Staurt Bott, who is a former PE teacher at Wilson Elementa",
+    "url": "https://hayspost.com/posts/f6c49255-7140-45d9-96ab-2f6c2dedc29b",
+    "urlToImage": "https://media.eaglewebservices.com/public/2026/11/1794243016345.png",
+    "publishedAt": "2026-11-09T16:54:12Z",
+    "content": "A GoFundMe has been created for Staurt Bott, who is a former PE teacher at Wilson Elementary School and is now fighting stage 4 cancer. Courtesy photo\r\nBy CRISTINA JANNEYHays Post\r\nA GoFundMe has bee\u2026 [+2185 chars]"
+   },
+   {
+    "source": {
+     "id": "usa-today",
+     "name": "USA Today"
+    },
+    "author": "Sara Moniuszko",
+    "title": "Treatment for Celine Dion's diagnosis shows promising early results - USA Today",
+    "description": "A new treatment for stiff person syndrome, a rare neurological disorder that Celine Dion was diagnosed with, has shown promising early results.",
+    "url": "https://www.usatoday.com/story/life/health-wellness/2026/11/09/stiff-person-syndrome-treatment/92641644007/",
+    "urlToImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/10/08/USAT/92161522007-getty-images-2297106979.jpg?crop=4999,2812,x0,y260&width=3200&height=1801&format=pjpg&auto=webp",
+    "publishedAt": "2026-11-09T16:02:49Z",
+    "content": "A new treatment for stiff person syndrome, a rare neurological disorder that has gained recent attention after Celine Dion's diagnosis, has shown promising early results, according to a new study.\r\nI\u2026 [+2972 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "New York Post"
+    },
+    "author": "Rachel Sacks",
+    "title": "Incredibly easy habit lowers dementia risk by 17% \u2014 with no effort - New York Post",
+    "description": "Several lifestyle choices, like exercise, avoiding smoking and listening to music, can all lower dementia risk, as well as one incredibly easy habit you may already be doing.",
+    "url": "https://nypost.com/2026/11/09/health/incredibly-easy-habit-lowers-dementia-risk-by-17/",
+    "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2026/11/crop-41743413.jpg?quality=75&strip=all&w=1200",
+    "publishedAt": "2026-11-09T14:33:00Z",
+    "content": "Don\u2019t forget this one.\r\nUpwards of 6 million Americans live with dementia, a number that\u2019s expected to double by 2060 with aging populations and rising cases of conditions like obesity that are linke\u2026 [+3301 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Popular Mechanics"
+    },
+    "author": "Darren Orf",
+    "title": "Is There Really a Link Between Genius and Madness? A Study of 14,658 Twins Just Uncovered a Surprise. - Yahoo",
+    "description": "Artists showed a clear link to poorer mental health. Scientists didn\u2019t\u2014and the reason may be unsettling.",
+    "url": "https://www.popularmechanics.com/science/health/a74348730/creativity-genes/",
+    "urlToImage": "https://s.yimg.com/lo/mysterio/api/49fa418dbf9982236a56d647d050ff608750588b23739483bc68e843b2205698/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fpopular_mechanics_642%2F6a90dd441fc0f07f13700f58cfbb238e.jpg",
+    "publishedAt": "2026-11-09T14:30:00Z",
+    "content": "\"Hearst Magazines and Yahoo may earn commission or revenue on some items through these links.\"\r\nAristotle once said that \"no great mind has ever existed without a touch of madness.\" While that millen\u2026 [+3241 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Thecoolist.com"
+    },
+    "author": "Alex Ion",
+    "title": "John Cryan, neuroscientist: \u201cCoffee, whether caffeinated or decaffeinated, can influence health in distinct but complementary ways\u201d - TheCoolist",
+    "description": "An Irish study found that coffee, even decaf, is linked to changes in gut bacteria, stress and memory.",
+    "url": "https://www.thecoolist.com/john-cryan-neuroscientist-coffee-whether-caffeinated-or-decaffeinated-can-h2r4-g1/",
+    "urlToImage": "https://cdn.thecoolist.com/wp-content/uploads/2026/11/iStock-2232885441.jpg",
+    "publishedAt": "2026-11-09T14:19:50Z",
+    "content": "For years, coffee was mostly discussed in terms of caffeine: how much is too much, and when to stop drinking it. A team in Ireland looked somewhere else, at the bacteria living in our gut. Their resu\u2026 [+3290 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "AL.com"
+    },
+    "author": "AL.com",
+    "title": "Energy drinks linked to heart attacks, cardiac arrest in young adults, per study - AL.com",
+    "description": null,
+    "url": "https://www.al.com/news/2026/11/energy-drinks-linked-to-heart-attacks-cardiac-arrest-in-young-adults-per-study.html",
+    "urlToImage": null,
+    "publishedAt": "2026-11-09T14:19:00Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "The Conversation Africa"
+    },
+    "author": "Brenda A. Wilson",
+    "title": "Why do farts smell so bad? A microbiologist explains the odors brewing in your gut - The Conversation",
+    "description": "Your farts\u2019 aromas are tuned to your diet \u2013 and your overall health.",
+    "url": "https://theconversation.com/why-do-farts-smell-so-bad-a-microbiologist-explains-the-odors-brewing-in-your-gut-294335",
+    "urlToImage": "https://images.theconversation.com/files/769456/original/file-20261102-64-909nmy.jpg?ixlib=rb-4.1.1&rect=0%2C506%2C3586%2C1793&q=45&auto=format&w=1356&h=668&fit=crop",
+    "publishedAt": "2026-11-09T13:42:17Z",
+    "content": "Curious Kids is a series for children of all ages. If you have a question youd like an expert to answer, send it to CuriousKidsUS@theconversation.com.\r\nWhy do farts smell so bad? Daisy, age 7, New Yo\u2026 [+6697 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Health.com"
+    },
+    "author": "https://www.facebook.com/Health/",
+    "title": "Peanut Butter Toast vs. Oatmeal: Which Is Better for Your Heart? - Health.com",
+    "description": "Peanut butter toast and oatmeal both offer heart-health benefits. Learn how they compare and which breakfast may be better for you.",
+    "url": "https://www.health.com/peanut-butter-toast-vs-oatmeal-12149657",
+    "urlToImage": "https://www.health.com/thmb/rGYKfVIgyOoi39T33ljzmwdyNy8=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc()/PeanutButterVsOatmeal-22e3d81c339d4033bd12f00a65c9bef2.png",
+    "publishedAt": "2026-11-09T13:30:00Z",
+    "content": "If youre looking for a quick breakfast that supports your heart, peanut butter toast and oatmeal can both fit the bill. Oatmeal provides fiber that helps lower cholesterol, while peanut butter toast \u2026 [+2974 chars]"
+   },
+   {
+    "source": {
+     "id": "usa-today",
+     "name": "USA Today"
+    },
+    "author": "Madeline Mitchell",
+    "title": "Babies made from stem cells. Same sex couples with no donors. This is the future of fertility - USA Today",
+    "description": "Advancements in fertility are going places you'd never imagine. Legal and ethical scholars are trying to keep up.",
+    "url": "https://www.usatoday.com/story/life/health-wellness/2026/11/09/the-future-of-fertility-is-wilder-than-you-could-ever-imagine/92481531007/",
+    "urlToImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/11/06/USAT/92647971007-ivf.jpg?crop=915,515,x203,y335&width=915&height=515&format=pjpg&auto=webp",
+    "publishedAt": "2026-11-09T13:23:00Z",
+    "content": "The first successful human pregnancy using in vitro fertilization, or IVF, was nearly 50 years ago.\r\nToday, there are more than 100,000 babies born annually through IVF in the United States, accordin\u2026 [+12584 chars]"
+   },
+   {
+    "source": {
+     "id": "the-washington-post",
+     "name": "The Washington Post"
+    },
+    "author": "Beth Krietsch",
+    "title": "The 5 medications most likely to cause bone thinning - The Washington Post",
+    "description": "If you take any of these medications, it\u2019s important to chat with your health care provider about what you can do to stay on top of your bone health.",
+    "url": "https://www.washingtonpost.com/wellness/2026/11/09/5-medications-most-likely-cause-bone-thinning/",
+    "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YP4IAK4XNHCIHTUL2KZ3O6OUN4_size-normalized.jpg&w=1440",
+    "publishedAt": "2026-11-09T12:31:24Z",
+    "content": "You may know that your bones can get less dense with age, after menopause or when you dont do enough weight-bearing exercises or resistance training. What might not be so apparent is how the medicati\u2026 [+85 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-news",
+     "name": "Fox News"
+    },
+    "author": null,
+    "title": "6-minute daily habit could help Ozempic users preserve muscle, expert says - Fox News",
+    "description": "Gary Brecka says just six minutes of daily resistance training can help protect lean body mass during Ozempic and Wegovy weight loss journeys.",
+    "url": "https://www.foxnews.com/health/6-minute-daily-habit-help-ozempic-users-preserve-muscle-expert-says",
+    "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2026/11/man-lifting-weights.jpg",
+    "publishedAt": "2026-11-09T12:00:49Z",
+    "content": "As more Americans turn to popular GLP-1 medications such as Ozempic, Wegovy and Zepbound to lose weight or manage diabetes, there is a growing focus on protecting muscle as pounds are shed.\r\nThe conc\u2026 [+5563 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Science Daily"
+    },
+    "author": null,
+    "title": "Scientists discover a surprising link between acorns and lyme disease - Science Daily",
+    "description": "After more than 35 years of research, scientists have uncovered surprising clues about what really drives Lyme disease risk. Contrary to longstanding assumptions, deer populations appear less important than mice, which can fuel a 40% increase in tick numbers \u2026",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261106174518.htm",
+    "urlToImage": "https://www.sciencedaily.com/images/1920/acorn-in-forest.webp",
+    "publishedAt": "2026-11-09T11:46:08Z",
+    "content": "Tick-borne illnesses are becoming increasingly common across the United States, and Lyme disease remains the most frequently reported. Nearly 500,000 Americans are diagnosed each year. The infection \u2026 [+9418 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Science Daily"
+    },
+    "author": null,
+    "title": "Common supplement could help fight psoriasis, scientists discover - Science Daily",
+    "description": "Scientists have discovered that pantethine, a readily available vitamin B5 derivative, can calm overactive immune cells and may help fight psoriasis. The supplement prevented psoriasis in mice and showed promising results in a small human trial, revealing an \u2026",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261108233057.htm",
+    "urlToImage": "https://www.sciencedaily.com/images/1920/woman-pouring-vitamin-d-omega-3-vitamin-supplements-into-hand.webp",
+    "publishedAt": "2026-11-09T11:45:47Z",
+    "content": "A widely available nutritional supplement derived from vitamin B5 may offer a promising new approach to treating psoriasis, according to research from China. Scientists found that pantethine can calm\u2026 [+5833 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Science Daily"
+    },
+    "author": null,
+    "title": "When your gut bacteria run out of fiber, they may start eating your gut lining - Science Daily",
+    "description": "Scientists have discovered that gut bacteria can feed on the protective mucus lining your intestines, producing potentially harmful compounds, but fiber helps keep this activity in check. Overlooked proteins in plant foods also help shift gut bacteria toward \u2026",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261105083622.htm",
+    "urlToImage": "https://www.sciencedaily.com/images/1920/bacteria-intestinal-microbiome-in-digestive-tract.webp",
+    "publishedAt": "2026-11-09T11:33:31Z",
+    "content": "Eating more plants is widely associated with better health, but scientists are still uncovering exactly why. New research suggests that fiber is only part of the story. Certain plant proteins that re\u2026 [+11282 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "New York Post"
+    },
+    "author": "Dr. Marcus Goncalves",
+    "title": "The \u2018Low T\u2019 craze and rise of TRT has a dangerous catch men need to know - New York Post",
+    "description": "From overlooked symptoms to fertility risks, here\u2019s what men may be getting wrong about their testosterone.",
+    "url": "https://nypost.com/2026/11/09/health/low-testosterone-and-trt-risks-men-need-to-know-amid-low-t-craze/",
+    "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2026/11/crop-41631311_675d91.jpg?quality=75&strip=all&w=1200",
+    "publishedAt": "2026-11-09T11:00:00Z",
+    "content": "Today\u2019s influx of online and TV commercials about \u201cLow T\u201d might convince you that American men are facing a widespread epidemic of low\u00a0testosterone.\r\nBut is it really that common?\r\nMedically known as\u2026 [+6126 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Science Daily"
+    },
+    "author": null,
+    "title": "A simple supplement may help clear brain fog after cancer - Science Daily",
+    "description": "A surprising new study from UCLA suggests that a naturally occurring molecule could help breast cancer survivors overcome the frustrating brain fog and exhaustion that can linger long after treatment ends. Researchers found that women taking an oxaloacetate s\u2026",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261104084013.htm",
+    "urlToImage": "https://www.sciencedaily.com/images/1920/brain-fog-woman-head-in-clouds.webp",
+    "publishedAt": "2026-11-09T10:35:01Z",
+    "content": "For some breast cancer survivors, the effects of treatment can linger long after their cancer care ends. Memory lapses, difficulty concentrating, and persistent exhaustion can interfere with everyday\u2026 [+7475 chars]"
+   },
+   {
+    "source": {
+     "id": "the-washington-post",
+     "name": "The Washington Post"
+    },
+    "author": "Trisha Pasricha, MD",
+    "title": "Column | Your stroke risk is 72 percent higher during these 3 hours of the day - The Washington Post",
+    "description": "Heart attacks follow a similar pattern.",
+    "url": "https://www.washingtonpost.com/wellness/2026/11/09/your-stroke-risk-is-72-percent-higher-during-these-3-hours-day/",
+    "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/M2X3BCIZVPFIK6MT7T74HPGOSY.jpg&w=1440",
+    "publishedAt": "2026-11-09T10:34:15Z",
+    "content": "The morning rush often feels like nothing short of a crisis. For our hearts and brains, its also the riskiest time of day.\r\nA meta-analysis of almost 12,000 adult stroke patients found that people we\u2026 [+249 chars]"
+   }
+  ],
+  "science": [
+   {
+    "source": {
+     "id": null,
+     "name": "Futurism"
+    },
+    "author": "Victor Tangermann",
+    "title": "Scientists Stumped by Why Mysterious Object Is Accelerating as a Japanese Spacecraft Rushes to Catch It - Futurism",
+    "description": "There's something off about 1998 KY26, a mysterious object that the Japanese space agency's Hayabusa2 spacecraft is on its way to visit.",
+    "url": "https://futurism.com/space/mysterious-object-accelerating-space",
+    "urlToImage": "https://futurism.com/wp-content/uploads/2026/11/mysterious-object-accelerating-space.jpg?w=1200",
+    "publishedAt": "2026-11-09T16:40:02Z",
+    "content": "Can\u2019t-miss innovations from the bleeding edge of science and tech\r\nThere\u2019s something puzzling about 1998 KY26, a mysterious object that the Japanese space agency\u2019s Hayabusa2 spacecraft is on its way \u2026 [+2245 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Quanta Magazine"
+    },
+    "author": null,
+    "title": "Did Life Begin in an RNA World? - Quanta Magazine",
+    "description": "Some believe the earliest life emerged from self-copying molecules that could mutate and even evolve. But that may not have been enough.",
+    "url": "https://www.quantamagazine.org/did-life-begin-in-an-rna-world-20261109/",
+    "urlToImage": "https://www.quantamagazine.org/wp-content/uploads/2026/11/RNA-World-cr.Mark-Belan-Social.jpg",
+    "publishedAt": "2026-11-09T15:24:17Z",
+    "content": "Theres scarcely any corner of Earth in which life hasnt gained a foothold. Living organisms shape the clouds, the climate, even the rocks. But how life first appeared on a barren planet some 4 billio\u2026 [+6586 chars]"
+   },
+   {
+    "source": {
+     "id": "cbs-news",
+     "name": "CBS News"
+    },
+    "author": "Emily Mae  Czachor",
+    "title": "Fireball traveling 47,000 mph lights up sky over North Carolina and Tennessee - CBS News",
+    "description": "A bright fireball was spotted in skies over North Carolina and Tennessee, zooming by at 47,000 mph before disintegrating above a city near Chattanooga, NASA said.",
+    "url": "https://www.cbsnews.com/news/fireball-north-carolina-tennessee-47000-mph/",
+    "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/09/5cd7cfbd-27f7-4be7-92b4-bd5a62efb13e/thumbnail/1200x630g6/f3a72adf8903274e637bf44d79b7e248/nasa-meteor.png",
+    "publishedAt": "2026-11-09T14:28:07Z",
+    "content": "A meteor lit up skies over parts of North Carolina and Tennessee on Thursday night, zooming by at 47,000 mph, according to\u00a0NASA.\u00a0\r\nEyewitnesses have shared numerous photographs on social media of the\u2026 [+1469 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Vintageaviationnews.com"
+    },
+    "author": null,
+    "title": "Today In Aviation History: First Launch from Kennedy Space Center Complex 39A - Vintage Aviation News",
+    "description": "On November 9, 1967, NASA launched Apollo 4 from Kennedy Space Center's Launch Complex 39A, marking the first flight of the Saturn V rocket. The uncrewed mission tested all three rocket stages together, demonstrated the command module's ability to withstand t\u2026",
+    "url": "https://vintageaviationnews.com/warbird-articles/today-in-aviation-history-first-launch-from-kennedy-space-center-complex-39a.html",
+    "urlToImage": "https://vintageaviationnews.com/wp-content/uploads/1280px-aerial-view-of-apollo-4-rollout.jpg",
+    "publishedAt": "2026-11-09T14:03:15Z",
+    "content": "Welcome to VAN\u2019s Today in Aviation History (Image credit: VAN)\r\nOn this day in aviation history, 59 years ago (November 9, 1967), NASA launched Apollo 4, the first flight of the mighty Saturn V rocke\u2026 [+1926 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Space.com"
+    },
+    "author": "Keith Cooper",
+    "title": "Meteorite that landed in Cape Cod was a 'lone wolf' from the outer solar system, scientists find - Space",
+    "description": "\"We cannot determine its exact history, but we found no association with any known meteor shower.\"",
+    "url": "https://www.space.com/stargazing/meteor-showers/meteorite-that-landed-in-cape-cod-was-a-lone-wolf-from-beyond-jupiter-scientists-find",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/EDSLPgQe5gCsFs72XukEyF-1920-80.jpg",
+    "publishedAt": "2026-11-09T14:00:00Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Popular Mechanics"
+    },
+    "author": "Darren Orf",
+    "title": "Forget Mosquitoes in Amber. Scientists May Have Found Dinosaur Blood in a 115 Million-Year-Old Bone. - Yahoo",
+    "description": "Okay, you can\u2019t clone a raptor from heme. But finding it after 115 million years is almost as wild.",
+    "url": "https://www.popularmechanics.com/science/a74350760/dino-blood/",
+    "urlToImage": "https://s.yimg.com/lo/mysterio/api/47e3d8a1df3ec34f4300a44fdcfe96fdeeba2730bfac1f3c113b682a1f64a241/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fpopular_mechanics_642%2F5dff6f744ce2bdbccad2cce49013b5dc.jpg",
+    "publishedAt": "2026-11-09T13:00:00Z",
+    "content": "At first glance, the news seems like the opening lines of a Jurassic Park sequel. In a study published in Proceedings of the National Academy of Sciences\r\n, an international team of scientists report\u2026 [+4479 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Thebrighterside.news"
+    },
+    "author": "Joseph Shavit, Joshua Shavit",
+    "title": "A new twist on Schr\u00f6dinger\u2019s Cat could finally unite quantum mechanics and Einstein's relativity - The Brighter Side of News",
+    "description": "A spontaneous collapse model explores how a simplified quantum universe could acquire a definite geometry without an outside observer.",
+    "url": "https://www.thebrighterside.news/post/a-new-twist-on-schrodingers-cat-could-finally-unite-quantum-mechanics-and-einsteins-relativity/#article",
+    "urlToImage": "https://www.thebrighterside.news/uploads/2026/11/Einstein-relativity.png?auto=webp",
+    "publishedAt": "2026-11-09T12:51:00Z",
+    "content": "<ul><li>A theoretical study applies spontaneous wavefunction collapse to a simplified model of cosmic geometry.</li><li>Its modified dynamics can narrow a superposition toward one definite geometry w\u2026 [+11233 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "ScienceAlert"
+    },
+    "author": "Michelle Starr",
+    "title": "Scientists Reach a Record Temperature: 280 Billion Times Colder Than The Universe - ScienceAlert",
+    "description": "Even the seemingly empty vacuum of space isn't completely cold.",
+    "url": "https://www.sciencealert.com/scientists-reach-a-record-temperature-280-billion-times-colder-than-the-universe",
+    "urlToImage": "https://www.sciencealert.com/images/2026/11/bec.png",
+    "publishedAt": "2026-11-09T12:01:01Z",
+    "content": "Even the seemingly empty vacuum of space isn't completely cold.\r\nThe Universe was born some 13.8 billion years ago in a state so hot and dense that the leftover radiation still permeates every one of\u2026 [+6872 chars]"
+   },
+   {
+    "source": {
+     "id": "wired",
+     "name": "Wired"
+    },
+    "author": "Jacklin Kwan",
+    "title": "Scientists May Have Discovered a Massive Starless Galaxy - WIRED",
+    "description": "The promising candidate contains roughly 2 billion times the sun\u2019s mass in hydrogen, yet appears to have no stars. Studying it could help answer questions that have vexed astronomers for years.",
+    "url": "https://www.wired.com/story/scientists-discover-massive-starless-galaxy/",
+    "urlToImage": "https://media.wired.com/photos/6ae4b0b9fafa122d7f6143a0/191:100/w_1280,c_limit/103016-Starless%20Galaxy.jpg",
+    "publishedAt": "2026-11-09T11:15:00Z",
+    "content": "Some galaxies appear to contain all the ingredients needed to make stars, yet have failed to produce almost any.\r\nScientists have puzzled over why for years. Recent findings suggest that these dark g\u2026 [+2309 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "NPR"
+    },
+    "author": "Chandelis Duster",
+    "title": "NASA is looking for astronauts to live and work on the Moon - NPR",
+    "description": "NASA needs more recruits in order to return to the moon after being gone more than half a century.",
+    "url": "https://www.npr.org/2026/11/08/nx-s1-6034002/nasa-astronaut-class-applications-2026",
+    "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4599x2587+0+0/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5c%2Fc0%2Fdc73c7204565a92b1ac2edbf6cdf%2Fap26240473368494.jpg",
+    "publishedAt": "2026-11-08T23:36:47Z",
+    "content": "If you have dreams of going to the moon, you now have a chance. NASA is accepting applications for those interested in becoming an astronaut.\r\nThe candidates selected to be astronauts would not only \u2026 [+2115 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Science Daily"
+    },
+    "author": null,
+    "title": "Einstein's equations reveal how gravity could break, reconnect, and release energy - Science Daily",
+    "description": "More than a century after Einstein revolutionized our understanding of gravity, scientists have uncovered a surprising new phenomenon hidden within his equations. Researchers at Columbia University and Universidad Adolfo Ib\u00e1\u00f1ez have identified a theoretical p\u2026",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261104084011.htm",
+    "urlToImage": "https://www.sciencedaily.com/images/1920/einstein-equations-spacetime-gravity.webp",
+    "publishedAt": "2026-11-08T22:16:28Z",
+    "content": "More than 100 years after Albert Einstein developed his theory of gravity, physicists have uncovered a surprising possibility hidden within his equations. Their work suggests that gravitational field\u2026 [+8642 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "ScienceAlert"
+    },
+    "author": "Esra \u00d6z",
+    "title": "Amyloid Fibers Have an Unexpected Role in Sperm, Scientists Discover - ScienceAlert",
+    "description": "A sperm cell's cargo includes\u00a0more than a father's DNA.",
+    "url": "https://www.sciencealert.com/amyloid-fibers-have-an-unexpected-role-in-sperm-scientists-discover",
+    "urlToImage": "https://www.sciencealert.com/images/2026/11/SciencePhotoLibrarySEMOfSpermCellInFallopianTube-1200x675.png",
+    "publishedAt": "2026-11-08T21:04:11Z",
+    "content": "A sperm cell's cargo includes\u00a0more than a father's DNA. RNA molecules that can contribute to early embryonic development also make the journey. Some of those molecules begin their trip outside the sp\u2026 [+5767 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Sci.news"
+    },
+    "author": "Enrico de Lazaro",
+    "title": "Longest Feather Ever Found in Amber Offers Clues to Flight\u2019s Origins - Sci.News",
+    "description": "A pennaceous (vaned) feather trapped in Burmese amber about 99 million years ago, during the Cenomanian age of the Cretaceous period, is the longest three-dimensionally preserved example of its kind yet described.",
+    "url": "https://www.sci.news/paleontology/longest-amber-feather-15181.html",
+    "urlToImage": "https://cdn.sci.news/images/2026/11/image_15181f-Amber-Feather.jpg",
+    "publishedAt": "2026-11-08T19:42:01Z",
+    "content": "A pennaceous (vaned) feather trapped in Burmese amber about 99 million years ago, during the Cenomanian age of the Cretaceous period, is the longest three-dimensionally preserved example of its kind \u2026 [+5247 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Phys.Org"
+    },
+    "author": "Shreejaya Karantha",
+    "title": "JWST tracks more than 100 magnified stellar events in the Dragon galaxy - Phys.org",
+    "description": "Using the James Webb Space Telescope (JWST), a team of astronomers identified 104 magnified stellar events in a galaxy known as the Dragon, located around 6.5 billion light-years away. This discovery more than doubles the previous record of 44 such detections\u2026",
+    "url": "https://phys.org/news/2026-11-jwst-tracks-magnified-stellar-events.html",
+    "urlToImage": "https://scx2.b-cdn.net/gfx/news/2026/jwst-tracks-more-than.jpg",
+    "publishedAt": "2026-11-08T19:20:01Z",
+    "content": "Using the James Webb Space Telescope (JWST), a team of astronomers identified 104 magnified stellar events in a galaxy known as the Dragon, located around 6.5 billion light-years away. This discovery\u2026 [+6061 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "ScienceAlert"
+    },
+    "author": "David Nield",
+    "title": "Finally! Physicists Create an Exotic Quantum State of Matter That Works at Room Temperature - ScienceAlert",
+    "description": "The laws of physics at the quantum level can break free from the standard confines of solids, liquids, and gases, and researchers just observed an exotic quantum state of matter \u2013 a particular way of particles organizing and behaving themselves.",
+    "url": "https://www.sciencealert.com/finally-physicists-create-an-exotic-quantum-state-of-matter-that-works-at-room-temperature",
+    "urlToImage": "https://www.sciencealert.com/images/2026/11/QuantumEffect.jpg",
+    "publishedAt": "2026-11-08T16:04:18Z",
+    "content": "The laws of physics at the quantum level can break free from the standard confines of solids, liquids, and gases, and researchers just observed an exotic quantum state of matter a particular way of p\u2026 [+4374 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Skyatnightmagazine.com"
+    },
+    "author": "Jamie Middleton, Chris Lintott",
+    "title": "Scientists have found strange objects in deep space unlike anything seen before. And they could help solve a huge mystery in space science - BBC Sky at Night Magazine",
+    "description": "Astronomers have identified a new class of mysterious hypersoft X-ray source that behave unlike anything catalogued before.",
+    "url": "https://www.skyatnightmagazine.com/news/mysterious-hypersoft-x-ray-sources",
+    "urlToImage": "https://d2rj6cu2ik1biv.cloudfront.net/193c804a-a673-47bd-b09b-11baf4822a17/7c05fcb0-7a79-4c64-9752-81b63d70add8/7a2eb36d-a08f-4d4c-9aa4-20d0629cbed4/thumbnails/1dfc5001-4e61-435a-bfdc-4d09e1d2c942.jpg?appId=9867779f-bbeb-44ef-a0d0-ca4e39424e99&platform=WEB&w=1200",
+    "publishedAt": "2026-11-08T15:40:00Z",
+    "content": "Astronomers combing through archival data from NASAs Chandra X-ray Observatory have identified a new class of cosmic objects that behave unlike anything catalogued before and which could help resolve\u2026 [+3257 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Phys.Org"
+    },
+    "author": "Sam Jarman",
+    "title": "'Stupendously large' primordial black holes ruled out as a dark matter source - Phys.org",
+    "description": "Primordial black holes are hypothetical objects that could have formed directly from dense clumps of matter in the very early universe. If they exist, their dramatic origins would set them apart from the black holes we see today, which form when massive stars\u2026",
+    "url": "https://phys.org/news/2026-11-stupendously-large-primordial-black-holes.html",
+    "urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2026/stupendously-large-pri.jpg",
+    "publishedAt": "2026-11-08T14:40:01Z",
+    "content": "Primordial black holes are hypothetical objects that could have formed directly from dense clumps of matter in the very early universe. If they exist, their dramatic origins would set them apart from\u2026 [+4326 chars]"
+   },
+   {
+    "source": {
+     "id": "mashable",
+     "name": "Mashable"
+    },
+    "author": "Elisha Sauers",
+    "title": "Hubble finds dwarf galaxies are missing most of their oxygen - Mashable",
+    "description": "Gone with the stellar wind?",
+    "url": "https://mashable.com/science/hubble-telescope-dwarf-galaxies-missing-oxygen",
+    "urlToImage": "https://helios-i.mashable.com/imagery/articles/01y1oxEY9dSE24V9xqL1odp/hero-image.fill.size_1200x675.v1793839037.jpg",
+    "publishedAt": "2026-11-08T12:38:02Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "BGR"
+    },
+    "author": "Christian Wait",
+    "title": "Scientists Finally Captured An Image Of The Reaction That Destroys Nuclear Fuel - BGR",
+    "description": "Uranium is highly reactive with hydrogen, and researchers don't fully understand how it works, but now we're a lot closer to figuring it out.",
+    "url": "https://www.bgr.com/2309228/scientists-capture-new-image-nuclear-fuel-reaction/",
+    "urlToImage": "https://www.bgr.com/img/gallery/scientists-finally-captured-an-image-of-the-reaction-that-destroys-nuclear-fuel/l-intro-1793910784.jpg",
+    "publishedAt": "2026-11-08T12:17:00Z",
+    "content": "Hydrogen gas poses a massive threat to solid uranium by initiating a severe corrosion cycle that turns the dense metal into a highly reactive powder. It's a big deal for the nuclear energy sector to \u2026 [+1358 chars]"
+   }
+  ],
+  "sports": [
+   {
+    "source": {
+     "id": null,
+     "name": "NBCSports.com"
+    },
+    "author": "Josh Alper",
+    "title": "Report: Saints agree to trade DT Davon Godchaux to Jaguars - NBC Sports",
+    "description": "The Jaguars weren't done trading when they swung a deal to acquire safety Jessie Bates on Monday morning.",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-saints-agree-to-trade-dt-davon-godchaux-to-jaguars",
+    "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/3e4e0b7/2147483647/strip/true/crop/7396x4160+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff4%2F55%2F18b9ed764299b94a1ef7382f094d%2F2297820859.jpg",
+    "publishedAt": "2026-11-09T19:50:40Z",
+    "content": "The Jaguars werent done trading when they swung a deal to acquire safety Jessie Bates on Monday morning. \r\nTom Pelissero of Netflix reports that they have also agreed to a trade with the Saints for d\u2026 [+1043 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "NBCSports.com"
+    },
+    "author": "Mike Florio",
+    "title": "Bills-Vikings game carries major significance for both teams - NBC Sports",
+    "description": "The Bills and Vikings have identical 0-4 records in the Super Bowl.",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-vikings-game-carries-major-significance-for-both-teams",
+    "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/9fee95a/2147483647/strip/true/crop/4101x2307+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F03%2F18%2F8733c98f4bd998276852272ee862%2F1038453104.jpg",
+    "publishedAt": "2026-11-09T19:44:48Z",
+    "content": "The Bills and Vikings have identical 0-4 records in the Super Bowl. They enter Monday nights game with identical 6-1 records.\r\nAnd the stakes are very high for both teams.\r\nFor Buffalo, which hopes t\u2026 [+2868 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "NBCSports.com"
+    },
+    "author": "Mike Florio",
+    "title": "Greg Olsen accuses media of putting \"words in my mouth\" about Malik Nabers - NBC Sports",
+    "description": "After Sunday's win over the Eagles, Giants receiver Malik Nabers had some things to say about things Fox's Greg Olsen had to say about Nabers during the game.",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/greg-olsen-accuses-media-of-putting-words-in-my-mouth-about-malik-nabers",
+    "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/02922a0/2147483647/strip/true/crop/5892x3314+0+307/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fef%2Fb2%2Fd30e61094a03acaed65dbfff0f4b%2F2304161180.jpg",
+    "publishedAt": "2026-11-09T19:06:50Z",
+    "content": "After Sundays win over the Eagles, Giants receiver Malik Nabers had some things to say about things Foxs Greg Olsen had to say about Nabers during the game.\r\nOn Monday, Olsen had some things to say a\u2026 [+4208 chars]"
+   },
+   {
+    "source": {
+     "id": "espn",
+     "name": "ESPN"
+    },
+    "author": "Nate Taylor",
+    "title": "Chiefs QB Patrick Mahomes day-to-day with elbow injury - ESPN",
+    "description": "Chiefs quarterback Patrick Mahomes is considered day-to-day after suffering an injury to his throwing elbow.",
+    "url": "https://www.espn.com/nfl/story/_/id/50434564/chiefs-qb-patrick-mahomes-day-day-elbow-injury",
+    "urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1109%2Fr1743644_1296x729_16%2D9.jpg",
+    "publishedAt": "2026-11-09T18:58:00Z",
+    "content": "KANSAS CITY, Mo. -- Chiefs coach Andy Reid said Monday that quarterback Patrick Mahomes is considered day-to-day with his right elbow injury, an injury he sustained in Sunday's win over the New York \u2026 [+1934 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "NBCSports.com"
+    },
+    "author": "Myles Simmons",
+    "title": "Lions agree to acquire S Andre Cisco from Jets - NBC Sports",
+    "description": "Detroit is bringing in some secondary help.",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-agree-to-acquire-s-andre-cisco-from-jets",
+    "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/bad3463/2147483647/strip/true/crop/3900x2194+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F85%2F7f%2F57700e00463ba4e5b541d84371d4%2F2300776470.jpg",
+    "publishedAt": "2026-11-09T18:40:49Z",
+    "content": "Detroit is bringing in some secondary help. \r\nThe Jets are trading safety Andre Cisco to the Lions in exchange for a 2028 sixth-round pick, ESPNs Adam Schefter reports. \r\nCisco, 26, is in the final s\u2026 [+574 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Steelers.com"
+    },
+    "author": "Teresa Varley",
+    "title": "Steelers-Eagles game flexed - Steelers.com",
+    "description": "The Steelers Week 11 game against the Philadelphia Eagles has been flexed",
+    "url": "https://www.steelers.com/news/steelers-eagles-game-flexed",
+    "urlToImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/steelers/bqriijgjgtnb9ixg6xta",
+    "publishedAt": "2026-11-09T18:15:07Z",
+    "content": "In 2006, the NFL implemented \"flexible scheduling,\" a procedure designed to promote quality matchups on Sunday nights and give surprise teams a chance to play their way onto primetime. For the 2026 s\u2026 [+2853 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Defector.com"
+    },
+    "author": "Luis Paez-Pumar",
+    "title": "Patriots Emit Foul Odor In Blowout Loss To Packers - Defector",
+    "description": "Things have to be really bad for the New England Patriots if even Christian Gonzalez is dropping a stinker. The All-Pro cornerback has been one of the most consistent players on a Pats team that has struggled to find consistency at other positions, but Sunday\u2026",
+    "url": "https://defector.com/patriots-emit-foul-odor-in-blowout-loss-to-packers",
+    "urlToImage": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/11/GettyImages-2304203277.jpg",
+    "publishedAt": "2026-11-09T18:06:00Z",
+    "content": "Things have to be really bad for the New England Patriots if even Christian Gonzalez is dropping a stinker. The All-Pro cornerback has been one of the most consistent players on a Pats team that has \u2026 [+5557 chars]"
+   },
+   {
+    "source": {
+     "id": "nbc-news",
+     "name": "NBC News"
+    },
+    "author": "David K. Li, Austin Mullen",
+    "title": "Jordon Hudson sues Airbnb hosts, blaming them for shirtless Bill Belichick video - NBC News",
+    "description": "Airbnb hosts violated the privacy of Bill Belichick\u2019s former girlfriend Jordon Hudson by leaking doorbell video of her shirtless, Super Bowl-winning boyfriend.",
+    "url": "https://www.nbcnews.com/news/us-news/jordon-hudson-sues-airbnb-hosts-blaming-shirtless-bill-belichick-video-rcna608299",
+    "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261108-jordon-hudson-bill-belichick-mn-1000-dc8937.jpg",
+    "publishedAt": "2026-11-09T17:38:58Z",
+    "content": "Airbnb hosts violated the privacy of Bill Belichicks former girlfriend by leaking unflattering doorbell video of her shirtless, Super Bowl-winning boyfriend three years ago, according to a lawsuit sh\u2026 [+3020 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "CBS Sports"
+    },
+    "author": "John Talty",
+    "title": "College Football Playoff expanding to 24 teams: 2027 move has big impact on conference championships, Heisman - CBS Sports",
+    "description": "The move eliminates conference championship games, beginning in 2027",
+    "url": "https://www.cbssports.com/college-football/news/college-football-playoff-format-expanding-to-24-teams-for-2027-season/",
+    "urlToImage": "https://sportshub.cbsistatic.com/i/r/2026/11/09/48540c50-9567-4c53-91b6-4ab6c6d3a1b5/thumbnail/1200x675/2985a97bf454183e18d354b2cc3e4813/curtcignettiindiana.jpg",
+    "publishedAt": "2026-11-09T17:06:00Z",
+    "content": "In a landscape-altering move, the College Football Playoff is officially expanding to a 24-team format for the 2027 season, sources told CBS Sports.\u00a0\r\nThe field will be built with a \"19+4+1\" model wi\u2026 [+6864 chars]"
+   },
+   {
+    "source": {
+     "id": "espn",
+     "name": "ESPN"
+    },
+    "author": null,
+    "title": "Source: Browns returning to Watson as QB1 despite Sanders' strong fill-in start - ESPN",
+    "description": "The Browns plan to start Deshaun Watson in Week 10 against the Texans, a source told ESPN's Jeremy Fowler on Monday.",
+    "url": "https://www.espn.com/nfl/story/_/id/50433760/source-browns-returning-deshaun-watson-qb1-week-10",
+    "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1002%2Fr1724705_1296x729_16%2D9.jpg",
+    "publishedAt": "2026-11-09T16:52:00Z",
+    "content": "Nov 9, 2026, 11:52 AM ET\r\nThe Cleveland Browns plan to start quarterback Deshaun Watson in Week 10 against the Houston Texans, a source told ESPN's Jeremy Fowler on Monday.\r\nAsked Monday about this w\u2026 [+2137 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "NBCSports.com"
+    },
+    "author": "Josh Alper",
+    "title": "Jaguars announce Jessie Bates trade - NBC Sports",
+    "description": "The Jaguars announced their trade for safety Jessie Bates on Monday.",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-announce-jessie-bates-trade",
+    "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/defad34/2147483647/strip/true/crop/4854x2730+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F65%2F6c%2Ff3567272472fa0032ce4f250edd8%2F2026-10-25t184823z-242890681-mt1usatoday30184741-rtrmadp-3-nfl-san-francisco-49ers-at-atlanta-falcons.jpg",
+    "publishedAt": "2026-11-09T16:40:19Z",
+    "content": "The Jaguars announced their trade for safety Jessie Bates on Monday. \r\nBates is headed to Jacksonville to strengthen a position thats been hit by injuries this season. Eric Murray will miss the rest \u2026 [+876 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "On3.com"
+    },
+    "author": "Tom Lang",
+    "title": "INSTANT REACTION: Florida State hires Jeff Purinton as next director of athletics - On3",
+    "description": "News broke Monday morning that Florida State will name Jeff Purinton as its next director of athletics. What does this mean for FSU's head coaching search? Will the university hire a second top-level athletics administrator?",
+    "url": "https://www.on3.com/teams/florida-state-seminoles/news/florida-state-purinton-instant-reaction-110926/",
+    "urlToImage": "https://on3static.com/cdn-cgi/image/height=675,width=1200,quality=90,fit=cover,gravity=0.5x0.5,format=auto,metadata=none/uploads/dev/assets/cms/2026/11/09093733/Norvell-Fired-Site-Thumbnail-3-6.jpg",
+    "publishedAt": "2026-11-09T15:30:49Z",
+    "content": "News broke Monday morning that Florida State will name Jeff Purinton as its next director of athletics.\r\nWhat does this mean for FSUs head coaching search? Will the university hire a second top-level\u2026 [+8481 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "The-race.com"
+    },
+    "author": "Scott Mitchell-Malm",
+    "title": "Everything we learned from F1's 2026 Brazilian Grand Prix - The Race",
+    "description": "Our main takeaways from F1's thrill-a-minute Brazilian GP at Interlagos",
+    "url": "https://www.the-race.com/formula-1/everything-we-learned-from-f1s-2026-brazilian-grand-prix/",
+    "urlToImage": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/size/w1200/2026/11/SI202611080333_hires_jpeg_24bit_rgb.jpg",
+    "publishedAt": "2026-11-09T15:16:10Z",
+    "content": "Was the Brazilian Grand Prix the best race of the 2026 Formula 1 season? \r\nIt certainly revealed a lot about the teams and drivers, and their various strengths and weaknesses. \r\nSo here's everything \u2026 [+15041 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "CBS Sports"
+    },
+    "author": "Gary Parrish",
+    "title": "College basketball rankings: Experienced Virginia makes big jump in Top 25 And 1 after easy win vs. Arkansas - CBS Sports",
+    "description": "The Cavaliers are in the top 10 of the Top 25 And 1 after rolling over John Calipari's Razorbacks",
+    "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-virginia-big-jump-in-top-25-and-1-arkansas/",
+    "urlToImage": "https://sportshub.cbsistatic.com/i/r/2026/11/09/36ba7f2c-2323-4a0e-a15b-05a2b04fc229/thumbnail/1200x675/80c769cb57e8f317eba4e68e45c8c83b/virginia-top-25.jpg",
+    "publishedAt": "2026-11-09T15:16:00Z",
+    "content": "Virginia returned four of the top six scorers from last season's team that won 30 games, including its best player, Thijs De Ridder. If you forgot that, you were likely reminded of it Sunday, when th\u2026 [+2660 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Mile High Report"
+    },
+    "author": "Scotty Payne",
+    "title": "Broncos Stock Up, Stock Down: Week 10 vs. Panthers - Mile High Report",
+    "description": "",
+    "url": "https://www.milehighreport.com/denver-broncos-analysis/191803/broncos-stock-up-stock-down-week-10-panthers",
+    "urlToImage": "https://platform.milehighreport.com/wp-content/uploads/sites/108/2026/11/gettyimages-2304174158.jpg?quality=90&strip=all&crop=0%2C12.989461137495%2C100%2C74.021077725011&w=1200",
+    "publishedAt": "2026-11-09T15:15:03Z",
+    "content": "The Broncos did it again! After yet another 4th-quarter comeback, the Broncos won their 5th straight game with their victory over the Carolina Panthers and improved to 7-2 on the season. Like every B\u2026 [+11637 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "CBS Sports"
+    },
+    "author": "Brad Crawford",
+    "title": "Deion Sanders says it's 'not how it's supposed to be' at Colorado after loss amid job security speculation - CBS Sports",
+    "description": "The Buffaloes' veteran coach addressed questions about his future after Colorado's sixth loss in its last seven games",
+    "url": "https://www.cbssports.com/college-football/news/deion-sanders-colorado-loss-job-security-speculation/",
+    "urlToImage": "https://sportshub.cbsistatic.com/i/r/2026/11/09/f6e8b9c8-3665-4dfb-a65f-68d75db5d3e7/thumbnail/1200x675/487d3e9a3d03eb28d581dfdd0fa29fd6/deionsanders.png",
+    "publishedAt": "2026-11-09T14:58:00Z",
+    "content": "On the verge of his third losing season in four years as coach, a noticeably dejected Deion Sanders was nearly at a loss for words following Colorado's 20-10 loss at Arizona State over the weekend.\r\n\u2026 [+3202 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Prideofdetroit.com"
+    },
+    "author": "Jeremy Reisman",
+    "title": "Lions owner Sheila Hamp speaks up in emotional post-game video - Pride Of Detroit",
+    "description": "Detroit Lions owner Sheila Hamp shared words with the team after their emotional win over the Dolphins.",
+    "url": "https://www.prideofdetroit.com/detroit-lions-news/180361/lions-owner-sheila-hamp-speaks-up-in-emotional-post-game-video",
+    "urlToImage": "https://platform.prideofdetroit.com/wp-content/uploads/sites/127/2026/11/Screenshot-2026-11-09-072936.png?quality=90&strip=all&crop=0,3.7718579018615,100,57.562697058228",
+    "publishedAt": "2026-11-09T14:45:00Z",
+    "content": "We havent seen a lot of Detroit Lions owner Sheila Hamp since she took over the team in 2020, but after the teams emotional win over the Miami Dolphins, she wanted to speak to the team.\r\nIts been an \u2026 [+2105 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "CBS Sports"
+    },
+    "author": "",
+    "title": "2026 NFL trade deadline live updates: Latest rumors, buzz and news in final two days to make deals - CBS Sports",
+    "description": "Keep it locked here for all the news ahead of the Nov. 10 cutoff",
+    "url": "https://www.cbssports.com/nfl/news/2026-nfl-trade-deadline-live-updates-latest-rumors-buzz-news/live/",
+    "urlToImage": "https://sportshub.cbsistatic.com/i/r/2026/11/09/682f4508-41ba-4b6b-9142-d8adf32c9c70/thumbnail/1200x675/50037a3aebbfcf54727be8beff6fa0c2/jonathan-taylor.jpg",
+    "publishedAt": "2026-11-09T14:32:12Z",
+    "content": "Deal or no deal? It's that time of year again when GMs across the NFL are working the phones to wheel and deal before the 2026 trade deadline hits on Tuesday, Nov. 10 at 4 p.m. ET.\u00a0\r\nSome clubs are w\u2026 [+1099 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "MMA Fighting"
+    },
+    "author": "Alexander K. Lee, Damon Martin, Jed Meshew",
+    "title": "UFC 334 roundtable: Is Josh Hokit about to be the one true heavyweight king? - MMA Fighting",
+    "description": "Ciryl Gane, Josh Hokit, Kayla Harrison, and Amanda Nunes look to make history at UFC 334 this Saturday in New York.",
+    "url": "https://www.mmafighting.com/ufc/519486/ufc-334-roundtable-is-josh-hokit-about-to-be-the-one-true-heavyweight-king",
+    "urlToImage": "https://platform.mmafighting.com/wp-content/uploads/sites/109/2026/11/gettyimages-2281628968.jpg?quality=90&strip=all&crop=0%2C18.832984787579%2C100%2C78.534031413613&w=1200",
+    "publishedAt": "2026-11-09T14:00:00Z",
+    "content": "Josh Hokit could cap off one of the best breakthrough campaigns in MMA history by capturing the heavyweight title at UFC 334.\r\nA year ago, Hokit was fresh off his UFC debut win against Max Gimenis, a\u2026 [+9792 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Prideofdetroit.com"
+    },
+    "author": "Erik Schlitt",
+    "title": "Lions snap counts: Malcolm Rodriguez, Rock Ya-Sin step up vs. Dolphins - Pride Of Detroit",
+    "description": "Taking a look at the Detroit Lions snap counts from Week 9 and exploring how they will impact the roster moving forward.",
+    "url": "https://www.prideofdetroit.com/detroit-lions-analysis/180315/detroit-lions-week-9-snap-counts-malcolm-rodriguez-rock-ya-sin-step-into-larger-roles",
+    "urlToImage": "https://platform.prideofdetroit.com/wp-content/uploads/sites/127/2026/11/reuters-tagreuters.com2026newsml_MT1USATODAY303146661316024672.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C78.52322744726&w=1200",
+    "publishedAt": "2026-11-09T14:00:00Z",
+    "content": "In Week 9, the Detroit Lions moved to 6-2 after beating the Dolphins in Miami. The Lions had to finesse their roster for this game, as they managed several player injuries from Week 8 and a surprise \u2026 [+6133 chars]"
+   }
+  ],
+  "technology": [
+   {
+    "source": {
+     "id": "ars-technica",
+     "name": "Ars Technica"
+    },
+    "author": "Dan Goodin",
+    "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation - Ars Technica",
+    "description": "sshole\" poses a serious threat to Internet security.",
+    "url": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
+    "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg",
+    "publishedAt": "2026-11-09T19:41:34Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Variety"
+    },
+    "author": "Jennifer Maas",
+    "title": "Skydance Games Layoffs Hit Following Warner Bros. Merger - Variety",
+    "description": "Skydance Games has undergone a round of layoffs following the merger between Warner Bros. and Paramount.",
+    "url": "https://variety.com/2026/gaming/news/skydance-games-warner-bros-layoffs-1236943276/",
+    "urlToImage": "https://variety.com/wp-content/uploads/2026/10/Skydance-Logo-1.png?w=810&h=540&crop=1",
+    "publishedAt": "2026-11-09T19:35:00Z",
+    "content": "Skydance Games has undergone a round of layoffs just over a month after the landmark merger between Warner Bros. and Paramount.\r\nOn Oct. 6, the Skydance-owned Paramount Games Studio was combined with\u2026 [+1588 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Wccftech"
+    },
+    "author": "Alessio Palumbo",
+    "title": "BioWare Co-Founder/Beamdog CEO Trent Oster Says He\u2019s Running the Numbers on Saving Mass Effect and Wants the Original Band Back Together, Starting with James Ohlen - Wccftech",
+    "description": "BioWare co-founder and Beamdog CEO Trent Oster has publicly discussed getting the back together, starting with James Ohlen, and saving the IPs",
+    "url": "https://wccftech.com/trent-oster-saving-mass-effect-james-ohlen-bioware-reunion/",
+    "urlToImage": "https://cdn.wccftech.com/wp-content/uploads/2026/11/mass-effect-bioware-HD-1920x1080.jpeg",
+    "publishedAt": "2026-11-09T19:00:00Z",
+    "content": "BioWare co-founder Trent Oster, who is currently CEO of Beamdog, has openly said he's running the numbers to see whether there's a way to save the closing studio's IPs, especially Mass Effect. He sta\u2026 [+3559 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Anthropic.com"
+    },
+    "author": "Anthropic",
+    "title": "Claude can design electronic prototypes from start to finish - Anthropic",
+    "description": "We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.",
+    "url": "https://www.anthropic.com/research/claude-electronics-design",
+    "urlToImage": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b953cc611ebe78f0b84e996dd54a614efd38b3f4-2000x1125.jpg",
+    "publishedAt": "2026-11-09T18:58:57Z",
+    "content": "A little over a year ago, we began testing how well Claude could design basic electronic circuits. We collaborated with Diode Computers,1 a company that designs and manufactures circuit boards, to tr\u2026 [+10621 chars]"
+   },
+   {
+    "source": {
+     "id": "associated-press",
+     "name": "Associated Press"
+    },
+    "author": "Jonathan Landrum Jr.",
+    "title": "'Grand Theft Auto VI' is almost here. What to know about the characters, music and billions at stake - AP News",
+    "description": "\u2018Grand Theft Auto VI\u2019 is set to release on Nov. 19, marking a return to the neon-lit streets of Vice City. The game follows protagonists Lucia Caminos and Jason Duval as they navigate a criminal conspiracy. The franchise is known for its open-world gaming and\u2026",
+    "url": "https://apnews.com/article/grand-theft-auto-gta-6-27dacd5b65338153f525a948defb0e7d",
+    "urlToImage": "https://dims.apnews.com/dims4/default/d515e04/2147483647/strip/true/crop/5670x3890+0+0/resize/1200x823!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F64%2F0f%2F008121b6d3e5ff399512c2080a69%2Fceb127773b79481e845a901e6094041b",
+    "publishedAt": "2026-11-09T18:51:00Z",
+    "content": "LOS ANGELES (AP) Grand Theft Auto has never been much for following the rules.\r\nNearly three decades after a video game built around stealing cars, outrunning police and embracing criminal mayhem fir\u2026 [+5917 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "9to5google.com"
+    },
+    "author": "Abner Li",
+    "title": "Google Store previews Black Friday 2026 deals, starting Nov. 19 - 9to5Google",
+    "description": "With early deals ending yesterday, the US Google Store has now shared its upcoming Black Friday sale that starts on November 19.",
+    "url": "http://9to5google.com/2026/11/09/google-store-black-friday-2026/",
+    "urlToImage": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/Google-Store-Black-Friday-2026.jpg?quality=82&strip=all&resize=1200,628",
+    "publishedAt": "2026-11-09T18:29:00Z",
+    "content": "With early deals ending yesterday, the US Google Store has now shared its upcoming Black Friday sale that starts on November 19.\r\nGoogle shared 12 deals that start on November 19. The list below incl\u2026 [+1077 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Michael Cripe",
+    "title": "The Legend of Zelda: Ocarina of Time Remake Dataminers Uncover Potential Majora's Mask, Master Quest DLC Hints - IGN",
+    "description": "The Legend of Zelda: Ocarina of Time players are getting their hopes up after dataminers uncovered hints of Master Quest DLC \u2013 and maybe even some Majora's Mask content \u2013 tucked in the files of Nintendo's new remake.",
+    "url": "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-remake-dataminers-uncover-potential-majoras-mask-master-quest-dlc-hints",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/09/the-legend-of-zelda-majoras-mask-1794247669810.png?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-09T18:15:13Z",
+    "content": "The Legend of Zelda: Ocarina of Time\r\n players are getting their hopes up after dataminers uncovered hints of Master Quest DLC and maybe even some Majora's Mask content tucked in the files of Nintend\u2026 [+5165 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "MacRumors"
+    },
+    "author": "Juli Clover",
+    "title": "Apple Releases iOS 27.2.1 With Bug Fixes - MacRumors",
+    "description": "Apple today released iOS 27.2.1, a minor update to the iOS 27 operating system. iOS 27.2.1 comes two weeks after the launch of iOS 27.2.   iOS 27.2.1...",
+    "url": "https://www.macrumors.com/2026/11/09/apple-releases-ios-27-2-1-with-bug-fixes/",
+    "urlToImage": "https://images.macrumors.com/t/bTWjyJb-FEpBnS7_p-c-iXNeOls=/2500x/article-new/2026/11/iOS-27.2.1-Feature.jpg",
+    "publishedAt": "2026-11-09T18:09:57Z",
+    "content": "Apple today released iOS 27.2.1, a minor update to the iOS 27 operating system. iOS 27.2.1 comes two weeks after the launch of iOS 27.2.\r\niOS 27.2.1 includes addresses bugs and patches security vulne\u2026 [+253 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Eurogamer.net"
+    },
+    "author": "Kaan Serin",
+    "title": "Hollow Knight Silksong physical editions mention multiple \"free content packs\" incoming, and call Sea of Sorrow a \"giant expansion\" - Eurogamer.net",
+    "description": "Hollow Knight Silksong's physical editions are out in the wild and the box supposedly references multiple free DLCs alongside Sea of Sorrow \"coming soon.\"",
+    "url": "https://www.eurogamer.net/hollow-knight-silksong-physical-free-content-packs-sea-of-sorrow",
+    "urlToImage": "https://assetsio.gnwcdn.com/silksong-sea-of-sorrows.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+    "publishedAt": "2026-11-09T17:51:10Z",
+    "content": "More than a year after its initial release, physical versions of Hollow Knight: Silksong are finally arriving on players' doorsteps. It's the same brilliant and sometimes thrillingly cruel Metroidvan\u2026 [+2089 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Rhiannon Bevan",
+    "title": "BioWare Veteran Mark Darrah Has Revealed an Internal Pitch for Dragon Age 4 That Was Never Shared With Fans - IGN",
+    "description": "BioWare veteran Mark Darrah has revealed an internal pitch for Dragon Age 4 that was never shared with fans.",
+    "url": "https://www.ign.com/articles/former-bioware-executive-producer-mark-darrah-shares-original-vision-for-a-more-immersive-dragon-age-4",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/09/dragon-age-1794243596754.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-09T17:00:55Z",
+    "content": "BioWare veteran Mark Darrah has revealed an internal pitch for Dragon Age 4 that was never shared with fans. \r\nThis pitch was shared in the form of a book which Darrah says was distributed within Bio\u2026 [+3509 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Eurogamer.net"
+    },
+    "author": "Robert Purchese",
+    "title": "Anticipated Warhammer 40K tactical RPG Dark Heresy gets a release date - Eurogamer.net",
+    "description": "This one's got pedigree. Pathfinder and Rogue Trader team Owlcat readies tactical RPG Dark Heresy for a not-too-far-away release.",
+    "url": "https://www.eurogamer.net/warhammer-40k-dark-heresy-owlcat-crpg",
+    "urlToImage": "https://assetsio.gnwcdn.com/warhammer-40k-dark-heresy_rowA3Iz.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+    "publishedAt": "2026-11-09T16:50:00Z",
+    "content": "Owlcat Games has revealed a release date for its tactical role-playing sequel Warhammer 40,000: Dark Heresy. The game arrives 28th January, 2027 on PC, PlayStation 5 and Xbox Series S/X. A Switch 2 r\u2026 [+1336 chars]"
+   },
+   {
+    "source": {
+     "id": "the-verge",
+     "name": "The Verge"
+    },
+    "author": "Tom Warren",
+    "title": "Sony\u2019s new PlayStation Portal handheld includes \u2018additional\u2019 internal storage - The Verge",
+    "description": "The Japan-only model arrives on December 10th in a midnight black color scheme.",
+    "url": "https://www.theverge.com/news/1029822/sony-playstation-portal-japan-model-additional-storage",
+    "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/playstationportal.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+    "publishedAt": "2026-11-09T16:23:31Z",
+    "content": "<ul><li></li><li></li><li></li></ul>\r\nThe Japan-only model arrives on December 10th in a midnight black color scheme.\r\nThe Japan-only model arrives on December 10th in a midnight black color scheme.\r\u2026 [+2420 chars]"
+   },
+   {
+    "source": {
+     "id": "polygon",
+     "name": "Polygon"
+    },
+    "author": "Aimee Hart",
+    "title": "A Free GTA 6 Competitor Is Blowing Up on Steam - Polygon.com",
+    "description": "A free, brutal crime sandbox game may be just what you're looking for as a 'Grand Theft Auto 6' alternative.",
+    "url": "https://www.polygon.com/gta-6-competitor-rob-run-blowing-up-steam/",
+    "urlToImage": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/gta-6-couple-in-car.webp?w=1200&h=675&fit=crop",
+    "publishedAt": "2026-11-09T16:15:47Z",
+    "content": "Grand Theft Auto 6is just around the corner, and fans are champing at the bit as they wait for Nov. 19. Seriously, we're analyzing whether picking up dog poop and flinging it at people could change h\u2026 [+1796 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Kotaku"
+    },
+    "author": "Ash Parrish",
+    "title": "Beloved Mario Content Creator Says His Health Is Failing But 'Only Blindness Or Death' Will Stop Him From Posting Mario Facts - Kotaku",
+    "description": "'If I should one day stop posting: thank you very much for reading.'",
+    "url": "https://kotaku.com/beloved-mario-content-creator-says-his-health-is-failing-but-only-blindness-or-death-will-stop-him-from-posting-mario-facts-2000755083",
+    "urlToImage": "https://kotaku.com/app/uploads/2025/10/sad-mario.jpg",
+    "publishedAt": "2026-11-09T15:30:00Z",
+    "content": "Supper Mario Broth, the internet\u2019s number one guy for obscure Mario facts, has shared that he\u2019s in failing health but will continue to bring fans Mario morsels to sup upon until the last flag falls. \u2026 [+2064 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "James Nouch",
+    "title": "\u2018Even if Someone Does Get It Running on PC, That\u2019s Not Going To Be a Good Experience\u2019 \u2013 Why AI Cloning Won\u2019t Sink GTA 6\u2019s Launch, but Could Reshape Game Development - IGN",
+    "description": "Will AI-made PC ports impact GTA 6's launch? The experts say no, but vibe-coding is here to reshape the games industry as we know it.",
+    "url": "https://www.ign.com/articles/even-if-someone-does-get-it-running-on-pc-thats-not-going-to-be-a-good-experience-why-ai-cloning-wont-sink-gta-6s-launch-but-could-reshape-game-development",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/09/gta6-launch-ai-blogroll-1794222934628.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-09T15:30:00Z",
+    "content": "Something new is happening in the world of video games. On that much at least, we can mostly agree. \r\nA new generation of agentic AI coding tools has unleashed a tsunami of mash-ups and ports and rev\u2026 [+14313 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Warhammer-community.com"
+    },
+    "author": null,
+    "title": "Explore the desert with a new Arcane Journal - Warhammer Community",
+    "description": "Plus, discover the latest Battle March host for Warhammer: The Old World",
+    "url": "https://www.warhammer-community.com/articles/pncgtigd/explore-the-desert-with-a-new-arcane-journal",
+    "urlToImage": "https://assets.warhammer-community.com/articles/0-2026/november/wc-09-11/2-share-znfwamk9fd.jpg",
+    "publishedAt": "2026-11-09T14:57:59Z",
+    "content": "\u00a9 Copyright Games Workshop Limited 2026. GW, Games Workshop, Citadel, White Dwarf, Space Marine, 40K, Warhammer, Warhammer 40,000, the Aquila Double-headed Eagle logo, Warhammer Age of Sigmar, Battle\u2026 [+1391 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "9to5Mac"
+    },
+    "author": "Ryan Christoffel",
+    "title": "Leak reveals details for more iPhone 18 models launching early 2027 - 9to5Mac",
+    "description": "A new leak outlines several features of the forthcoming iPhone 18 and iPhone 18e models, which could be more alike than ever.",
+    "url": "https://9to5mac.com/2026/11/09/leak-reveals-details-for-more-iphone-18-models-launching-early-2027/",
+    "urlToImage": "https://9to5mac.com/wp-content/uploads/sites/6/2025/12/iphone-17-black.jpg?quality=82&strip=all&resize=1200,628",
+    "publishedAt": "2026-11-09T14:50:00Z",
+    "content": "Apple is rumored to have three new iPhone models launching in early 2027: iPhone 18, iPhone 18e, and iPhone Air 2. Here\u2019s what to expect from the iPhone 18 models per the latest leak.\r\nLast year when\u2026 [+1425 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Pure Xbox"
+    },
+    "author": "Fraser Gilbert",
+    "title": "'The Best RPG I've Played This Year' - Queen's Domain Is A Low-Key GOTY Contender On Xbox - Pure Xbox",
+    "description": "It's getting some stunning feedback",
+    "url": "https://www.purexbox.com/news/2026/11/the-best-rpg-ive-played-this-year-queens-domain-is-a-low-key-goty-contender-on-xbox",
+    "urlToImage": "https://images.purexbox.com/e3fdafb8e73f7/1280x720.jpg",
+    "publishedAt": "2026-11-09T14:30:00Z",
+    "content": "Back at the end of last month, a little-known RPG launched on Xbox in the form of Queen's Domain, which we highlighted in our October 30th new releases roundup alongside 14 other titles that arrived \u2026 [+3403 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Push Square"
+    },
+    "author": "Sammy Barker",
+    "title": "GTA 6's Exclusive Selfridges Merch Is Daylight Robbery - Push Square",
+    "description": "Varsity jacket for $3,300",
+    "url": "https://www.pushsquare.com/news/2026/11/gta-6s-exclusive-selfridges-merch-is-daylight-robbery",
+    "urlToImage": "https://images.pushsquare.com/9c0b7007dd148/1280x720.jpg",
+    "publishedAt": "2026-11-09T14:15:00Z",
+    "content": "Image: Selfridges, Push Square\r\nYou may need to turn to crime in order to afford UK retailer Selfridges exclusive roster of GTA 6 merch.\r\nAvailable online and in-store now, items include a \u00a32,500 (~$\u2026 [+963 chars]"
+   },
+   {
+    "source": {
+     "id": "techcrunch",
+     "name": "TechCrunch"
+    },
+    "author": "Lauren Forristal",
+    "title": "Meet Drops, the new music app bringing back the fun of sharing songs with friends - TechCrunch",
+    "description": "The new music discovery app lets users scroll through 10- to 30-second snippets of songs, comment, and share with friends.",
+    "url": "https://techcrunch.com/2026/11/09/meet-drops-the-new-music-app-bringing-back-the-fun-of-sharing-songs-with-friends/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2026/11/Drops-app.png?w=1200",
+    "publishedAt": "2026-11-09T14:00:00Z",
+    "content": "Theres a new music discovery app borrowing the endless vertical-scrolling format of TikTok. But instead of watching videos, users swipe through short clips of songs, hoping to stumble upon their next\u2026 [+2784 chars]"
+   }
+  ],
+  "general": [
+   {
+    "source": {
+     "id": "nbc-news",
+     "name": "NBC News"
+    },
+    "author": "Lawrence Hurley",
+    "title": "Supreme Court paves way for Trump to build a section of his border wall in the Big Bend area of Texas - NBC News",
+    "description": "The Supreme Court allowed President Donald Trump to move forward with construction of his border wall in the remote Big Bend region of southwest Texas.",
+    "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-trump-border-wall-big-bend-texas-rcna604916",
+    "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261021-bigbend-wall-texas-vsb-1720-d1d201.jpg",
+    "publishedAt": "2026-11-09T19:54:13Z",
+    "content": "WASHINGTON The Supreme Court on Monday allowed President Donald Trump to move forward with construction of his border wall in the remote Big Bend region of southwest Texas.\r\nConstruction there had be\u2026 [+3361 chars]"
+   },
+   {
+    "source": {
+     "id": "ars-technica",
+     "name": "Ars Technica"
+    },
+    "author": "Dan Goodin",
+    "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation - Ars Technica",
+    "description": "sshole\" poses a serious threat to Internet security.",
+    "url": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
+    "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg",
+    "publishedAt": "2026-11-09T19:41:34Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "CNBC"
+    },
+    "author": "Garrett Downs",
+    "title": "Pete Hegseth impeachment articles introduced by Rep. Massie - CNBC",
+    "description": "The House is likely to vote this week on articles of impeachment against Defense Secretary Pete Hegseth.",
+    "url": "https://www.cnbc.com/2026/11/09/pete-hegseth-impeachment-articles-massie.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/108546127-1794227587839-gettyimages-2300791153-TRUMP_CYBERCRIME.jpeg?v=1794258310&w=1920&h=1080",
+    "publishedAt": "2026-11-09T19:35:07Z",
+    "content": "Rep. Thomas Massie, R-Ky., on Monday introduced articles of impeachment against Defense Secretary Pete Hegseth, triggering a vote in the House of Representatives as early as this week. \r\nThe impeachm\u2026 [+3116 chars]"
+   },
+   {
+    "source": {
+     "id": "nbc-news",
+     "name": "NBC News"
+    },
+    "author": "Doha Madani",
+    "title": "Ohio State University investigating fraternity after video appears to show two people on fire - NBC News",
+    "description": "An Ohio State University fraternity is being investigated after video of two young men seemingly on fire circulated online over the weekend.",
+    "url": "https://www.nbcnews.com/news/us-news/ohio-state-university-investigating-fraternity-video-appears-show-two-rcna608313",
+    "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-05/260505-osu-campus-gk-1df951.jpg",
+    "publishedAt": "2026-11-09T19:15:55Z",
+    "content": "An Ohio State University fraternity is being investigated after video of two young men seemingly on fire circulated online over the weekend. \r\nThe Sigma Alpha Epsilon fraternity was placed on interim\u2026 [+4314 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "MarketWatch"
+    },
+    "author": "Joy Wiltermuth, Tomi Kilgore, Nora Redmond, Jamie Chisholm, Steve Goldstein",
+    "title": "Stock Market Today: Dow jumps 1,000 points, S&P 500 and Nasdaq surge after last week\u2019s selloff; Nvidia stock drops as CEO probe launched: live updates - MarketWatch",
+    "description": "Stocks closed sharply higher Monday despite a retreat in Nvidia shares.",
+    "url": "https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-nvidia-investigation-ceo-jensen-huang-relationship-chinese-spy",
+    "urlToImage": "https://images.mktw.net/im-28641878/social",
+    "publishedAt": "2026-11-09T19:10:00Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Yahoo Entertainment"
+    },
+    "author": "Yahoo Finance",
+    "title": "Nvidia live updates: Nvidia stock falls 5% as board investigates CEO's affair with alleged Chinese spy - Yahoo Finance",
+    "description": "Follow along for live updates and reactions regarding the revelation that Nvidia CEO Jensen Huang had a romantic relationship, reportedly with a woman believ...",
+    "url": "https://finance.yahoo.com/technology/live/nvidia-scandal-live-updates-nvidia-stock--board-investigates-ceo-jensen-huang-affair-alleged-chinese-spy-163130372.html",
+    "urlToImage": "https://s.yimg.com/lo/mysterio/api/a34d3f7bf62c173409e6bef4a7334414ee5eaf9f1f7c382cb8736a5d88ae08c6/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2F0cd53bcc-959a-4d7b-8b1a-960fd4d9c2dd_ac3cb57621238ab5dd60f852e9b1771c203641f343dd80dd113fe96d74716bc2.jpg",
+    "publishedAt": "2026-11-09T18:42:29Z",
+    "content": "Months before Nvidia's (NVDA) CEO Jensen Huang's admitted affair and the board investigation into the matter made headlines, concerns over the world's leading AI chipmaker's exposure to China had alr\u2026 [+1561 chars]"
+   },
+   {
+    "source": {
+     "id": "nbc-news",
+     "name": "NBC News"
+    },
+    "author": "Lawrence Hurley",
+    "title": "Supreme Court set to pare back federal inmates\u2019 ability to sue officials - NBC News",
+    "description": "The Supreme Court appears likely to bar prison inmates from suing government officials who deny them medical treatment.",
+    "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-set-limit-federal-inmatess-ability-sue-officials-rcna608292",
+    "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261108-federal-detention-honolulu-mn-1220-180e73.jpg",
+    "publishedAt": "2026-11-09T18:38:01Z",
+    "content": "WASHINGTON The Supreme Court on Monday appeared likely to bar federal prison inmates from suing officials who deny them medical treatment in the latest case seeking to roll back the ability to hold f\u2026 [+4163 chars]"
+   },
+   {
+    "source": {
+     "id": "nbc-news",
+     "name": "NBC News"
+    },
+    "author": "Berkeley Lovelace Jr.",
+    "title": "FDA orders new warning on GLP-1s over rare eye condition linked to sudden blindness - NBC News",
+    "description": "The Food and Drug Administration said Monday that GLP-1 drugmakers must add a warning label about a rare eye condition that can cause sudden blindness.",
+    "url": "https://www.nbcnews.com/health/health-care/fda-orders-new-warning-glp-1s-rare-eye-condition-linked-sudden-blindne-rcna608309",
+    "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2022-03/220328-fda-headquarters-2020-ac-611p-17ec72.jpg",
+    "publishedAt": "2026-11-09T18:14:12Z",
+    "content": "The Food and Drug Administration said Monday that GLP-1 drugmakers must add a warning label about a rare eye condition that can cause sudden blindness. \r\nThe condition, called nonarteritic anterior i\u2026 [+3139 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "MacRumors"
+    },
+    "author": "Juli Clover",
+    "title": "Apple Releases iOS 27.2.1 With Bug Fixes - MacRumors",
+    "description": "Apple today released iOS 27.2.1, a minor update to the iOS 27 operating system. iOS 27.2.1 comes two weeks after the launch of iOS 27.2.   iOS 27.2.1...",
+    "url": "https://www.macrumors.com/2026/11/09/apple-releases-ios-27-2-1-with-bug-fixes/",
+    "urlToImage": "https://images.macrumors.com/t/bTWjyJb-FEpBnS7_p-c-iXNeOls=/2500x/article-new/2026/11/iOS-27.2.1-Feature.jpg",
+    "publishedAt": "2026-11-09T18:09:57Z",
+    "content": "Apple today released iOS 27.2.1, a minor update to the iOS 27 operating system. iOS 27.2.1 comes two weeks after the launch of iOS 27.2.\r\niOS 27.2.1 includes addresses bugs and patches security vulne\u2026 [+253 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Defector.com"
+    },
+    "author": "Luis Paez-Pumar",
+    "title": "Patriots Emit Foul Odor In Blowout Loss To Packers - Defector",
+    "description": "Things have to be really bad for the New England Patriots if even Christian Gonzalez is dropping a stinker. The All-Pro cornerback has been one of the most consistent players on a Pats team that has struggled to find consistency at other positions, but Sunday\u2026",
+    "url": "https://defector.com/patriots-emit-foul-odor-in-blowout-loss-to-packers",
+    "urlToImage": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/11/GettyImages-2304203277.jpg",
+    "publishedAt": "2026-11-09T18:06:00Z",
+    "content": "Things have to be really bad for the New England Patriots if even Christian Gonzalez is dropping a stinker. The All-Pro cornerback has been one of the most consistent players on a Pats team that has \u2026 [+5557 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Variety"
+    },
+    "author": "Steven J. Horowitz",
+    "title": "Paul McCartney Becomes a Billionaire, Making Him the World\u2019s Third-Richest Musician - Variety",
+    "description": "Forbes estimates that the singer-songwriter makes the bulk of his fortune from catalog, touring, art and more.",
+    "url": "https://variety.com/2026/music/news/paul-mccartney-becomes-billionaire-third-richest-musician-1236943191/",
+    "urlToImage": "https://variety.com/wp-content/uploads/2026/05/1981727968-e1778548978740.jpg?w=1000&h=563&crop=1",
+    "publishedAt": "2026-11-09T18:05:00Z",
+    "content": "Paul McCartney has joined the pantheon of billionaires as Forbes has ranked his net worth at approximately $1.4 billion.\r\nThe publication gave Sir Paul the designation with the launch of its newslett\u2026 [+1737 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Hollywood Reporter"
+    },
+    "author": "Borys Kit",
+    "title": "DC Studios Shocker: James Gunn, Peter Safran Stepping Down with Marvel Alum Jeremy Latcham to Take Over - The Hollywood Reporter",
+    "description": "The duo were believed to be safe amid the Skydance takeover of Warner Bros., but now have a former Kevin Feige protege taking over their division.",
+    "url": "http://www.hollywoodreporter.com/movies/movie-news/dc-studios-shocker-james-gunn-peter-safran-stepping-1236750902/",
+    "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/Jeremy-Latcham-split-with-a-two-shot-of-James-Gunn-Peter-Safran-Split-Getty-H-2026.jpg?w=1296&h=730&crop=1",
+    "publishedAt": "2026-11-09T17:51:21Z",
+    "content": "In a major shakeup that will send shock waves throughout Hollywood and the comic book world, James Gunn and Peter Safran are stepping down as co-CEOs of DC studios.\r\nSkydance, which now oversees the \u2026 [+5454 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "The Seattle Times"
+    },
+    "author": "Lauren Rosenblatt",
+    "title": "Boeing will cut 5% of its commercial airplane workforce - The Seattle Times",
+    "description": "Boeing is trimming its workforce by about 5% and slowing its commercial airplane production ramp-up, the head of Boeing Commercial Airplanes, Stephanie Pope, told employees Monday.",
+    "url": "https://www.seattletimes.com/business/boeing-aerospace/boeing-will-cut-5-of-its-commercial-airplane-workforce/",
+    "urlToImage": "https://images.seattletimes.com/wp-content/uploads/2026/11/11092026_Boeing-Layoffs_tzr_090007.jpg?d=1200x630",
+    "publishedAt": "2026-11-09T17:30:00Z",
+    "content": "Boeing is trimming its workforce by about 5% and slowing its commercial airplane production ramp-up, the head of Boeing Commercial Airplanes, Stephanie Pope, told employees Monday.\r\nThe 5% workforce \u2026 [+1473 chars]"
+   },
+   {
+    "source": {
+     "id": "politico",
+     "name": "Politico"
+    },
+    "author": "Andres Picon",
+    "title": "Murkowski plans to lead Senate Republicans on spending panel - Politico",
+    "description": "The Alaska Republican could elevate energy and environment measures as a leader on the powerful committee.",
+    "url": "https://www.politico.com/live-updates/2026/11/09/congress/murkowski-plans-to-lead-senate-republicans-on-spending-panel-01156364",
+    "urlToImage": "https://www.politico.com/dims4/default/ddc4ccb/2147483647/resize/1200x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Fee%2Ffa%2Fbb0271384e4ebb6e2aaa12d9e586%2Fu-s-congress-88337.jpg",
+    "publishedAt": "2026-11-09T16:53:17Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": "associated-press",
+     "name": "Associated Press"
+    },
+    "author": "Rafal Niedzielski, Claudia Ciobanu, Beata Zawrzel",
+    "title": "Polish gunman who killed 6 in Krakow square dies in a hospital - AP News",
+    "description": "Polish police say a 24-year-old gunman who opened fire in Krakow and killed six people and wounded 15 others has died in a hospital. Micha\u0142 Oksi\u0144ski had driven through the square in the heart of Krakow\u2019s Old Town on Saturday and randomly opened fire. No motiv\u2026",
+    "url": "https://apnews.com/article/poland-krakow-shooting-489bc2e25a2684b96b59682d0faee3e8",
+    "urlToImage": "https://dims.apnews.com/dims4/default/21cd1d0/2147483647/strip/true/crop/8016x5344+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fdf%2F31%2Fa526a5ea326c74c307da8f433ae0%2F490575e2adde4d3b8732ebf1eca313fe",
+    "publishedAt": "2026-11-09T16:23:00Z",
+    "content": "KRAKOW, Poland (AP) People gathered in Krakow s main square on Monday evening for a silent march to commemorate the victims of Saturdays mass shooting, in which a 24-year-old Polish gunman killed six\u2026 [+6292 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Stereogum"
+    },
+    "author": "Margaret Farrell",
+    "title": "Robbie Williams Explains Olivia Rodrigo Tweet: \u201cI\u2019m Not Going After Her\u201d - Stereogum",
+    "description": "Last Thursday, Olivia Rodrigo shared her first-ever Christmas song \u201ctake me home (4 christmas).\u201d It has been surprisingly controversial. Holiday songs already tend to be pretty polarizing \u2014 some people love \u2019em, and some people can\u2019t stand \u2019em (moi). But Rodr\u2026",
+    "url": "https://stereogum.com/2517053/robbie-williams-explains-olivia-rodrigo-tweet-im-not-going-after-her/news",
+    "urlToImage": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Screenshot-2026-11-09-at-2.32.29-PM.png",
+    "publishedAt": "2026-11-09T15:25:00Z",
+    "content": "Last Thursday, Olivia Rodrigo shared her first-ever Christmas song \"take me home (4 christmas).\" It has been surprisingly controversial. Holiday songs already tend to be pretty polarizing some people\u2026 [+3621 chars]"
+   },
+   {
+    "source": {
+     "id": "the-hill",
+     "name": "The Hill"
+    },
+    "author": "Ryan Mancini",
+    "title": "White House staff treated Trump like a \u2018baby\u2019: Calley Means - The Hill",
+    "description": "Calley Means, former aide to Health and Human Services (HHS) Secretary Robert F. Kennedy Jr., on Sunday said in an interview that White House staffers treated President Trump like a \u201cbaby.\u201d Means, who resigned from his position last month, said on CBS News\u2019s \u2026",
+    "url": "https://thehill.com/homenews/administration/6207568-calley-means-trump-baby/",
+    "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2026/08/meanscalley_081026nk01_w.jpg?w=1280",
+    "publishedAt": "2026-11-09T15:14:00Z",
+    "content": "Skip to content\r\nCalley Means, former aide to Health and Human Services (HHS) Secretary Robert F. Kennedy Jr., on Sunday said in an interview that White House staffers treated President Trump like a \u2026 [+2907 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "CBS Sports"
+    },
+    "author": "",
+    "title": "2026 NFL trade deadline live updates: Latest rumors, buzz and news in final two days to make deals - CBS Sports",
+    "description": "Keep it locked here for all the news ahead of the Nov. 10 cutoff",
+    "url": "https://www.cbssports.com/nfl/news/2026-nfl-trade-deadline-live-updates-latest-rumors-buzz-news/live/",
+    "urlToImage": "https://sportshub.cbsistatic.com/i/r/2026/11/09/682f4508-41ba-4b6b-9142-d8adf32c9c70/thumbnail/1200x675/50037a3aebbfcf54727be8beff6fa0c2/jonathan-taylor.jpg",
+    "publishedAt": "2026-11-09T14:32:12Z",
+    "content": "Deal or no deal? It's that time of year again when GMs across the NFL are working the phones to wheel and deal before the 2026 trade deadline hits on Tuesday, Nov. 10 at 4 p.m. ET.\u00a0\r\nSome clubs are w\u2026 [+1099 chars]"
+   }
+  ]
+ }
+}
