@@ -1,7 +1,10 @@
 """Streamlit front end reusing the data, analytics and figures from app.py."""
 import base64
+import hashlib
 import os
+import sys
 from html import escape
+from pathlib import Path
 
 import pandas as pd
 import streamlit as st
@@ -18,13 +21,22 @@ except Exception:   # running locally without a secrets file: keys come from .en
     pass
 
 
+def code_version():
+    """Changes whenever app.py or a buffalo/ file changes, so a new push reloads the code."""
+    files = ["app.py"] + sorted(str(p) for p in Path("buffalo").glob("*.py"))
+    return hashlib.sha1(b"".join(Path(f).read_bytes() for f in files)).hexdigest()
+
+
 @st.cache_resource(show_spinner="Loading the news (first run takes a minute)...")
-def load_core():
+def load_core(version):
+    # Streamlit Cloud does not restart Python after a push, so drop the old modules before importing
+    for name in [m for m in sys.modules if m == "app" or m == "buffalo" or m.startswith("buffalo.")]:
+        del sys.modules[name]
     import app as core          # loads data, NLP, entities, echo scores, audits once
     return core
 
 
-A = load_core()
+A = load_core(code_version())
 from buffalo import analytics  # noqa: E402  (after the cached import so paths/env are set)
 from buffalo import newsroom  # noqa: E402
 
