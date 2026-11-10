@@ -166,6 +166,30 @@ def _tts(text, voice_id):
     return resp.content
 
 
+def _tts_error(exc):
+    """Readable status for a failed ElevenLabs call, using ElevenLabs' own reason when it sends one."""
+    if isinstance(exc, requests.HTTPError):
+        is_json = "json" in exc.response.headers.get("Content-Type", "")
+        detail = exc.response.json().get("detail", {}) if is_json else {}
+        reason = detail.get("message", "") if isinstance(detail, dict) else str(detail)
+        return f"ElevenLabs error {exc.response.status_code}: {reason[:120]}"
+    return f"ElevenLabs request failed ({type(exc).__name__})"
+
+
+def speak(text):
+    """Read one text aloud with the anchor voice. Returns (data URI or None, status). Cached per text."""
+    voice = _voices()[0]
+    path = AUDIO_DIR / f"story_{_key(text, voice)}.mp3"
+    if not path.exists():
+        if not config.ELEVENLABS_API_KEY:
+            return None, "Add ELEVENLABS_API_KEY to .env to listen"
+        try:
+            path.write_bytes(_tts(text, voice))
+        except requests.RequestException as exc:
+            return None, _tts_error(exc)
+    return "data:audio/mpeg;base64," + base64.b64encode(path.read_bytes()).decode(), "ElevenLabs"
+
+
 def radio_bulletin(bulletin):
     """Anchor voice for intro/outro, other voices rotate per section. Returns (data URI, script, status)."""
     voices = _voices()
@@ -181,13 +205,8 @@ def radio_bulletin(bulletin):
             return None, script, "Add ELEVENLABS_API_KEY to .env to hear the bulletin"
         try:
             audio = b"".join(_tts(text, voices[v]) for _, v, text in script)
-        except requests.HTTPError as exc:
-            # show ElevenLabs' own reason, e.g. "voice needs a paid plan"
-            detail = exc.response.json().get("detail", {}) if "json" in exc.response.headers.get("Content-Type", "") else {}
-            reason = detail.get("message", "") if isinstance(detail, dict) else str(detail)
-            return None, script, f"ElevenLabs error {exc.response.status_code}: {reason[:120]}"
         except requests.RequestException as exc:
-            return None, script, f"ElevenLabs request failed ({type(exc).__name__})"
+            return None, script, _tts_error(exc)
         path.write_bytes(audio)
         status = "ElevenLabs, live"
     else:

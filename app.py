@@ -6,7 +6,7 @@ import zipfile
 
 import pandas as pd
 import plotly.graph_objects as go
-from dash import Dash, Input, Output, State, ctx, dash_table, dcc, html, no_update
+from dash import MATCH, Dash, Input, Output, State, ctx, dash_table, dcc, html, no_update
 
 from buffalo import ai_summary
 from buffalo import analytics
@@ -163,7 +163,8 @@ def header():
                   html.H1(["The Buffalo ", html.Span("Times")], className="title")]),
         html.Div([html.Span(badge, className="badge live" if IS_LIVE else "badge"),
                   html.Span(f"{DF['uid'].nunique() if not DF.empty else 0} headlines · {len(SNAPS)} dates", className="badge"),
-                  html.Button("Light mode", id="theme-btn", className="theme-btn", n_clicks=0)],
+                  html.Button(html.Span(className="icon-sun"), id="theme-btn", className="theme-btn", n_clicks=0,
+                              title="Switch to light mode", **{"aria-label": "Switch between light and dark mode"})],
                  className="badges"),
     ], className="masthead")
 
@@ -329,31 +330,40 @@ def toggle_theme(n_clicks, current):
 
 def apply_theme(theme):
     theme = theme or "dark"
-    return f"app theme-{theme}", ("Dark mode" if theme == "light" else "Light mode")
+    # the button shows the mode you would switch TO: a sun in dark mode, a moon in light mode
+    icon = html.Span(className="icon-moon" if theme == "light" else "icon-sun")
+    title = "Switch to dark mode" if theme == "light" else "Switch to light mode"
+    return f"app theme-{theme}", icon, title
 
 
 app.callback(Output("theme", "data"), Input("theme-btn", "n_clicks"), State("theme", "data"))(toggle_theme)
-app.callback(Output("root", "className"), Output("theme-btn", "children"), Input("theme", "data"))(apply_theme)
+app.callback(Output("root", "className"), Output("theme-btn", "children"), Output("theme-btn", "title"),
+             Input("theme", "data"))(apply_theme)
 
 
 # briefing
 STORY_MATCH = 0.10   # a headline counts toward a story when its similarity to the story is at least this
 
 
-def story_card(number, cluster, matched):
+def story_card(i, cluster, matched):
     counts = matched["category"].value_counts()
     total = int(counts.sum())
     # stacked bar: one colored segment per category, width = its share of the story's headlines
     bar = html.Div([html.Span(style={"width": f"{n / total:.0%}", "background": CAT_COLORS.get(c, "#999")}, title=f"{c.title()}: {n}")
                     for c, n in counts.items()], className="story-bar") if total else None
     meta = f"{total} headline{'s' if total != 1 else ''} · " + ", ".join(c.title() for c in counts.index) if total else "No matching headlines"
-    links = [html.Li(html.A(r.title, href=r.url, target="_blank")) for r in matched.head(2).itertuples()]
+    # all matched headlines are listed; CSS shows only the first two until "Read more" is clicked
+    links = [html.Li(html.A(r.title, href=r.url, target="_blank")) for r in matched.itertuples()]
     return html.Div([
-        html.Div([html.Span(str(number), className="story-num"), html.H4(cluster.get("title", ""))], className="story-head"),
+        html.Div([html.Span(str(i + 1), className="story-num"), html.H4(cluster.get("title", ""))], className="story-head"),
         html.P(cluster.get("summary", ""), className="story-text"),
         bar, html.Div(meta, className="story-meta"),
         html.Ul(links, className="story-links") if links else None,
-    ], className="story")
+        html.Div([html.Button("Read more", id={"type": "story-more", "index": i}, className="link-btn", n_clicks=0),
+                  html.Button([html.Span(className="icon-speaker"), "Listen"], id={"type": "story-listen", "index": i},
+                              className="link-btn", n_clicks=0, title="Read this story aloud")], className="story-actions"),
+        dcc.Loading(html.Div(id={"type": "story-audio", "index": i}), type="dot"),
+    ], id={"type": "story", "index": i}, className="story")
 
 
 def summary_cards(snap):
@@ -367,7 +377,7 @@ def summary_cards(snap):
     stories = []
     for i, cluster in enumerate(summ["clusters"]):
         matched = heads[(heads["cluster"] == i) & (heads["similarity"] >= STORY_MATCH)].sort_values("similarity", ascending=False)
-        stories.append(story_card(i + 1, cluster, matched))
+        stories.append(story_card(i, cluster, matched))
     return card(title, "AI summary grouped into stories. The colored bar shows which categories each story's headlines come from.",
                 html.P(summ.get("global_summary", ""), className="lede"),
                 html.Div(stories, className="stories"), wide=True)
@@ -428,6 +438,33 @@ def update_briefing(snap, cats, theme):
 app.callback(Output("b-summary", "children"), Output("b-sent", "figure"), Output("b-pol", "figure"),
              Output("b-catpol", "figure"), Output("b-opinion", "figure"), Output("b-table", "data"),
              Input("b-snap", "value"), Input("b-cats", "value"), Input("theme", "data"))(update_briefing)
+
+
+# story cards: each card has its own buttons, matched by index (MATCH = the card that was clicked)
+def toggle_story(n_clicks, class_name):
+    is_open = "open" in (class_name or "")
+    return ("story" if is_open else "story open"), ("Read more" if is_open else "Show less")
+
+
+app.callback(Output({"type": "story", "index": MATCH}, "className"), Output({"type": "story-more", "index": MATCH}, "children"),
+             Input({"type": "story-more", "index": MATCH}, "n_clicks"), State({"type": "story", "index": MATCH}, "className"),
+             prevent_initial_call=True)(toggle_story)
+
+
+def listen_story(n_clicks, button_id, snap):
+    clusters = SUMMARIES.get(snap, {}).get("clusters", [])
+    if button_id["index"] >= len(clusters):
+        return no_update
+    story = clusters[button_id["index"]]
+    uri, status = newsroom.speak(f"{story.get('title', '')}. {story.get('summary', '')}")
+    if not uri:
+        return html.Div(status, className="story-meta")
+    return html.Audio(src=uri, controls=True, autoPlay=True, className="story-audio")
+
+
+app.callback(Output({"type": "story-audio", "index": MATCH}, "children"),
+             Input({"type": "story-listen", "index": MATCH}, "n_clicks"), State({"type": "story-listen", "index": MATCH}, "id"),
+             State("b-snap", "value"), prevent_initial_call=True)(listen_story)
 
 
 def update_agreement(theme):
