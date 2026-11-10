@@ -2,7 +2,9 @@
 
 **Assignment:** Extra credits- EAS 503
 **Student:** Shruti Priya (50757311)
-**Demo video:** [VIDEO_URL]
+**Demo video:** [VIDEO_URL]  
+**Live app:** https://newsappeas503-ihbxry75s9tguguaepuerb.streamlit.app  
+**Notebook walkthrough:** [Buffalo_Times.ipynb](Buffalo_Times.ipynb) (runs offline, outputs included)
 
 ## Summary
 
