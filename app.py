@@ -371,19 +371,34 @@ def story_card(i, cluster, matched):
     ], id={"type": "story", "index": i}, className="story")
 
 
-def top_headlines(snap, cats, per_category=3):
-    """The first headlines NewsAPI returned for each category (NewsAPI's order is its 'top' order)."""
+TILES_PER_LOAD = 3   # top headlines shown at first, and added per "Load more" click
+
+
+def headline_tiles(snap, cats, count):
+    """The first `count` top headlines as tiles. Returns (tiles, how many exist)."""
     sub = analytics.unique_articles(DF[DF["snapshot"] == snap])
-    chosen = cats or CATS
-    items = []
-    for c in chosen:
-        for r in sub[sub["category"] == c].head(per_category).itertuples():
-            items.append(html.Div([html.A([dot(c), r.title], href=r.url, target="_blank"),
-                                   html.Span(f"{r.source} · {c.title()}", className="meta"),
-                                   html.Span(r.description[:220], className="meta") if r.description else None],
-                                  className="list-item"))
-    names = ", ".join(c.title() for c in chosen) if cats else "each category"
-    return html.Div([html.H4(f"Top headlines in {names}", className="list-title")] + items) if items else None
+    sub = sub[sub["category"].isin(cats or CATS)].copy()
+    # NewsAPI's order within a category is its "top" order; interleave categories by that rank
+    sub["rank"] = sub.groupby("category").cumcount()
+    sub = sub.sort_values("rank", kind="stable")
+    tiles = [html.Div([
+        html.Div([dot(r.category), r.category.title(), " · ", r.source], className="story-meta"),
+        html.A(r.title, href=r.url, target="_blank", className="tile-title"),
+        html.P(r.description, className="story-text") if r.description else None,
+        html.A("Read full article ↗", href=r.url, target="_blank", className="tile-link"),
+    ], className="story") for r in sub.head(count).itertuples()]
+    return tiles, len(sub)
+
+
+def top_headlines(snap, cats):
+    tiles, total = headline_tiles(snap, cats, TILES_PER_LOAD)
+    if not tiles:
+        return None
+    names = ", ".join(c.title() for c in cats) if cats else "all categories"
+    more = html.Button("Load more", id="b-top-more", className="link-btn", n_clicks=0,
+                       style=None if total > TILES_PER_LOAD else {"display": "none"})
+    return html.Div([html.H4(f"Top headlines in {names}", className="list-title"),
+                     html.Div(tiles, id="b-top-tiles", className="stories"), more], className="top-block")
 
 
 def summary_cards(snap, cats=None):
@@ -413,7 +428,7 @@ def summary_cards(snap, cats=None):
     intro = ("AI stories that draw on these categories, then the top headlines from them." if stories
              else "No AI story draws on these categories today, so here are their top headlines.")
     return card(title, intro, html.Div(stories, className="stories") if stories else None,
-                top_headlines(snap, cats, per_category=5), wide=True)
+                top_headlines(snap, cats), wide=True)
 
 
 def update_briefing(snap, cats, theme):
@@ -547,6 +562,17 @@ def listen_story(n_clicks, button_id, snap):
 app.callback(Output({"type": "story-audio", "index": MATCH}, "children"),
              Input({"type": "story-listen", "index": MATCH}, "n_clicks"), State({"type": "story-listen", "index": MATCH}, "id"),
              State("b-snap", "value"), prevent_initial_call=True)(listen_story)
+
+
+def load_more_headlines(n_clicks, snap, cats):
+    count = TILES_PER_LOAD * (n_clicks + 1)          # 3, then 6, 9, ...
+    tiles, total = headline_tiles(snap, cats, count)
+    return tiles, ({"display": "none"} if count >= total else None)   # hide the button when all are shown
+
+
+app.callback(Output("b-top-tiles", "children"), Output("b-top-more", "style"),
+             Input("b-top-more", "n_clicks"), State("b-snap", "value"), State("b-cats", "value"),
+             prevent_initial_call=True)(load_more_headlines)
 
 
 def update_agreement(theme):

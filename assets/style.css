@@ -170,3 +170,12 @@ body {
 .list-title { margin: 8px 0 0; font-size: 14px; }
 .list-item a { color: var(--text); text-decoration: none; font-weight: 600; }
 .list-item a:hover { color: var(--accent); text-decoration: underline; }
+
+/* top headline tiles */
+.top-block { display: flex; flex-direction: column; gap: 12px; }
+.tile-title { color: var(--text); font-size: 15px; font-weight: 700; line-height: 1.35; text-decoration: none; }
+.tile-title:hover { color: var(--accent); text-decoration: underline; }
+.tile-link { margin-top: auto; font-size: 13px; font-weight: 600; color: var(--accent); text-decoration: none; }
+.tile-link:hover { text-decoration: underline; }
+.story-meta .dot { vertical-align: baseline; }
+.top-block .link-btn { align-self: flex-start; }
