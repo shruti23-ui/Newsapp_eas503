@@ -1,7 +1,7 @@
 # The Buffalo Times: News Intelligence Dashboard
 
-**Assignment:** Extra credit, three missed opportunities in the class news app
-**Student:** Shruti Priya
+**Assignment:** Extra credits- EAS 503
+**Student:** Shruti Priya (50757311)
 **Demo video:** [VIDEO_URL]
 
 ## Summary
