@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Buffalo Times · News Intelligence Dashboard</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap">
+<style>
+:root{--bg:#0F1A2B;--panel:#17253B;--panel2:#1D2D47;--border:#2A3D5E;--text:#E8EEF6;--muted:#A3B3CC;--accent:#7CC4FA;--on:#0F1A2B;--warn:#F2A65A}
+:root.light{--bg:#F4F6F9;--panel:#FFF;--panel2:#EEF2F7;--border:#D5DCE6;--text:#17202E;--muted:#4F5E74;--accent:#1F6FB5;--on:#FFF;--warn:#B45309}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Archivo,system-ui,sans-serif;line-height:1.55}
+a{color:var(--accent)}main{max-width:1120px;margin:0 auto;padding:32px 24px 64px}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px}
+.kicker{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+h1{margin:4px 0 0;font-size:clamp(36px,6vw,60px);line-height:1;font-weight:800;font-stretch:125%}h1 span{color:var(--accent)}
+h2{font-size:26px;margin:0}h3{margin:0;font-size:17px}
+.lead{font-size:18px;color:var(--muted);max-width:760px}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}
+.btn{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:8px;font-weight:600;text-decoration:none;border:1px solid var(--accent)}
+.btn.primary{background:var(--accent);color:var(--on)}
+button.toggle{min-height:40px;padding:0 16px;border-radius:999px;border:1px solid var(--accent);background:transparent;color:var(--text);font:inherit;font-weight:600;cursor:pointer}
+section{margin-top:40px;display:flex;flex-direction:column;gap:14px}
+.tag{font-size:12px;font-weight:700;padding:3px 8px;border-radius:4px;background:var(--accent);color:var(--on);align-self:flex-start}
+.grid{display:flex;flex-wrap:wrap;gap:16px}
+.card{flex:1 1 320px;min-width:0;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:18px}
+.kpi{font-size:40px;font-weight:800;font-stretch:112%}.kpi.warn{color:var(--warn)}.muted{color:var(--muted);font-size:14px}
+.chart{width:100%;height:340px}.video{aspect-ratio:16/9;width:100%;border:1px dashed var(--border);border-radius:12px;display:flex;align-items:center;justify-content:center;color:var(--muted);padding:16px;text-align:center}
+ul{padding-left:20px}li{margin:6px 0}code{background:var(--panel2);padding:2px 6px;border-radius:4px}
+pre{background:var(--panel2);border:1px solid var(--border);border-radius:8px;padding:14px;overflow-x:auto}
+footer{margin-top:48px;color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div><div class="kicker">EAS 503 · News Intelligence Dashboard</div><h1>The Buffalo <span>Times</span></h1></div>
+  <button class="toggle" id="toggle" type="button">Light mode</button>
+</header>
+
+<p class="lead">The class news app collected a lot it never used. This project turns three of those missed opportunities
+into analysis: who the news is about, how much of it repeats itself, and whether the AI summary can be trusted.
+Every number on this page is computed from <span id="n"></span> real headlines in <span id="s"></span> saved NewsAPI snapshots.</p>
+
+<div class="btns">
+  <a class="btn primary" href="[STREAMLIT_APP_URL]">Open the live demo</a>
+  <a class="btn" href="[GITHUB_REPO_URL]">Code on GitHub</a>
+  <a class="btn" href="[VIDEO_URL]">Watch the 3-minute video</a>
+</div>
+
+<div class="video">[Paste your video embed here, e.g. a YouTube iframe, or keep the button above]</div>
+
+<section>
+  <span class="tag">EC 1 · Entity Explorer</span>
+  <h2>Who is the news about?</h2>
+  <p class="muted">spaCy entities were computed in class but never used. The small model mislabels Title Case headlines
+  ("AI" as a country, "Donald Trump" as an organization), so a rule list corrects known names before counting.
+  Bar color = average headline polarity.</p>
+  <div class="card"><div id="ents" class="chart"></div></div>
+</section>
+
+<section>
+  <span class="tag">EC 2 · Echo Index</span>
+  <h2>Is today's news actually new?</h2>
+  <p class="muted">Every headline is compared (TF-IDF cosine) with all earlier snapshots. Echo = similarity to its closest earlier headline.</p>
+  <div class="grid">
+    <div class="card"><h3>Mean echo per snapshot</h3><div id="echo" class="chart"></div></div>
+    <div class="card"><h3>Echo by category, <span id="f1"></span></h3><div id="echocat" class="chart"></div></div>
+  </div>
+  <div class="card"><h3>Déjà vu</h3><ul id="deja"></ul></div>
+</section>
+
+<section>
+  <span class="tag">EC 3 · Newsroom Check</span>
+  <h2>Can we trust the AI summary?</h2>
+  <p class="muted">Gemini's JSON summary was never parsed in class. Here every headline is matched to the summary's story clusters
+  (TF-IDF cosine ≥ <span id="th"></span>). In the app, weak claims are then checked with Tavily, Gemini rewrites the summary,
+  the same metric re-scores it, and ElevenLabs reads it aloud.</p>
+  <div class="grid">
+    <div class="card"><div class="muted">Headlines represented</div><div class="kpi" id="rep"></div><div class="muted" id="rep2"></div></div>
+    <div class="card"><div class="muted">Categories left out entirely</div><div class="kpi warn" id="miss"></div><div class="muted" id="miss2"></div></div>
+  </div>
+  <div class="card"><h3>Coverage by category</h3><div id="cov" class="chart"></div></div>
+  <div class="card"><h3>Weakest claims in the summary</h3><ul id="weak"></ul></div>
+</section>
+
+<section>
+  <span class="tag">Also new</span>
+  <h2>Opinion map</h2>
+  <p class="muted">TextBlob subjectivity was computed in class but never shown. Hover a dot to read the headline.</p>
+  <div class="card"><div id="opinion" class="chart" style="height:420px"></div></div>
+</section>
+
+<section>
+  <h2>Run it yourself</h2>
+<pre>git clone [GITHUB_REPO_URL]
+cd buffalo_times
+pip install -r requirements.txt
+python app.py              # Dash app, http://127.0.0.1:8080
+streamlit run streamlit_app.py   # same analysis in Streamlit</pre>
+  <p class="muted">Without API keys it runs in demo mode on the saved class snapshots.</p>
+</section>
+
+<footer>Built for EAS 503. Data: NewsAPI (saved class snapshots), Gemini output saved in class, Yahoo Finance.
+This page is static and was generated by <code>scripts/build_pages.py</code>.</footer>
+</main>
+
+<script src="data.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/plotly.js-dist-min@2.35.2/plotly.min.js"></script>
+<script>
+const D = window.BT, $ = id => document.getElementById(id);
+$("n").textContent = D.n_headlines; $("s").textContent = D.n_snapshots; $("f1").textContent = D.focus; $("th").textContent = D.audit.threshold;
+$("rep").textContent = Math.round(100 * D.audit.represented / D.audit.total) + "%";
+$("rep2").textContent = `${D.audit.represented} of ${D.audit.total} headlines on ${D.focus}`;
+$("miss").textContent = `${D.audit.missing.length} of ${D.audit.cats.length}`; $("miss2").textContent = D.audit.missing.join(", ");
+D.echo.deja.forEach(d => { const li = document.createElement("li"); li.innerHTML = `<b></b> (echo ${d.echo})<br><span class="muted"></span>`;
+  li.querySelector("b").textContent = d.title; li.querySelector(".muted").textContent = `Closest earlier (${d.when}): ${d.of}`; $("deja").append(li); });
+D.audit.weak.forEach(w => { const li = document.createElement("li"); li.textContent = `“${w.sentence}” · support ${w.support}`; $("weak").append(li); });
+
+function colors() { const s = getComputedStyle(document.documentElement);
+  return { text: s.getPropertyValue("--text").trim(), grid: s.getPropertyValue("--border").trim(), accent: s.getPropertyValue("--accent").trim() }; }
+function draw() {
+  const c = colors(), cfg = { displayModeBar: false, responsive: true };
+  const base = { paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)", font: { family: "Archivo, sans-serif", color: c.text },
+    margin: { l: 10, r: 10, t: 10, b: 40 }, xaxis: { gridcolor: c.grid, automargin: true }, yaxis: { gridcolor: c.grid, automargin: true } };
+  const e = D.entities;
+  Plotly.react("ents", [{ type: "bar", orientation: "h", x: [...e.mentions].reverse(), y: [...e.name].reverse(),
+    marker: { color: [...e.polarity].reverse(), colorscale: [[0, "#F2994A"], [0.5, "#8C9AB3"], [1, "#4C9BE8"]], cmin: -0.5, cmax: 0.5 } }],
+    { ...base, xaxis: { ...base.xaxis, title: "Headlines mentioning" } }, cfg);
+  Plotly.react("echo", [{ x: D.echo.x, y: D.echo.y, mode: "lines+markers", line: { color: c.accent, width: 3 } }],
+    { ...base, yaxis: { ...base.yaxis, title: "Mean echo", rangemode: "tozero" } }, cfg);
+  Plotly.react("echocat", [{ type: "bar", orientation: "h", x: D.echo.cat_y, y: D.echo.cats, marker: { color: D.echo.cats.map(k => D.cat_colors[k]) } }],
+    { ...base }, cfg);
+  Plotly.react("cov", [{ type: "bar", orientation: "h", x: D.audit.share, y: D.audit.cats, text: D.audit.share.map(v => v + "%"), textposition: "outside",
+    marker: { color: D.audit.cats.map(k => D.cat_colors[k]) } }], { ...base, xaxis: { ...base.xaxis, range: [0, 110], title: "% represented" } }, cfg);
+  Plotly.react("opinion", Object.entries(D.opinion).map(([k, v]) => ({ x: v.x, y: v.y, text: v.t, name: k, mode: "markers", type: "scatter",
+    marker: { color: D.cat_colors[k], size: 9, opacity: 0.8 }, hovertemplate: "%{text}<extra></extra>" })),
+    { ...base, xaxis: { ...base.xaxis, title: "Polarity" }, yaxis: { ...base.yaxis, title: "Subjectivity" }, legend: { orientation: "h", y: -0.2 } }, cfg);
+}
+$("toggle").addEventListener("click", () => { const r = document.documentElement; r.classList.toggle("light");
+  $("toggle").textContent = r.classList.contains("light") ? "Dark mode" : "Light mode"; draw(); });
+draw();
+</script>
+</body>
+</html>

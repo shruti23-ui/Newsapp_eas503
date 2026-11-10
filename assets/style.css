@@ -1,0 +1,103 @@
+/* The Buffalo Times - Dash serves every file in assets/ automatically.
+   Two themes are CSS variables; the theme button swaps the root class. */
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap");
+
+.theme-dark {
+  --bg: #0F1A2B; --panel: #17253B; --panel2: #1D2D47; --border: #2A3D5E;
+  --text: #E8EEF6; --muted: #A3B3CC; --accent: #7CC4FA; --on-accent: #0F1A2B; --warn: #F2A65A;
+}
+.theme-light {
+  --bg: #F4F6F9; --panel: #FFFFFF; --panel2: #EEF2F7; --border: #D5DCE6;
+  --text: #17202E; --muted: #4F5E74; --accent: #1F6FB5; --on-accent: #FFFFFF; --warn: #B45309;
+}
+
+body { margin: 0; }
+.app { min-height: 100vh; background: var(--bg); color: var(--text);
+       font-family: "Archivo", system-ui, -apple-system, sans-serif; }
+a { color: var(--accent); }
+
+/* ---------- header and tickers ---------- */
+.masthead { max-width: 1360px; margin: 0 auto; padding: 24px 32px 14px; display: flex;
+            flex-wrap: wrap; gap: 16px; align-items: flex-end; justify-content: space-between; }
+.kicker { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.title { margin: 2px 0 0; font-size: 44px; line-height: 1; font-weight: 800; font-stretch: 125%; }
+.title span { color: var(--accent); }
+.badges { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.badge { font-size: 13px; color: var(--muted); border: 1px solid var(--border);
+         border-radius: 999px; padding: 6px 12px; }
+.theme-btn { min-height: 40px; padding: 0 16px; border-radius: 999px; cursor: pointer;
+             border: 1px solid var(--accent); background: transparent; color: var(--text);
+             font: inherit; font-weight: 600; }
+
+.ticker { display: flex; align-items: center; gap: 16px; padding: 9px 0; overflow: hidden;
+          background: var(--panel); border-top: 1px solid var(--border); }
+.ticker:last-of-type { border-bottom: 1px solid var(--border); }
+.ticker-label { flex: none; margin-left: 32px; font-size: 12px; font-weight: 700; letter-spacing: .1em;
+                padding: 3px 8px; border-radius: 4px; background: var(--accent); color: var(--on-accent); }
+.ticker-window { overflow: hidden; flex: 1; }
+.ticker-track { display: flex; gap: 48px; width: max-content; white-space: nowrap; font-size: 14px;
+                animation: scroll 70s linear infinite; }
+.ticker-track.fast { animation-duration: 50s; color: var(--muted); }
+.ticker-track b { color: var(--text); }
+@keyframes scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .ticker-track { animation: none; } }
+
+/* ---------- tabs ---------- */
+.tabs-wrap { max-width: 1360px; margin: 0 auto; padding: 18px 32px 48px; }
+.tab { background: transparent !important; color: var(--muted) !important; border: 1px solid var(--border) !important;
+       border-radius: 8px !important; margin-right: 8px; padding: 10px 16px !important; font-weight: 600; }
+.tab--selected { color: var(--text) !important; border-color: var(--accent) !important; background: var(--panel2) !important; }
+.ec-tag { margin-left: 8px; font-size: 11px; font-weight: 700; padding: 2px 6px; border-radius: 4px;
+          background: var(--accent); color: var(--on-accent); }
+
+/* ---------- layout pieces ---------- */
+.section { display: flex; flex-direction: column; gap: 18px; padding-top: 18px; }
+.intro { margin: 0; max-width: 1000px; font-size: 14px; line-height: 1.55; color: var(--muted); }
+.row { display: flex; flex-wrap: wrap; gap: 18px; }
+.card { flex: 1 1 420px; min-width: 0; background: var(--panel); border: 1px solid var(--border);
+        border-radius: 12px; padding: 18px; display: flex; flex-direction: column; gap: 12px; }
+.card.wide { flex-basis: 100%; }
+.card h3 { margin: 0; font-size: 17px; }
+.card .sub { margin: 0; font-size: 13px; line-height: 1.45; color: var(--muted); }
+.controls { display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-end; }
+.control { display: flex; flex-direction: column; gap: 6px; min-width: 200px; flex: 1 1 200px; }
+.control label, .label { font-size: 13px; font-weight: 600; color: var(--muted); }
+
+.kpi { flex: 1 1 200px; background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+.kpi .k-label { font-size: 13px; color: var(--muted); }
+.kpi .k-value { font-size: 36px; font-weight: 800; font-stretch: 112%; }
+.kpi .k-note { font-size: 13px; color: var(--muted); }
+.warn { color: var(--warn); }
+
+.mini { background: var(--panel2); border: 1px solid var(--border); border-radius: 10px; padding: 14px;
+        flex: 1 1 260px; min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+.mini h4 { margin: 0; font-size: 14px; }
+.mini p, .mini li { margin: 0; font-size: 13px; line-height: 1.5; color: var(--muted); }
+.list-item { display: flex; flex-direction: column; gap: 4px; padding: 10px 0; border-top: 1px solid var(--border);
+             font-size: 14px; line-height: 1.45; }
+.list-item .meta { font-size: 13px; color: var(--muted); }
+.chip { display: inline-block; font-size: 13px; border: 1px solid var(--border); border-radius: 999px;
+        padding: 5px 11px; margin: 0 6px 6px 0; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; }
+.btn { min-height: 44px; padding: 0 18px; border-radius: 8px; cursor: pointer; font: inherit; font-weight: 600;
+       background: var(--accent); color: var(--on-accent); border: none; align-self: flex-start; }
+.notice { font-size: 13px; color: var(--muted); border: 1px dashed var(--border); border-radius: 8px; padding: 10px 12px; }
+
+/* ---------- Dash core component theming ---------- */
+.Select-control, .Select-menu-outer, .Select-value-label, .dash-dropdown .Select-control {
+  background: var(--panel2) !important; color: var(--text) !important; border-color: var(--border) !important; }
+.Select-value-label, .Select-placeholder, .Select-input > input { color: var(--text) !important; }
+.Select-option { background: var(--panel2) !important; color: var(--text) !important; }
+.Select-option.is-focused { background: var(--border) !important; }
+.Select--multi .Select-value { background: var(--panel) !important; color: var(--text) !important; border-color: var(--border) !important; }
+.dash-dropdown, .dash-dropdown * { color: var(--text); }
+.rc-slider-track { background: var(--accent) !important; }
+.rc-slider-handle { border-color: var(--accent) !important; }
+.rc-slider-mark-text { color: var(--muted) !important; }
+.checklist label { margin-right: 14px; font-size: 14px; }
+
+@media (max-width: 700px) {
+  .title { font-size: 32px; }
+  .masthead, .tabs-wrap { padding-left: 16px; padding-right: 16px; }
+  .ticker-label { margin-left: 16px; }
+}

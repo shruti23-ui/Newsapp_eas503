@@ -1,0 +1,5 @@
+# Optional: zero-shot sentiment with facebook/bart-large-mnli (class P10).
+# ~2 GB download the first time. Without it the app falls back to TextBlob
+# labels and the sentiment agreement panel explains why it is empty.
+transformers>=4.40
+torch>=2.2
