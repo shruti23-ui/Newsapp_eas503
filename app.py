@@ -371,7 +371,24 @@ def story_card(i, cluster, matched):
     ], id={"type": "story", "index": i}, className="story")
 
 
-TILES_PER_LOAD = 3   # top headlines shown at first, and added per "Load more" click
+ROW = 4   # cards per row in the filtered view; "Load more" adds one more row
+
+
+def story_cards(snap, cats):
+    """AI story cards. With a category filter, only stories that use headlines from those categories."""
+    summ = SUMMARIES.get(snap)
+    if not summ:
+        return []
+    heads = AUDITS[snap]["heads"]
+    if cats:
+        heads = heads[heads["category"].isin(cats)]   # keep only headlines from the selected categories
+    cards = []
+    for i, cluster in enumerate(summ["clusters"]):
+        matched = heads[(heads["cluster"] == i) & (heads["similarity"] >= STORY_MATCH)].sort_values("similarity", ascending=False)
+        if cats and matched.empty:
+            continue   # with a category filter, skip stories that have no headline from it
+        cards.append(story_card(i, cluster, matched))
+    return cards
 
 
 def headline_tiles(snap, cats, count):
@@ -384,21 +401,26 @@ def headline_tiles(snap, cats, count):
     tiles = [html.Div([
         html.Div([dot(r.category), r.category.title(), " · ", r.source], className="story-meta"),
         html.A(r.title, href=r.url, target="_blank", className="tile-title"),
-        html.P(r.description, className="story-text") if r.description else None,
-        html.A("Read full article ↗", href=r.url, target="_blank", className="tile-link"),
-    ], className="story") for r in sub.head(count).itertuples()]
+        html.P(r.description, className="story-text tile-text") if r.description else None,
+        html.Div([html.Button("Read more", id={"type": "tile-more", "index": i}, className="link-btn", n_clicks=0),
+                  html.A("Full article ↗", href=r.url, target="_blank", className="tile-link")], className="story-actions"),
+    ], id={"type": "tile", "index": i}, className="story") for i, r in enumerate(sub.head(count).itertuples())]
     return tiles, len(sub)
 
 
-def top_headlines(snap, cats):
-    tiles, total = headline_tiles(snap, cats, TILES_PER_LOAD)
-    if not tiles:
-        return None
-    names = ", ".join(c.title() for c in cats) if cats else "all categories"
-    more = html.Button("Load more", id="b-top-more", className="link-btn", n_clicks=0,
-                       style=None if total > TILES_PER_LOAD else {"display": "none"})
-    return html.Div([html.H4(f"Top headlines in {names}", className="list-title"),
-                     html.Div(tiles, id="b-top-tiles", className="stories"), more], className="top-block")
+def filtered_grid(snap, cats, rows):
+    """AI stories first, then headline tiles, so the grid fills `rows` full rows. Returns (cards, more left?)."""
+    stories = story_cards(snap, cats) if cats else []
+    n_tiles = ROW * rows - len(stories) % ROW      # e.g. 1 story -> 3 tiles complete the first row
+    tiles, total = headline_tiles(snap, cats, n_tiles)
+    return stories + tiles, n_tiles < total
+
+
+def headline_section(snap, cats):
+    cards, more = filtered_grid(snap, cats, rows=1)
+    button = html.Button("Load more", id="b-top-more", className="link-btn", n_clicks=0,
+                         style=None if more else {"display": "none"})
+    return html.Div([html.Div(cards, id="b-grid", className="stories grid4"), button], className="top-block")
 
 
 def summary_cards(snap, cats=None):
@@ -406,29 +428,15 @@ def summary_cards(snap, cats=None):
     if cats:
         title += " · " + ", ".join(c.title() for c in cats)
     summ = SUMMARIES.get(snap)
-    if not summ:
-        # no AI summary for this date: show the real top headlines instead
-        return card(title, "No AI summary was made for this date, so these are the top headlines from NewsAPI.",
-                    top_headlines(snap, cats), wide=True)
-
-    heads = AUDITS[snap]["heads"]
-    if cats:
-        heads = heads[heads["category"].isin(cats)]   # keep only headlines from the selected categories
-    stories = []
-    for i, cluster in enumerate(summ["clusters"]):
-        matched = heads[(heads["cluster"] == i) & (heads["similarity"] >= STORY_MATCH)].sort_values("similarity", ascending=False)
-        if cats and matched.empty:
-            continue   # with a category filter, skip stories that have no headline from it
-        stories.append(story_card(i, cluster, matched))
-
-    if not cats:
+    if summ and not cats:
         return card(title, "AI summary grouped into stories. The colored bar shows which categories each story's headlines come from.",
                     html.P(summ.get("global_summary", ""), className="lede"),
-                    html.Div(stories, className="stories"), wide=True)
-    intro = ("AI stories that draw on these categories, then the top headlines from them." if stories
-             else "No AI story draws on these categories today, so here are their top headlines.")
-    return card(title, intro, html.Div(stories, className="stories") if stories else None,
-                top_headlines(snap, cats), wide=True)
+                    html.Div(story_cards(snap, None), className="stories"), wide=True)
+    if not summ:
+        intro = "No AI summary was made for this date, so these are the top headlines from NewsAPI."
+    else:
+        intro = "Numbered cards are AI stories that use these categories. The rest are the top headlines."
+    return card(title, intro, headline_section(snap, cats), wide=True)
 
 
 def update_briefing(snap, cats, theme):
@@ -565,14 +573,18 @@ app.callback(Output({"type": "story-audio", "index": MATCH}, "children"),
 
 
 def load_more_headlines(n_clicks, snap, cats):
-    count = TILES_PER_LOAD * (n_clicks + 1)          # 3, then 6, 9, ...
-    tiles, total = headline_tiles(snap, cats, count)
-    return tiles, ({"display": "none"} if count >= total else None)   # hide the button when all are shown
+    cards, more = filtered_grid(snap, cats, rows=n_clicks + 1)   # one more full row per click
+    return cards, (None if more else {"display": "none"})       # hide the button when all are shown
 
 
-app.callback(Output("b-top-tiles", "children"), Output("b-top-more", "style"),
+app.callback(Output("b-grid", "children"), Output("b-top-more", "style"),
              Input("b-top-more", "n_clicks"), State("b-snap", "value"), State("b-cats", "value"),
              prevent_initial_call=True)(load_more_headlines)
+
+# headline tiles reuse the story toggle: Read more / Show less
+app.callback(Output({"type": "tile", "index": MATCH}, "className"), Output({"type": "tile-more", "index": MATCH}, "children"),
+             Input({"type": "tile-more", "index": MATCH}, "n_clicks"), State({"type": "tile", "index": MATCH}, "className"),
+             prevent_initial_call=True)(toggle_story)
 
 
 def update_agreement(theme):

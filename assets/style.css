@@ -179,3 +179,9 @@ body {
 .tile-link:hover { text-decoration: underline; }
 .story-meta .dot { vertical-align: baseline; }
 .top-block .link-btn { align-self: flex-start; }
+
+/* filtered view: 4 cards per row on a wide screen */
+.stories.grid4 { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.tile-text { -webkit-line-clamp: 3; }
+.story.open .tile-text { -webkit-line-clamp: unset; }
+.story-actions .tile-link { margin-top: 0; align-self: center; }
