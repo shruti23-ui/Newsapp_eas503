@@ -377,30 +377,38 @@ def story_card(i, cluster, matched, numbered=True):
 ROW = 4   # cards per row in the filtered view; "Load more" adds one more row
 
 
-def story_cards(snap, cats):
-    """AI story cards. With a category filter, only stories that use headlines from those categories."""
+def story_matches(snap, cats):
+    """(index, story, matched headlines) for each AI story. With a filter, only stories using those categories."""
     summ = SUMMARIES.get(snap)
     if not summ:
         return []
     heads = AUDITS[snap]["heads"]
     if cats:
         heads = heads[heads["category"].isin(cats)]   # keep only headlines from the selected categories
-    cards = []
+    out = []
     for i, cluster in enumerate(summ["clusters"]):
         matched = heads[(heads["cluster"] == i) & (heads["similarity"] >= STORY_MATCH)].sort_values("similarity", ascending=False)
         if cats and matched.empty:
             continue   # with a category filter, skip stories that have no headline from it
-        cards.append(story_card(i, cluster, matched, numbered=not cats))
-    return cards
+        out.append((i, cluster, matched))
+    return out
+
+
+def story_cards(snap, cats):
+    return [story_card(i, cluster, matched, numbered=not cats) for i, cluster, matched in story_matches(snap, cats)]
+
+
+def top_headline_rows(snap, cats):
+    """Headlines of the selected categories in NewsAPI's 'top' order, categories interleaved by rank."""
+    sub = analytics.unique_articles(DF[DF["snapshot"] == snap])
+    sub = sub[sub["category"].isin(cats or CATS)].copy()
+    sub["rank"] = sub.groupby("category").cumcount()
+    return sub.sort_values("rank", kind="stable")
 
 
 def headline_tiles(snap, cats, count):
     """The first `count` top headlines as tiles. Returns (tiles, how many exist)."""
-    sub = analytics.unique_articles(DF[DF["snapshot"] == snap])
-    sub = sub[sub["category"].isin(cats or CATS)].copy()
-    # NewsAPI's order within a category is its "top" order; interleave categories by that rank
-    sub["rank"] = sub.groupby("category").cumcount()
-    sub = sub.sort_values("rank", kind="stable")
+    sub = top_headline_rows(snap, cats)
     tiles = [html.Div([
         html.Span("Top headline", className="tag plain"),
         html.Div([dot(r.category), r.category.title(), " · ", r.source], className="story-meta"),

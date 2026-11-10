@@ -10,3 +10,4 @@ data/cache/
 # live fetches (timestamped) stay local; the repo keeps the class snapshots
 data/snapshots/*_*.json
 data/summaries/*_*.json
+.streamlit/secrets.toml
