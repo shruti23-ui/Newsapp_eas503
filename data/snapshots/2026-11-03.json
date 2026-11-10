@@ -1,0 +1,1490 @@
+{
+ "snapshot": "2026-11-03",
+ "source_notebook": null,
+ "fetched_by": "NewsAPI article search: articles published that day",
+ "articles": {
+  "business": [
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "James Faris",
+    "title": "A New York Giants co-owner says the NFL can reach new fans in 2 key ways",
+    "description": "Carolyn Tisch Blodgett believes the NFL can grow by expanding its fan base internationally and through flag football.",
+    "url": "https://www.businessinsider.com/carolyn-tisch-blodgett-nfl-future-growth-new-york-giants-owner-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ae9f9e3f5f059691404a9d6?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T17:31:02Z",
+    "content": "Carolyn Tisch Blodgett is bullish on flag football and international expansion for the NFL.Carl Timpone / BFA\r\n<ul><li>New York Giants co-owner Carolyn Tisch Blodgett sees room for the NFL to grow.</\u2026 [+2943 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Amanda Goh",
+    "title": "Most of our stuff is still on the Villa Vie Odyssey. We're on another cruise, waiting to see what happens next.",
+    "description": "Dwight and Sheila Greene say they are on another cruise, waiting to see what happens to Villa Vie Odyssey.",
+    "url": "https://www.businessinsider.com/villa-vie-odyssey-residential-cruise-ship-passengers-couple-plan-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ae84474d8cc18cf7950ffff?width=1125&format=jpeg",
+    "publishedAt": "2026-11-03T03:38:27Z",
+    "content": "Travel vloggers Dwight and Sheila Greene have been aboard Villa Vie Odyssey for over a year.All Over The World with Dwight and Sheila\r\n<ul><li>Dwight and Sheila Greene have been living aboard the Vil\u2026 [+5314 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Eugene Kim",
+    "title": "See inside Amazon\u2019s robot warehouse",
+    "description": "Amazon's warehouse in Tracy, California, uses robots like Hercules, Pegasus, and Cardinal to enhance efficiency, but human workers remain crucial.",
+    "url": "https://www.businessinsider.com/amazon-warehouse-where-people-robots-work-together-2026-10#article",
+    "urlToImage": "https://i.insider.com/6ae4a430d8cc18cf7950f7ab?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T10:00:01Z",
+    "content": "At Amazon's sprawling fulfillment center in Tracy, California, robots carry shelves, sort packages, and move carts toward delivery trucks.\r\nBut this is not a fully automated operation.\r\nThousands of \u2026 [+3224 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Alistair Barr",
+    "title": "A new way of measuring AI models suggests China's threat to OpenAI and Anthropic may have been overblown",
+    "description": "Chinese AI models fell behind US rivals after Artificial Analysis revamped its tests, raising questions about open-weight AI's performance.",
+    "url": "https://www.businessinsider.com/chinese-ai-models-rankings-artificial-analysis-private-tests-anthropic-openai-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ae8e824d8cc18cf795103de?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T10:00:02Z",
+    "content": "The DeepSeek logo on a smartphoneIllustration by Omar Marques/SOPA Images/LightRocket via Getty Images\r\n<ul><li>Artificial Analysis's revamped ranking widened the gap between top closed and open-weig\u2026 [+4960 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Stephen Council",
+    "title": "Cat Wu, a face of the blockbuster app Claude Code, leaves Anthropic",
+    "description": "Cat Wu exits Anthropic before its IPO. She helped boost Claude Code's success with Boris Cherny, making the AI startup a key player.",
+    "url": "https://www.businessinsider.com/claude-code-leader-cat-wu-exits-anthropic-before-big-ipo-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aea5c61cd2cd3a46a0f0872?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T23:55:09Z",
+    "content": "Cat Wu, who led the product side of Claude Code at Anthropic, has left the AI startup.Don Feria/AP Content Services for Anthropic\r\n<ul><li>Cat Wu, who helped scale Claude Code into one of tech's most\u2026 [+3130 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Ben Shimkus",
+    "title": "Canva CEO says a major reorganization will affect 22% of its workforce. Read the memo.",
+    "description": "Canva CEO Melanie Perkins wrote a memo explaining how a major reorganization will affect 22% of the company's workforce.",
+    "url": "https://www.businessinsider.com/canva-reorganization-layoffs-ceo-memo-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aea57ab12aca86a55f548af?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T22:40:24Z",
+    "content": "Canva is laying off or changing responsibilities for nearly 1,300 employees.Alisha Jucevic/Bloomberg via Getty Images\r\n<ul><li>Canva says 1,271 employees \u2014 22% of its workforce \u2014 will be affected by \u2026 [+11263 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Amanda Krause",
+    "title": "5 of the best and 3 of the worst looks at the 2026 CFDA Fashion Awards",
+    "description": "Stars flocked to New York for the 2026 CFDA Fashion Awards. They wore shimmering gowns, feathered frocks, and two-piece sets on the red carpet.",
+    "url": "https://www.businessinsider.com/cfda-fashion-awards-best-worst-outfits-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ae9f7c24b5ca383fe7cf0b4?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T15:55:58Z",
+    "content": "Pamela Anderson at the 2026 CFDA Fashion Awards in New York City.Taylor Hill/Getty Images\r\n<ul><li>Stars were out at the 2026 CFDA Fashion Awards in New York City on Monday.</li><li>Many wore glamoro\u2026 [+4464 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Taylor Rains",
+    "title": "How political candidates charter jets to travel across battleground states during election cycles",
+    "description": "Midterm incumbents like Sen. Susan Collins and Rep. Hakeem Jeffries have spent tens of thousands of dollars on campaign travel.",
+    "url": "https://www.businessinsider.com/how-political-candidates-charter-campaign-jets-elections-midterms-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ae8fad2fa15dcc2eae92208?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T16:26:39Z",
+    "content": "Philippe Reines, Hillary Clinton's 2016 presidential campaign advisor, speaks to members of the traveling press aboard the campaign plane.Justin Sullivan/Getty Images\r\n<ul><li>Campaign travel is a ni\u2026 [+9436 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Annabel Lee",
+    "title": "I spent years trying to make family vacations perfect. Giving up made them fun again.",
+    "description": "Traveling with my kids was more like an endurance test than a break. When I lowered my expectations, family trips finally became fun for all of us.",
+    "url": "https://www.businessinsider.com/traveling-with-kids-hack-tips-make-fun-for-parents-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ae9daba978e617b0a2a4fb4?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T16:20:01Z",
+    "content": "The author said she always loved traveling and assumed not much would change when she had kids. She now admits she was wrong about one thing.Courtesy of Annabel Lee.\r\n<ul><li>I love traveling and was\u2026 [+4039 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Brent D. Griffiths,Madison Hoff",
+    "title": "Elon Musk, angry voters, and the AI backlash: What's at stake in the 2026 midterms",
+    "description": "From inflation and AI backlash to Elon Musk's record spending on Republicans, here's what's at stake in the 2026 midterm elections.",
+    "url": "https://www.businessinsider.com/2026-midterms-elon-musk-tech-ai-economy-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ae8cd0d8bd5d6547af34b46?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T11:01:50Z",
+    "content": "RYAN MURPHY/Getty Images; BI\r\n<ul><li>The 2026 midterm elections are here.</li><li>Elon Musk has spent record sums to try to help Republicans hold onto their narrow majorities.</li><li>History and po\u2026 [+9545 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Leanna Coy",
+    "title": "As a flight attendant, I wish passengers would leave the window shades open. I've got my reasons, but it's not up to me.",
+    "description": "As a flight attendant, I have good reasons why passengers should keep window shades open during a flight while in the air rather than leave them shut.",
+    "url": "https://www.businessinsider.com/should-i-open-windows-in-air-flight-attendant-explains-why-2026-10#article",
+    "urlToImage": "https://i.insider.com/6ae49e728bd5d6547af34048?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T12:54:01Z",
+    "content": "Regardless of whether you feel the window shade should be open or shut during flight, I (not pictured) say the passenger in the window seat should get to control it.Dobrila Vignjevic/Getty Images\r\n<u\u2026 [+4359 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Kristine Villarroel",
+    "title": "Meet the highest-paid White House staffers in 2026 \u2014 and see how much they make",
+    "description": "See which staffers in Trump's White House earn up to $197,200, including top advisors and counsel, as revealed in the latest salary report.",
+    "url": "https://www.businessinsider.com/white-house-highest-paid-staffers-salaries-2026#article",
+    "urlToImage": "https://i.insider.com/6ae4ccec8bd5d6547af34204?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T15:21:02Z",
+    "content": "Working at the White House might be one of the most exclusive and prestigious jobs in the US, but you'd be surprised by how much some of the people around the president make each year.\r\nFor starters,\u2026 [+7671 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Carly Miller",
+    "title": "We downsized from a one-bedroom NYC apartment to a 38-foot sailboat. Life changed, but not for the better.",
+    "description": "Going from an apartment in NYC to living on a sailboat full-time with my partner and dog wasn't what I hoped. The cost and drawbacks added up.",
+    "url": "https://www.businessinsider.com/living-on-boat-not-what-we-hoped-quit-mistakes-cost-2026-11#article",
+    "urlToImage": "https://i.insider.com/6adf76388e95884e1ca8341b?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T16:50:01Z",
+    "content": "Although living on a sailboat sounded incredible and had its perks, it ultimately wasn't for me.Carly Miller\r\n<ul><li>In 2024, my partner and I left our NYC apartment and moved onto a sailboat with o\u2026 [+5227 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Alex Bitter,Sarah E. Needleman",
+    "title": "DoorDash tells employees not to connect with Instacart peers on LinkedIn. It\u2019s an uncommon M&A ask",
+    "description": "DoorDash told employees not to connect with Instacart peers on LinkedIn until their deal is closed.",
+    "url": "https://www.businessinsider.com/doordash-instacart-tells-workers-not-connect-peers-on-linkedin-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ae8c32bd8cc18cf79510262?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T10:47:01Z",
+    "content": "DoorDash is telling employees not to connect with their counterparts at Instacart on LinkedIn.Jason Henry/Bloomberg via Getty Images\r\n<ul><li>DoorDash is telling employees not to connect with their p\u2026 [+3283 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Stephen Council",
+    "title": "Before the tragic Learjet crash, Adam Robinson had a message for startup founders: You don't need VCs to get rich",
+    "description": "Tech founder Adam Robinson, 45, died in a Learjet crash in Florida on Sunday. Robinson's bootstrapping philosophy inspired many entrepreneurs.",
+    "url": "https://www.businessinsider.com/adam-robinson-florida-learjet-crash-tech-community-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ae92add426e175d4818d988?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T01:55:24Z",
+    "content": "Adam Robinson, right, poses with his wife Helen Sharp and the couple's two young children.Courtesy of the Robinson family\r\n<ul><li>Adam Robinson, who died in the Florida Learjet crash on Sunday, was \u2026 [+7635 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Katherine Li",
+    "title": "Apple says it's 'really hard' to predict when iPhone Duo supply will catch up to demand",
+    "description": "Apple's chief operating officer said during Monday's earnings call that \"it's really hard to predict when supply and demand will be in balance.\"",
+    "url": "https://www.businessinsider.com/apple-iphone-duo-supply-demand-earnings-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ae92779978e617b0a2a4df7?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T00:48:53Z",
+    "content": "Apple said it can't predict when the iPhone Duo supply will catch up with demand, as customers who placed orders online face a long wait time.Michael M. Santiago/Getty Images\r\n<ul><li>Apple said it c\u2026 [+2535 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Sophie Steiner",
+    "title": "I lived in Shanghai in my 20s. Now, at 34, I'm back in China to start a business.",
+    "description": "Alex Greenberg says the time he spent in China in his 20s shaped his social life, career, and the way he sees the world.",
+    "url": "https://www.businessinsider.com/american-moved-to-china-after-college-shanghai-observed-business-chengdu-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ae95d47978e617b0a2a4e8f?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T04:24:15Z",
+    "content": "After college, Alex Greenberg moved to Shanghai, then returned to the US. Now, at 34, he's giving life in China another try.Provided by Alex Greenberg\r\n<ul><li>After graduating from college, Alex Gre\u2026 [+6198 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Paige Bennett",
+    "title": "I made marinara sauces using 4 celebrity chefs' recipes, and the best came from Ina Garten",
+    "description": "I followed marinara sauce recipes from Alex Guarnaschelli, Ina Garten, Giada De Laurentiis, and Tyler Florence to see which chef had the best one.",
+    "url": "https://www.businessinsider.com/trying-famous-marinara-sauce-recipes-best-one-ina-garten-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ae8f9ae426e175d4818d849?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T14:22:44Z",
+    "content": "I compared sauce recipes from four different celebrity chefs, including Tyler Florence, Giada De Laurentiis, and Ina Garten, to find a solid, go-to marinara that also tastes delicious.Paige Bennett\r\n\u2026 [+8559 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Pete Syme",
+    "title": "4 separate flights in Europe have been targeted by bomb threats in the past 24 hours",
+    "description": "Two flights to Poland, one to Spain, and another to Bulgaria were checked for explosives after bomb threats on Tuesday.",
+    "url": "https://www.businessinsider.com/europe-flights-bomb-threats-heathrow-copenhagen-manchester-sofia-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ae9e197fa15dcc2eae924f0?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T14:30:00Z",
+    "content": "Ryanair and Scandinavian Airlines flights were among those targeted.Artur Widak/NurPhoto via Getty Images\r\n<ul><li>Several flights were targeted by bomb threats in Europe on Tuesday.</li><li>Planes o\u2026 [+2545 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Gabbi Shaw",
+    "title": "12 of the biggest perks of being a US senator",
+    "description": "Members of Congress can pull rank to receive priority for haircuts, flights, and even mail.",
+    "url": "https://www.businessinsider.com/biggest-perks-of-being-a-us-senator-2026-11#article",
+    "urlToImage": "https://i.insider.com/5c2fc67bdde867535c293ec5?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T19:46:50Z",
+    "content": "Bernie Sanders has been a senator representing Vermont since 2007.Kevin Dietsch/Getty Images\r\n<ul><li>November 3 is Election Day.</li><li>Thirty-five seats in the US Senate are being voted upon in th\u2026 [+7666 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Kelsey Baker,Chris Panella",
+    "title": "US Space Force Guardians will join Army Rangers, Navy SEALS, and other special forces in a new command",
+    "description": "The new command will train and equip Space Force Guardians to special operations around the world.",
+    "url": "https://www.businessinsider.com/us-space-force-activates-special-operations-command-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aea0d8ff5f059691404aaae?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T19:52:20Z",
+    "content": "US Space Force Special Operations Command will train and equip personnel for special forces around the world.US Space Force photo by Dave Grim\r\n<ul><li>US Space Force has activated a Special Operatio\u2026 [+3825 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Insider Inc.",
+    "title": "What the voter records of California's billionaires reveal",
+    "description": "POLITICO matched 166 billionaires who live or have recently lived in California to the state's voter file.",
+    "url": "https://www.businessinsider.com/california-billionaires-voting-records-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aea69202772fe8ca24ec9e8?width=1200&format=jpeg",
+    "publishedAt": "2026-11-03T23:14:28Z",
+    "content": "California's billionaire class includes Dr. Dre, Tim Cook, Marissa Mayer, Mark Zuckerberg, Beyonc\u00e9, and Jay Z, among hundreds of others.Illustration by Claudine Hellmuth/POLITICO (Getty)\r\n<ul><li>POL\u2026 [+7078 chars]"
+   }
+  ],
+  "entertainment": [
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Kirk McKeand",
+    "title": "South of Midnight Creative Director Would Have Turned Off Xbox 'Money Tap' Earlier, Says Funding Was 'Unsustainable'",
+    "description": "David Sears, creative director of South of Midnight, said in a recent interview that he was always worried about the previous era of Xbox's infamous development funding \"money tap,\" and admitted he would probably have turned it off earlier.",
+    "url": "https://www.ign.com/articles/south-of-midnight-creative-director-wouldnt-have-funded-the-game",
+    "urlToImage": "https://assets-prd.ignimgs.com/2024/11/11/southofmidnight-preview-blogroll-1731361912780.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-03T11:36:08Z",
+    "content": "David Sears, creative director of South of Midnight, said in a recent interview that he was always worried about the previous era of Xbox's infamous development funding \"money tap,\" and admitted he w\u2026 [+3707 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Wesley Yin-Poole",
+    "title": "The Legend of Zelda: Ocarina of Time Remake Global Release Times",
+    "description": "The Legend of Zelda: Ocarina of Time remake is just days away, and we have the global release times so you can plan for when you can play in your timezone.",
+    "url": "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-remake-global-release-times",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/03/thelegendofzeldaocarinaoftime-46-1793701805613.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-03T10:33:07Z",
+    "content": "The Legend of Zelda: Ocarina of Time remake is almost upon us, and while Nintendo has yet to make an official announcement about when the Switch 2 exclusive goes live on the eShop, based on previous \u2026 [+2642 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Rachel Weber",
+    "title": "The Witcher 3 Devs Talk Songs of the Past DLC Details",
+    "description": "IGN spoke to CD Projekt Red's level design lead Miles Tost and Songs of the Past writer Paula Meissner at the Lucca Comics & Games festival about creating a distinct new corner of the Continent, the surprising importance of local booze, and why even bringing \u2026",
+    "url": "https://www.ign.com/articles/witcher-3-songs-of-the-past-dlc-details",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/08/24/the-witcher-3-gwent-songs-of-the-past-1787611131275.png?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-03T22:39:22Z",
+    "content": "It's been more than a decade since The Witcher 3: Wild Hunt was first released, but CD Projekt Red isn't quite finished with the game just yet. Songs of the Past, the game's third expansion, is set t\u2026 [+6749 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Wesley Yin-Poole",
+    "title": "Nintendo Reveals the Changes It Made to The Legend of Zelda: Ocarina of Time's Notoriously Difficult Water Temple for the Remake",
+    "description": "Nintendo has discussed the changes it has made to the notoriously difficult Water Temple for The Legend of Zelda: Ocarina of Time remake.",
+    "url": "https://www.ign.com/articles/nintendo-reveals-the-changes-it-made-to-the-legend-of-zelda-ocarina-of-times-notoriously-difficult-water-temple-for-the-remake",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/03/ironboots1-1788896524665-1793716124257.png?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-03T14:29:11Z",
+    "content": "Nintendo has discussed the changes it has made to the notoriously difficult Water Temple for The Legend of Zelda: Ocarina of Time remake.\r\nIn an interview with Zelda boss Eiji Aonuma, Production Grou\u2026 [+3969 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Jacqueline Thomas",
+    "title": "World of Warcraft Forever Launch Patch Notes Bring Controller Support and Massive Class Changes",
+    "description": "World of Warcraft Forever is just a day away, and now that the beta has concluded Blizzard has released its patch notes for the release build of the game. Check out all the changes.",
+    "url": "https://www.ign.com/articles/world-of-warcraft-forever-launch-patch-notes-bring-controller-support-and-massive-class-changes",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/09/28/wow-1790594365869.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-03T16:22:33Z",
+    "content": "World of Warcraft Forever is just a day away, and now that the beta has concluded Blizzard has released its patch notes for the release build of the game. \r\nA bulk of the patch notes focus on class c\u2026 [+44167 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Kirk McKeand",
+    "title": "'Friendslop' Added to the Collins Dictionary, Beaten to Word of the Year by 'Mogging'",
+    "description": "Friendslop has been mogged hard by mogging. Friendslop is chopped, and mogging is sigma. It\u2019s cooked, and mogging has been hard mewing in its looksmaxxing era. One is sus and the other is farming aura.",
+    "url": "https://www.ign.com/articles/friendslop-added-to-collins-dictionary",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/03/ss-84436aac3675c39a9e21a14a4a9a3a8a7d9dea26-1920x1080-1793706464744.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-03T11:42:36Z",
+    "content": "Friendslop has been mogged hard by mogging. Friendslop is chopped, and mogging is sigma. Its cooked, and mogging has been hard mewing in its looksmaxxing era. One is sus and the other is aura farming\u2026 [+2523 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Virginia Glaze",
+    "title": "A Concerning Amount of GTA Fans Would Give Up Their Pets to Play GTA 6 Early",
+    "description": "A poll of 1,300 American gamers shows some concerning trends regarding GTA 6 \u2014 more specifically, their willingness to abandon their pets for a chance at playing the game ahead of its release.",
+    "url": "https://www.ign.com/articles/a-concerning-amount-of-gta-fans-would-give-up-their-pets-to-play-gta-6-early",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/03/gta-6-fan-survey-shows-players-would-give-up-pets-1793666495225.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-03T00:44:36Z",
+    "content": "A poll of 1,300 American gamers shows some concerning trends regarding GTA 6 more specifically, their willingness to abandon their pets for a chance at playing the game ahead of its release.\r\nGTA 6 m\u2026 [+2721 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Eric Song",
+    "title": "Get Final Fantasy VII Remake and Rebirth Switch 2 Editions for Less Than $7 Each With This One Easy Step",
+    "description": "Get all caught up before Final Fantasy VII Revelation releases early next year.",
+    "url": "https://www.ign.com/articles/final-fantasy-switch-2-video-game-deals-november-2026",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/03/ffswitch-1793732870371.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-03T19:30:00Z",
+    "content": "Imagine finding two of the best JRPG games in recent years in the under-$10 bargain bin. Well, it just happened. Nintendo eShop is offering Switch 2 editions of Final Fantasy VII Remake Intergrade an\u2026 [+1795 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Jamie Ko",
+    "title": "Millennials, What Is Your Least Favorite Millennial Trend?",
+    "description": "Let the roasting begin\u2026View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/jamieko/millennial-habits-trends-you-hate",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/02/23/thumb/rpIPdAELo.jpg?crop=3000:1571;0,0%26downsize=1250:*",
+    "publishedAt": "2026-11-03T18:43:51Z",
+    "content": "by Jamie KoBuzzFeed\r\nBuzzFeed StaffI'm a Resident Writer at BuzzFeed covering pop culture, internet trends, politics, and whatever people can't stop fighting over online!"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Sydney Mills",
+    "title": "The News Is Stranger Than Fiction, And This 20-Question Trivia Quiz Proves It",
+    "description": "Some of these stories made the news, and others came straight from a TV writers' room.View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/syd_mills/real-vs-fake-news-stories-trivia-quiz",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/29/16/thumb/3XzJ_XXtX.jpg?crop=1249:654;0,33%26downsize=1250:*",
+    "publishedAt": "2026-11-03T10:31:03Z",
+    "content": "by Sydney MillsBuzzFeed\r\nBuzzFeed StaffHi, Im Sydney, a Resident Writer at BuzzFeed!"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Audrey Engvalson",
+    "title": "This General Knowledge Quiz Will Reveal If Your Brain Is Massive Or Absolutely Tiny",
+    "description": "How many arms does a starfish typically have?View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/audreyworboys/general-knowledge-trivia-quiz-116",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/02/21/thumb/MDT79J5XK.jpg?crop=2500:1309;0,176%26downsize=1250:*",
+    "publishedAt": "2026-11-03T14:01:02Z",
+    "content": "by Audrey EngvalsonBuzzFeed\r\nBuzzFeed StaffIm the Senior Editor of New Formats here at BuzzFeed, pioneering interactive experiences and bringing them to our quizzes."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Andy Golder",
+    "title": "Get A Single Question Wrong In This General Knowledge Quiz And You'll Be Starting Over From Scratch",
+    "description": "Trivia Climb #9 for November 3, 2026! You're gonna need to know a little bit of everything for this one.View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/andyneuenschwander/trivia-climb-november-3-2026",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/30/04/thumb/FX754fXnD.png?crop=908:605;2,57&resize=1250:830",
+    "publishedAt": "2026-11-03T14:31:03Z",
+    "content": "Trivia Climb #9 for November 3, 2026! Youre gonna need to know a little bit of everything for this one."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Sara De Ledesma",
+    "title": "\"It Was So Normalized To Me, I Didn't Realize It Wasn't Everyone's Normal\": 22 Subtle Signs That Indicate Someone Had A Really Tough Life, And I Appreciate Their Brutal Honesty",
+    "description": "\"Just because I learned to carry the weight with grace doesn't mean it feels less heavy.\"View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/trendyghost618/subtle-signs-someone-had-a-really-tough-life",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/30/20/thumb/twlFFbw3Y.jpg?crop=3000:1571;0,211%26downsize=1250:*",
+    "publishedAt": "2026-11-03T14:31:03Z",
+    "content": "just_as_I_predicted\r\n\"I have the eyes too, and when I see other people with the look, I interpret it as a quiet and unsettled wisdom.\u00a0\r\nIt's like, I can tell the person could speak but would rather n\u2026 [+368 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Sara Thompson",
+    "title": "Can You Identify These '90s Horror Films From Just One Screenshot?",
+    "description": "How many \"Scream\" movies were there?!View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/sarathompson1/90s-horror-movies-identification-movie-trivia",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/30/21/thumb/3PEzFruDV.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+    "publishedAt": "2026-11-03T12:31:02Z",
+    "content": "by Sara ThompsonBuzzFeed\r\nBuzzFeed StaffI'm Sara, and I cover the fitness and health sphere on BuzzFeed from finding the best snacks to sharing the easiest hacks on staying fit."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Jake Farrington",
+    "title": "\"They Should Live On Their Own Planet\": 32 Petty Grievances People Have About Everyday Life, And I Think I Agree With Every Single One Of These",
+    "description": "\"It's disheartening going to concerts and being in a sea of raised phones. I CAN'T SEE through the jungle of arms!!\"View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/jake_farrington/petty-every-day-annoyances-reddit",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/28/20/thumb/0XYPMcD-z.jpg?crop=2999:1570;1,0%26downsize=1250:*",
+    "publishedAt": "2026-11-03T02:31:02Z",
+    "content": "poopybutthole_oowee\r\n\"People who waste my time with unnecessary stress. It's never been a particularly good feeling, but the older I get, the more rage I feel when it happens.\u00a0It's the lack of respec\u2026 [+212 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Conshea Brown",
+    "title": "\"It's Going To Be Really Hot Where You're Going\": 17 People Are Sharing Words From Their Past That Still Haunt Them",
+    "description": "\"I thought he was unhinged to tell me that at the time, but as time has gone on, I started realizing that he might be the smart one.\"View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/consheabrown/sentences-people-will-never-forget",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-09/25/14/thumb/NQZmR8R0F.jpg?crop=1250:654;0,88%26downsize=1250:*",
+    "publishedAt": "2026-11-03T00:16:02Z",
+    "content": "I thought he was unhinged to tell me that at the time, but as time has gone on, I started realizing that he might be the smart one."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Sydney Mills",
+    "title": "Your Letterboxd Brain Has A Pop Culture Quiz Game To Win",
+    "description": "This grid has enough sci-fi chaos and cartoon nostalgia to make just about anyone second-guess themselves.View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/syd_mills/fandom-4x4-daily-vol-68",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/02/22/thumb/NqWC5g6WJ.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+    "publishedAt": "2026-11-03T14:01:03Z",
+    "content": "by Sydney MillsBuzzFeed\r\nBuzzFeed StaffHi, Im Sydney, a Resident Writer at BuzzFeed!"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Krista Torres",
+    "title": "\"Ruining My Kid's Whole Day Because They Ruined My Morning\": Moms Say \"Petty Parenting\" Is A Refreshing Change From Traditional Parenting Advice, And The Comments Are Giving A Much-Needed Laugh To Parents Who've Had ENOUGH",
+    "description": "\"But I didn't get to press any button because of you!\"View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/kristatorres/moms-are-embracing-petty-parenting",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/02/19/subbuzz/xErfzeUqrx.png?crop=900:471;0,416%26downsize=1250:*",
+    "publishedAt": "2026-11-03T19:43:22Z",
+    "content": "\"...Of course, there were plenty of naysayers who claim my kids won't talk to me one day because of my 'pettiness.' But if the worst thing my kids talk to their therapist about in the future is that \u2026 [+278 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Mariam Sharia",
+    "title": "Sorry, Gen Z: Coca-Cola's New CEO Isn't Quite As Enthusiastic About The Whole Diet Coke \"Fridge Cigarette\" Thing As You Are",
+    "description": "The fridge cigarette is here to stay, whether Coca-Cola likes it or not.View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/mariamsharia/coca-cola-ceo-responds-fridge-cigarette-diet-coke",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/03/21/thumb/RFYZgiF8D.jpg?crop=3000:1571;0,256%26downsize=1250:*",
+    "publishedAt": "2026-11-03T22:02:23Z",
+    "content": "by Mariam ShariaBuzzFeed ContributorAs a freelance reporter for BuzzFeed, I cover stories about culture, entertainment, and everything in between."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Gabrielle LaFrank",
+    "title": "Teachers Are Calling Out The False \"Facts\" An Alarming Number Of Young People Blindly Believe, And Honestly, I'm Losing Faith In Humanity",
+    "description": "\"I've never seen such harm caused by a couple of years of substandard education.\"View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/gabriellelafrank/dumb-things-students-believe",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/02/18/thumb/ubjD0PcTR.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+    "publishedAt": "2026-11-03T12:16:02Z",
+    "content": "u/YourAuthenticVoice\r\n\"Im a dad of two young kids, and I find myself always playing and talking with them. It was the opposite of how I grew up for the most part.\u00a0\r\nI dont drink anymore, and that has\u2026 [+369 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Sydney Mills",
+    "title": "Only True Pok\u00e9mon Fans Can Identify These Pok\u00e9mon From Their Silhouettes",
+    "description": "You can probably still hear the \"Who's That Pok\u00e9mon?\" voice in your head.View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/syd_mills/gen-1-whos-that-pokemon-trivia-quiz",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/02/17/thumb/Y-af2Tudh.jpg?crop=2999:1570;0,3%26downsize=1250:*",
+    "publishedAt": "2026-11-03T13:31:02Z",
+    "content": "by Sydney MillsBuzzFeed\r\nBuzzFeed StaffHi, Im Sydney, a Resident Writer at BuzzFeed!"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Gabrielle LaFrank",
+    "title": "\"It Smelled Like The Most Vile Dead Thing\": Housekeepers Are Sharing The Most Disgusting Things They've Ever Found In Someone's Home, And I Have Concerns",
+    "description": "\"It smells like a gaming addict's belly button that has never been washed.\"View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/gabriellelafrank/housekeepers-expose-most-disgusting-things",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/30/19/thumb/-kLiaQO8lz.jpg?crop=1250:654;0,27%26downsize=1250:*",
+    "publishedAt": "2026-11-03T04:31:02Z",
+    "content": "u/lamemayhem\r\n\"I have a client that is lax about her bag, too. It leaks in the bed, on the floors. Shes older, a great client, and my friend as well. I keep asking her to change supply companies if t\u2026 [+42 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Liz Richardson",
+    "title": "19 Times People Realized They Got A \"Shut Up\" Ring And Their Partner Didn't Actually Want To Get Married",
+    "description": "\"I gave him an ultimatum after six years of dating, and after, he said he still didn\u2019t know if he wanted to marry me. He finally proposed, and he asked me how I felt. 'Happy!' I exclaimed. 'You?' I asked. He replied, 'This is a big commitment...' Not the answ\u2026",
+    "url": "https://www.buzzfeed.com/lizmrichardson/shut-up-ring-signs-proposal-red-flags-fs2",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2024-01/10/17/enhanced/86c8f9c3dd83/original-1162-1704907823-2.jpg?crop=1244:829;0,0&resize=1250:830",
+    "publishedAt": "2026-11-03T01:01:02Z",
+    "content": "\"It was later that I found out his controlling parents said they would disown him if we moved out and had a place together before we got married. I was so stupid, young, and ignorant. I would never w\u2026 [+659 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Ellen Durney",
+    "title": "A Viral Trend Has Reminded People About A Ton Of Major Celeb Friendships That Mysteriously Ended \u2014 And I\u2019m Dying To Know What REALLY Happened",
+    "description": "Truly, I'd forgotten that some of these people knew each other, let alone were best friends.View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/ellendurney/celebrity-friendships-that-mysteriously-ended",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/02/18/thumb/QqlgbA5XA.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+    "publishedAt": "2026-11-03T07:50:52Z",
+    "content": "Truly, Id forgotten that some of these people knew each other, let alone were best friends."
+   }
+  ],
+  "health": [
+   {
+    "source": {
+     "id": "medical-news-today",
+     "name": "Medical News Today"
+    },
+    "author": "Peter Morales-Brown",
+    "title": "Medically tailored meals may support better health outcomes in type 2 diabetes",
+    "description": "The results of a study presented at the American Heart Association's Scientific Sessions 2026 suggest that medically tailored meals, coupled with a heart health curriculum, could help improve diabetes management.",
+    "url": "https://www.medicalnewstoday.com/articles/medically-tailored-meals-may-support-better-health-outcomes-type-2-diabetes",
+    "urlToImage": "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2026/11/getty_2241638891_facebook_1200x630-1200x628.jpg",
+    "publishedAt": "2026-11-03T06:54:01Z",
+    "content": "<ul><li>Adults with type 2 diabetes and high blood pressure who received medically tailored meals for 8 months improved their diet quality, with a three-point increase in adherence to a heart-healthy\u2026 [+12028 chars]"
+   },
+   {
+    "source": {
+     "id": "medical-news-today",
+     "name": "Medical News Today"
+    },
+    "author": "Yasemin Nicola Sakay",
+    "title": "Whole fruit or juice: What a massive new study reveals about heart health",
+    "description": "Is whole fruit or fruit juice healthier? A new study of 371,000 U.S. adults finds whole fruit, and not fruit juice, may support better heart health. Two experts weigh in on the findings.",
+    "url": "https://www.medicalnewstoday.com/articles/whole-fruit-vs-juice-what-massive-new-study-reveals-about-heart-health",
+    "urlToImage": "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2026/11/getty_2203268919_facebook_1200x630-1200x628.jpg",
+    "publishedAt": "2026-11-03T16:00:00Z",
+    "content": "<ul><li>A new study finds a link between eating less whole fruit and conditions such as high blood pressure, cholesterol, and heart disease.</li><li>One reason for this may be that the fiber and natu\u2026 [+9190 chars]"
+   }
+  ],
+  "science": [
+   {
+    "source": {
+     "id": "next-big-future",
+     "name": "Next Big Future"
+    },
+    "author": "cybernewswire",
+    "title": "Cogent Security Makes the Fortune Cyber 60 for a Second Year, With a Plan to Run Cyber Defense Like a Factory",
+    "description": "San Francisco, CA, 3rd November 2026, CyberNewswire",
+    "url": "https://www.nextbigfuture.com/2026/11/cogent-security-makes-the-fortune-cyber-60-for-a-second-year-with-a-plan-to-run-cyber-defense-like-a-factory.html",
+    "urlToImage": null,
+    "publishedAt": "2026-11-03T04:10:34Z",
+    "content": "San Francisco, CA, November 3rd, 2026, CyberNewswire\r\nCogent Security, an applied AI cybersecurity company, reported that the PHP2Shell vulnerability exposed significant gaps in enterprise vulnerabil\u2026 [+7991 chars]"
+   },
+   {
+    "source": {
+     "id": "next-big-future",
+     "name": "Next Big Future"
+    },
+    "author": "Brian Wang",
+    "title": "Top Kalshi-sponsored Futurist and Top 0.1% Predictor on Metaculus",
+    "description": "I am a top ranked predictor on Metaculus. 90+% accuracy rate and 0.07 Brier score. Brier score of 0.25 is 50-50. This is top-tier for human forecasters and competitive with very good professional or market forecasts. Kalshi (sponsor) \u2013 sign up with my link: h\u2026",
+    "url": "https://www.nextbigfuture.com/2026/11/top-kalshi-sponsored-futurist-and-top-0-1-predictor-on-metaculus.html",
+    "urlToImage": null,
+    "publishedAt": "2026-11-03T22:04:15Z",
+    "content": "I am a top ranked predictor on Metaculus. 90+% accuracy rate and 0.07 Brier score. Brier score of 0.25 is 50-50.\r\nThis is top-tier for human forecasters and competitive with very good professional or\u2026 [+2849 chars]"
+   },
+   {
+    "source": {
+     "id": "national-geographic",
+     "name": "National Geographic"
+    },
+    "author": "@NatGeoTravel",
+    "title": "Meet the 'Argentinian Willy Wonka' Crafting Buenos Aires' Beloved Biscuits",
+    "description": "These dulce de leche-slathered biscuit sandwiches are an enduring obsession in the Argentine capital \u2014 a daily treat loaded with history, ritual and reinvention.",
+    "url": "https://www.nationalgeographic.com/travel/article/meet-the-argentinians-crafting-buenos-aires-beloved-biscuits-alfajores",
+    "urlToImage": "https://i.natgeofe.com/n/1a9d123b-b7fd-4c15-b3f1-82b646f6ae9d/TG_onthemenu__N7A9289_ukHR_16x9.jpg?w=1200",
+    "publishedAt": "2026-11-03T00:00:00Z",
+    "content": "Gustavo makes seven varieties, including maicena-style, pistachio and white chocolate. Today, hes busy making alfajores marplatenses, a\u00a0version from the coastal city of Mar del Plata. The chocolate-f\u2026 [+1902 chars]"
+   },
+   {
+    "source": {
+     "id": "national-geographic",
+     "name": "National Geographic"
+    },
+    "author": "@NatGeoTravel",
+    "title": "Feast Your Eyes on the Food Culture of This Caribbean 'Spice Isle'",
+    "description": "For centuries, nutmeg, cacao and cinnamon have shaped the landscapes and livelihoods of people in Grenada. Today, its farmers, chefs and producers are finding new ways to work with the ingredients and culinary traditions they\u2019ve inherited.",
+    "url": "https://www.nationalgeographic.com/travel/article/feast-your-eyes-on-the-food-culture-of-this-caribbean-spice-isle-grenada",
+    "urlToImage": "https://i.natgeofe.com/n/938c5d00-7e7c-4abc-916a-783ccec375db/Grenada__DSF2353_HR_16x9.jpg?w=1200",
+    "publishedAt": "2026-11-03T00:00:00Z",
+    "content": "For centuries, nutmeg, cacao and cinnamon have shaped the landscapes and livelihoods of people in Grenada. Today, its farmers, chefs and producers are finding new ways to work with the ingredients an\u2026 [+38 chars]"
+   },
+   {
+    "source": {
+     "id": "national-geographic",
+     "name": "National Geographic"
+    },
+    "author": "@NatGeo",
+    "title": "A New Narcolepsy Drug Could Change How We Understand Sleep",
+    "description": "Scientists have found a way to restore a missing wakefulness signal in people with narcolepsy. The breakthrough could have implications for understanding\u2014and potentially treating\u2014other sleep disorders.",
+    "url": "https://www.nationalgeographic.com/health/article/narcolepsy-new-drug-orexin-brain-sleep",
+    "urlToImage": "https://i.natgeofe.com/n/599005a3-3f85-42b6-b56e-84700a476728/SPI-1259069_16x9.jpg?w=1200",
+    "publishedAt": "2026-11-03T00:00:00Z",
+    "content": "In the absence of orexin, that switch becomes unstable, says Fuller. And both wakefulness and sleep become fragmented.\r\nResearch is beginning to reveal how orexin keeps that switch stable. In a 2022 \u2026 [+2298 chars]"
+   },
+   {
+    "source": {
+     "id": "national-geographic",
+     "name": "National Geographic"
+    },
+    "author": "@NatGeo",
+    "title": "NASA's Swift Observatory Is About to Die. It's Not the First Time NASA Has Said Goodbye to a Robot.",
+    "description": "NASA's Swift Observatory will burn up this week. And while the agency has a lot of experience losing beloved hardware, it never gets easier.",
+    "url": "https://www.nationalgeographic.com/science/article/space-robot-death-nasa-swift-cassini-maven",
+    "urlToImage": "https://i.natgeofe.com/n/14c1b62b-b787-43b2-8cb1-7b5fe6437294/082526_MK_SwiftObs_main._16x9.jpg?w=1200",
+    "publishedAt": "2026-11-03T00:00:00Z",
+    "content": "In June 2018, Arvidson was deeply worried about his own cherished companion on Mars. A dust storm had swept across Opportunitys location in a gravelly valley near the equator. A common occurrence in \u2026 [+3073 chars]"
+   },
+   {
+    "source": {
+     "id": "national-geographic",
+     "name": "National Geographic"
+    },
+    "author": "@NatGeo",
+    "title": "California's Wolves Have Returned After a Century. But at What Cost?",
+    "description": "Driven from the state generations ago, the predators are staging a comeback\u2014and sparking a new fight over livelihood, identity, and the meaning of the wild.",
+    "url": "https://www.nationalgeographic.com/animals/article/wolves-california-comeback",
+    "urlToImage": "https://i.natgeofe.com/n/0993755d-04b2-4c22-ac5e-5e2bd586232d/MM10497_260116_001592_16x9.jpg?w=1200",
+    "publishedAt": "2026-11-03T00:00:00Z",
+    "content": "Canis lupus, commonly referred to as the gray wolf, can be black, gray, or white, and ranges in size from 60 to 145 pounds. It was once the worlds most widely distributed land mammal, and was found a\u2026 [+2270 chars]"
+   }
+  ],
+  "sports": [
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "NFL Week 8 All-Stars: Who Had A Better Sunday, Joe Burrow Or Trevor Lawrence?",
+    "description": "Week 8 brought an interesting debate over which QB performance was better between Joe Burrow and Trevor Lawrence.",
+    "url": "https://www.foxsports.com/stories/nfl/nfl-week-8-all-stars-trevor-lawrence-bucky-irving-tee-higgins-jaguars-bengals",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/artboard-1trev.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T04:37:11Z",
+    "content": "Most weeks, picking the quarterback for our weekly All-Star Team is a relatively straightforward exercise. We typically pick the quarterback with the eye-popping stats, because more often than not, t\u2026 [+5628 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Chicago Makes A Statement: 3 Takeaways From The Bears' Win Over The Seahawks",
+    "description": "The Bears made a statement with a win on the road against the reigning-champion Seahawks. Here are our takeaways.",
+    "url": "https://www.foxsports.com/stories/nfl/chicago-makes-statement-3-takeaways-from-bears-win-over-seahawks",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/nfl-16x9-3.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T04:41:16Z",
+    "content": "The Chicago Bears traveled to the Pacific Northwest looking for a signature victory to show they are a Super Bowl-caliber team.\r\nIn the strength of a crisp offense led by head coach Ben Johnson and a\u2026 [+4211 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Packers Plan To Keep Josh Jacobs On Roster As NFL Conducts Investigation",
+    "description": "Green Bay coach Matt LaFleur says the Packers plan to keep Josh Jacobs on their roster following the news of previous allegations against the three-time Pro Bowl running back",
+    "url": "https://www.foxsports.com/stories/nfl/packers-plan-keep-josh-jacobs-roster-nfl-conducts-investigation",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/jacobs.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T00:05:43Z",
+    "content": "Green Bay coach Matt LaFleur says the Packers plan to keep Josh Jacobs on their roster following the news of previous allegations against the running back, who has pleaded no contest to two misdemean\u2026 [+4462 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "2026 NFL Odds: When Will The Chargers Earn Their First Win?",
+    "description": "Assuming the Chargers do get a win, when will it arrive? Check out the odds regarding L.A.'s first victory of the season.",
+    "url": "https://www.foxsports.com/stories/nfl/2026-nfl-odds-when-will-chargers-earn-first-win",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/herbert-113.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T16:15:48Z",
+    "content": "The Chargers' season hasn't gone to plan and that's about as mildly as it can be put.\u00a0\r\nAfter winning 11 games in each of the last two seasons, and after entering this season as a Super Bowl hopeful,\u2026 [+2012 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How to Watch Lipscomb vs. Iowa: TV Channel, Live Stream, Time",
+    "description": "Lipscomb vs. Iowa tips off Tuesday, Nov. 3, at 8 p.m. ET on Big Ten Network. Get the FOX One streaming info and players to watch for this game in Iowa City.",
+    "url": "https://www.foxsports.com/stories/mens-college-basketball/how-watch-lipscomb-vs-iowa-tv-channel-live-stream-time-nov-3-2026",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/how-to-watch-lipscomb-bisons-vs-iowa-hawkeyes-horizontal.png?ve=1&tl=1",
+    "publishedAt": "2026-11-03T13:49:46Z",
+    "content": "The Lipscomb Bisons visit the Iowa Hawkeyes on Tuesday, Nov. 3, 2026, at 8 p.m. ET from Carver-Hawkeye Arena in Iowa City, Iowa.\r\nIowa added transfers Ty'Reek Coleman from Illinois State and 7-foot-3\u2026 [+2377 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "2026 Final Four Odds: Duke, Florida Lead Field; Where Does Michigan Land?",
+    "description": "Which squads are favored to make it to the men's Final Four this season? See the odds.",
+    "url": "https://www.foxsports.com/stories/mens-college-basketball/2026-27-final-four-odds",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/artboard-1man-1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T18:59:23Z",
+    "content": "Making it to the Final Four is not equivalent to winning a national title, but still, it's a pretty big deal.\r\nLet's check out the odds for who will be the last four men's teams standing at the end o\u2026 [+1607 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Dodge Returns To NASCAR Cup Series With Kaulig In 2027",
+    "description": "In a \"significant milestone for the sport,\" Dodge will return to the NASCAR Cup Series in 2027 after a 15-year hiatus.",
+    "url": "https://www.foxsports.com/stories/nascar/dodge-returns-nascar-cup-series-kaulig-2027",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/dodge-horizontal_bob-pockrass_nascar.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T15:24:37Z",
+    "content": "Dodge will return to NASCAR Cup Series racing in 2027, ending a 15-year hiatus from the top NASCAR national series.\r\nNo brand was announced Monday night for the Dodge cars, which will be fielded by K\u2026 [+3040 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Mariners Hire Cubs' Farm Director Jason Kanzler As New Manager",
+    "description": "The Seattle Mariners have hired Chicago Cubs farm director Jason Kanzler as their new manager.",
+    "url": "https://www.foxsports.com/stories/mlb/mariners-hire-jason-kanzler-seattle-managers-cubs",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/mariners2.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T18:09:29Z",
+    "content": "The Seattle Mariners have hired Chicago Cubs farm director Jason Kanzler as manager, the team said Tuesday.\r\nThe 36-year-old Kanzler replaces Dan Wilson, who was fired after a disappointing 76-86 sea\u2026 [+2215 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How Barcelona vs. Aston Villa Perfectly Blends Two Kinds Of Soccer History",
+    "description": "Barcelona vs. Aston Villa is a meeting of two cultures blended with a fervent appreciation of how football should be played.",
+    "url": "https://www.foxsports.com/stories/soccer/aston-villa-barcelona-champions-league-unai-emery",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/artboard-1-1-1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T00:25:56Z",
+    "content": "Let me take you back to 1983. A year of turning points and exclamation marks in pop culture, history and sports.\u00a0\r\nMichael Jackons \"Thriller\" 13-minute music video premiered, thus creating a global r\u2026 [+7153 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Demond Williams Jr. Expected To Be Washington's Starting QB Vs. Penn State",
+    "description": "Demond Williams Jr.\u2019s time away from being Washington\u2019s starting quarterback did not last long.",
+    "url": "https://www.foxsports.com/stories/college-football/washington-huskies-demond-williams-jr-qb1-elijah-brown",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/demondh1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T15:34:58Z",
+    "content": "Demond Williams Jr.s time away from being Washingtons starting quarterback did not last long.\r\nWashington head coach Jedd Fisch said Monday that, barring any lingering injury issues, the junior out o\u2026 [+1999 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Oregon's Dan Lanning Faces Game-Planning Nightmare: Ohio State's Jeremiah Smith",
+    "description": "Oregon's Dan Lanning faces his toughest game-plan challenge against No. 12 Ohio State's wide receiver Jeremiah Smith.",
+    "url": "https://www.foxsports.com/stories/college-football/oregon-ducks-dan-lanning-ohio-state-buckeyes-jeremiah-smith",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/34b03d1d-nfl-16x9-1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T19:43:20Z",
+    "content": "Oregon vs. Ohio State may not be the season's marquee matchup, but that doesnt mean Dan Lannings game plan against Jeremiah Smith will be any easier.\r\nThe Ducks head back to Columbus to face the No. \u2026 [+2287 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Tom Brady Ready For 'Emotional' Return To Gillette Stadium: 'I Love This Game'",
+    "description": "Tom Brady is more than excited to call Sunday's Packers-Patriots as he returns to Gillette Stadium to call the game on FOX.",
+    "url": "https://www.foxsports.com/stories/nfl/tom-brady-return-patriots-packers",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/herd-11-3-bradynew.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T19:59:50Z",
+    "content": "If you somehow haven't heard yet, Tom Brady is returning to where it all began this Sunday. Brady is set to call his first game in Foxborough as the New England Patriots host the Green Bay Packers at\u2026 [+6347 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Barcelona, Atl\u00e9tico Skip Champions League Anthem To Honor Jesus de Miguel",
+    "description": "Soccer teams playing in the Champions League have paid tribute to Jesus de Miguel after the Tenerife forward\u2019s death following an on-field collision",
+    "url": "https://www.foxsports.com/stories/soccer/soccer-teams-in-champions-league-pay-tribute-to-de-miguel-after-his-death",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/gettyimages-2303355988-scaled-e1793748416513.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T23:27:21Z",
+    "content": "Soccer teams playing in the Champions League on Tuesday paid tribute to Jesus de Miguel after the Tenerife forward's death following an on-field collision.\r\nThe three Spanish teams hosting games Barc\u2026 [+933 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Manchester United Fans Hurl Tennis Balls On Pitch In Protest Of Ownership",
+    "description": "Manchester United fans attempted to disrupt the Champions League match against Roma on Tuesday by throwing tennis balls onto the pitch at Old Trafford.",
+    "url": "https://www.foxsports.com/stories/soccer/manchester-united-fans-hurl-tennis-balls-pitch-protest-ownership",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/united1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T21:45:53Z",
+    "content": "Manchester United fans attempted to disrupt the Champions League match against Roma on Tuesday by throwing tennis balls onto the pitch at Old Trafford.\r\nUnited was 2-0 down inside 18 minutes, but the\u2026 [+1436 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Denny Hamlin Needs Miracle To Win The Chase, Ready For Season To End",
+    "description": "If the chips fall in place for Denny Hamlin to win The Chase, it would be a miraculous ending to his \"miserable\" postseason.",
+    "url": "https://www.foxsports.com/stories/nascar/denny-hamlin-needs-miracle-win-chase-ready-season-end",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/nascar-16x9-2.png?ve=1&tl=1",
+    "publishedAt": "2026-11-03T21:07:44Z",
+    "content": "Denny Hamlin stood in the media center at Talladega Superspeedway. Three races remained in the season. And at that point, he already needed solid runs plus help to win the championship.\r\nHe had won t\u2026 [+3434 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Folarin Balogun Ends Goal Drought, Replaces Ansu Fati On Monaco Squad",
+    "description": "U.S. striker Folarin Balogun has been added to Monaco\u2019s squad for the Conference League having originally been left out amid uncertainty over his future.",
+    "url": "https://www.foxsports.com/stories/soccer/folarin-balogun-ends-goal-drought-replaces-ansu-fati-monaco-squad",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/balogun1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T21:32:05Z",
+    "content": "United States men's national team striker Folarin Balogun has been added to Monaco's squad for the Conference League, having originally been left out amid uncertainty over his future.\r\nIn the squad l\u2026 [+1707 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Top-10 CFB Showstoppers From Week 9: Darian Mensah And Dylan Raiola Lead the Way",
+    "description": "Geoff Schwartz breaks down his 10 stars from Week 9 of the college football season.",
+    "url": "https://www.foxsports.com/stories/college-football/top-10-cfb-showstoppers-from-week-9-darian-mensah-dylan-raiola-lead-way",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/9f667549-16x9-3.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T20:21:23Z",
+    "content": "I played offensive line for eight seasons in the NFL, and before that I spent my Saturdays in Autzen Stadium in Eugene, Oregon, blocking for guys who ended up on lists like this one. So when I watch \u2026 [+3830 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "PSG Breaks Champions League Record With 4 Goals In 17 Minutes",
+    "description": "Paris Saint-Germain faced a test of its squad strength with four of its best players missing for the trip to Villarreal in the Champions League on Tuesday.",
+    "url": "https://www.foxsports.com/stories/soccer/psg-breaks-champions-league-record-4-goals-17-minutes",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/psg1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T21:13:19Z",
+    "content": "Paris Saint-Germain faced a test of its squad strength with four of its best players missing for the trip to Villarreal in the Champions League on Tuesday.\r\nThe defending champions were coping just f\u2026 [+909 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "MLB Proposes Delaying Salary Cap Start Until 2028 In Talks With Players",
+    "description": "Major League Baseball has proposed delaying the start of a salary cap until 2028.",
+    "url": "https://www.foxsports.com/stories/mlb/major-league-baseball-proposes-delaying-salary-cap-start-until-2028-in-talks-with-players",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/mlb1-scaled.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T21:38:43Z",
+    "content": "Major League Baseball proposed delaying the start of a salary cap until 2028, saying teams have too many commitments for next season that wouldn't allow them to reduce spending quickly enough.\r\nA day\u2026 [+4506 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "3 Best MLB Free Agent Fits For Randy Arozarena If Leaves Mariners",
+    "description": "Here are the three best MLB free agent fits for Seattle Mariners star outfielder Randy Arozarena.",
+    "url": "https://www.foxsports.com/stories/mlb/randy-arozarena-rumors-mlb-free-agency-mariners-guardians-blue-jays-white-sox",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/10/1294/728/randy3.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T14:56:16Z",
+    "content": "Randy Arozarena is a stud.\r\nThe Seattle Mariners' left fielder and three-time All-Star is in the prime of his career. The soon-to-be 32-year-old is a potent threat from the right side of the plate, a\u2026 [+5574 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Spire Motorsports Suspends Carson Hocevar For Martinsville Antics",
+    "description": "Carson Hocevar has been benched after his conduct at Martinsville. \"It's an embarrassing day for me.\"",
+    "url": "https://www.foxsports.com/stories/nascar/spire-motorsports-suspends-carson-hocevar-embarrassing-day",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/carson-hocevar_spire-nascar-suspension_bob-pockrass.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T19:20:14Z",
+    "content": "Spire Motorsports has suspended its star driver, Carson Hocevar, for the 2026 season finale this Sunday at Homestead-Miami Speedway after Hocevar brake-checked Austin Cindric, ending Cindrics race at\u2026 [+3233 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "2026 Women's NCAA Title Odds: South Carolina Favored; UConn, USC Chasing",
+    "description": "Check out the odds for which women's program will cut down the nets at the end of the 2026-27 season.",
+    "url": "https://www.foxsports.com/stories/womens-college-basketball/2026-womens-ncaa-national-championship-odds",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/artboard-1woman-1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T19:01:09Z",
+    "content": "UCLA won its first-ever women's national title at the conclusion of last season, showing just how strong the women's college game has gotten as the years have gone on.\r\nCan a first-timer do it again \u2026 [+1676 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Texas, Star Madison Booker Still Chasing A National Title After Transfer Exodus",
+    "description": "Madison Booker and Texas made it to the Final Four twice in a row after 20 years away, but a new season brings a new roster with new challenges.",
+    "url": "https://www.foxsports.com/stories/womens-college-basketball/texas-longhorns-madison-booker-final-four-transfers",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/bookerh1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T16:45:42Z",
+    "content": "Madison Booker and Texas earned a No. 1 seed in the NCAA Tournament for the third consecutive year, and made it to the Final Four twice in a row after 20 years away.\r\nThen the Longhorns watched three\u2026 [+4341 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "The Bears Have Arrived: Caleb Williams & Co. Emerge As A Top Super Bowl Contender",
+    "description": "Caleb Williams, Jeffery Simmons and the Bears proved they're \"a force to be reckoned with\" by whipping the Super Bowl champs in Seattle.",
+    "url": "https://www.foxsports.com/stories/nfl/bears-signal-arrive-top-nfc-contender-dominating-seahawks",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/16x9-10.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T19:45:58Z",
+    "content": "LUMEN FIELD (Seattle) After a masterful opening script, an 80-yard touchdown drive that took 8:32 off the clock in 17 plays, the Bears offense sat on the visitors sideline at Lumen Field, hyped by wh\u2026 [+6341 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Tom Brady Explains The Transition Steelers QB Aaron Rodgers Has Made",
+    "description": "Tom Brady broke down the changes Pittsburgh Steelers quarterback Aaron Rodgers has made to remain an impactful NFL signal-caller.",
+    "url": "https://www.foxsports.com/stories/nfl/tom-brady-aaron-rodgers-quote-steelers-offense-stats",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/5gfuulzre0hdv7z8_1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T20:55:17Z",
+    "content": "It takes one to know one.\r\nFew human beings can relate to a 42-year-old still playing quality football in the NFL like Pittsburgh Steelers star Aaron Rodgers. One of the people who can, though, is To\u2026 [+2979 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "QB Stock Market Week 9: Who's Been The Best Starter In The First Half Of 2026?",
+    "description": "Josh Allen dominated on an off day. Jared Goff was quietly brilliant. Kyler Murray further regressed. Here are Henry McKenna's latest QB rankings.",
+    "url": "https://www.foxsports.com/stories/nfl/qb-stock-market-week-9-whos-been-best-starter-first-half-2026",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/16x9-qb-stockmar.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-03T17:24:42Z",
+    "content": "Josh Allen didnt play particularly well this weekend and the Buffalo Bills QB managed to score three touchdowns on the way to a rout of the Baltimore Ravens.\r\nBut did Allen's off day open the door fo\u2026 [+12817 chars]"
+   }
+  ],
+  "technology": [
+   {
+    "source": {
+     "id": "wired",
+     "name": "Wired"
+    },
+    "author": "Javier Carbajal",
+    "title": "NASA\u2019s Swift Observatory Is Falling to Earth. Here\u2019s What to Know About the Impending Impact",
+    "description": "The 3,200-pound satellite is expected to reenter Earth\u2019s atmosphere later this week with a wide reentry zone covering parts of Africa, Australia, Southeast Asia, and South America.",
+    "url": "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact/",
+    "urlToImage": "https://media.wired.com/photos/6ae8c770a02f1e9caf32860c/191:100/w_1280,c_limit/swiftnasa.jpg",
+    "publishedAt": "2026-11-03T10:45:00Z",
+    "content": "In its lifetime, the satellite observed over 2,000 gamma-ray bursts and nearly as many supernovas, data from which contributed to more than 7,000 research papers. And its contributions are far from o\u2026 [+1926 chars]"
+   },
+   {
+    "source": {
+     "id": "wired",
+     "name": "Wired"
+    },
+    "author": "Katie Drummond",
+    "title": "\u2018Our Risk, Their Reward\u2019: Zohran Mamdani on AI and Data Centers",
+    "description": "Ahead of the midterms, WIRED talked to New York City\u2019s mayor about data centers, AI in schools, and the future of the Democratic party.",
+    "url": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani/",
+    "urlToImage": "https://media.wired.com/photos/6ae90c349efc9a24a32255ed/191:100/w_1280,c_limit/WEB_WIRED_Mamdani_HR-00808.jpg",
+    "publishedAt": "2026-11-03T11:00:00Z",
+    "content": "If you think you had a wild year, just imagine how New York City mayor Zohran Mamdani must feel.\r\nIn October 2025, weeks before his historic election win, WIRED sat down with Mamdani for an interview\u2026 [+2381 chars]"
+   },
+   {
+    "source": {
+     "id": "wired",
+     "name": "Wired"
+    },
+    "author": "Matt Burgess",
+    "title": "Binance Says Hackers Used Well-Known Tricks to Carry Out a $6.34 Billion Heist",
+    "description": "Suspected North Korean attackers duped an engineer with a fake job interview and a malicious download to gain a foothold in the crypto firm\u2019s system and steal billions, according to Binance.",
+    "url": "https://www.wired.com/story/binance-says-hackers-used-well-known-tricks-to-carry-out-a-dollar634-billion-heist/",
+    "urlToImage": "https://media.wired.com/photos/6aea142af41713bdfbadc480/191:100/w_1280,c_limit/Security_Suspected%20North%20Korean%20Hackers%20Stole%20$6.3%20Billion%20From%20Binance%20Using%20the%20Oldest%20Tricks%20in%20the%20Book_v1.jpg",
+    "publishedAt": "2026-11-03T19:04:58Z",
+    "content": "For almost a decade, North Korean cybercriminals have targeted the cryptocurrency industrylarge and small. While these hacks have been frequent, the countrys hackers allegedly made off with their big\u2026 [+2750 chars]"
+   },
+   {
+    "source": {
+     "id": "wired",
+     "name": "Wired"
+    },
+    "author": "Boutayna Chokrane",
+    "title": "Apple AirPods 5 Review: Better Than Before but Not Quite Pro",
+    "description": "Apple finally made ANC standard across the AirPods lineup. But should you still spring for the AirPods Pro 3?",
+    "url": "https://www.wired.com/review/apple-airpods-5/",
+    "urlToImage": "https://media.wired.com/photos/6ae7ceda7ef4ba44e2d4570c/191:100/w_1280,c_limit/New%20AirPods%205%20Review%20112026%20top%20art%20SOURCE%20Amazon.jpg",
+    "publishedAt": "2026-11-03T12:00:00Z",
+    "content": "The inclusion of ANC in both AirPods 5 models is the biggest upgrade here. You no longer have to pay extra just to get noise cancellation, and even the $129 model is a better deal than the standard A\u2026 [+2068 chars]"
+   }
+  ],
+  "general": [
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Multiple Russian strikes kill at least 26 at Ukraine aid centre",
+    "description": "At least 26 people were killed in Russian strikes on a school being used as a humanitarian aid centre.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/multiple-russian-strikes-kill-at-least-26-at-ukraine-aid-centre",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793668570.jpg?resize=1630%2C1080&quality=80",
+    "publishedAt": "2026-11-03T01:17:57Z",
+    "content": "At least 26 people were killed in Russian strikes on a school being used as a humanitarian aid centre in Ukraines Zaporizhzhia region. Ukraines president says there were two separate strikes, an init\u2026 [+75 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Israeli soldiers arrest Al Jazeera journalist in Hebron raids",
+    "description": "Israeli soldiers blindfolded, handcuffed and arrested Al Jazeera correspondent Montaser Nassar during a raid on his home",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/israeli-soldiers-arrest-al-jazeera-journalist-in-hebron-raids",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793677898.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-03T03:53:09Z",
+    "content": "Israeli soldiers blindfolded, handcuffed and arrested Al Jazeera correspondent Montaser Nassar during a raid on his home in Dura, south of Hebron in the Occupied West Bank."
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Al Jazeera Staff",
+    "title": "UK\u2019s King Charles expresses \u2018sorrow\u2019 in Antigua over slave trade",
+    "description": "Caribbean nations call for reparations as King Charles stops short of issuing an apology for colonial-era slavery.",
+    "url": "https://www.aljazeera.com/news/2026/11/3/uks-king-charles-expresses-profound-sorrow-over-transatlantic-slave-era",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6aea165fbe97-1793726047.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-03T18:32:46Z",
+    "content": "King Charles III has said at the official opening of the Commonwealth Heads of Government Meeting (CHOGM) in Antigua and Barbuda that the transatlantic slave trade fills him with horror and the most \u2026 [+2220 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Michigan US Senate race: Rogers, El-Sayed urge turnout for critical race",
+    "description": "Abdul El-Sayed hopes to become the first Muslim US senator as Michigan's Senate race reaches its critical final hours.",
+    "url": "https://www.aljazeera.com/news/2026/11/3/michigan-us-senate-race-rogers-el-sayed-urge-turnout-for-critical-race",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-03T163903Z_230916867_RC2GGOAQHIMC_RTRMADP_3_USA-ELECTION-MICHIGAN-1793726328_756ead-1793730105.jpg?resize=1200%2C630&quality=80",
+    "publishedAt": "2026-11-03T19:13:49Z",
+    "content": "Michigan voters are casting their ballots in a charged, closely watched race that could make Democrat Abdul El-Sayed the first Muslim in the United States Senate and help decide control of the chambe\u2026 [+4334 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Al Jazeera Staff",
+    "title": "Yemen gov\u2019t accuses IRGC, Hezbollah of sending 21 experts to back Houthis",
+    "description": "Yemeni interior minister says foreign involvement expanded beyond arms and training to directing military operations.",
+    "url": "https://www.aljazeera.com/news/2026/11/3/yemen-govt-accuses-irgc-hezbollah-of-sending-21-experts-to-back-houthis",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6aea2303-1793729283.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-03T19:09:09Z",
+    "content": "Yemens internationally recognised government has accused Irans Islamic Revolutionary Guard Corps (IRGC), as well as Lebanons Hezbollah, of deploying 21 experts to help the Houthis plan and direct mil\u2026 [+2293 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Al Jazeera Staff",
+    "title": "Israel\u2019s opposition leaders back Eisenkot to oust Netanyahu",
+    "description": "Opposition promises to form a government quickly but remains split over whether to ally with Arab-led parties.",
+    "url": "https://www.aljazeera.com/news/2026/11/3/israeli-opposition-leaders-back-eisenkot-to-oust-netanyahu",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ae1fb031c60-1793194755.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-03T15:00:10Z",
+    "content": "Israels opposition leaders have agreed to back former military chief Gadi Eisenkot as prime minister, promising to replace Benjamin Netanyahus government as quickly as possible.\r\nThe five party heads\u2026 [+4206 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "US midterm voting begins in high-stakes test of Trump\u2019s presidency",
+    "description": "Voting is under way across the US in midterm elections that could strip Trump\u2019s Republicans of control of Congress.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/us-midterm-voting-begins-in-high-stakes-test-of-trumps-presidency",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/Screenshot-2026-11-03-at-14.36.47-1793716740.png?resize=1200%2C675",
+    "publishedAt": "2026-11-03T14:42:41Z",
+    "content": "Voting is under way across the US in midterm elections that could strip Donald Trumps Republicans of control of Congress. All House seats and 35 Senate seats are being contested, with rising living c\u2026 [+48 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "In Pictures: US midterm elections in 20 photos",
+    "description": "Voters, parents, and campaigners share the spotlight in a crucial election set to reshape US political direction.",
+    "url": "https://www.aljazeera.com/gallery/2026/11/3/in-pictures-us-midterm-elections-in-20-photos",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26307443786045-1793715442.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-03T15:46:57Z",
+    "content": "Americans head to the polls on Tuesday in midterm elections that will decide control of Congress and determine how much pressure President Donald Trump faces for the rest of his term.\r\nAfter two year\u2026 [+594 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Evan Semones",
+    "title": "Polls open in closely contested US midterm elections 2026",
+    "description": "Democrats are eyeing historic gains in the US Congress that could change the trajectory of the country.",
+    "url": "https://www.aljazeera.com/news/2026/11/3/polls-open-in-closely-contested-us-midterm-elections-2026",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6ae928e5c719-1793665253.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-03T11:27:14Z",
+    "content": "Polls have opened in some parts of the United States for Tuesdays pivotal midterm elections, with all 435 House of Representatives seats and 35 of the Senates 100 seats being contested.\r\nVoting hours\u2026 [+1501 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "\u2018It gets better\u2019: Olympic president\u2019s advice for bullying victims",
+    "description": "Tell bullies to \u2018sod off\u2019. That\u2019s the advice IOC President Kirsty Coventry has for young athletes facing bullying.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/it-gets-better-olympic-presidents-advice-for-bullying-victims",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/WIDE-THUMB-IOC-PRESIDENT-1793699062.png?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-03T09:45:09Z",
+    "content": "Tell bullies to sod off. Thats the advice IOC President Kirsty Coventry has for young athletes facing bullying. She spoke to Al Jazeera ahead of the Youth Olympics in Senegal, where she reflected on \u2026 [+37 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Al Jazeera Staff",
+    "title": "Cyclone Murasu makes landfall on India\u2019s eastern coast",
+    "description": "Severe cyclonic storm uproots trees and downs power lines, days after another cyclone battered the same region.",
+    "url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6ae99c66a413-1793694822.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-03T09:33:18Z",
+    "content": "Cyclone Murasu has made landfall on Indias eastern coast, uprooting trees, toppling electricity poles and flooding low-lying areas in Andhra Pradesh. It is the second cyclone to strike the region in \u2026 [+1854 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Alexander Hoad",
+    "title": "Footballer dies after on-field collision",
+    "description": "Tenerife forward Jesus de Miguel suffered a cardiac arrest after a keeper\u2019s challenge in Spanish second division match.",
+    "url": "https://www.aljazeera.com/sports/2026/11/3/footballer-dies-after-on-field-collision",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-04-11T161742Z_1929641912_UP1EM4B199GO4_RTRMADP_3_SOCCER-SPAIN-BAR-ESP-1793698871.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-03T09:59:03Z",
+    "content": "The football world is in mourning after the announcement that Tenerife forward Jesus de Miguel has died after an on-field collision in a Spanish second division match.\r\nDe Miguels side were in a 2-2 \u2026 [+1781 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Al Jazeera journalist recounts arrest during Israeli raid on his home",
+    "description": "Released Al Jazeera Arabic correspondent Montaser Nassar describes how Israeli forces raided his home and arrested him.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/al-jazeera-journalist-recounts-arrest-during-israeli-raid-on-his-home",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793707969.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-03T12:14:19Z",
+    "content": "Released Al Jazeera Arabic correspondent Montaser Nassar describes how Israeli forces raided his home in Dura, south of Hebron, assaulted his wife, and arrested him alongside 20 other residents. He s\u2026 [+59 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Justin Salhani",
+    "title": "Lebanon cuts power to public bodies as electricity crisis deepens",
+    "description": "Political disputes and war worsen Lebanon's electricity crisis, as experts say deeper reforms are necessary.",
+    "url": "https://www.aljazeera.com/news/2026/11/3/lebanon-cuts-power-to-public-bodies-as-electricity-crisis-deepens",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2023/03/2022-02-18T163131Z_302401676_RC2EMS9P4PEH_RTRMADP_3_LEBANON-CRISIS-ELECTRICITY.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-03T10:17:27Z",
+    "content": "Beirut, Lebanon Lebanons Ministry of Energy and Water has begun shutting down the supply of electricity to approximately 100 public institutions that have outstanding bill payments, according to loca\u2026 [+6486 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Al Jazeera Staff",
+    "title": "At least 73 injured as Russia bombs Ukrainian hospital and power plants",
+    "description": "Medical facility was struck by Russian ballistic missiles and aerial bombs overnight.",
+    "url": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6ae9a305-1793696517.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-03T10:18:18Z",
+    "content": "Russia has bombed a hospital in Kharkiv, injuring at least 73 people, while also carrying out several attacks on energy infrastructure across multiple Ukrainian regions.\r\nUkrainian President Volodymy\u2026 [+2991 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Mohammad Mansour",
+    "title": "Deadly RSF drone attacks reveal deep divisions between Sudan and Ethiopia",
+    "description": "Sudan demands UN accountability after devastating drone attacks expose a complex regional crisis.",
+    "url": "https://www.aljazeera.com/news/2026/11/3/deadly-rsf-drone-strikes-reveal-deep-divisions-between-sudan-and-ethiopia",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-20T163028Z_1518097159_RC247OARFAEN_RTRMADP_3_SOUTHSUDAN-SUDAN-SECURITY-1792561314.jpg?resize=1200%2C675",
+    "publishedAt": "2026-11-03T10:29:56Z",
+    "content": "The Sudanese governments allegations that Ethiopia is behind a deadly wave of unmanned aerial assaults belie a deep and longstanding rift between the two countries, which threatens to intensify inter\u2026 [+5362 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Umar Farooq",
+    "title": "US lawmakers ask Trump administration to stop deportation of Afghans",
+    "description": "At least 150 Afghans are facing deportation to Pakistan and on to Afghanistan.",
+    "url": "https://www.aljazeera.com/news/2026/11/3/us-lawmakers-ask-trump-administration-to-stop-deportation-of-afghans",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2022/03/AP21246629499034.jpg?resize=1200%2C675",
+    "publishedAt": "2026-11-03T02:12:33Z",
+    "content": "A group of 66 lawmakers in the United States has written to the administration of President Donald Trump asking it to halt a planned mass deportation of Afghans, including some who worked alongside c\u2026 [+5299 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Two helicopters crash near Everest base camp, killing Indian tourist",
+    "description": "Two helicopters have collided while preparing to land in Nepal\u2019s Mount Everest region, killing an Indian tourist.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/two-helicopters-crash-near-everest-base-camp-killing-indian-tourist",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/CMSWIDE-THUMB-NEPAL-CRASH-1793691210.png?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-03T07:34:36Z",
+    "content": "Two helicopters have collided while preparing to land in Nepals Mount Everest region. An Indian tourist was killed, while a New Zealander was rescued. The accident comes amid peak trekking season in \u2026 [+26 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Saudi Pro League postpones matches after Asian Cup rescheduling",
+    "description": "League delays matches after revised Asian Cup dates create 'additional flexibility in the domestic football calendar'.",
+    "url": "https://www.aljazeera.com/sports/2026/11/3/saudi-pro-league-postpones-matches-after-asian-cup-rescheduling",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-10-24T081116Z_234184698_UP1EMAN15GXKG_RTRMADP_3_SOCCER-SAUDI-FAI-NSR-1793710357.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-03T13:14:52Z",
+    "content": "Matches in Saudi Arabias premier football league scheduled for the coming week have been postponed after the rescheduling of the AFC Asian Cup 2027, the Saudi Pro League (SPL) says.\r\nThe decision com\u2026 [+1529 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Hoda Sherif",
+    "title": "How Florida Governor Ron DeSantis will shape his state\u2019s 2026 midterm race",
+    "description": "The outgoing governor and former presidential candidate has transformed Florida into a conservative policy vanguard.",
+    "url": "https://www.aljazeera.com/news/2026/11/3/how-florida-governor-ron-desantis-will-shape-his-states-2026-midterm-race",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6ae7d89e7739-1793579166.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-03T13:05:03Z",
+    "content": "Few modern governors have left as deep a mark on Floridas character as Republican Ron DeSantis.\r\nAcross his two terms, the 48-year-old politician has overhauled the states political landscape, turnin\u2026 [+6066 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "New bodycam video shows aftermath of fatal National Guard shooting",
+    "description": "Newly-released bodycam footage shows Tennessee National Guard members pointing their guns at 20-year-old Tyrin Johnson.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/new-bodycam-video-shows-aftermath-of-fatal-national-guard-shooting",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793711577.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-03T13:13:38Z",
+    "content": "Newly-released bodycam footage shows Tennessee National Guard members pointing their guns at 20-year-old Tyrin Johnson as he lay dying in Memphis in July. Authorities say soldiers shot him as he came\u2026 [+65 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Al Jazeera Staff",
+    "title": "Ukraine\u2019s Zelenskyy hopes Abu Dhabi talks will open path to Putin meeting",
+    "description": "Ukrainian president meets German chancellor in Berlin, who says Russia is yet to engage seriously in peace efforts.",
+    "url": "https://www.aljazeera.com/news/2026/11/3/zelenskyy-hopes-abu-dhabi-talks-will-open-way-to-meeting-with-putin",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6ae9f6cd4c4cd-1793717965.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-03T16:22:15Z",
+    "content": "Ukrainian President Volodymyr Zelenskyy has said he hopes upcoming United States-mediated talks with Russia in Abu Dhabi will lead to a three-way meeting of leaders that includes Russian President Vl\u2026 [+4257 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Edna Mohamed",
+    "title": "Very cold war: Who\u2019s attacking Europe\u2019s supermarket freezers?",
+    "description": "Cold stores in supermarkets across Europe have been targeted in a cyberattack with no clear culprit.",
+    "url": "https://www.aljazeera.com/news/2026/11/3/very-cold-war-whos-attacking-europes-supermarket-freezers",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6ae9d4f25c02-1793709298.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-03T14:17:29Z",
+    "content": "Supermarket refrigerators and freezers across Europe have been targeted by a cyberattack that raised the temperature of internet-linked units, destroying and damaging large quantities of food.\r\nOn Mo\u2026 [+6319 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Laura O'Connor",
+    "title": "From Italy to Canada, how the UK\u2019s Palestine Action group went global",
+    "description": "The banned UK group, which targets Israel's war machine, has inspired activists in Europe and beyond.",
+    "url": "https://www.aljazeera.com/news/2026/11/3/from-italy-to-canada-how-the-uks-palestine-action-group-went-global",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/GettyImages-1767824120-1793712526.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-03T14:30:24Z",
+    "content": "London, United Kingdom In November 2023, protesters spray painted the Rome headquarters of Leonardo, an Italian weapons manufacturer with ongoing contracts with Israel.\r\nThe group was inspired by a P\u2026 [+7046 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Jerusalem Daily: Israel detains Al Jazeera journalist in Hebron raids",
+    "description": "Al Jazeera journalist Montaser Nassar was detained in raids near Hebron.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/jerusalem-daily-israel-detains-al-jazeera-journalist-in-hebron-raids",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793726664.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-03T17:26:02Z",
+    "content": "Al Jazeera journalist Montaser Nassar was detained in raids near Hebron and evidence was revealed that Israeli forces shot and assaulted a prisoner who was threatened by Israeli Minister Itamar Ben-G\u2026 [+46 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Russian strikes on Dnipro kill two, injure 20 others",
+    "description": "Russian strikes on Dnipro damaged residential areas and several medical facilities.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/russian-strikes-on-dnipro-kill-two-injure-20-others",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793726631.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-03T17:24:08Z",
+    "content": "Russian strikes on Dnipro hit residential areas, killing two people and injuring 20 others. Several medical facilities were also damaged, including a hospital and a hospice caring for nearly 50 termi\u2026 [+18 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Netanyahu\u2019s eight-seat problem",
+    "description": "Netanyahu\u2019s Likud-led bloc won the most seats in the general election, but forming a government is another battle",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/netanyahus-eight-seat-problem",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793740736.jpg?resize=1918%2C1080&quality=80",
+    "publishedAt": "2026-11-03T21:19:13Z",
+    "content": "Israeli Prime Minister Benjamin Netanyahus Likud-led bloc won the most seats in the general election, but forming a government is another battle. From former rivals to far-right allies, Al Jazeeras N\u2026 [+71 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "President Zelenskyy says US elections will impact war in Ukraine",
+    "description": "Ukrainian President Volodmyr Zelenskyy has said that the US midterm elections will impact the ongoing war in his country",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/president-zelenskyy-says-us-elections-will-impact-war-in-ukraine",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793742180.jpg?resize=1316%2C1080&quality=80",
+    "publishedAt": "2026-11-03T21:43:19Z",
+    "content": "Ukrainian President Volodmyr Zelenskyy has said that the US midterm elections will impact the ongoing war in his country. The president thanked the United States for its support, while speaking at a \u2026 [+30 chars]"
+   }
+  ]
+ }
+}

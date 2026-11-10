@@ -1,0 +1,1516 @@
+{
+ "snapshot": "2026-11-04",
+ "source_notebook": null,
+ "fetched_by": "NewsAPI article search: articles published that day",
+ "articles": {
+  "business": [
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "loreilly@businessinsider.com (Lara O'Reilly)",
+    "title": "Ad industry dealmaking is heating up. M&A pros think these 9 companies could be the next big buyers.",
+    "description": "There's been a flurry of acquisitions in the advertising space, with more expected. These are the buyers who could be poised to strike next.",
+    "url": "https://www.businessinsider.com/top-advertising-strategic-buyers-predictions-industry-experts-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aea35a251c56973f92dd081?width=1200&format=jpeg",
+    "publishedAt": "2026-11-04T13:00:01Z",
+    "content": "It's shopping season in the advertising industry, and I'm not just talking about the holidays.\r\nAfter a somewhat sleepy period, the M&amp;A market is stirring back to life, with strategic buyers load\u2026 [+9271 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "insider@insider.com (Jennifer Jay Palumbo)",
+    "title": "I thought being a good mom meant keeping my autistic son from upsetting strangers. I was wrong.",
+    "description": "An experience at the zoo helped me learn the importance of prioritizing my autistic son's comfort over others people's opinions and judgements.",
+    "url": "https://www.businessinsider.com/autistic-child-public-meltdown-parent-learn-to-ignore-judgmental-strangers-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ae9e92f978e617b0a2a4fd8?width=1200&format=jpeg",
+    "publishedAt": "2026-11-04T15:11:01Z",
+    "content": "When my older son, Michael, was about 3, my husband and I took him and his baby brother to the Bronx Zoo. It was our first trip there as a family of four, and we were excited.\r\nWe hadn't been there m\u2026 [+3564 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "kvillarroel@businessinsider.com (Kristine Villarroel)",
+    "title": "Here's how much you need to earn to be middle class in every US state, ranked",
+    "description": "A SmartAsset study revealed the income needed to be considered middle class in every US state. See where yours falls.",
+    "url": "https://www.businessinsider.com/middle-class-income-in-every-state-ranking#article",
+    "urlToImage": "https://i.insider.com/6aea3b9f51c56973f92dd0c3?width=1200&format=jpeg",
+    "publishedAt": "2026-11-04T15:07:13Z",
+    "content": "You've been hearing about the K-shaped economy and the shrinking middle class, but what does it actually mean to be in the middle class in the US today?\r\nFor many, the label can describe a suburban, \u2026 [+7599 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Jake Epstein",
+    "title": "Russia is giving some of its missiles greater range and larger warheads, Ukraine says",
+    "description": "The new assessment from Ukraine's military intelligence said Russia has stockpiled thousands of ballistic and cruise missiles.",
+    "url": "https://www.businessinsider.com/russia-giving-missiles-greater-range-larger-warheads-ukraine-says-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aeb3eee9270da3cc6667f12?width=1200&format=jpeg",
+    "publishedAt": "2026-11-04T15:46:48Z",
+    "content": "Russia is increasing the range of some of its missiles, Ukraine's military intelligence agency said.REUTERS\r\n<ul><li>Ukraine's military intelligence agency has released details about Russian missile \u2026 [+3231 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Emily Hart",
+    "title": "I visited the newest US national park. Here's what it was like, as someone who's now visited all 64 of them.",
+    "description": "I visited the newest US national park, Chiricahua. As someone who's now been to all 64 major US national parks, this one definitely stood out.",
+    "url": "https://www.businessinsider.com/visited-newest-us-national-park-chiricahua-what-its-like-photos-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aeb4ffbc54bfafa65abeddf?width=1200&format=jpeg",
+    "publishedAt": "2026-11-04T15:32:18Z",
+    "content": "I visited the newest US national park, Chiricahua.Emily Hart\r\n<ul><li>I've visited all 64 major US national parks, including the newest one, Chiricahua.</li><li>Chiricahua was recently upgraded from \u2026 [+4543 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Selima Hussain,Robert Leslie,Olivia Nemec",
+    "title": "The deadly cost of India's firecracker industry",
+    "description": "Lighting firecrackers for Diwali is a beloved tradition in India. But doing so comes at a cost, both for the workers and the surrounding environment.",
+    "url": "https://www.businessinsider.com/the-dark-side-of-indias-740-million-firecracker-industry-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aeb1f459270da3cc6667e71?width=1200&format=jpeg",
+    "publishedAt": "2026-11-04T17:15:50Z",
+    "content": "The city of Sivakasi in India makes 90% of the country's firecrackers, but every year, dozens of people die in accidental explosions at factories across the region. We visited workshops producing mil\u2026 [+212 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Dan DeFrancesco",
+    "title": "A town's creative way for homeowners to tap into the short-term rental market could be a blueprint for others",
+    "description": "Boulder will lift its ban on most Airbnbs during Sundance, a potential way to benefit from rentals without swallowing up housing supply.",
+    "url": "https://www.businessinsider.com/airbnb-short-term-rental-boulder-real-estate-bi-today-newsletter-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aea6b7ecd2cd3a46a0f08c6?width=1200&format=jpeg",
+    "publishedAt": "2026-11-04T12:16:55Z",
+    "content": "Matthew DeFeo for BI\r\n<ul><li>This post originally appeared in the Business Insider Today newsletter.</li><li>You can sign up for Business Insider's daily newsletter here.</li></ul>Boulder is finally\u2026 [+2347 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Lara O'Reilly",
+    "title": "The podcast boom is hitting a messy reality for CMOs",
+    "description": "Marketers are getting fed up with cluttered, repetitive ad breaks and a lack of measurement standards, according to a new study.",
+    "url": "https://www.businessinsider.com/oxford-road-research-marketers-podcast-gripes-measurement-ad-load-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aea401229a2aa01303e3a8a?width=1200&format=jpeg",
+    "publishedAt": "2026-11-04T12:30:01Z",
+    "content": "Some marketers are hitting pause on podcast ads.Jens B\u00fcttner/picture alliance via Getty Images\r\n<ul><li>A version of this post appears in CMO Insider.</li><li>Sign up for Business Insider's marketing\u2026 [+5601 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Pranav Dixit",
+    "title": "The 23-year-old founder of Instinct says people are quick to trust AI with their money",
+    "description": "Instinct founder Noah Shinn says rapid credit card linking shows trust, as AI agent rivals like Meta's Muse and OpenAI's Dots chase shopping.",
+    "url": "https://www.businessinsider.com/instinct-founder-noah-shinn-touts-ai-agents-racing-to-shop-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aeb7c90c54bfafa65abefb3?width=1200&format=jpeg",
+    "publishedAt": "2026-11-04T19:20:45Z",
+    "content": "Instinct founder Noah Shinn (right) at Fireworks AI's Forge conference in San Francisco.Pranav Dixit/Business Insider\r\n<ul><li>Nearly 40% of Instinct users connect a credit card within three weeks, i\u2026 [+2641 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Geoff Weiss,Ashley Stewart",
+    "title": "Satellite images reveal trouble brewing at Microsoft's AI data center partners",
+    "description": "Satellite images reveal potential delays at two Microsoft AI data center projects, highlighting power and permitting challenges facing neoclouds.",
+    "url": "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aeb752e9270da3cc6668159?width=1200&format=jpeg",
+    "publishedAt": "2026-11-04T20:42:05Z",
+    "content": "Microsoft chief financial officer Amy Hood.Elaine Thompson/AP\r\n<ul><li>Microsoft said third-party data center delays contributed to a shortfall in infrastructure spend.</li><li>Satellite imagery poin\u2026 [+2721 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Truman Dickerson,Natalie Musumeci",
+    "title": "This tiny North Dakota town was the only place to vote against restricting data centers",
+    "description": "Among 45 data center propositions on the ballot during the midterms, only one small town voted against reining them in.",
+    "url": "https://www.businessinsider.com/ai-data-center-backlash-vote-election-harwood-north-dakota-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aeba3849270da3cc666833b?width=1200&format=jpeg",
+    "publishedAt": "2026-11-04T23:09:39Z",
+    "content": "The data center under construction in Harwood, North Dakota, is faintly visible in the mist.Mike Swartz\r\n<ul><li>Just one of 45 ballot propositions on data centers fell on the pro-data center side.</\u2026 [+4184 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Matthew Loh",
+    "title": "Trump says midterms voters weren't willing to pay more for gas: 'I understand that'",
+    "description": "Trump said higher gas prices were a \"short-term consequence\" of the Iran war, as Democrats flipped a swathe of House and Senate seats.",
+    "url": "https://www.businessinsider.com/trump-midterm-voters-democrats-win-willing-pay-gas-iran-war-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aeacd19cd2cd3a46a0f09c4?width=1200&format=jpeg",
+    "publishedAt": "2026-11-04T06:48:17Z",
+    "content": "President Donald Trump speaks at a midterm campaign rally in Florida.Brendan SMIALOWSKI / AFP via Getty Images\r\n<ul><li>As the Democrats scored a wave of key midterm victories, Trump says gas prices \u2026 [+2668 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Amanda Goh",
+    "title": "Airbnb's Brian Chesky says these 3 mistakes made him a 'terrible CEO'",
+    "description": "Brian Chesky says building Airbnb came naturally. Running it did not. He shared the three mistakes that made him a \"terrible CEO.\"",
+    "url": "https://www.businessinsider.com/airbnb-brian-chesky-leadership-mistakes-terrible-ceo-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aeaa1d812aca86a55f54999?width=1200&format=jpeg",
+    "publishedAt": "2026-11-04T05:38:02Z",
+    "content": "Airbnb's Brian Chesky said these 3 mistakes made him a \"terrible CEO.\"David Paul Morris/Bloomberg via Getty Images\r\n<ul><li>Brian Chesky said building Airbnb came more naturally to him than running i\u2026 [+3638 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Martina Nacach Cowan Ros",
+    "title": "NYC Mayor Zohran Mamdani's pied-\u00e0-terre tax just got a big win in court",
+    "description": "A New York court cleared Zohran Mamdani's pied-\u00e0-terre tax surcharge on luxury second homes over $5 million. Yet, the legal fight is not over.",
+    "url": "https://www.businessinsider.com/nyc-appeals-court-ruling-pied-a-terre-tax-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aeba590308912814ed7101f?width=1200&format=jpeg",
+    "publishedAt": "2026-11-04T21:47:28Z",
+    "content": "New York City Mayor Zohran Mamdani.Andres Kudacki/Getty Images\r\n<ul><li>The tax on second homes worth over $5 million was challenged by a lawsuit from NYC homeowners.</li><li>The Appellate Division o\u2026 [+2887 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Natalie Musumeci,Kelsey Vlamis,Aditi Bharade",
+    "title": "Biz leaders react as a 'blunami' sweeps America on Election Night",
+    "description": "Business leaders and tech executives are now weighing in on what the new political landscape could mean for their industries.",
+    "url": "https://www.businessinsider.com/business-tech-leaders-react-midterms-elections-results-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aea03b3f5f059691404aa46?width=1200&format=jpeg",
+    "publishedAt": "2026-11-04T04:49:52Z",
+    "content": "The 2026 midterm results have started to roll in.Saul LOEB / AFP via Getty Images\r\n<ul><li>The early results of the 2026 midterm elections are in.</li><li>Business and tech leaders are sizing up the \u2026 [+4177 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Aditi Bharade",
+    "title": "These college students launched a legal tech startup during finals week. Now, it's business first, school second.",
+    "description": "Raphael Lim and Jamison Teng have had to sacrifice social life, grades, and Brazilian Jiu-Jitsu training to build up Jam & Raph.",
+    "url": "https://www.businessinsider.com/college-students-singapore-legal-tech-startup-2026-11#article",
+    "urlToImage": "https://i.insider.com/6acc5bf87bf24b4467e6a292?width=1029&format=jpeg",
+    "publishedAt": "2026-11-04T05:01:01Z",
+    "content": "Raphael Lim and Jamison Teng started a legal tech company in college.Raphael Lim\r\n<ul><li>Raphael Lim and Jamison Teng often juggle their legal tech startup with studies during finals.</li><li>They'v\u2026 [+4986 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Alice Tecotzky",
+    "title": "Hackers tried to literally boil blood in France",
+    "description": "A cyberattack attempted to raise the temperature of refrigeration systems at blood storage facilities in France.",
+    "url": "https://www.businessinsider.com/blood-plasma-fridge-hack-france-efs-cyberattack-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aeb0f9d2772fe8ca24ecb8f?width=1200&format=jpeg",
+    "publishedAt": "2026-11-04T12:24:05Z",
+    "content": "Some of the refrigeration systems stored frozen plasma.Oleksii Samsonov/Global Images Ukraine via Getty Images\r\n<ul><li>A cyberattack targeted refrigerators storing blood plasma in France.</li><li>Th\u2026 [+2761 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Natalia Costa",
+    "title": "My husband moved to Barcelona for our relationship. Now, I'm the one who wants to leave.",
+    "description": "My partner left his Spanish hometown to live in Barcelona for my career. Now, I want to move elsewhere, and I worry about asking him to move again.",
+    "url": "https://www.businessinsider.com/husband-moved-for-love-and-my-career-want-to-leave-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ae8fe10426e175d4818d88b?width=1200&format=jpeg",
+    "publishedAt": "2026-11-04T15:50:20Z",
+    "content": "My husband's decision to leave his hometown was one of the most generous things anyone has ever done for me.Natalia Costa\r\n<ul><li>My husband loved his hometown, but he moved a few hours away so we c\u2026 [+4138 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Pete Syme",
+    "title": "Data centers got a slap in the face at the ballot box. These key votes show how.",
+    "description": "Dozens of referendums restricted data center construction, as the Democrats flipped Texas and saw big swings in Virginia's \"Data Center Alley.\"",
+    "url": "https://www.businessinsider.com/data-centers-hammered-midterms-key-votes-show-how-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aeb33c7c54bfafa65abed10?width=1200&format=jpeg",
+    "publishedAt": "2026-11-04T14:23:08Z",
+    "content": "Gina Hinojosa became Texas' first Democratic governor in over 30 years.Chip Somodevilla/Getty Images\r\n<ul><li>Data centers got a big fat \"no\" from the American people on Tuesday.</li><li>Dozens of lo\u2026 [+3640 chars]"
+   }
+  ],
+  "entertainment": [
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Matt Purslow",
+    "title": "The Elder Scrolls 6: Sentinel Will Show Us Just How Serious Xbox Is About Exclusivity",
+    "description": "The Elder Scrolls 6: Sentinel is created by an Xbox-owned studio, but will Microsoft make it an Xbox exclusive? It could be the right move to secure the console's future.",
+    "url": "https://www.ign.com/articles/the-elder-scrolls-6-sentinel-will-show-us-just-how-serious-xbox-is-about-exclusivity",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/04/sentinel-xbox-1793791749240.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-04T14:30:00Z",
+    "content": "This is an IGN opinion piece from Ryan McCaffrey, IGN's \"Xbox guy\" and host of Xbox Unlocked. \r\nThe Elder Scrolls 6 finally has a full title\r\n: The Elder Scrolls VI: Sentinel. That means we know wher\u2026 [+8996 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Chris Reed",
+    "title": "Last Chance to Save $10 on The Legend of Zelda: Ocarina of Time",
+    "description": "Physical copies of The Legend of Zelda: Ocarina of Time go back up to full price tomorrow, so now is your last chance to save $10.",
+    "url": "https://www.ign.com/articles/last-chance-to-save-10-on-legend-of-zelda-ocarina-of-time-switch-2",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/04/untitled-design-1-1793805989451.png?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-04T15:34:51Z",
+    "content": "The reviews are in, and critics agree that the new remake of The Legend of Zelda: Ocarina of Time is a winner. Seriously, Metacritic has it at 96 at the time of this writing. If youre looking to add \u2026 [+2298 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Kirk McKeand",
+    "title": "FromSoftware's Bloodborne Is Still Selling Hundreds of Thousands of Copies, Over a Decade After Launch",
+    "description": "All FromSoftware games rule, but Bloodborne has the coolest vibes. Perhaps it shouldn't come as a surprise, then, that it's still selling hundreds of thousands of copies a year despite being over a decade old.",
+    "url": "https://www.ign.com/articles/bloodborne-sold-250000-copies-2026",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/04/bloodborne-1793796060432.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-04T12:41:38Z",
+    "content": "All FromSoftware games rule, but Bloodborne\r\n has the coolest vibes. Youre dripping in Victorian garb, flanked by gothic architecture, and stalked by Lovecraftian terrors across cobbled streets that \u2026 [+3721 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Kirk McKeand",
+    "title": "The Elder Scrolls 6: Sentinel Teaser's In-Universe Quote Sparks Timeline Speculation",
+    "description": "This week's tease for The Elder Scrolls VI: Sentinel didn\u2019t give us much to work with. Eight years since the last mention of the game, and all we got was a CGI sand dune. But that hasn\u2019t stopped fans speculating about what it all means.",
+    "url": "https://www.ign.com/articles/the-elder-scrolls-6-sentinel-timeline",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/04/sentinel-1793788470269.png?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-04T10:35:30Z",
+    "content": "This week's tease for The Elder Scrolls VI: Sentinel\r\n didnt give us much to work with. Eight years since the last mention of the game, and all we got was a CGI sand dune. But that hasnt stopped fans\u2026 [+4384 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Andrew Firriolo",
+    "title": "8 Fascinating \"Magic Tree House\" Behind-The-Scenes Stories From Mary Pope Osborne Herself",
+    "description": "After nearly 35 years of adventures, author Mary Pope Osborne takes us behind the scenes of the Magic Tree House series, including the alternate time-travel concepts she considered along the way.View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/andrewfirriolo/mary-pope-osborne-magic-tree-house-interview",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/18/15/thumb/DJNeJPGyL.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+    "publishedAt": "2026-11-04T15:16:03Z",
+    "content": "Mary: My husband and I are totally involved with the new animated series, and so far, so good. The deal is, if I can bring more readers into the fold, that's what matters. I don't want kids to see so\u2026 [+939 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Dave Stopera",
+    "title": "I Literally Haven't Slept All Night Because I've Been Laughing At All These Absolutely Hilarious Tweets About The Democrats' HUGE Win",
+    "description": "The people have spoken.View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/daves4/funny-tweets-election-2026",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/04/15/subbuzz/Ytoy5WIG7.png?crop=917:480;154,146%26downsize=1250:*",
+    "publishedAt": "2026-11-04T16:03:56Z",
+    "content": "by Dave StoperaBuzzFeed\r\nBuzzFeed StaffHi, Im Dave, author of all those articles your aunt sent you that you may or may not have clicked on.These include: the most-read post in BuzzFeed history, this\u2026 [+96 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Liz Richardson",
+    "title": "27 Subtle Things People Brag About That Are Actually Major Red Flags",
+    "description": "\"'I'm just blunt and tell it like it is' translates to: 'I'm an abrasive jerk who finds every opportunity to bring people down.'\"View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/lizmrichardson/red-flag-things-people-say",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/27/19/thumb/KrqYaXqdM.jpg?crop=2500:1309;0,300%26downsize=1250:*",
+    "publishedAt": "2026-11-04T02:01:02Z",
+    "content": "u/Wiley94_\r\n\"I had a friend who prided himself on being a lying, manipulative psychopath. I knew it was a front to mask his desperate insecurity, so I stayed his friend regardless of how he pretended\u2026 [+226 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Becca Monaghan",
+    "title": "Alton Towers Has Permanently Pulled The Plug On Its \u2018World Of David Walliams\u2019 Attraction",
+    "description": "Attractions included Gangsta Granny: The Ride, Raj's Bouncy Bottom Burp, and Royal Carousel.View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/beccamonaghan/david-walliams-alton-towers-closure",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/04/09/thumb/sxPgiu5Ll.jpg?crop=4000:2667;0,403&resize=1250:830",
+    "publishedAt": "2026-11-04T11:34:02Z",
+    "content": "A spokesperson for HarperCollins said at the time: HarperCollins takes employee wellbeing extremely seriously and has processes in place for reporting and investigating concerns. To respect the priva\u2026 [+359 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Tanishtha Kotian",
+    "title": "I'm Convinced That The 2000s Were An Absolute Fever Dream, And These 50 Celebrity Photos Are Proof",
+    "description": "Sacha Baron Cohen literally dominated this era!View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/tanishtha_kotian/unhinged-2000s-celebrity-photos",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/04/11/thumb/gRYXNz5qw.jpg?crop=2988:1992;6,0&resize=1250:830",
+    "publishedAt": "2026-11-04T18:01:03Z",
+    "content": "by Tanishtha KotianBuzzFeed\r\nBuzzFeed StaffAs a Writer at BuzzFeed, I write and curate quizzes, listicles, and articles about everything from pop culture and history to food and fashion."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Mike Spohr",
+    "title": "23 People Who Tried Their Best, But Crapped The Bed So Bad",
+    "description": "If you're afraid of failure...this post isn't going to help!View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/mikespohr/23-people-who-tried-and-failed-to-do-things-fs2",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2023-08/28/16/enhanced/1cbfdd742d8c/original-3367-1693240000-2.jpg?crop=1245:652;0,89%26downsize=1250:*",
+    "publishedAt": "2026-11-04T04:16:02Z",
+    "content": "by Mike SpohrBuzzFeed\r\nBuzzFeed StaffI'm an Editorial Director at BuzzFeed who covers the internets funniest photos and jokes, weird human history, movie facts, and more."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Ajani Bazile-Dutes",
+    "title": "Republicans Are Having A Mega MAGA Meltdown Over Democrats Winning The Midterm Elections, And You Need To See It For Yourself",
+    "description": "\"Now America is over. If there\u2019s anyone I envy in America, it\u2019s the elderly. People in their 80s and 90s. They won\u2019t have to see the collapse of America.\"View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/ajanibazile/republicans-react-2026-midterm-elections",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/04/17/thumb/wd_J8NoMi.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+    "publishedAt": "2026-11-04T17:53:43Z",
+    "content": "Now America is over. If theres anyone I envy in America, its the elderly. People in their 80s and 90s. They wont have to see the collapse of America."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Jenna Guillaume",
+    "title": "Sorry Millennials And Gen Z, Only Gen X And Older Will Be Able To Get At Least 16/18 Of These '80s Movie Trivia Questions Right",
+    "description": "How well do you know Heathers, The Princess Bride, Ghostbusters, and more?View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/jennaguillaume/80s-movie-trivia-quiz",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/30/01/thumb/tkEKjuvQY.jpg?crop=1250:654;0,127%26downsize=1250:*",
+    "publishedAt": "2026-11-04T14:31:01Z",
+    "content": "How well do you know Heathers, The Princess Bride, Ghostbusters, and more?"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Harrison Berger",
+    "title": "Navigate A Desert Island And I'll Reveal What Leadership Archetype You Fall Under",
+    "description": "Not everyone is leadership material. Are you?View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/harrisonberger/desert-island-leadership-quiz",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/29/19/thumb/eqGtB8tRk.jpg?crop=1250:654;0,154%26downsize=1250:*",
+    "publishedAt": "2026-11-04T11:16:02Z",
+    "content": "by Harrison BergerBuzzFeed\r\nBuzzFeed StaffI'm a resident writer at BuzzFeed, crafting quizzes and covering entertainment and pop culture content."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Anna Good",
+    "title": "\"Blexas Not So Silly Now Is It\": People Are Saying \"Red, White And Royal Blue\" Belongs In The History Books After Texas Turned Blue, And Honestly, They Have A Point",
+    "description": "History, huh? Bet we could make some.View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/annasgood/red-white-and-royal-blue-predicted-blexas",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/04/19/thumb/ImcOuh1J2.jpg?crop=2999:1570;0,249%26downsize=1250:*",
+    "publishedAt": "2026-11-04T20:04:45Z",
+    "content": "by Anna GoodBuzzFeed ContributorAs a freelance writer for BuzzFeed, I write about all things pop culture, nerdy, bookish, and more!"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "famousgoose865",
+    "title": "We'll Guess Your KATSEYE Fave Based On Your Personality",
+    "description": "Are you drawn to confidence, humor, individuality, leadership, or creative energy?View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/famousgoose865/well-guess-your-katseye-bias-based-on-your-personality",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/29/15/thumb/EXyASuF8u.jpg?crop=1249:654;0,10%26downsize=1250:*",
+    "publishedAt": "2026-11-04T01:51:02Z",
+    "content": "Are you drawn to confidence, humor, individuality, leadership, or creative energy?"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Matt Stopera",
+    "title": "Trump's Election Night Posts Got Progressively More Unhinged, And It's Actually Incredible",
+    "description": "Not a great night for him!View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/mjs538/trump-midterm-reaction",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/04/12/thumb/tvyGS8YCu.jpg?crop=1245:830;3,0&resize=1250:830",
+    "publishedAt": "2026-11-04T12:54:15Z",
+    "content": "Trump on Fox News after historic losses and immediately started ranting about their polling. \r\nTrump: I read at Fox that Im not popular. The Fox polls are terrible. You ought to get yourself a good p\u2026 [+163 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Megan Liscomb",
+    "title": "Here's What The Fatal ICE Shooting Victims' Memorials Look Like After Americans Paid Tribute To Them With Their Midterm Votes",
+    "description": "\"I cried as I was casting my vote because I was doing it in honor of my dad.\"View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/meganeliscomb/i-voted-stickers-at-ice-victim-memorials",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/04/16/thumb/PZ25N090c.jpg?crop=1249:654;0,113%26downsize=1250:*",
+    "publishedAt": "2026-11-04T16:54:21Z",
+    "content": "by Megan LiscombBuzzFeed\r\nSenior EditorAs a Senior Editor at BuzzFeed, I cover lifestyle topics including books, work and money, health, and home."
+   }
+  ],
+  "health": [
+   {
+    "source": {
+     "id": "medical-news-today",
+     "name": "Medical News Today"
+    },
+    "author": "Katharine Lang",
+    "title": "Strict diet, structured exercise can reverse early-onset type 2 diabetes",
+    "description": "Following a strict diet paired with a structured exercise regimen led to reversing early-onset type 2 diabetes in more than half of participants in a new study.",
+    "url": "https://www.medicalnewstoday.com/articles/strict-diet-structured-exercise-can-reverse-early-onset-type-2-diabetes",
+    "urlToImage": "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2026/11/getty_2255947931_facebook_1200x630-1200x628.jpg",
+    "publishedAt": "2026-11-04T16:08:59Z",
+    "content": "<ul><li>The increasing number of people with type 2 diabetes is a major healthcare concern worldwide.</li><li>Numbers are rising fastest in developed countries, with more children and young people no\u2026 [+7672 chars]"
+   }
+  ],
+  "science": [
+   {
+    "source": {
+     "id": "national-geographic",
+     "name": "National Geographic"
+    },
+    "author": "@NatGeo",
+    "title": "Something Weird is Seeping Out of Mars",
+    "description": "A new discovery raises the possibility Mars' volcanoes aren't so dead after all.",
+    "url": "https://www.nationalgeographic.com/science/article/mars-volcano-gas-hydrogen-chloride",
+    "urlToImage": "https://i.natgeofe.com/n/eb0034b2-5927-4827-8e0a-d76094fdd910/PIA00300_1_16x9.jpg?w=1200",
+    "publishedAt": "2026-11-04T00:00:00Z",
+    "content": "The team acknowledges that this isnt a smoking gun for ongoing volcanism. They cannot be certain that the HCl is seeping out of these exact fissures. And the nature of the source is unknown, says Ols\u2026 [+1543 chars]"
+   },
+   {
+    "source": {
+     "id": "national-geographic",
+     "name": "National Geographic"
+    },
+    "author": "@NatGeoTravel",
+    "title": "These Off-Beat Winter Sun Destinations Come With a Dose of Adventure",
+    "description": "From hiking the wildflower meadows of Gozo to sloth encounters in Costa Rica, these winter destinations offer blue skies with a dose of adventure.",
+    "url": "https://www.nationalgeographic.com/travel/article/best-off-beat-winter-sun-destinations-with-a-dose-of-adventure",
+    "urlToImage": "https://i.natgeofe.com/n/e82cd639-bbae-43fa-ba05-12579a29ba79/Winter_Sun_AWL_MLT1099AW_HR_16x9.jpg?w=1200",
+    "publishedAt": "2026-11-04T00:00:00Z",
+    "content": "This article was produced by National Geographic Traveller(UK).\r\nLets face it: winter is a tough season to love. Its dark, its cold and the skys a gloomy, unflinching grey. We do our best to alleviat\u2026 [+10270 chars]"
+   },
+   {
+    "source": {
+     "id": "national-geographic",
+     "name": "National Geographic"
+    },
+    "author": "@NatGeo",
+    "title": "There's a Critical Window in Your 50s for Preserving Body Strength",
+    "description": "The fight against frailty can begin decades before physical decline becomes obvious.",
+    "url": "https://www.nationalgeographic.com/health/article/frailty-risk-midlife-50s-strength-healthy-aging",
+    "urlToImage": "https://i.natgeofe.com/n/579676e8-1cbe-4af0-9a91-f0a9ae44a8f7/Frailty_Gif-V4_16x9.gif?w=1200",
+    "publishedAt": "2026-11-04T00:00:00Z",
+    "content": "As people lose physical reserve, they may progress from robust to prefrail and, eventually, frail. Researchers often assess frailty using five physical signs: unintentional weight loss, exhaustion, l\u2026 [+1178 chars]"
+   },
+   {
+    "source": {
+     "id": "national-geographic",
+     "name": "National Geographic"
+    },
+    "author": "@NatGeo",
+    "title": "Across a Fevered Pacific Ocean, Seabirds Are Starving",
+    "description": "With massive heat waves and an intense El Ni\u00f1o reshaping the marine food web along the Central Coast of California, emaciated common murres are washing ashore in unprecedented numbers.",
+    "url": "https://www.nationalgeographic.com/environment/article/el-nino-murre-sea-bird-deaths-wildlife-rehabilitation-california",
+    "urlToImage": "https://i.natgeofe.com/n/4c045395-cb38-4727-98fa-b01025217e72/DSC_0596_16x9.jpg?w=1200",
+    "publishedAt": "2026-11-04T00:00:00Z",
+    "content": "In 2015, warm El Ni\u00f1o waters collided with an anomalous marine heat wave nicknamed The Blob, and PWC admitted a record 556 emaciated murres. Between September 1 and November 2 of this year, the cente\u2026 [+4995 chars]"
+   },
+   {
+    "source": {
+     "id": "national-geographic",
+     "name": "National Geographic"
+    },
+    "author": "@NatGeoTravel",
+    "title": "How to Plan the Ultimate Sri Lankan Adventure",
+    "description": "One Indian Ocean island, two classic routes. Whether exploring north or south, travellers can expect an epic trip packed with elephant sightings, wilderness stays and barefoot beach days.",
+    "url": "https://www.nationalgeographic.com/travel/article/how-to-plan-the-ultimate-sri-lankan-adventure-north-to-south",
+    "urlToImage": "https://i.natgeofe.com/n/7032bd24-7214-4e1f-ae1c-9348f76a3c06/srilanka_GettyImages-1784086030_ukHR_16x9.jpg?w=1200",
+    "publishedAt": "2026-11-04T00:00:00Z",
+    "content": "This article was produced by National Geographic Traveller(UK).\r\nPalm-fringed surf bays, tea plantation hikes, ancient ruins and incense-filled temples few islands can match the diversity of Sri Lank\u2026 [+12417 chars]"
+   }
+  ],
+  "sports": [
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Eagles Reportedly Making QB Change, Will Start Joe Milton vs. Giants",
+    "description": "Joe Milton III will reportedly start at quarterback for the Philadelphia Eagles against the New York Giants, replacing Tanner McKee.",
+    "url": "https://www.foxsports.com/stories/nfl/eagles-name-joe-milton-starter-giants-tanner-mckee",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/joe-milton-1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T19:48:34Z",
+    "content": "The Philadelphia Eagles are making another quarterback change, but this time it's not due to injury.\r\nJoe Milton III will start Sundays game against the New York Giants (1 p.m. ET on FOX), replacing \u2026 [+1354 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "World Cup Hero Balogun Returns For USA's Nations League Quarterfinal Vs. Haiti",
+    "description": "On Wednesday, USA coach Mauricio Pochettino named a 25-player roster for the Stars and Stripes' upcoming Concacaf Nations League quarterfinal series with Haiti.",
+    "url": "https://www.foxsports.com/stories/soccer/united-states-roster-folarin-balogun-christian-pulisic",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/balogunh1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T16:44:29Z",
+    "content": "The U.S. mens soccer teams new core is taking shape in Mauricio Pochettinos second term.\r\nAhead of the USAs first competitive games of the 2030 World Cup cycle, the Argentine coach named a 25-player \u2026 [+5270 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Brandon Aiyuk Files For NFL Reinstatement, Plans To Report To 49ers Facility Friday",
+    "description": "Receiver Brandon Aiyuk has applied to be reinstated to the San Francisco 49ers from the reserve/left squad list and plans to report to the team later this week.",
+    "url": "https://www.foxsports.com/stories/nfl/49ers-wr-brandon-aiyuk-formally-submits-reinstatement-paperwork-agent-says",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/49ers.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T17:05:45Z",
+    "content": "Receiver Brandon Aiyuk has applied to be reinstated to the San Francisco 49ers\r\n from the reserve/left squad list and plans to report to the team later this week.\r\nAiyuks new agent, Drew Rosenhaus\r\n,\u2026 [+1383 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "\u2018A Long Time Coming\u2019: Micah Parsons Returns to Packers Practice After ACL Tear",
+    "description": "Micah Parsons is practicing again with the Green Bay Packers as the All-Pro edge rusher approaches a return from a torn ACL that has sidelined him since mid-December.",
+    "url": "https://www.foxsports.com/stories/nfl/green-bay-packers-micah-parsons-2026-season-debut-practice",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/micah2.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T18:32:08Z",
+    "content": "Micah Parsons is practicing again with the Green Bay Packers as the All-Pro edge rusher approaches a return from the torn anterior cruciate ligament that has sidelined him since mid-December.\r\nPacker\u2026 [+1525 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Ravens Finalizing Trade For Jacoby Brissett With Lamar Jackson, Tyler Huntley Out",
+    "description": "The Ravens are reportedly finalizing a trade for Arizona Cardinals quarterback Jacoby Brissett.",
+    "url": "https://www.foxsports.com/stories/nfl/jacoby-brissett-named-baltimore-ravens-starter-trade",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/jacoby-brissett-1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T20:23:45Z",
+    "content": "The Baltimore Ravens have found their answer at quarterback, even if it's for the short term.\r\nThe Ravens are finalizing a trade for Arizona Cardinals quarterback Jacoby Brissett, NFL Network reporte\u2026 [+1734 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Christopher Bell Managing Season With Broken Wrist And No Title",
+    "description": "Christopher Bell missed a golden opportunity in this year's Chase, but he and his team learned lessons along the way.",
+    "url": "https://www.foxsports.com/stories/nascar/christopher-bell-managing-season-broken-wrist-no-title",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/nascar-16x9-3.png?ve=1&tl=1",
+    "publishedAt": "2026-11-04T23:12:36Z",
+    "content": "Christopher Bell had never broken a bone in a racing accident until this year.\r\nSo when he sat in the infield medical center at Michigan International Speedway with a broken wrist in June, he didnt k\u2026 [+3338 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "North Carolina State Considering 2 Former NFL Quarterbacks For Head Coaching Job",
+    "description": "North Carolina State's head coaching search is revolving around multiple former NFL quarterbacks that once called NC State home.",
+    "url": "https://www.foxsports.com/stories/college-football/north-carolina-state-considering-2-former-nfl-quarterbacks-head-coaching-job",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/gettyimages-1067572770-e1793755895261.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T01:31:41Z",
+    "content": "Could two former North Carolina State quarterbacks be competing against one another?\u00a0\r\nBoth Phillip Rivers and Russell Wilson flourished in the NFL throughout the 2010s after representing the Wolfpac\u2026 [+2008 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "QB Notebook: Caleb Williams Has Erased All Doubts; The QB Teams Should Trade For",
+    "description": "Caleb Williams is disproving one narrative at a time, and there's one QB who has emerged as a clear trade candidate for the Ravens and Vikings.",
+    "url": "https://www.foxsports.com/stories/nfl/qb-notebook-caleb-williams-has-erased-all-doubts-qb-teams-should-trade",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/16x9-21.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T04:48:20Z",
+    "content": "Welcome to the Quarterback Notebook, where Ill cover the past week in NFL quarterbacking from the most interesting passers, plays and storylines to some other stuff that caught my eye while watching \u2026 [+9762 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "NBA League Pass Promo Code: Get 3 Months Free NBA League Pass When You Bet $5 on Any Game",
+    "description": "Get 3 Months Free NBA League Pass When You Bet $5 on 76ers vs. Pistons or Any Other Game.",
+    "url": "https://www.foxsports.com/stories/betting/nba-league-pass-promo-code-get-3-months-free-nba-league-pass-when-you-bet-5-any-game",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/76ers-scaled.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T23:55:49Z",
+    "content": "This page may contain affiliate links to legal sports betting\r\n partners. If you sign up or place a wager, FOX Sports may be compensated. Read more about\u00a0Sports Betting on FOX Sports\r\n.\r\nBasketball f\u2026 [+2915 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Herd Hierarchy: Are The Bears The NFL\u2019s Best Team? Seahawks, Chiefs Slide",
+    "description": "Cowherd revealed his latest Herd Hierarchy, featuring a new team at No. 1 after the defending champion Seahawks, last week\u2019s top team, fell to 4-4.",
+    "url": "https://www.foxsports.com/stories/nfl/herd-hierarchy-bears-nfls-best-team-seahawks-chiefs-slide",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/herd-hierarchy-1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T01:09:08Z",
+    "content": "Colin Cowherd predicted the Chicago Bears and Seattle Seahawks would meet in the NFC title game, and after Monday nights 34-17 Chicago win, he thinks the Bears are the best team in football.\r\nCowherd\u2026 [+6150 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Why This Might Be The Year That Joe Burrow, Bengals Get Over The Hump",
+    "description": "Our weekly look back on the league asks if Cincinnati is poised to end its playoff drought, ponders Drake London's prolific tackling and the rarity of kickoff return touchdowns.",
+    "url": "https://www.foxsports.com/stories/nfl/why-might-year-joe-burrow-bengals-get-over-hump",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/upon-further-review-burrow-16x9-1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T00:53:41Z",
+    "content": "Are Joe Burrow and the Cincinnati Bengals really back?\r\nNeeding overtime to get past the Tennessee Titans isn't the greatest endorsement, but Cincinnati is 5-2, and Burrow is off to the best start of\u2026 [+5539 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "US Reveals Roster For CONCACAF Nations League Quarterfinals Against Haiti",
+    "description": "Christian Pulisic, Folarin Balogun and Weston McKennie are back with the U.S. national team for its CONCACAF Nations League quarterfinals against Haiti.",
+    "url": "https://www.foxsports.com/stories/soccer/us-soccer-christian-pulisic-folarin-balogun",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/pulisich1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T15:28:07Z",
+    "content": "Forwards Christian Pulisic and Folarin Balogun and midfielder Weston McKennie are back with the U.S. national team for its CONCACAF Nations League quarterfinals against Haiti.\r\nU.S. coach Mauricio Po\u2026 [+3277 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Browns QB Deshaun Watson In Concussion Protocol; Will Shedeur Sanders Start?",
+    "description": "Cleveland Browns quarterback Deshaun Watson has been placed in the concussion protocol after experiencing symptoms on Monday night.",
+    "url": "https://www.foxsports.com/stories/nfl/deshaun-watson-concussion-injury-update-browns-shedeur-sanders",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/deshaun.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T16:24:23Z",
+    "content": "Cleveland Browns quarterback Deshaun Watson has been placed in the concussion protocol after experiencing symptoms on Monday night.\r\nIf Watson is not cleared in time for Sunday's game against the New\u2026 [+1082 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "3 Best MLB Free Agent Fits For Seiya Suzuki If He Leaves Cubs",
+    "description": "Here are the three best MLB free agent fits for outfielder Seiya Suzuki if he leaves the Chicago Cubs.",
+    "url": "https://www.foxsports.com/stories/mlb/seiya-suzuki-rumors-mlb-free-agency-cubs-braves-rangers-reds",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/suzuki2.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T16:37:15Z",
+    "content": "Power. Lots and lots of power.\r\nThat's what one is getting if they sign Chicago Cubs right fielder and designated hitter Seiya Suzuki, who's arguably the biggest power threat on the MLB free agent ma\u2026 [+5248 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Status Of Hurricanes WR Malachi Toney 'Uncertain' For Saturday At Notre Dame",
+    "description": "Miami star receiver and top Heisman Trophy candidate Malachi Toney is dealing with an ankle issue that is casting some doubt over his availability for the top-ranked Hurricanes in this weekend\u2019s showdown at No. 4 Notre Dame.",
+    "url": "https://www.foxsports.com/stories/college-football/star-wr-malachi-toney-dealing-with-ankle-issue-status-for-miaminotre-dame-unclear-ap-source-says",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/miami.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T21:10:26Z",
+    "content": "Miami star receiver and top Heisman Trophy candidate Malachi Toney is dealing with an ankle issue that is casting some doubt over his availability for the top-ranked Hurricanes in this weekend's show\u2026 [+2287 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Jets Star Garrett Wilson In Concussion Protocol; Week 9 Status In Doubt",
+    "description": "Jets star wide receiver Garrett Wilson is in the concussion protocol and his availability for Sunday against the Chiefs is uncertain.",
+    "url": "https://www.foxsports.com/stories/nfl/garrett-wilson-concussion-protocol-jets-chiefs-injury-report",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/wilspn-2.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T20:08:27Z",
+    "content": "New York Jets wide receiver Garrett Wilson is in the concussion protocol, and its uncertain if hell be available to play Sunday on the road against the Kansas City Chiefs.\r\nHead coach Aaron Glenn sai\u2026 [+2852 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "West Coast Read: Jim Harbaugh Must Protect Justin Herbert \u2014 By Benching Him",
+    "description": "There's only one way for the Chargers to salvage Justin Herbert, and the Seahawks should also considering benching Sam Darnold, regardless of injury.",
+    "url": "https://www.foxsports.com/stories/nfl/chargers-justin-herbert-jim-harbaugh-seahawks-sam-darnold",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/16x9wild-17.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T21:59:10Z",
+    "content": "SoFi Stadium (Inglewood) Los Angeles Chargers president of business operations A.G. Spanos walked to the sprinter vans in the concourse at SoFi Stadium with a dour look on his face.\r\nA few minutes la\u2026 [+13145 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Chiefs Stick With Struggling Harrison Butker Despite Justin Tucker Signing",
+    "description": "The Kansas City Chiefs are sticking with kicker Harrison Butker despite recent struggles",
+    "url": "https://www.foxsports.com/stories/nfl/chiefs-stick-with-embattled-harrison-butker-for-jets-game-after-another-costly-miss-in-denver",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/butker.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T19:39:29Z",
+    "content": "The Kansas City Chiefs are sticking with embattled kicker Harrison Butker, one week after signing former All-Pro Justin Tucker to the practice squad and days after Butker missed another crucial field\u2026 [+2026 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Seahawks HC Mike Macdonald Reveals QB Sam Darnold Injury, Talks Week 9 Status",
+    "description": "Seattle Seahawks head coach Mike Macdonald revealed that quarterback Sam Darnold will miss Week 9 due to a quad injury.",
+    "url": "https://www.foxsports.com/stories/nfl/sam-darnold-injury-news-seahawks-cardinals-mike-macdonald-presser",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/sam2.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T19:47:20Z",
+    "content": "The Seattle Seahawks have lost three of their last four games and are coming off a 34-17 loss at home to the Chicago Bears on Monday night.\r\nTo boot, their starting quarterback is banged up again.\r\nS\u2026 [+1575 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "2026 Men's College Basketball Odds: Who Will Win Each Power Conference?",
+    "description": "College basketball is finally here. See the odds to win each Power 5 regular-season conference title.",
+    "url": "https://www.foxsports.com/stories/mens-college-basketball/2026-mens-college-basketball-odds-who-will-win-power-5-conferences",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/haugh.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T21:24:02Z",
+    "content": "Winning your regular-season conference title is the first important, collective win of the season.\r\nLet's check out the odds for the regular-season conference winners at DraftKings Sportsbook as of N\u2026 [+5615 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Lane Kiffin Calls End of Annual Alabama-LSU Series \u2018Sad\u2019",
+    "description": "Alabama and LSU have spent decades giving college football fans a reason to mark their calendars.",
+    "url": "https://www.foxsports.com/stories/college-football/alabama-crimson-tide-lsu-tigers-sec-conference-schedule",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/lsu-bama-2.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T20:01:43Z",
+    "content": "Alabama and LSU have spent decades giving college football fans a reason to mark their calendars.\r\nNext year, those fans will have to find another game.\r\nThe longtime Southeastern Conference opponent\u2026 [+4519 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "2026 NFL Odds: Will There Be A First-Time Super Bowl Winner?",
+    "description": "Will one of 12 teams win its first-ever Super Bowl this year? See the odds, the history and what to know.",
+    "url": "https://www.foxsports.com/stories/nfl/2026-nfl-odds-will-first-time-super-bowl-winner",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/01/1294/728/allen-120.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T20:03:59Z",
+    "content": "Winning the Super Bowl isn't for everyone, but 12 teams are holding out hope this season.\u00a0\r\nWell, maybe not all 12 but a handful of them.\r\nThe Brewers won their first World Series in franchise histor\u2026 [+2897 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Unbeaten Utah Hosts BYU In A Holy War That Could Shape The Big 12 Title Race",
+    "description": "The final month of the college football season in the Big 12 will shake loose a tight race and determine the teams that will play in the championship game.",
+    "url": "https://www.foxsports.com/stories/college-football/the-holy-war-between-no-7-byu-and-no-3-utah-kicks-off-final-stretch-in-big-12-title-chase",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/gettyimages-2302398771-1-scaled-e1793752938783.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T00:45:04Z",
+    "content": "A Holy War starting in the breakfast hour is going to set the stage for a furious finish in the Big 12.\r\nNo. 3 Utah hosts No. 7 BYU in what should go a long way toward determining a spot in the Dec. \u2026 [+5528 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Kalshi Promo Code FOXSPORTS55: Get a $55 Bonus When Signing up and Trading on Tonight's NHL",
+    "description": "Kalshi Promo Code FOXSPORTS55: Get a $55 Bonus When Signing up and Trading on Tonight's NHL.",
+    "url": "https://www.foxsports.com/stories/betting/kalshi-promo-code-foxsports55-get-55-bonus-when-signing-up-trading-tonights-nhl",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/oilers-scaled-e1793753000321.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T00:43:24Z",
+    "content": "This page may contain affiliate links to legal sports betting\r\n partners. If you sign up or place a wager, FOX Sports may be compensated. Read more about\u00a0Sports Betting on FOX Sports\r\n.\u00a0\r\nThe NHL has\u2026 [+2007 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Polymarket Promo Code FOX: Claim $25 in Bonuses for Tonight's NHL Slate, Including Devils vs. Oilers",
+    "description": "Polymarket Promo Code FOX: Claim $25 in Bonuses for Tonight's NHL Slate, Including Devils vs. Oilers.",
+    "url": "https://www.foxsports.com/stories/betting/polymarket-promo-code-fox-claim-25-bonuses-tonights-nhl-slate-including-devils-vs-oilers",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/connor-scaled-e1793752305782.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-04T00:32:59Z",
+    "content": "This page may contain affiliate links to legal sports betting\r\n partners. If you sign up or place a wager, FOX Sports may be compensated. Read more about\u00a0Sports Betting on FOX Sports\r\n.\u00a0\r\nThe NHL tak\u2026 [+2270 chars]"
+   }
+  ],
+  "technology": [
+   {
+    "source": {
+     "id": "wired",
+     "name": "Wired"
+    },
+    "author": "Jorge Garay",
+    "title": "Chernobyl\u2019s Dogs May Be Evolving, but Scientists Don\u2019t Know Why",
+    "description": "A new study found evidence of natural selection in the dogs of Chernobyl, but it\u2019s still unclear what drove these genetic differences and what evolutionary advantages they may provide.",
+    "url": "https://www.wired.com/story/chernobyls-dogs-may-be-evolving-but-scientists-dont-know-why/",
+    "urlToImage": "https://media.wired.com/photos/6ae8fedf93d0a10b8d7f1f42/191:100/w_1280,c_limit/492210506",
+    "publishedAt": "2026-11-04T10:00:00Z",
+    "content": "The researchers also dont have access to longitudinal samples that would show exactly how this population has changed over time. It's almost like looking at a single still image and trying to figure \u2026 [+1606 chars]"
+   },
+   {
+    "source": {
+     "id": "wired",
+     "name": "Wired"
+    },
+    "author": "Ben Gartside",
+    "title": "UK Officials Said AI Would Add \u00a3400 Billion to the Economy. That Figure Mainly Came From Google",
+    "description": "The AI minister now concedes the estimated figure is less than a third of that. Researchers blame the country\u2019s slow rate of adoption",
+    "url": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google/",
+    "urlToImage": "https://media.wired.com/photos/6ae4f0b834d00005a9a1a2fc/191:100/w_1280,c_limit/2026-10-12T133338Z_906189115_RC2EIMAWOQ1L_RTRMADP_3_AI-BRITAIN-SAFETY.jpg",
+    "publishedAt": "2026-11-04T13:49:51Z",
+    "content": "For the last two years, the UK government has been telling the British public that the country could receive an economic boost of \u00a3400 billion, thanks to AI, a figure intended to calm fears that the \u2026 [+2390 chars]"
+   },
+   {
+    "source": {
+     "id": "wired",
+     "name": "Wired"
+    },
+    "author": "Kate Taylor",
+    "title": "\u2018Musk\u2019 Director Alex Gibney Wants to Know if Democrats Can Now Hold Elon Musk Accountable",
+    "description": "Spending hundreds of millions of dollars means nothing to Elon Musk, director Alex Gibney says.",
+    "url": "https://www.wired.com/story/wired-world-fair-2026-alex-gibney-musk/",
+    "urlToImage": "https://media.wired.com/photos/6ae8f6f7fdca8a2bb1f7b5e1/191:100/w_1280,c_limit/Alex-Gibney-WWF-Culture-2299894058.jpg",
+    "publishedAt": "2026-11-04T14:15:21Z",
+    "content": "On Tuesday, Gibney pointed to the more than $474 million Musk has donated to Republican political groups this election cycle, adding that, Last I looked, things werent going Elons way, particularly i\u2026 [+1901 chars]"
+   },
+   {
+    "source": {
+     "id": "wired",
+     "name": "Wired"
+    },
+    "author": "Simon Hill",
+    "title": "Google Pixel 11, 11 Pro, and 11 Pro XL Sale: Save Up to $350",
+    "description": "Upgrade to the smartest Android smartphones. Google\u2019s latest Pixel 11 phones are all on sale at their lowest prices to date, well ahead of Black Friday.",
+    "url": "https://www.wired.com/story/google-pixel-11-deal-november-2026/",
+    "urlToImage": "https://media.wired.com/photos/6aeb74f2291739b7e29cddcb/191:100/w_1280,c_limit/Get-Google%E2%80%99s-Great-Pixel-11-Phones-for-Less.jpg",
+    "publishedAt": "2026-11-04T18:27:19Z",
+    "content": "New smartphones used to hold their value, and it was typically months before youd see any real discounts. But with smartphone sales dwindling and budgets squeezed, some manufacturers are offering tas\u2026 [+2682 chars]"
+   },
+   {
+    "source": {
+     "id": "wired",
+     "name": "Wired"
+    },
+    "author": "Molly Taft",
+    "title": "\u2018We Have No Shared Reality\u2019: Two Political Influencers on the Future of Politics Online",
+    "description": "Kat Abughazaleh and CJ Pearson spoke at WIRED World Fair on Wednesday about the influence of social media on politics following Tuesday\u2019s midterm elections.",
+    "url": "https://www.wired.com/story/wired-world-fair-2026-cj-pearson-and-kat-abughazaleh/",
+    "urlToImage": "https://media.wired.com/photos/6aeb837339a5aa15fca882ba/191:100/w_1280,c_limit/WWF-CJ-Kat-5.jpg",
+    "publishedAt": "2026-11-04T21:04:05Z",
+    "content": "Its a very chronically online administration, he said. With how short peoples attention spans are, you have to make [things] interesting. Not all of the White Houses efforts have been received smooth\u2026 [+1650 chars]"
+   }
+  ],
+  "general": [
+   {
+    "source": {
+     "id": "cnn",
+     "name": "CNN"
+    },
+    "author": "Jackie Wattles, Ashley Strickland, CNN",
+    "title": "NASA's 3,200-pound observatory met a fiery end after a failed rescue mission",
+    "description": "An illustration of NASA's Swift Observatory in space - NASA\r\n\nNASA\u2019s Neil Gehrels Swift Observatory met a fiery end on Wednesday morning, nearly 22 years after it launched to study the most powerful explosions in the universe.\nData from the US Space Force est\u2026",
+    "url": "https://www.cnn.com/2026/11/04/science/nasa-swift-observatory-reentry-deorbit",
+    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/swift-in-space-12.jpg?c=16x9&q=w_800,c_fill",
+    "publishedAt": "2026-11-04T20:13:07Z",
+    "content": "NASAs Neil Gehrels Swift Observatory met a fiery end on Wednesday morning, nearly 22 years after it launched to study the most powerful explosions in the universe.\r\nData from the US Space Force estim\u2026 [+4468 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-news",
+     "name": "Fox News"
+    },
+    "author": null,
+    "title": "Why removing your data online may still leave your family exposed",
+    "description": "Data broker opt-out forms may not protect your family. People search sites can still expose your info through a spouse's or parent's profile.",
+    "url": "https://www.foxnews.com/tech/why-removing-data-online-may-still-leave-family-exposed",
+    "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/retiree-data-protection-002.jpg",
+    "publishedAt": "2026-11-04T18:30:53Z",
+    "content": "You removed your information from data broker sites. You submitted the opt-out forms, did the work and maybe even felt good about it. Here's what you may have missed: Your family members' personal in\u2026 [+11057 chars]"
+   },
+   {
+    "source": {
+     "id": "cnn",
+     "name": "CNN"
+    },
+    "author": "Jordan Valinsky",
+    "title": "Coffee's new status symbol is a machine without plastic",
+    "description": "Growing concern over ingesting microplastic is sparking a wave of plastic-free coffee pods and machines.",
+    "url": "https://www.cnn.com/2026/11/02/food/coffee-machine-plastic-free",
+    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/alta-llifestyle-3qbrewing.jpg?c=16x9&q=w_800,c_fill",
+    "publishedAt": "2026-11-04T15:20:49Z",
+    "content": "For decades, it was all the bells and whistles that was the selling point for a fancy coffee machine. Now, consumers are looking for what it lacks.\r\nGrowing concern over microplastics and sustainabil\u2026 [+5267 chars]"
+   },
+   {
+    "source": {
+     "id": "google-news",
+     "name": "Google News"
+    },
+    "author": null,
+    "title": "Search Central Live in Zurich is back!",
+    "description": "Search Central Live is coming to Zurich on December 4, 2026!",
+    "url": "https://developers.google.com/search/blog/2026/11/search-central-live-zurich-2026",
+    "urlToImage": "https://developers.google.com/static/search/blog/images/social-share-blog.png",
+    "publishedAt": "2026-11-04T00:00:00Z",
+    "content": "Wednesday, November 4, 2026\r\nSearch Central Live is coming to Zurich on December 4, 2026!\r\nOur Search Central Live event series is a great way for local web creators, developers, SEO professionals,\r\n\u2026 [+1185 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "How US midterm results could reshape Trump\u2019s foreign policy",
+    "description": "US midterm results could reshape Trump\u2019s political landscape and increase congressional scrutiny of his foreign policy.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/aje-onl-nf_how-us-midterm-could-reshape-trumps-foreign-policy-041126",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793819680.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-04T19:15:50Z",
+    "content": "The US midterm results could reshape the political landscape for President Trump, bringing greater congressional scrutiny of his foreign policy, from the war with Iran to relations with Russia and Ch\u2026 [+45 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Tamara Khandaker",
+    "title": "The biggest winners and losers of the 2026 US midterms",
+    "description": "Historic firsts, surprise victories and expensive defeats as Democrats take control of Congress.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/the-biggest-winners-and-losers-of-the-2026-us-midterms",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6aeaa0b1-1793761457.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T18:52:25Z",
+    "content": "Democrats had a big night in Tuesdays United States midterm elections, winning control of both chambers of Congress and pulling off some surprising victories in longtime Republican strongholds.\r\nFrom\u2026 [+4884 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Virginia Pietromarchi",
+    "title": "Why are Europe\u2019s governments struggling to respond to growing protests?",
+    "description": "Protests intensify as governments prioritise security measures over addressing underlying social and economic concerns.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/why-are-europes-governments-struggling-to-respond-to-growing-protests",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-01T063509Z_1626741731_RC2GEOAXRSLS_RTRMADP_3_FRANCE-PROTEST-1793515603.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T13:03:07Z",
+    "content": "Protests across Europe show no sign of abating.\r\nThey subside on certain days, only to flare up a few days later. Largely led by young people, demonstrations have swept across at least eight European\u2026 [+6992 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Mosab Shawer",
+    "title": "Hebron\u2019s Israeli rooftop settlers threaten the city\u2019s Palestinian identity",
+    "description": "Israeli settlers have expanded in Hebron's Old City, with Palestinian residents' presence under threat.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/hebrons-israeli-rooftop-settlers-threaten-the-citys-palestinian-identity",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/164A2722-1793793869.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T13:40:52Z",
+    "content": "Hebron, occupied West Bank Yusef al-Khatib, 65, never expected that the building that housed the tailoring shop he inherited from his father, and where he has spent most of his life, would be swallow\u2026 [+6370 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Mohammad Mansour",
+    "title": "Palestinian citizens of Israel face intimidation after election success",
+    "description": "After winning a record number of parliament seats, Palestinian-led parties face campaign against them.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/palestinians-face-intimidation-after-election-success",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20261031__D62C2BV__v1__HighRes__IsraelPoliticsElectionGovernmentProtest-1793493800.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T17:14:21Z",
+    "content": "Israel has\u00a0officially certified its election results delivering a blow to right-wing claims of a stolen vote but the record 19 seats captured by Palestinian-led parties have triggered aggressive poli\u2026 [+6721 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Priyanka Shankar",
+    "title": "How big is the Republican midterms loss, and is there a silver lining?",
+    "description": "The Republicans haven't been this weakened in Congress since 1990, but they did have some wins.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/how-big-is-the-republican-midterms-loss-and-is-there-a-silver-lining",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20261102__D68A9P3__v1__HighRes__776586360-1793683650.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T13:59:15Z",
+    "content": "The Democrats have wrested control of the United States Congress from Republicans by winning majorities in both the House of Representatives and the Senate in a stunning blow to US President Donald T\u2026 [+6814 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Photos: Iran marks US embassy takeover with rallies against US, Israel",
+    "description": "Tehran rallies see slogans, flag burnings and claims of US-Israeli defeats amid historic embassy takeover anniversary.",
+    "url": "https://www.aljazeera.com/gallery/2026/11/4/photos-iran-marks-us-embassy-takeover-with-rallies-against-america-israel",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-04T091936Z_914661851_RC2UGOARO9K9_RTRMADP_3_IRAN-CRISIS-TEHRAN-US-1793799323.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T16:37:49Z",
+    "content": "Iran marked the anniversary of the 1979 takeover of the United States embassy in Tehran on Wednesday with mass rallies in the capital, as officials used the occasion to hail what they called US and I\u2026 [+1418 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Palestinians, Israelis react after Democrats sweep US midterms",
+    "description": "Palestinians and Israelis are divided in their opinion following the win by Democrats in the US midterm elections.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/palestinians-israelis-react-after-democrats-sweep-us-midterms",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793829958.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-04T22:06:24Z",
+    "content": "Toggle Play\r\nPalestinians, Israelis react after Democrats sweep US midterms"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Can Russia compete with the US, China and the EU in Africa?",
+    "description": "Moscow pledges more trade and investment in Africa, where leaders want local industries, technology and jobs.",
+    "url": "https://www.aljazeera.com/video/counting-the-cost/2026/11/4/can-russia-compete-with-the-us-china-and-the-eu-in-africa",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/GettyImages-2302452479-1793789163.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T11:03:33Z",
+    "content": "Moscow pledges more trade and investment in Africa, where leaders want local industries, technology and jobs.Russias forces are on the ground in several African countries. Its businesses, far less so\u2026 [+553 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Why Democrats may struggle to rein in Trump\u2019s foreign policy",
+    "description": "US President Donald Trump's foreign policy agenda faces new constraints after midterm losses.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/why-democrats-may-struggle-to-rein-in-trumps-foreign-policy",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793790977.jpg?resize=1646%2C1080&quality=80",
+    "publishedAt": "2026-11-04T11:16:40Z",
+    "content": "US President Donald Trumps foreign policy agenda faces new constraints after midterm losses. Chatham Houses Laurel Rapp says Congress may seek to limit the Iran war, but the president retains signifi\u2026 [+39 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Voters honour Renee Good and Alex Pretti at Minnesota memorials",
+    "description": "Voters honour Renee Good and Alex Pretti at Minnesota memorials",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/voters-honour-renee-good-and-alex-pretti-at-minnesota-memorials",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793790765.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-04T11:12:58Z",
+    "content": "Voters placed I voted stickers on memorials for Renee Good and Alex Pretti in Minnesota during the midterm elections. Both US citizens were killed by ICE agents earlier this year, sparking protests a\u2026 [+27 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Al Jazeera Staff",
+    "title": "Australian government defends social media ban for under 16s in court",
+    "description": "Government lawyers argued that social media use posed risks to children, and action is needed to protect them.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/australian-government-defends-social-media-ban-for-under-16s-in-court",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/07/AFP__20251209__87J23JP__v1__HighRes__AustraliaInternetBan-1784170291.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T08:26:50Z",
+    "content": "The Australian government has defended its ban on social media use by children under the age of 16 in court, as it faces a legal challenge that could have global implications.\r\nGovernment lawyers arg\u2026 [+2003 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Al Jazeera Staff",
+    "title": "\u2018I will not delete my posts\u2019: Inside Uganda\u2019s crackdown on online critics",
+    "description": "Uganda\u2019s online critics allege abductions and intimidation as families search for missing relatives.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/i-will-not-delete-my-posts-inside-ugandas-crackdown-on-online-critics",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/10/Andrew-Tabandama-Natumanya-scrolling-through-his-phone-in-Kamwokya-a-Kampala-surburb.-3-1792094670.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T10:59:31Z",
+    "content": "Kampala, Uganda Praise Aloikin Opoloje walks into the visitors waiting room at Luzira Womens Prison wearing an oversized yellow-and-black striped dress and a broad smile.\r\nDetained since September 26\u2026 [+8267 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Democrat Abdul El-Sayed wins election to US Senate from Michigan",
+    "description": "Democrat Abdul El-Sayed gave an impassioned victory speech as he beat Republican Mike Rogers in the Michigan senate race",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/democrat-abdul-el-sayed-wins-election-to-us-senate-from-michigan-2",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793780314.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-04T08:18:40Z",
+    "content": "Democrat Abdul El-Sayed gave an impassioned victory speech as he beat Republican Mike Rogers in the Michigan senate race."
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Democrat from Kansas elected to US Senate for first time since 1932",
+    "description": "A Democrat from Kansas has been elected to the US Senate for the first time in 94 years.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/democrat-from-kansas-elected-to-us-senate-for-first-time-since-great-depres",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/WIDE-thumbnail-1793779756.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-04T08:09:44Z",
+    "content": "A Democrat from Kansas has been elected to the US Senate for the first time in 94 years. Christian pastor Adam Hamilton beat his Republican opponent Roger Marshall, cementing a Democratic majority in\u2026 [+9 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Priyanka Shankar",
+    "title": "Democrats win control of House and Senate: Key US midterms takeaways",
+    "description": "This is the first time in 20 years that a Republican president has lost both houses of US Congress.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/democrats-win-control-of-house-and-senate-key-us-midterms-takeaways",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-02T054606Z_1122249618_RC2CFOAW6WAV_RTRMADP_3_USA-ELECTION-TEXAS-TALARICO-1-1793773319.jpg?resize=1200%2C630",
+    "publishedAt": "2026-11-04T10:39:52Z",
+    "content": "Democrats have won control of Congress after flipping Republican-held House and Senate seats in Texas, South Carolina, Iowa, Michigan and Kansas in the midterm elections.\r\nThe results are being seen \u2026 [+11743 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "From education to housing protests, Palestine\u2019s flag spreads across Europe",
+    "description": "Symbols such as the flag and keffiyeh represent anti-colonial struggles but some question their use amid mass rallies.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/palestinian-flag-in-eu-demonstrations",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/GettyImages-2299769942-1793723085.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T10:10:08Z",
+    "content": "The Palestinian flag and traditional keffiyeh scarf have been regular appearances at recent demonstrations across Europe over housing, education and the cost of living.\r\nPalestinian symbols were also\u2026 [+6912 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Heba Habib",
+    "title": "Syrians see Israel as biggest regional threat, followed by Iran: Survey",
+    "description": "Some 97% of respondents to Arab Opinion Index for Syria say Israel threatens security and stability in the Middle East.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/syrians-see-israel-as-biggest-regional-threat-followed-by-iran-survey",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6aeae0ad66b9-1793777837.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T09:51:33Z",
+    "content": "Most Syrians view Israel as the greatest threat to the security of their country and the region, with Iran a distant second, according to a new nationwide survey.\r\nThe poll, conducted by the Doha-bas\u2026 [+3182 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Al Jazeera Staff",
+    "title": "Key takeaways from the 2026 midterm elections in California",
+    "description": "Democrats easily hold on to governor's office and are on track to notch up wins in key congressional races.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/key-takeaways-from-the-2026-midterm-elections-in-california",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6aea648e-1793746062.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T09:17:09Z",
+    "content": "While votes are still being counted in California, a handful of important races in the midterm elections have already been called or are pointing firmly in one direction.\r\nDespite its status as a rel\u2026 [+4210 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Al Jazeera Staff",
+    "title": "N Korea fires multiple missiles, denies US claims on Binance hack",
+    "description": "Kim Yo Jong refuses dialogue with US after denying responsibility for theft of more than $6bn in crypto assets.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/n-korea-fires-multiple-missiles-denies-us-claims-on-binance-hack",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6aeab87fdda2-1793767551.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T05:11:00Z",
+    "content": "North Korea has fired several missiles into the Sea of Japan, according to South Koreas military, hours after Pyongyang denied allegations that it was behind the theft of more than $6bn in crypto ass\u2026 [+2730 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Al Jazeera Staff",
+    "title": "Democrat Troy Jackson wins Maine US Senate seat in blow to Republicans",
+    "description": "Longtime Republican Senator Susan Collins had held the seat for three decades, but was swept away in the blue wave.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/democrat-troy-jackson-wins-maine-us-senate-seat-in-blow-to-republicans",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aeacd993cd0f-1793772953.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T07:04:35Z",
+    "content": "Democrat Troy Jackson, a former Maine Senate president and labour organiser who entered the race in July, has won the Senate race in Maine, flipping a seat held by the Republicans for 30 years.\r\nLong\u2026 [+1539 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "US House Speaker Johnson rants about Marxism after Democrat gains",
+    "description": "US House Speaker Johnson rants about Marxism after Democrat gains",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/us-house-speaker-johnson-rants-about-marxism-after-democrat-gains",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793776284.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-04T07:11:47Z",
+    "content": "US House Speaker Mike Johnson went on a rant about how Communism had killed millions of people after he expressed disappointment over sweeping Democratic gains in the 2026 midterms."
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Ballot shortages reported in Dearborn, Michigan",
+    "description": "Reports of ballot shortages at several Dearborn polling stations have raised concerns over voter access",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/ballot-shortages-reported-in-dearborn-michigan",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793758164.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-04T02:09:42Z",
+    "content": "Reports of ballot shortages at several Dearborn polling stations have raised concerns over voter access as Michigan residents cast their ballots in a crucial Senate race. The mayor has urged voters n\u2026 [+59 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Seven flights across Europe targeted by suspected bomb threats",
+    "description": "Seven flights across Europe were targeted by suspected bomb threats.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/seven-flights-across-europe-targeted-by-suspected-bomb-threats",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793759667.jpg?resize=1920%2C1073&quality=80",
+    "publishedAt": "2026-11-04T02:36:18Z",
+    "content": "Seven flights across Europe were targeted by suspected bomb threats. While no official link has been established, several countries are investigating if the incidents were a coordinated attempt to di\u2026 [+15 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Joseph Stepansky",
+    "title": "Talarico wins Texas Senate race, ending decades of Republican dominance",
+    "description": "This is a breaking news story.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/talarico-wins-texas-senate-race-ending-decades-of-republican-dominance",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aeaa6008d4a8-1793762816.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T04:03:41Z",
+    "content": "James Talarico has won the United States Senate race in Texas, the first time a Democrat has won state office since 1994.\r\nTuesdays victory marks a seismic shift in Texas, which has become a standard\u2026 [+584 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Kazakhstan releases second tiger into the wild",
+    "description": "Kazakhstan has released a second Siberian tiger, this time a male named Amur, into a nature reserve.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/kazakhstan-releases-second-tiger-into-the-wild",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793756294.jpg?resize=1920%2C1063&quality=80",
+    "publishedAt": "2026-11-04T01:39:46Z",
+    "content": "Kazakhstan has released a second Siberian tiger, this time a male named Amur, into a nature reserve as part of an ambitious programme to restore wild tigers to the country. Tigers have been extinct i\u2026 [+35 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Andy Hirschfeld",
+    "title": "Democrats dominate NYC races, Hochul re-elected New York governor",
+    "description": "Brad Lander, Darializa Avila Chevalier and Claire Valdez sweep their congressional races in key Democratic districts.",
+    "url": "https://www.aljazeera.com/economy/2026/11/4/democrats-dominate-nyc-races-hochul-re-elected-new-york-governor",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aeaad4509881-1793764677.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T05:27:30Z",
+    "content": "Progressive candidates endorsed by New York City Mayor Zohran Mamdani have won decisive victories in their campaigns to join the United States Congress.\r\nOn Tuesday, New York City politicians Brad La\u2026 [+4659 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Al Jazeera Staff",
+    "title": "Spanish transport minister resigns after train crash killed 69 people",
+    "description": "Oscar Puente says he could not 'continue in office' after two major train accidents in less than a year.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/spanish-transport-minister-resigns-after-train-crash-killed-69-people",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6aead01a69d8-1793773594.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T07:18:08Z",
+    "content": "Spanish Transport Minister Oscar Puente has resigned less than a week after one of the deadliest train crashes in the countrys history. He has also withdrawn from the upcoming general election.\r\nPuen\u2026 [+1902 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Keisha Lance Bottoms becomes Georgia\u2019s first black governor",
+    "description": "Democrat Keisha Lance Bottoms has been elected Governor-elect of Georgia becoming the state's first black governor",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/keisha-lance-bottoms-becomes-georgias-first-black-governor",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793768810.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-04T05:07:00Z",
+    "content": "Democrat Keisha Lance Bottoms has been elected Governor-elect of Georgia becoming the states first black governor, and the very first female black governor in the United States."
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Democrat Josh Turek flips Iowa Senate seat",
+    "description": "Turek beat Republican Ashley Hinson, a US House member.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/democrat-josh-turek-flips-iowa-senate-seat",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6aeab9f4-1793767924.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T04:55:10Z",
+    "content": "Democrat Josh Turek has been elected to the US Senate, defeating Republican Representative Ashley Hinson.\r\nTureks victory over Hinson flips a Republican-held seat and boosts Democrats efforts to reta\u2026 [+495 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Giant banner of Trump, Vance and Netanyahu burnt at Tehran rally",
+    "description": "A giant banner depicting US President Donald Trump and Israel\u2019s Prime Minister Benjamin Netanyahu was burnt in Tehran",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/giant-banner-of-trump-vance-and-netanyahu-burnt-at-tehran-rally",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793835218.jpg?resize=1920%2C1079&quality=80",
+    "publishedAt": "2026-11-04T23:34:47Z",
+    "content": "A giant banner depicting US President Donald Trump, Vice President JD Vance and Israels Prime Minister Benjamin Netanyahu was burnt at a rally in Tehran, after the Republican partys major midterm ele\u2026 [+11 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Sudan, Ethiopia order tit-for-tat diplomatic expulsions",
+    "description": "Sudan accuses Ethiopia of aiding RSF attacks, while Ethiopia claims Sudan backs Tigray rebels.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/sudan-ethiopia-order-tit-for-tat-diplomatic-expulsions",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6aebb4874b9c-1793832071.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T23:43:26Z",
+    "content": "Ethiopia has ordered six Sudanese diplomats to leave the country within 48 hours and closed Sudans consulate in the border town of Asosa, according to Ethiopian and Sudanese officials.\r\nThe orders on\u2026 [+2031 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "FBI arrests man for sending over 700 threatening letters to US officials",
+    "description": "The suspect, an Oklahoma City man, is accused of mailing hoax letters with white powder and treason warnings.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/fbi-arrests-man-for-sending-700-white-powder-letters-to-us-officials",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aea660bba89a-1793746443.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T00:44:04Z",
+    "content": "A man from the midwestern United States is facing federal charges after allegedly mailing hundreds of suspicious letters containing white powder and menacing warnings about treason ahead of the US mi\u2026 [+2620 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Evan Semones",
+    "title": "Keisha Lance Bottoms makes US history as first Black woman elected governor",
+    "description": "Bottoms, a former adviser to ex-President Joe Biden, beat Republican Rick Jackson.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/keisha-lance-bottoms-makes-us-history-as-first-black-woman-elected-governor",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6aea9266-1793757798.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T02:25:51Z",
+    "content": "Democrat Keisha Lance Bottoms has made history as the first Black woman elected governor in the United States.\r\nThe former Atlanta mayor emerged victorious over her billionaire opponent, Republican R\u2026 [+809 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Evan Semones",
+    "title": "Sherrod Brown, an Ohio Democrat, wins return to US Senate",
+    "description": "More than $500m was spent on the contest, making it one of the most expensive Senate races in US history.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/sherrod-brown-an-ohio-democrat-wins-return-to-us-senate",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6aea8f64574b-1793757028.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T04:19:14Z",
+    "content": "Democrat Sherrod Brown has mounted a successful return to the US Senate, handing a stinging defeat to Republicans who had hoped to hold on to the seat, according to Associated Press news agency proje\u2026 [+1227 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Ice hockey federation reiterates opposition to reinstatement of Russia",
+    "description": "The CAS ruled last week to overturn governing body's exclusion of \u200cRussia over its 2022 invasion of Ukraine.",
+    "url": "https://www.aljazeera.com/sports/2026/11/4/ice-hockey-federation-reiterates-opposition-to-reinstatement-of-russia",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6aeb413c-1793802556.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T15:04:34Z",
+    "content": "The International Ice Hockey Federation (IIHF) has said it maintains its disagreement with a Court of Arbitration for Sport (CAS) decision to reinstate Russian teams, warning of significant practical\u2026 [+2220 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Why is the western US still counting votes after election day?",
+    "description": "Why is the western US still counting votes after election day?",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/why-is-the-western-us-still-counting-votes-after-election-day",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793802977.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-04T14:35:54Z",
+    "content": "Polls have closed in the US midterms, but results from some western states may not emerge for days. Zeena Aqel explains how mail-in voting, a system built for convenience, became a flashpoint in Amer\u2026 [+45 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Trump admits Iran war hurt Republican vote, vows to veto \u2018insane\u2019 bills",
+    "description": "US President Donald Trump has admitted that the war on Iran contributed to Republican losses in the midterm elections.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-admits-iran-war-hurt-republican-vote-vows-to-veto-insane-bills",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/CMS-WIDE-THUMB-TRUMP-1793796203.png?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-04T12:44:30Z",
+    "content": "US President Donald Trump has admitted that the war on Iran contributed to Republican losses in the midterm elections, as Democrats took control of Congress. However, he vowed to veto what he called \u2026 [+18 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Maziar Motamedi",
+    "title": "Iranian leaders welcome US midterms, but Trump may still attack",
+    "description": "Tehran views midterm results as a rejection of Trump's 'war on Iran', signalling US frustration with foreign policy.",
+    "url": "https://www.aljazeera.com/news/2026/11/4/iranian-leaders-welcome-us-midterms-but-trump-may-still-attack",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20261103__D6989NU__v3__HighRes__TopshotIranUsIsraelWar-1793758669.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-04T15:13:00Z",
+    "content": "Tehran, Iran Iranian authorities are painting the sweeping midterm election defeats for United States President Donald Trumps Republican Party as a repudiation by the American public of the war on Ir\u2026 [+4880 chars]"
+   }
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "clusters": [
+  {
+   "title": "Business and Tech Developments",
+   "summary": "Major tech companies and financial markets face scrutiny amid new developments like Nvidia investigating its CEO and Apple saving billions in taxes. Meanwhile, various retail and hardware updates highlight shifting trends across consumer technology and the economy."
+  },
+  {
+   "title": "Health and Scientific Discoveries",
+   "summary": "Recent medical studies point to new treatments and dietary habits that may reduce cancer risks, slow biological aging, and improve heart function. In physics and astronomy, researchers continue to unlock mysteries surrounding quantum states, tectonic plates, and deep-sea life."
+  },
+  {
+   "title": "Sports Highlights and Injuries",
+   "summary": "The sports world is busy with intense NFL action, including notable player injuries like Patrick Mahomes' elbow scare and updates on various team standings. Other highlights feature soccer matches, trade grades in the NBA, and college football shake-ups."
+  },
+  {
+   "title": "Entertainment and Celebrity News",
+   "summary": "Pop culture headlines capture celebrity sightings, concert highlights, and red carpet events, alongside TV and movie news. Stories range from Taylor Swift and Travis Kelce's outings to updates on various actors and musicians."
+  },
+  {
+   "title": "Global Politics and Current Events",
+   "summary": "Political landscapes shift with recent developments in government policy, international visits by leaders, and security incidents. Notable events include political commentary, legislative updates, and reports on global infrastructure and accidents."
+  }
+ ],
+ "global_summary": "Today's news spans a wide range of global events, from major business and technology updates to significant advancements in health and science. The sports and entertainment sectors are buzzing with high-profile games, celebrity appearances, and industry shifts, while ongoing political developments and world events continue to shape the international stage."
+}

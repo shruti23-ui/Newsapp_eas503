@@ -69,6 +69,10 @@ tests/test_app.py       pytest tests
 NewsAPI (4 snapshots from the class notebooks), Gemini (saved Nov 2 output), Yahoo Finance (saved prices),
 Tavily and ElevenLabs (live, optional).
 
+In live mode the app shows today and the past 7 days, one snapshot per day. Top headlines cannot be
+fetched for past dates, so missing days are filled once from NewsAPI's article search: articles
+published that day by each category's US sources. Offline demo mode uses only the class snapshots.
+
 ## Deployment
 
 - **Streamlit Cloud:** New app, pick this repo and `streamlit_app.py`, Python 3.12, add keys under Secrets.

@@ -1,0 +1,437 @@
+{
+ "snapshot": "2026-11-07",
+ "source_notebook": null,
+ "fetched_by": "NewsAPI article search: articles published that day",
+ "articles": {
+  "business": [
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Renate Flanagan",
+    "title": "I don't allow my toddler screen time. Sometimes I envy the parents who do.",
+    "description": "I've kept my almost-3-year-old mostly screen-free. It isn't always easy, but I love seeing the ways he engages with the world.",
+    "url": "https://www.businessinsider.com/dont-allow-screens-toddler-envy-parents-who-do-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ad8eb6a510d67c758d856a2?width=1200&format=jpeg",
+    "publishedAt": "2026-11-07T16:29:01Z",
+    "content": "The author said she and her husband have tried very hard to keep their 2-year-old away from screens. She admits it's sometimes harder than expected.Courtesy of Renate Flanagan.\r\n<ul><li>Before having\u2026 [+5020 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Kelsey Vlamis",
+    "title": "An unreleased Anthropic model just helped solve a major quantum-computing question",
+    "description": "An unreleased Anthropic model helped solve a longstanding problem in quantum computing \u2014 another major math problem solved with AI.",
+    "url": "https://www.businessinsider.com/anthropic-quantum-computing-breakthrough-aaronson-ambainis-math-physics-psi-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aee62ed80d4b24f183472c3?width=1200&format=jpeg",
+    "publishedAt": "2026-11-07T00:49:10Z",
+    "content": "Physical Superintelligence Inc. said it used an unreleased Anthropic model to help solve a major open question in quantum computing.Christophe Gateau/picture alliance via Getty Images\r\n<ul><li>PSI sa\u2026 [+2887 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Sarah E. Needleman",
+    "title": "How a marketer-turned-CEO helped turn Whisker into a cat-litter empire",
+    "description": "Whisker's Jacob Zuppke helped turn a self-cleaning litter box into a booming business with creative marketing.",
+    "url": "https://www.businessinsider.com/whisker-ceo-business-marketing-approach-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aee50338f37e8e0b5baaf09?width=1200&format=jpeg",
+    "publishedAt": "2026-11-07T10:54:01Z",
+    "content": "Jacob ZuppkeWhisker\r\n<ul><li>Jacob Zuppke helped turn Whisker's self-cleaning litter box into a booming business with low-budget marketing.</li><li>Whisker's provocative Litter-Robot ads helped fuel \u2026 [+5671 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Katherine Li",
+    "title": "I run the first forward-deployed engineer club in New York. Here's how to break into the role.",
+    "description": "The founder of the first forward-deployed engineer association explains why FDE jobs are growing, what the role requires, and the latest hiring trend.",
+    "url": "https://www.businessinsider.com/forward-deployed-engineer-how-to-get-job-careers-advice-ai-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aed20769270da3cc6668adf?width=1200&format=jpeg",
+    "publishedAt": "2026-11-07T10:41:01Z",
+    "content": "Patrick Kelly, the founder of a community of forward-deployed engineers in New York, says demand for the role is growing.Courtesy of Patrick Kelly\r\n<ul><li>Patrick Kelly, the founder of an FDE commun\u2026 [+4590 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Juliana Kaplan,Alex Nicoll,Madeline Berg",
+    "title": "Voters really, really don't like property taxes",
+    "description": "Across the country, voters showed up for Democrats \u2014 and to give themselves  breaks on property taxes.",
+    "url": "https://www.businessinsider.com/voters-pass-property-tax-breaks-midterm-elections-florida-homestead-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aee2d0180d4b24f183470fb?width=1200&format=jpeg",
+    "publishedAt": "2026-11-07T10:00:02Z",
+    "content": "Florida voters gave themselves a property tax break.Nicole Combeau/Bloomberg via Getty Images\r\n<ul><li>Property taxes were on the ballot across this country this midterms cycle.</li><li>Florida homeo\u2026 [+3703 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Martina Nacach Cowan Ros",
+    "title": "These maps show which states are actually building housing",
+    "description": "We're not building enough new homes in the US to keep costs reasonable, a new report says. But some states are doing better than others: See the map.",
+    "url": "https://www.businessinsider.com/housing-permits-states-building-most-homes-costs-prices-real-estate-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aee241d8f37e8e0b5baad3b?width=1200&format=jpeg",
+    "publishedAt": "2026-11-07T10:00:01Z",
+    "content": "Some states are issuing more housing permits than others, driving more home construction.Rebecca Noble/Bloomberg via Getty Images\r\n<ul><li>A report from UNLV's Lied Center for Real Estate shows housi\u2026 [+3319 chars]"
+   }
+  ],
+  "entertainment": [
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Julia Corrigan",
+    "title": "Just A List I Made Of 22 Wholesome Posts From The Internet This Week That\u2019ll Actually Make You Smile",
+    "description": "These are the wholesome posts you absolutely NEED to see.View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/scarymouse/most-wholesome-posts-11-7-2026",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/06/00/thumb/9otBE9jeik.jpg?crop=1250:654;0,130%26downsize=1250:*",
+    "publishedAt": "2026-11-07T20:01:03Z",
+    "content": "This is why you need to embrace seasonal living - the dark evenings roll round and you've gotta be making soup, reading ghost stories, working on a nice jigsaw puzzle, and generally cosy maxxing. htt\u2026 [+67 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Krista Torres",
+    "title": "16 Hilarious Signs From This Week That Prove Humanity Still Has A Sense Of Humor After All",
+    "description": "\"I called my job from jail to tell them I can't make it. They freaking bailed me out and made me come to work.\"View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/kristatorres/funny-signs-november-6-2026",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/06/20/thumb/dCHb7oXQ9.jpg?crop=1250:654;0,88%26downsize=1250:*",
+    "publishedAt": "2026-11-07T16:56:00Z",
+    "content": "by Krista TorresBuzzFeed\r\nBuzzFeed StaffAs a Senior Writer and Content Creator for BuzzFeed and Tasty, I specialize in lifestyle reporting, viral human-interest stories, and travel/food media."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Henry Dansicker",
+    "title": "This Quiz Will Separate The Truly Sincere From The Fakers",
+    "description": "I'm good at sensing these things!View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/henrydansicker/how-sincere-are-you",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/05/19/thumb/dU6tNzPO5.jpg?crop=1245:830;2,0&resize=1250:830",
+    "publishedAt": "2026-11-07T19:31:02Z",
+    "content": "by Henry DansickerBuzzFeed\r\nBuzzFeed StaffFashion and pop culture writer and editor with a soft spot for red carpets, trend cycles, and iconic celebrity moments!"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Gabrielle LaFrank",
+    "title": "\"I Wish He Was Kidding, But He Was Not\": Teachers Are Revealing The Most Outrageous Things They've Heard And Seen In The Classroom, And I Am Speechless",
+    "description": "\"A month into reading Julius Caesar, I had a student ask, 'Wait, was he a real person?' Mind you, they did presentations on his history and covered it in their social studies class.\"View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/gabriellelafrank/teachers-share-dumbest-things-students-have-said",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/04/22/thumb/APtalmgiu.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+    "publishedAt": "2026-11-07T14:31:02Z",
+    "content": "u/TicTacTyler\r\n\"Okay, re: the Henry Ford thing I will fully admit Im an adult with multiple degrees that screws up similar-sounding names even if theyre completely unrelated in their identities.\r\nUnt\u2026 [+209 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Mariam Sharia",
+    "title": "From \"SNL\" Host To Netflix Star, Here Are The 10 Druski Sketches That Prove He's Comedy's Next Big Thing",
+    "description": "He's parodied everyone from Ms. Rachel to child stars like Raven-Symon\u00e9.View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/mariamsharia/druski-best-sketches-megachurch-netflix-snl",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/06/15/thumb/_rdCicEcw.jpg?crop=2999:1570;0,75%26downsize=1250:*",
+    "publishedAt": "2026-11-07T15:31:03Z",
+    "content": "by Mariam ShariaBuzzFeed ContributorAs a freelance reporter for BuzzFeed, I cover stories about culture, entertainment, and everything in between."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Audrey Engvalson",
+    "title": "This General Knowledge Test Looks Easy, But The Average Adult Can't Score Higher Than 30/35",
+    "description": "What planet is Superman from?View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/audreyworboys/general-knowledge-trivia-quiz-119",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/04/21/thumb/cjTy839n-.jpg?crop=2499:1308;0,176%26downsize=1250:*",
+    "publishedAt": "2026-11-07T00:01:04Z",
+    "content": "by Audrey EngvalsonBuzzFeed\r\nBuzzFeed StaffIm the Senior Editor of New Formats here at BuzzFeed, pioneering interactive experiences and bringing them to our quizzes."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Sara Thompson",
+    "title": "Americans Commonly Misuse These 25 Same-Sounding Words \u2014 Could You Choose The Correct Word?",
+    "description": "Red flag: they can't tell you the difference between to, too, and two.View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/sarathompson1/misused-same-sounding-words-trivia-quiz-fs2",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2024-10/8/20/enhanced/ea6cb8517228/original-2027-1728418604-2.jpg?crop=2988:1564;0,214%26downsize=1250:*",
+    "publishedAt": "2026-11-07T14:16:02Z",
+    "content": "Red flag: they cant tell you the difference between to, too, and two."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Benjamin Dzialdowski",
+    "title": "\"Treating Raw Chicken Like Weapons-Grade Plutonium\" \u2013 People Are Sharing Their Self-Proclaimed \"Paranoid\" Food Safety Rules",
+    "description": "\"I am elbowing the sink faucet open like a surgeon prepping for open-heart surgery.\"View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/bendzialdowski/peoples-home-food-safety-rules",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/05/10/thumb/WcFUsLdbu.jpg?crop=2490:1660;5,0&resize=1250:830",
+    "publishedAt": "2026-11-07T15:31:04Z",
+    "content": "\"I used to wash dishes for work in a kitchen. Did it for almost seven years.\r\nSharps have a place they go which is where you expect to find sharps. (Edit: As others have pointed out: at home, knives \u2026 [+527 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Sydney Mills",
+    "title": "Today's Pop Culture Puzzle Has Some Extremely Unexpected Guests",
+    "description": "This Saturday's puzzle is full of familiar names, unexpected connections, and a healthy dose of nostalgia.View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/syd_mills/fandom-4x4-daily-vol-72",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/04/16/thumb/DfmXV7Cc5.jpg?crop=2999:1570;1,0%26downsize=1250:*",
+    "publishedAt": "2026-11-07T14:01:02Z",
+    "content": "This Saturdays puzzle is full of familiar names, unexpected connections, and a healthy dose of nostalgia."
+   }
+  ],
+  "health": [
+   {
+    "source": {
+     "id": "medical-news-today",
+     "name": "Medical News Today"
+    },
+    "author": "Erika Watts",
+    "title": "Experimental pancreatic cancer vaccine shows promise in clinical trial",
+    "description": "An experimental pancreatic cancer vaccine has shown promise in a phse 2 clinical trial.",
+    "url": "https://www.medicalnewstoday.com/articles/experimental-pancreatic-cancer-vaccine-shows-promise-in-clinical-trial",
+    "urlToImage": "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2026/11/getty_2196571116_facebook_1200x630-1200x628.jpg",
+    "publishedAt": "2026-11-07T06:35:55Z",
+    "content": "<ul><li>A group of researchers recently conducted a randomized phase 2 trial for a pancreatic cancer vaccine.</li><li>They found that the vaccine triggered an immune response in nearly 99% of partici\u2026 [+5733 chars]"
+   }
+  ],
+  "science": [
+   {
+    "source": {
+     "id": "next-big-future",
+     "name": "Next Big Future"
+    },
+    "author": "Brian Wang",
+    "title": "HUGE Things in About Tesla and SpaceX",
+    "description": "20 to 30 million fully developed Optimus can match the goods and services and output of the USA. 168 hours per week of work to match 120 million labor force. Start cost per robot $30K going to $20K and then rent them. The dates projected are mine on when Tesl\u2026",
+    "url": "https://www.nextbigfuture.com/2026/11/huge-things-in-about-tesla-and-spacex.html",
+    "urlToImage": null,
+    "publishedAt": "2026-11-07T16:34:55Z",
+    "content": "Brian Wang is a Futurist Thought Leader and a popular Science blogger with 1 million readers per month. His blog Nextbigfuture.com is ranked #1 Science News Blog. It covers many disruptive technology\u2026 [+593 chars]"
+   },
+   {
+    "source": {
+     "id": "national-geographic",
+     "name": "National Geographic"
+    },
+    "author": "@NatGeoTravel",
+    "title": "How Madison Avenue Is Reinventing Luxury Shopping in New York",
+    "description": "Despite being one of the world\u2019s most famous shopping streets, Madison Avenue has a distinctly local feel. Discover how the Upper East Side\u2019s latest flagship stores are building on this sense of community and making the shopping experience more personal, offe\u2026",
+    "url": "https://www.nationalgeographic.com/travel/article/how-madison-avenue-is-reinventing-luxury-shopping-in-new-york",
+    "urlToImage": "https://i.natgeofe.com/n/fc2e54ca-3bda-40c0-afd5-39c2c9bf6e84/newyork_20260609_MATTEOVERZINI_THOMSWEENEY_NYC_00241_1_ukHR_16x9.jpg?w=1200",
+    "publishedAt": "2026-11-07T00:00:00Z",
+    "content": "This article was produced by National Geographic Traveller(UK).\r\nIm lying on the floor on a plush, herb-coloured cushion, surrounded by coral walls and carpets. Behind me, a trio of windows looks out\u2026 [+4346 chars]"
+   }
+  ],
+  "sports": [
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Iowa vs. Northwestern Prediction, Odds, Picks For College Football Week 10",
+    "description": "Get the latest Iowa vs. Northwestern odds, prediction and pick for College Football Week 10, plus kickoff time, TV channel and streaming information.",
+    "url": "https://www.foxsports.com/stories/college-football/iowa-vs-northwestern-prediction-odds-picks-college-football-week-10",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/2026-11-07-iowa-vs-nu-prediction-1920x1080-1.png?ve=1&tl=1",
+    "publishedAt": "2026-11-07T12:30:05Z",
+    "content": "The Northwestern Wildcats kick off against the No. 19 Iowa Hawkeyes on Saturday in a Week 10 college football matchup on FOX.\r\nLets take a look at the odds for Iowa vs. Northwestern at DraftKings Spo\u2026 [+1098 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How to Watch Iowa vs. Northwestern: TV Channel, Live Stream, Time",
+    "description": "Iowa vs. Northwestern kicks off Saturday, Nov. 7, at 7:30 p.m. ET on FOX. Get the FOX One stream link, odds and players to watch for this Big Ten game in Evanston.",
+    "url": "https://www.foxsports.com/stories/college-football/how-to-watch-iowa-vs-northwestern-tv-channel-live-stream-time-nov-7-2026",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/028c922b9a88934825944fba076356315861084f8de6aa9857b87bc60000f907.png?ve=1&tl=1",
+    "publishedAt": "2026-11-07T14:07:29Z",
+    "content": "The No. 21 Iowa Hawkeyes visit the Northwestern Wildcats on Saturday, Nov. 7, 2026, at 7:30 p.m. ET from Ryan Field in Evanston, Illinois. Both teams are 6-2 and 3-2 in Big Ten play.\r\nIowa is coming \u2026 [+2821 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How to Watch Hawai'i vs. UTEP: TV Channel, Live Stream, Time",
+    "description": "Hawaii vs. UTEP kicks off Saturday, Nov. 7, at 9:30 p.m. ET on FS1. Get the FOX One stream link, odds and players to watch for this Mountain West game in El Paso.",
+    "url": "https://www.foxsports.com/stories/college-football/how-to-watch-hawaii-vs-utep-tv-channel-live-stream-time-nov-7-2026",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/e592aee9eaac80ee22d01e3e8b50909170dd280efce6a9ea55fd062d43443d8f.png?ve=1&tl=1",
+    "publishedAt": "2026-11-07T13:59:33Z",
+    "content": "The Hawaii Rainbow Warriors visit the UTEP Miners on Saturday, Nov. 7, 2026, at 9:30 p.m. ET from the Sun Bowl in El Paso, Texas. Hawaii is 2-6 and 1-4 in Mountain West play, while UTEP is 1-7 and 0-\u2026 [+2878 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How to Watch BYU vs. Utah: TV Channel, Live Stream, Time",
+    "description": "BYU vs. Utah kicks off Saturday, Nov. 7, at noon ET on ABC. Find out how to stream it with the FOX One / ESPN Bundle, plus odds and players to watch.",
+    "url": "https://www.foxsports.com/stories/college-football/how-to-watch-byu-vs-utah-tv-channel-live-stream-time-nov-7-2026",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/5fdcd4936d9f02d2031060fdd9689217d4fb936ce1ea361ea2518fb762ac6c06.png?ve=1&tl=1",
+    "publishedAt": "2026-11-07T13:57:09Z",
+    "content": "The No. 7 BYU Cougars visit the No. 3 Utah Utes on Saturday, Nov. 7, 2026, at noon ET from Rice-Eccles Stadium in Salt Lake City, Utah. Utah is 8-0 and 5-0 in Big 12 play, while BYU is 7-1 and 4-1.\r\n\u2026 [+2945 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How to Watch Texas vs. Missouri: TV Channel, Live Stream, Time",
+    "description": "Texas vs. Missouri kicks off Saturday, Nov. 7, at noon ET on ESPN. Find out how to stream it with the FOX One / ESPN Bundle, plus odds and players to watch.",
+    "url": "https://www.foxsports.com/stories/college-football/how-to-watch-texas-vs-missouri-tv-channel-live-stream-time-nov-7-2026",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/8719eb2aee304fd14eb90a887f79bce4602613e35f8bfffa734dd113a04e8477.png?ve=1&tl=1",
+    "publishedAt": "2026-11-07T13:56:57Z",
+    "content": "The No. 10 Texas Longhorns visit the No. 19 Missouri Tigers on Saturday, Nov. 7, 2026, at noon ET from Faurot Field in Columbia, Missouri. Both teams are 6-2 and 3-2 in SEC play.\r\nTexas dropped back-\u2026 [+3008 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How to Watch Georgia vs. Ole Miss: TV Channel, Live Stream, Time",
+    "description": "Georgia vs. Ole Miss kicks off Saturday, Nov. 7, at 7:30 p.m. ET on ABC. Find out how to stream it with the FOX One / ESPN Bundle, plus odds and players to watch.",
+    "url": "https://www.foxsports.com/stories/college-football/how-to-watch-georgia-vs-ole-miss-tv-channel-live-stream-time-nov-7-2026",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/how-to-watch-georgia-bulldogs-vs-ole-miss-rebels-horizontal.png?ve=1&tl=1",
+    "publishedAt": "2026-11-07T13:59:23Z",
+    "content": "The No. 2 Georgia Bulldogs visit the No. 12 Ole Miss Rebels on Saturday, Nov. 7, 2026, at 7:30 p.m. ET from Vaught-Hemingway Stadium in Oxford, Mississippi. Georgia is 7-1 and 5-1 in SEC play, while \u2026 [+2909 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How to Watch Maryland vs. Purdue: TV Channel, Live Stream, Time",
+    "description": "Maryland vs. Purdue kicks off Saturday, Nov. 7, at 12:30 p.m. ET on Big Ten Network. Get the FOX One stream link, odds and players to watch for this Big Ten game in West Lafayette.",
+    "url": "https://www.foxsports.com/stories/college-football/how-to-watch-maryland-vs-purdue-tv-channel-live-stream-time-nov-7-2026",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/0f8bc8eb38842460c3983f3f244088fad38a352d8392643940bfb855c59dda96.png?ve=1&tl=1",
+    "publishedAt": "2026-11-07T13:57:34Z",
+    "content": "The Maryland Terrapins visit the Purdue Boilermakers on Saturday, Nov. 7, 2026, at 12:30 p.m. ET from Ross-Ade Stadium in West Lafayette, Indiana. Purdue is 3-5 and 2-3 in Big Ten play, while Marylan\u2026 [+2930 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Maryland vs. Purdue Prediction, Odds, Picks For College Football Week 10",
+    "description": "Get the latest Maryland vs. Purdue odds, prediction and pick for College Football Week 10, plus kickoff time, TV channel and streaming information.",
+    "url": "https://www.foxsports.com/stories/college-football/maryland-vs-purdue-prediction-odds-picks-college-football-week-10",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/2026-11-07-md-vs-pur-prediction-1920x1080-1.png?ve=1&tl=1",
+    "publishedAt": "2026-11-07T05:30:39Z",
+    "content": "The Purdue Boilermakers kick off against the Maryland Terrapins on Saturday in a Week 10 college football matchup on Big Ten Network.\r\nLets take a look at the odds for Maryland vs. Purdue at DraftKin\u2026 [+965 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How Miami QB Darian Mensah Can Boost His Heisman Case Against Notre Dame",
+    "description": "FOX Sports' Brady Quinn explains why Darian Mensah could make a major Heisman statement against Notre Dame, even without Malachi Toney.",
+    "url": "https://www.foxsports.com/stories/college-football/darian-mensah-malachi-toney-injury-heisman-candidates-miami-notre-dame",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/mensah.png?ve=1&tl=1",
+    "publishedAt": "2026-11-07T17:26:20Z",
+    "content": "The wait is over. The stakes are enormous. And all eyes are on South Bend.\r\nThe No. 1-ranked Miami Hurricanes, led by quarterback Darian Mensah, will be without superstar wide receiver Malachi Toney,\u2026 [+2294 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Polymarket Promo Code FOX: Get a $25 Bonus for BYU vs. Utah, Texas vs. Missouri",
+    "description": "Polymarket Promo Code FOX: Get a $25 Bonus for BYU vs. Utah, Texas vs. Missouri.",
+    "url": "https://www.foxsports.com/stories/betting/polymarket-promo-code-fox-get-25-bonus-byu-vs-utah-texas-vs-missouri",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/arch-scaled-e1794070572276.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-07T16:56:43Z",
+    "content": "This page may contain affiliate links to legal sports betting\r\n partners. If you sign up or place a wager, FOX Sports may be compensated. Read more about\u00a0Sports Betting on FOX Sports\r\n.\u00a0\r\nCollege foo\u2026 [+4672 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Rutgers vs. Wisconsin Prediction, Odds, Picks For College Football Week 10",
+    "description": "Get the latest Rutgers vs. Wisconsin odds, prediction and pick for College Football Week 10, plus kickoff time, TV channel and streaming information.",
+    "url": "https://www.foxsports.com/stories/college-football/rutgers-vs-wisconsin-prediction-odds-picks-college-football-week-10",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/2026-11-07-rutg-vs-wis-prediction-1920x1080-1.png?ve=1&tl=1",
+    "publishedAt": "2026-11-07T09:15:10Z",
+    "content": "The Wisconsin Badgers kick off against the Rutgers Scarlet Knights on Saturday in a Week 10 college football matchup on Big Ten Network.\r\nLets take a look at the odds for Rutgers vs. Wisconsin at Dra\u2026 [+1156 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "3 Takeaways From Utah's Statement Win Over BYU",
+    "description": "FOX Sports' RJ Young offers up three takeaways from Utah's 28-20 win over BYU on Saturday.",
+    "url": "https://www.foxsports.com/stories/college-football/utah-byu-big-12-takeaways",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/cfb-16x9-23.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-07T22:11:26Z",
+    "content": "Kiss that three-game losing streak in the Holy War goodbye.\r\nUtah quarterback Devon Dampier accounted for four total touchdowns. The Utes' defense picked off BYU QB Bear Bachmeier four times. And yes\u2026 [+3389 chars]"
+   }
+  ],
+  "technology": [
+   {
+    "source": {
+     "id": "wired",
+     "name": "Wired"
+    },
+    "author": "Molly Taft",
+    "title": "He Ran on Fighting Data Centers. Now, He\u2019s Going to Congress",
+    "description": "Will Lawrence beat out better-funded opponents in the race to represent Michigan\u2019s 7th District. Now, the representative-elect is laying out his plans to fight for a federal data center moratorium.",
+    "url": "https://www.wired.com/story/he-ran-on-fighting-data-centers-now-hes-going-to-congress/",
+    "urlToImage": "https://media.wired.com/photos/6aee8c314e9fcb3cda39f822/191:100/w_1280,c_limit/Power-Play-Ran-on-Hating-Congress.jpg",
+    "publishedAt": "2026-11-07T11:00:00Z",
+    "content": "Welcome back toPower Play! Senior writer Molly Taft has been tackling topics around this midterm seasons biggest issue: data centers. With the elections over, Power Play will be going on hiatus. But \u2026 [+2403 chars]"
+   }
+  ],
+  "general": [
+   {
+    "source": {
+     "id": "fox-news",
+     "name": "Fox News"
+    },
+    "author": null,
+    "title": "Chainsaw robot looks terrifying but has a real job",
+    "description": "JR East's towering ZIZAI ZX-3 chainsaw robot tackles dangerous branch-cutting along Japan's Koumi Line while a trained operator controls it remotely.",
+    "url": "https://www.foxnews.com/tech/chainsaw-robot-looks-terrifying-real-job",
+    "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2026/11/2-Chainsaw-robot-looks-terrifying-but-has-a-real-job.jpg",
+    "publishedAt": "2026-11-07T12:58:55Z",
+    "content": "If you saw a humanoid robot holding a chainsaw next to train tracks, you'd probably do a double take. I know I would. But that's exactly what's happening in Japan, where a towering chainsaw robot is \u2026 [+9531 chars]"
+   }
+  ]
+ }
+}

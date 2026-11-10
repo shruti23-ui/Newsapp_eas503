@@ -1,0 +1,463 @@
+{
+ "snapshot": "2026-11-08",
+ "source_notebook": null,
+ "fetched_by": "NewsAPI article search: articles published that day",
+ "articles": {
+  "business": [
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Joey Hadden",
+    "title": "I've spent 128 hours on Amtrak sleeper trains. Here are 6 essentials I've always packed and 4 I discovered along the way.",
+    "description": "I've always packed comfortable clothes and plenty of entertainment on overnight Amtrak trips. After some experience, I started packing slippers.",
+    "url": "https://www.businessinsider.com/overnight-amtrak-train-essentials-packing-list-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aecdd009270da3cc66688c4?width=1200&format=jpeg",
+    "publishedAt": "2026-11-08T18:14:01Z",
+    "content": "The author shares her packing essentials for overnight Amtrak trips.Joey Hadden/Business Insider\r\n<ul><li>I've never been without a camera on an overnight Amtrak train.</li><li>I've never gone to bed\u2026 [+6628 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Jillian Pretzel",
+    "title": "My 62-year-old mom doesn't do anything to her face, not even wear makeup. It's taught me a lot about confidence and aging.",
+    "description": "My mom is 62 and doesn't wear makeup or get Botox. It's shown me about confidence, and given me an example of a different approach to aging.",
+    "url": "https://www.businessinsider.com/mom-doesnt-wear-makeup-get-botox-confidence-aging-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ad9121c2a1b5bc156b1ab4d?width=1200&format=jpeg",
+    "publishedAt": "2026-11-08T12:32:01Z",
+    "content": "The author's mother, 62, doesn't wear any makeup.Courtesy of Jillian Pretzel\r\n<ul><li>My mom is 62 and has sworn off makeup, Botox, and other cosmetic enhancements.</li><li>I still wear makeup, but I\u2026 [+5804 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Gabby Landsverk",
+    "title": "Former Navy SEAL Jocko Willink shares 2 simple changes he's made for longevity",
+    "description": "Retired Navy SEAL Jocko Willink said the focus on optimization distracts from actually improving. He shared two changes to his routine that worked.",
+    "url": "https://www.businessinsider.com/jocko-willink-navy-seal-2-longevity-habits-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aed02019270da3cc6668a62?width=1200&format=jpeg",
+    "publishedAt": "2026-11-08T10:00:01Z",
+    "content": "Jocko Willink said that basic habits, like good discipline, are key to success, whether you're a kid building confidence or an adult trying to boost longevity.Courtesy of Jocko Willink\r\n<ul><li>Entre\u2026 [+4440 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Ayelet Sheffey",
+    "title": "Student-loan borrowers are entering a new oversight era",
+    "description": "Student-loan borrowers face stalled debt relief, inaccurate bills, and repayment glitches. The blue wave in the midterms could take on those issues.",
+    "url": "https://www.businessinsider.com/new-era-student-loan-borrowers-oversight-repayment-protections-democrats-midterms-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aee3330eaa5e46dca227c51?width=1200&format=jpeg",
+    "publishedAt": "2026-11-08T11:15:01Z",
+    "content": "Democratic lawmakers are expected to launch new oversight over federal student loans.Stefani Reynolds/Getty Images; BI\r\n<ul><li>Democratic lawmakers are promising bolstered student-loan oversight aft\u2026 [+4912 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Emily Stewart",
+    "title": "America is Zohranomics-curious",
+    "description": "Americans think life is too expensive. Democrats finally figured out how to talk about it \u2014 and they sound a lot like NYC Mayor Zohran Mamdani.",
+    "url": "https://www.businessinsider.com/zohran-mamdani-affordability-message-2026-midterms-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aee16cb8f37e8e0b5baacb3?width=1200&format=jpeg",
+    "publishedAt": "2026-11-08T09:47:01Z",
+    "content": "Zohran Mamdani wasn't on the ballot on Tuesday, but the message behind his political rise was: Life has become untenably expensive, the people in charge seem deeply disconnected from it, and the gove\u2026 [+7580 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Jake Epstein",
+    "title": "Sailors aboard Britain's newest aircraft carrier are training to fight through darkness, rough seas, and radio silence",
+    "description": "NATO is increasingly focused on reinforcing its northern flank amid a rise in Russian military activity across the Arctic and North Atlantic.",
+    "url": "https://www.businessinsider.com/newest-uk-aircraft-carrier-trains-fight-arctic-north-atlantic-winter-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aec4f869270da3cc66684d1?width=1200&format=jpeg",
+    "publishedAt": "2026-11-08T13:13:01Z",
+    "content": "Sailors aboard the HMS Prince of Wales in the Norwegian Sea last week.Jake Epstein/Business Insider\r\n<ul><li>NATO is increasingly focused on defending its northern flank as Russian military activity \u2026 [+3817 chars]"
+   }
+  ],
+  "entertainment": [
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Michael Cripe",
+    "title": "Epic Reveals Drop Rate for Fortnite's Pirate Token Following Pressure From Fans",
+    "description": "Epic Games has revealed the drop rate for Fortnite's Pirate Token after backlash surrounding the infamous in-game pickup saw fans try to report the studio to the FTC.",
+    "url": "https://www.ign.com/articles/epic-reveals-drop-rate-for-fortnites-pirate-token-following-pressure-from-fans",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/08/fortnite-pirate-token-treasure-1794118797500.png?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-08T06:37:04Z",
+    "content": "Epic Games has revealed the drop rate for Fortnite\r\n's Pirate Token after backlash surrounding the infamous in-game pickup saw fans try to report the studio to the FTC.\r\nIt's been just one week since\u2026 [+4794 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Sara Thompson",
+    "title": "Can You Match The House To The Iconic Christmas Movie It's From?",
+    "description": "Oh, to make the kind of money that Mr. McCallister made.View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/sarathompson1/christmas-movie-houses-timed-trivia-quiz",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/05/17/thumb/e1hsTN2la.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+    "publishedAt": "2026-11-08T00:31:02Z",
+    "content": "by Sara ThompsonBuzzFeed\r\nBuzzFeed StaffI'm Sara, and I cover the fitness and health sphere on BuzzFeed from finding the best snacks to sharing the easiest hacks on staying fit."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Liz Richardson",
+    "title": "23 Selfish In-Laws Who Almost Ruined People's Weddings By Making It Alllllllll About Themselves",
+    "description": "\"My sister-in-law agreed to be my maid of honor, and it was terrible. She tried to talk me out of marrying her brother by making up stories that he was cheating. Turns out, she was besties with his ex and wanted them to get back together.\"View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/lizmrichardson/toxic-in-laws-at-weddings-stories-fs",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2023-01/25/21/enhanced/6fe1dc345e6c/original-5058-1674680795-22.jpg?crop=1250:654;0,80%26downsize=1250:*",
+    "publishedAt": "2026-11-08T01:16:02Z",
+    "content": "\"Then, when my husband and I were walking down the aisle at the start of the ceremonial procession, I noticed that her extended family was sitting in the first row that we were supposed to sit in (bu\u2026 [+920 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Harrison Berger",
+    "title": "Anyone Who Owns A TV Should Ace This Basic Movie And Television Quiz",
+    "description": "Test your knowledge of movies and TV!View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/harrisonberger/daily-trivia-november-8-2026",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/06/19/thumb/CzDfcWC8Y.jpg?crop=2999:1570;0,52%26downsize=1250:*",
+    "publishedAt": "2026-11-08T05:01:05Z",
+    "content": "by Harrison BergerBuzzFeed\r\nBuzzFeed StaffI'm a resident writer at BuzzFeed, crafting quizzes and covering entertainment and pop culture content."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Avalon Lustick",
+    "title": "Sorting These Liquids Is Way Harder Than It Looks, And I'm Willing To Bet You'll Mess Up At Least Once",
+    "description": "Pour Decisions #20 - November 8, 2026View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/avalonlustick/pour-decisions-november-8-2026",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/03/15/thumb/Yr5r54h1x.jpg?crop=2000:1333;0,0&resize=1250:830",
+    "publishedAt": "2026-11-08T05:01:03Z",
+    "content": "Theres something ridiculously soothing about sorting pretty colors into neat little tubes. Suddenly, your five-minute break has become a whole evening. Whoops."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Alyson Lee",
+    "title": "Whose Shoes Are These? If You Can Identify The Cartoon Characters By Their Shoes, We Can Confidently Guess How Old You Are",
+    "description": "Only millennials and older would know the cartoon character who wears these shoes.View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/alysaurus688/identify-these-cartoon-characters-based-on-shoes-age-quiz",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/29/21/thumb/OmV2L3eAy.jpg?crop=3000:1571;0,423%26downsize=1250:*",
+    "publishedAt": "2026-11-08T12:31:02Z",
+    "content": "by Alyson LeeBuzzFeed ContributorFormer 9-to-5 tech worker turned content writer with a passion for all things pop culture, TV, and film!"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Michele Bird",
+    "title": "\"F*ck That Rule\": People Are Revealing The Unspoken \"Social Rules\" They Would Like To Retire Immediately, And Wait, They're Making A Lot Of Good Points",
+    "description": "\"Most people don't care, and anyone who is offended by this is someone I don't care to know.\"View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/michelelbird/unspoken-social-etiquette-rules",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/20/15/thumb/RsN1Ud38O.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+    "publishedAt": "2026-11-08T11:01:06Z",
+    "content": "u/MidlifeAudit-8080\r\n\"I was taught to wait a couple of seconds if someone was taking a picture. That is, A picture, singular. Pause, click, we're done. But so many people today, even for still photos\u2026 [+58 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Sydney Mills",
+    "title": "If You Can't Match 12/15 Of These Iconic Characters To Their Books, You're Pretty Uncultured",
+    "description": "Let's see how much of that required reading actually stuck with you...View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/syd_mills/high-school-required-reading-character-trivia-quiz",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/05/23/thumb/fIOlfHFaD.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+    "publishedAt": "2026-11-08T10:31:04Z",
+    "content": "by Sydney MillsBuzzFeed\r\nBuzzFeed StaffHi, Im Sydney, a Resident Writer at BuzzFeed!"
+   }
+  ],
+  "health": [
+   {
+    "source": {
+     "id": "medical-news-today",
+     "name": "Medical News Today"
+    },
+    "author": "Amy McLean",
+    "title": "Replacing animal protein with plant protein could better support weight loss",
+    "description": "Swapping animal protein for plant protein could better support weight loss, according to new research that examines the effects of vegan and Mediterranean diets.",
+    "url": "https://www.medicalnewstoday.com/articles/replacing-animal-protein-with-plant-protein-could-better-support-weight-loss",
+    "urlToImage": "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2026/11/getty_1407102119_facebook_1200x630-1200x628.jpg",
+    "publishedAt": "2026-11-08T13:26:30Z",
+    "content": "<ul><li>Replacing animal protein with plant protein as part of a low fat vegan diet may support weight loss, according to recent research.</li><li>Compared with the vegan diet, the Mediterranean diet\u2026 [+8810 chars]"
+   }
+  ],
+  "science": [
+   {
+    "source": {
+     "id": "national-geographic",
+     "name": "National Geographic"
+    },
+    "author": "@NatGeoTravel",
+    "title": "The Best Ski Resorts in Japan This Season",
+    "description": "With its abundant deep snow and unique apres-ski, Japan is attracting an increasing number of skiers from overseas. Get the inside guide, from resorts to ramen.",
+    "url": "https://www.nationalgeographic.com/travel/article/the-best-ski-resorts-in-japan-this-season",
+    "urlToImage": "https://i.natgeofe.com/n/456f8bc1-daa0-4cc9-a275-ca6d85fe34fe/japan_D2D97H_ukHR_16x9.jpg?w=1200",
+    "publishedAt": "2026-11-08T00:00:00Z",
+    "content": "This article was produced by National Geographic Traveller(UK).\r\nRenowned for its distinctive skiing culture, Japan is the ultimate wish list destination for serious skiers and snowboarders. If youre\u2026 [+7252 chars]"
+   }
+  ],
+  "sports": [
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How to Watch Bengals vs. Falcons: TV Channel, Live Stream, Time",
+    "description": "Bengals vs. Falcons kicks off Sunday, Nov. 8, at 9:30 a.m. ET on NFL Network. Get the TV channel, streaming options and players to watch for this Week 9 game in Madrid.",
+    "url": "https://www.foxsports.com/stories/nfl/how-to-watch-bengals-vs-falcons-tv-channel-live-stream-time-nov-8-2026",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/704183bf955b2fb3c985a8a46e166d3cdd4eccfad0e02993f438fbeda4f37117.png?ve=1&tl=1",
+    "publishedAt": "2026-11-08T12:11:48Z",
+    "content": "The Bengals and Falcons meet in the 2026 NFL regular season on Sunday, November 8, 2026 at 9:30 a.m. ET at Santiago Bernab\u00e9u Stadium in Madrid, Spain.\r\nAtlanta enters this matchup at 3-5 and sits thi\u2026 [+2509 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How to Watch Rams vs. Commanders: TV Channel, Live Stream, Time",
+    "description": "How to watch the Los Angeles Rams vs. Washington Commanders in Week 9 of the 2026 NFL season, plus players to watch at Northwest Stadium on November 8.",
+    "url": "https://www.foxsports.com/stories/nfl/how-to-watch-rams-vs-commanders-tv-channel-live-stream-time-nov-8-2026",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/how-to-watch-los-angeles-rams-vs-washington-commanders-horizontal.png?ve=1&tl=1",
+    "publishedAt": "2026-11-08T12:13:45Z",
+    "content": "The Los Angeles Rams visit the Washington Commanders in the 2026 NFL regular season, with this Week 9 matchup set for Sunday, November 8, 2026 at 1:00 p.m. ET at Northwest Stadium in Landover, MD.\r\nW\u2026 [+3123 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How to Watch Buccaneers vs. Bears: TV Channel, Live Stream, Time",
+    "description": "Tampa Bay visits Chicago in Week 9 of the 2026 NFL season. Here is how to watch the Buccaneers vs. Bears game, plus four players to watch at Soldier Field.",
+    "url": "https://www.foxsports.com/stories/nfl/how-to-watch-buccaneers-vs-bears-tv-channel-live-stream-time-nov-8-2026",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/340b6bace4411c69de14057fbc38c1c1afd62dbeb934276d86470e3f61336088.png?ve=1&tl=1",
+    "publishedAt": "2026-11-08T18:30:41Z",
+    "content": "The Tampa Bay Buccaneers visit the Chicago Bears on Sunday, Nov. 8, 2026, at 8:20 p.m. ET from Soldier Field in Chicago, Illinois.\r\nChicago hosts Tampa Bay in the 2026 NFL regular season on Sunday, N\u2026 [+2670 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How to Watch Cardinals vs. Seahawks: TV Channel, Live Stream, Time",
+    "description": "How to watch the Arizona Cardinals vs. Seattle Seahawks on Sunday, November 8, 2026, plus key players to watch at Lumen Field in Seattle.",
+    "url": "https://www.foxsports.com/stories/nfl/how-to-watch-cardinals-vs-seahawks-tv-channel-live-stream-time-nov-8-2026",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/fd978c5503042136ff7d4f1eed1b89f2517030f904501e177c8a00b62a6448eb.png?ve=1&tl=1",
+    "publishedAt": "2026-11-08T18:29:26Z",
+    "content": "The NFC West matchup brings the Arizona Cardinals to Seattle to face the Seattle Seahawks in the 2026 NFL regular season on Sunday, November 8, 2026 at 4:25 p.m. ET at Lumen Field in Seattle, WA.\r\nSe\u2026 [+3044 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Why Three Japanese Stars Could Dominate MLB Free Agency Talks",
+    "description": "Here's why you'll be hearing a lot about three of Japan's best players over the next month.",
+    "url": "https://www.foxsports.com/stories/mlb/mlb-free-agency-teruaki-sato-kaima-taira-hiromi-itoh-japan-npb",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/artboard-1-4.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-08T18:45:41Z",
+    "content": "While there is no star of Yoshinobu Yamamotos caliber in this incoming class of Japanese standouts, there is a group of NPB players coming to MLB in 2027 who should help clubs immediately.\u00a0\r\nFor the \u2026 [+5175 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "bet365 Bonus Code FOX365 Unlocks $200 in Bonus Bets for Any NFL Week 9 Matchup Including Packers vs. Patriots",
+    "description": "bet365 Bonus Code FOX365 Unlocks $200 in Bonus Bets for Any NFL Week 9 Matchup Including Packers vs. Patriots.",
+    "url": "https://www.foxsports.com/stories/betting/bet365-bonus-code-fox365-unlocks-200-bonus-bets-any-nfl-week-9-matchup-including-packers-vs-patriots",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/maye-1-scaled-e1794166904348.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-08T20:02:23Z",
+    "content": "This page may contain affiliate links to legal sports betting\r\n partners. If you sign up or place a wager, FOX Sports may be compensated. Read more about\u00a0Sports Betting on FOX Sports\r\n.\u00a0\r\nNFL Week 9 \u2026 [+4519 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Chiefs QB Patrick Mahomes Takes Rough Hit, But Remains In Game vs. Jets",
+    "description": "The Kansas City Chiefs' season almost took a turn for the worse on Sunday.",
+    "url": "https://www.foxsports.com/stories/nfl/patrick-mahomes-elbow-injury-update-chiefs",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/patrick-mahomes.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-08T19:56:52Z",
+    "content": "The Kansas City Chiefs' season almost took a turn for the worse on Sunday.\u00a0\r\nPatrick Mahomes suffered an elbow injury on his throwing arm late in the first half of Sunday's game against the New York \u2026 [+1051 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How to Watch Jets vs. Chiefs: TV Channel, Live Stream, Time",
+    "description": "Everything to know for New York Jets vs. Kansas City Chiefs on Sunday, November 8, 2026, including time, venue, TV, streaming and players to watch.",
+    "url": "https://www.foxsports.com/stories/nfl/how-to-watch-jets-vs-chiefs-tv-channel-live-stream-time-nov-8-2026",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/5e78dbd11bc9fb7df9fba84235d08276d26b5edebc4e17cc98054ad624132b70.png?ve=1&tl=1",
+    "publishedAt": "2026-11-08T12:16:25Z",
+    "content": "The Kansas City Chiefs head into Week 9 of the 2026 NFL season set to host the New York Jets on Sunday, November 8, 2026 at 1:00 p.m. ET at Arrowhead Stadium in Kansas City, MO.\r\nKansas City enters t\u2026 [+3102 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "4 Takeaways From Notre Dame's Win Over Miami \u2014 With An NFL Draft Twist",
+    "description": "FOX Sports' Rob Rang offers up four takeaways from Notre Dame's win over Miami, with an NFL twist!",
+    "url": "https://www.foxsports.com/stories/college-football/notre-dame-miami-nfl-draft-twist",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/cfb-16x9nd-1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-08T07:01:29Z",
+    "content": "The rivalry between Miami and Notre Dame may not have the history or prestige of Ohio State-Michigan or Texas-Oklahoma, but there is plenty of bad blood between the two programs and elite NFL talent \u2026 [+9521 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Eagles vs. Giants Prediction, Odds, Pick For NFL Week 9",
+    "description": "Get the latest odds, prediction and pick for the Week 9 Eagles vs. Giants game, as well as information on how to watch.",
+    "url": "https://www.foxsports.com/stories/nfl/eagles-vs-giants-prediction-odds-pick-nfl-week-9",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/2026-11-08-nyg-vs-phi-prediction-1920x1080-1.png?ve=1&tl=1",
+    "publishedAt": "2026-11-08T06:00:36Z",
+    "content": "The New York Giants will visit the Philadelphia Eagles on Sunday in a Week 9 NFL showdown on FOX.\r\nLets take a look at the odds for Eagles vs. Giants at FanDuel Sportsbook as of Nov. 8.\u00a0\r\nThis page m\u2026 [+1256 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Patriots vs. Packers Prediction, Odds, Pick For NFL Week 9",
+    "description": "Get the latest odds, prediction and pick for the Week 9 Patriots vs. Packers game, as well as information on how to watch.",
+    "url": "https://www.foxsports.com/stories/nfl/patriots-vs-packers-prediction-odds-pick-nfl-week-9",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/2026-11-08-gb-vs-ne-prediction-1920x1080-1.png?ve=1&tl=1",
+    "publishedAt": "2026-11-08T09:25:49Z",
+    "content": "The Green Bay Packers will visit the New England Patriots on Sunday in a Week 9 NFL showdown on FOX.\r\nLets take a look at the odds for Patriots vs. Packers at FanDuel Sportsbook as of Nov. 8.\u00a0\r\nThis \u2026 [+1237 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "49ers vs. Raiders Prediction, Odds, Pick For NFL Week 9",
+    "description": "Get the latest odds, prediction and pick for the Week 9 49ers vs. Raiders game, as well as information on how to watch.",
+    "url": "https://www.foxsports.com/stories/nfl/49ers-vs-raiders-prediction-odds-pick-nfl-week-9",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/2026-11-08-lv-vs-sf-prediction-1920x1080-1.png?ve=1&tl=1",
+    "publishedAt": "2026-11-08T09:25:01Z",
+    "content": "The Las Vegas Raiders will visit the San Francisco 49ers on Sunday in a Week 9 NFL showdown on FOX.\r\nLets take a look at the odds for 49ers vs. Raiders at FanDuel Sportsbook as of Nov. 8.\u00a0\r\nThis page\u2026 [+1126 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Puka Nacua Reportedly Injured Late in Rams\u2019 Win, Set For MRI On Monday",
+    "description": "Puka Nacua suffered a knee injury on the Rams\u2019 final offensive snap of Sunday\u2019s 20-13 win over the Commanders and will reportedly undergo an MRI on Monday.",
+    "url": "https://www.foxsports.com/stories/nfl/puka-nacua-hurts-knee-late-rams-win-over-commanders-set-mri-monday",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/gettyimages-2304174374-scaled-e1794178616240.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-08T23:05:48Z",
+    "content": "The Los Angeles Rams win over the Washington Commanders may have come at a cost.\r\nAll-Pro wide receiver Puka Nacua suffered a knee injury on the Rams final offensive snap of Sundays 20-13 win over th\u2026 [+1609 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "CJ Carr, Notre Dame In Perfect CFP Position After The Revenge Upset Win vs. Miami",
+    "description": "The Notre Dame quarterback out-dueled another Heisman candidate and made history, knocking off a No. 1 team in a victory to savor.",
+    "url": "https://www.foxsports.com/stories/college-football/notre-dame-miami-cj-carr-mensah-heisman-cfp-playoff",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/cjcarr-miami-16x9-1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-08T21:22:29Z",
+    "content": "NOTRE DAME STADIUM (South Bend, Ind.) The bar is set high for real history at Notre Dame, but when the final play ended and the Fighting Irish knew they had a 31-24 upset of then-No. 1 Miami, quarter\u2026 [+5980 chars]"
+   }
+  ],
+  "technology": [
+   {
+    "source": {
+     "id": "wired",
+     "name": "Wired"
+    },
+    "author": "Luke Larsen",
+    "title": "The Apple MacBook Pro M5 is on Sale, and a Top MacBook to Buy Right Now",
+    "description": "Apple announced an updated 14-inch MacBook Pro with the latest M6 chip. But with the M5 model on sale, I\u2019m not sure the M6 is worth the upgrade.",
+    "url": "https://www.wired.com/story/macbook-pro-m5-deal-11-6-2026/",
+    "urlToImage": "https://media.wired.com/photos/6aee76034438325af23766b8/191:100/w_1280,c_limit/macbook-pro-m5-top-2.jpg",
+    "publishedAt": "2026-11-08T10:00:00Z",
+    "content": "Last month, Apple refreshed the 14-inch MacBook Pro with the latest M6 chip. It's powerful, has great battery life, and the mini-LED screen is bright. There are all kinds of great attributes about th\u2026 [+2350 chars]"
+   },
+   {
+    "source": {
+     "id": "wired",
+     "name": "Wired"
+    },
+    "author": "Joe Ray",
+    "title": "I Used NYT Cooking\u2019s New AI-Powered Recipe Modifier, and It\u2019s Actually Pretty Good",
+    "description": "The New York Times has added a beta feature to its Cooking app that helps readers swap ingredients or adjust recipes to suit their needs. It mostly hits the mark.",
+    "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+    "urlToImage": "https://media.wired.com/photos/6aee77f4ece1c19963602401/191:100/w_1280,c_limit/gear-nyt-cooking-ai-assistant.jpg",
+    "publishedAt": "2026-11-08T12:00:00Z",
+    "content": "In an aside in the New York Times Cooking video I watched recently, where Melissa Clark made her lemony white bean soup with turkey and greens, the food reporter and recipe columnist invited viewers \u2026 [+2166 chars]"
+   }
+  ],
+  "general": [
+   {
+    "source": {
+     "id": "fox-news",
+     "name": "Fox News"
+    },
+    "author": null,
+    "title": "Tesla plans to wind down Cybertruck production after sales slump",
+    "description": "Tesla Cybertruck production is winding down at Gigafactory Texas to make room for Cybercab robotaxi manufacturing, but key questions remain for owners.",
+    "url": "https://www.foxnews.com/tech/tesla-plans-wind-down-cybertruck-production-after-sales-slump",
+    "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2026/11/tesla-cybertrucks-starbase-texas.jpg",
+    "publishedAt": "2026-11-08T12:30:56Z",
+    "content": "You have to give Tesla credit for one thing. The Cybertruck certainly got people talking. With its sharp angles and stainless steel body, it looked unlike anything else pulling into a supermarket par\u2026 [+10405 chars]"
+   },
+   {
+    "source": {
+     "id": "cbs-news",
+     "name": "CBS News"
+    },
+    "author": "Adam  Harrington",
+    "title": "A renowned scientist, a deadly snakebite, and a diary that documented it all",
+    "description": "The curious story of a renowned Field Museum scientist and a deadly snakebite",
+    "url": "https://www.cbsnews.com/chicago/news/field-museum-karl-patterson-schmidt-deadly-snakebite-diary/",
+    "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/09/24/e57dd754-8090-46c8-80ec-bbe1305ffb78/thumbnail/1200x630/21e0dce683e3d1f705b5d06f68c96544/karl-patterson-schmidt-2.jpg",
+    "publishedAt": "2026-11-08T00:38:37Z",
+    "content": "A world-renowned museum curator gets bitten by a snake he's trying to identify. He does not seek medical treatment. He goes home and documents his symptoms hour by hour in a journal, including all th\u2026 [+16535 chars]"
+   }
+  ]
+ }
+}

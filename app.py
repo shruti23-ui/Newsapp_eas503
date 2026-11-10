@@ -156,11 +156,12 @@ def agreement_panel():
 
 
 def header():
-    badge = "Live news" if IS_LIVE else "Saved news (offline)"
+    # live data gets a blinking red dot; saved data gets a plain label
+    badge = [html.Span(className="live-dot"), "Live news"] if IS_LIVE else "Saved news (offline)"
     return html.Header([
         html.Div([html.Div("What's in the news, and how it's told", className="kicker"),
                   html.H1(["The Buffalo ", html.Span("Times")], className="title")]),
-        html.Div([html.Span(badge, className="badge"),
+        html.Div([html.Span(badge, className="badge live" if IS_LIVE else "badge"),
                   html.Span(f"{DF['uid'].nunique() if not DF.empty else 0} headlines · {len(SNAPS)} dates", className="badge"),
                   html.Button("Light mode", id="theme-btn", className="theme-btn", n_clicks=0)],
                  className="badges"),
@@ -336,15 +337,40 @@ app.callback(Output("root", "className"), Output("theme-btn", "children"), Input
 
 
 # briefing
+STORY_MATCH = 0.10   # a headline counts toward a story when its similarity to the story is at least this
+
+
+def story_card(number, cluster, matched):
+    counts = matched["category"].value_counts()
+    total = int(counts.sum())
+    # stacked bar: one colored segment per category, width = its share of the story's headlines
+    bar = html.Div([html.Span(style={"width": f"{n / total:.0%}", "background": CAT_COLORS.get(c, "#999")}, title=f"{c.title()}: {n}")
+                    for c, n in counts.items()], className="story-bar") if total else None
+    meta = f"{total} headline{'s' if total != 1 else ''} · " + ", ".join(c.title() for c in counts.index) if total else "No matching headlines"
+    links = [html.Li(html.A(r.title, href=r.url, target="_blank")) for r in matched.head(2).itertuples()]
+    return html.Div([
+        html.Div([html.Span(str(number), className="story-num"), html.H4(cluster.get("title", ""))], className="story-head"),
+        html.P(cluster.get("summary", ""), className="story-text"),
+        bar, html.Div(meta, className="story-meta"),
+        html.Ul(links, className="story-links") if links else None,
+    ], className="story")
+
+
 def summary_cards(snap):
+    title = "Today's top stories" if snap == LATEST else f"Top stories on {nice_date(snap)}"
     summ = SUMMARIES.get(snap)
     if not summ:
-        return card("Today's story clusters", None,
-                    html.Div("No AI summary for this date yet.", className="notice"), wide=True)
-    minis = [html.Div([html.H4(c.get("title", "")), html.P(c.get("summary", ""))], className="mini") for c in summ["clusters"]]
-    return card("Today's top stories", "AI summary of the day's headlines, grouped by theme",
-                html.P(summ.get("global_summary", ""), style={"margin": 0, "fontSize": "15px", "lineHeight": "1.55"}),
-                html.Div(minis, className="row"), wide=True)
+        dates = ", ".join(nice_date(s) for s in reversed(SNAPS) if s in SUMMARIES)
+        return card(title, None, html.Div(f"No AI summary for this date. Summaries exist for: {dates or 'none yet'}.",
+                                          className="notice"), wide=True)
+    heads = AUDITS[snap]["heads"]
+    stories = []
+    for i, cluster in enumerate(summ["clusters"]):
+        matched = heads[(heads["cluster"] == i) & (heads["similarity"] >= STORY_MATCH)].sort_values("similarity", ascending=False)
+        stories.append(story_card(i + 1, cluster, matched))
+    return card(title, "AI summary grouped into stories. The colored bar shows which categories each story's headlines come from.",
+                html.P(summ.get("global_summary", ""), className="lede"),
+                html.Div(stories, className="stories"), wide=True)
 
 
 def update_briefing(snap, cats, theme):

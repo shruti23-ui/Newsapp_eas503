@@ -39,6 +39,8 @@ DEMO_MODE = _flag("DEMO_MODE") or not NEWS_API_KEY
 ENABLE_ZSC = _flag("ENABLE_ZSC", "true")          # BART zero-shot (needs transformers)
 ENABLE_LIVE_STOCKS = _flag("ENABLE_LIVE_STOCKS", "true")
 SAVE_SNAPSHOTS = _flag("SAVE_SNAPSHOTS", "true")  # archive each live fetch
+DAYS_BACK = int(os.getenv("DAYS_BACK", "7"))                         # live mode shows today + this many past days
+LIVE_REFRESH_MINUTES = int(os.getenv("LIVE_REFRESH_MINUTES", "60"))  # reuse today's fetch until it is this old
 PORT = int(os.getenv("PORT", "8080"))
 DEBUG = _flag("DASH_DEBUG")
 

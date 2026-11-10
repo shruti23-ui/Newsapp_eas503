@@ -1,0 +1,1216 @@
+{
+ "snapshot": "2026-11-05",
+ "source_notebook": null,
+ "fetched_by": "NewsAPI article search: articles published that day",
+ "articles": {
+  "business": [
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "James Faris",
+    "title": "Disney employees use a town hall meeting to press management for details on a possible next round of layoffs",
+    "description": "Disney staffers pushed management for answers about reports of layoffs in a tech town hall. Employees say morale is suffering.",
+    "url": "https://www.businessinsider.com/disney-employees-layoffs-timing-streaming-tech-town-hall-leadership-morale-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aecdeb39270da3cc66688df?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T21:42:35Z",
+    "content": "Disney employees are frustrated by reports that the company is planning to cut more workers under CEO Josh D'Amaro.Michael M. Santiago/Getty Images; Aurore Marechal/Getty Images\r\n<ul><li>Disney staff\u2026 [+3977 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Melia Robinson",
+    "title": "Legal AI startup Harvey has held early talks about an IPO",
+    "description": "Harvey, darling of legal tech, has held talks with lawyers at Latham & Watkins about going public. The discussions were preliminary.",
+    "url": "https://www.businessinsider.com/legal-ai-startup-harvey-early-ipo-talks-latham-watkins-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aecb9e4c54bfafa65abf57f?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T18:03:08Z",
+    "content": "Harvey's cofounder and CEO, Winston Weinberg.Harvey\r\n<ul><li>Harvey has held preliminary talks with lawyers at Latham & Watkins about an IPO.</li><li>The startup sells artificial intelligence softwar\u2026 [+4386 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Theron Mohamed",
+    "title": "I went to an elite investor forum in London. Everyone was talking about the outlook for AI, jobs, and Elon Musk.",
+    "description": "At the $3,000 per night Chancery Rosewood hotel in Mayfair a who's who of finance folk tackled topics ranging from crypto regulation to AI safety.",
+    "url": "https://www.businessinsider.com/salt-london-speakers-ai-bubble-elon-musk-future-jobs-outlook-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aec7f80c54bfafa65abf3a3?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T17:01:19Z",
+    "content": "SkyBridge Capital's Anthony Scaramucci (left) hosted the investor event.SALT\r\n<ul><li>I went to SALT London, an exclusive investor conference, on Wednesday.</li><li>The big topics of the day included\u2026 [+5438 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Justine Lee",
+    "title": "I tried Ree Drummond's easy cacio e pepe recipe. This 20-minute pasta dish is my new favorite weeknight dinner.",
+    "description": "Ree Drummond's cacio e pepe ravioli recipe has just a few ingredients and is so easy to make. I tried it, and now, it's my favorite quick dinner.",
+    "url": "https://www.businessinsider.com/favorite-pasta-dish-ree-drummond-cacio-e-pepe-ravioli-recipe-2026-11#article",
+    "urlToImage": "https://i.insider.com/6942cd4904eda4732f2dada6?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T15:43:38Z",
+    "content": "The finished dish was flavorful and delicious.Justine Lee\r\n<ul><li>On the hunt for a new, easy comfort meal, I tried Ree Drummond's cacio e pepe ravioli recipe.</li><li>The recipe only called for six\u2026 [+4646 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Alice Tecotzky",
+    "title": "Goldman Sachs just welcomed 109 new members to its most exclusive club. Here's a breakdown of the new partner class.",
+    "description": "Goldman' class of 109 new partners represents a 15% increase from its previous cohort and largest under CEO David Solomon.",
+    "url": "https://www.businessinsider.com/goldman-sachs-partner-promotions-full-list-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aecc53e9270da3cc66687a1?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T18:12:47Z",
+    "content": "Goldman Sachs has crowned its newest class of partners.\r\nThe storied financial institution announced it elevated 109 executives to one of Wall Street's most coveted titles the largest class since 201\u2026 [+8089 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Nicole Johnson",
+    "title": "I thought raising 4 kids would get cheaper once day care and braces were behind us. Then college bills hit.",
+    "description": "We're raising four kids and earn too much for need-based college aid. Now we're taking on loans to help two of them afford tuition.",
+    "url": "https://www.businessinsider.com/middle-class-family-cant-afford-college-financial-aid-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ae0bcff3ae265b597b0280e?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T17:26:01Z",
+    "content": "The author has two kids in college.Yuliya Taba/Getty Images\r\n<ul><li>My husband and I have four kids and thought we'd finally have more financial breathing room.</li><li>We earn too much for need-bas\u2026 [+5205 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Ayelet Sheffey",
+    "title": "'Severe' student-loan repayment problems are mounting, lawmakers say \u2014 and they're pushing for answers",
+    "description": "After a blue wave swept the midterms, a group of Democratic lawmakers is calling on the Education Department to protect student-loan borrowers.",
+    "url": "https://www.businessinsider.com/student-loan-borrowers-face-severe-debt-repayment-problems-lawmakers-education-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aeb41859270da3cc6667f2f?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T10:00:03Z",
+    "content": "Sen. Elizabeth Warren is pushing the Education Department to address student-loan repayment challenges.Kevin Dietsch/Getty Images\r\n<ul><li>Democratic lawmakers are pushing the Education Department to\u2026 [+3244 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Hilary Brueck",
+    "title": "Joe Manganiello\u2019s 3-part longevity plan: skip testosterone, try floating",
+    "description": "Joe Manganiello shared his longevity plan after launching his new memoir, a tell-all about his chronic illness and his ex-wife, actress Sof\u00eda Vergara.",
+    "url": "https://www.businessinsider.com/joe-manganiello-longevity-plan-no-testosterone-lift-heavy-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aea352bf5f059691404abed?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T10:03:01Z",
+    "content": "Joe Manganiello's new memoir, \"Bloodlines,\" details his 7-year battle with chronic autoimmune issues, and journey of spiritual discovery.Joe Manganiello\r\n<ul><li>Actor Joe Manganiello spent seven yea\u2026 [+7267 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Amanda Hoover",
+    "title": "Bosses loved AI at work \u2014 until they drowned in slop",
+    "description": "Bosses are fed up with your grammatically perfect, needlessly verbose memos.",
+    "url": "https://www.businessinsider.com/ai-generated-workslop-leads-to-policies-firings-boss-fed-up-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aeb98b89270da3cc66682b0?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T10:07:01Z",
+    "content": "Getty Images; Tyler Le/BI\r\nMichelle Volberg sent an email to her staff about six months ago with a simple ask: \"Please stop talking to me like a robot.\"Volberg, the founder and CEO of tech recruiting\u2026 [+6304 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Noah Sheidlower",
+    "title": "Millions may lose Social Security benefits in 2032. The new Senate will have to confront that.",
+    "description": "More than a third of the incoming Senate will be responsible for reforming Social Security \u2014 or letting its funding run out.",
+    "url": "https://www.businessinsider.com/social-security-midterm-elections-democrats-retirement-medicaid-medicare-blue-wave-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aeba2a4308912814ed70fef?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T10:05:01Z",
+    "content": "James Talarico declared victory in the Texas Senate race.Brandon Bell/Getty Images\r\n<ul><li>Congress' blue wave puts Social Security reform and 2030s shortfall in the spotlight for seniors.</li><li>W\u2026 [+5708 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Stephen Council",
+    "title": "Cat Wu joins OpenAI from Anthropic in huge product-lead coup",
+    "description": "Cat Wu left Anthropic last week after becoming one of the company's highest-profile product managers and is now joining rival OpenAI.",
+    "url": "https://www.businessinsider.com/cat-wu-joins-openai-from-anthropic-product-lead-coup-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aebcf7e9270da3cc666842d?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T00:57:29Z",
+    "content": "Cat Wu, who led the product side of Claude Code at Anthropic, left the AI startup for rival OpenAI.Don Feria/AP Content Services for Anthropic\r\n<ul><li>Cat Wu is joining OpenAI to lead product manage\u2026 [+3215 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Pete Syme",
+    "title": "Bomb threats hit European airlines once again, just 48 hours after a first wave of hoaxes",
+    "description": "Since Tuesday as many as 20 flights in Europe have faced bomb hoaxes. \"Threats are almost always unfounded,\" one airline told Business Insider.",
+    "url": "https://www.businessinsider.com/european-flights-bomb-threats-ryanair-aer-lingus-wizz-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aec5d27c54bfafa65abf328?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T11:12:47Z",
+    "content": "An Aer Lingus Airbus A320 flying from Rome to Dublin was subject to one of the threats.Domenic Aquilina/NurPhoto via Getty Images\r\n<ul><li>A dozen European flights were targeted by bomb threats on Th\u2026 [+2624 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Katie Notopoulos",
+    "title": "OpenAI is trying to make data centers into Chilean sea bass. Good luck.",
+    "description": "Calling AI data centers \"compute campuses\" is probably not going to work. Just look at how the whole \"SI\" rebrand of \"AI\" is going.",
+    "url": "https://www.businessinsider.com/openai-rebrand-data-centers-compute-campus-chilean-sea-bass-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aeb8941308912814ed70ece?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T11:00:03Z",
+    "content": "Investors fear that the Democratic sweep could impact the data center boom.Jon Cherry/Getty Images\r\n<ul><li>Data centers have a bad reputation and were political poison in the midterms.</li><li>OpenA\u2026 [+4927 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Hana Elson",
+    "title": "I traded apartments with a stranger for 2 weeks. It made a bucket-list trip possible.",
+    "description": "I wanted to leave NYC for the holidays, but couldn't afford it. I ended up exchanging homes with a stranger in South Africa to make the trip feasible.",
+    "url": "https://www.businessinsider.com/stranger-staying-in-my-nyc-apartment-exchange-across-countries-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aea3f7229a2aa01303e3a82?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T13:57:01Z",
+    "content": "A stranger stayed in my NYC apartment, and I stayed at her place in Cape Town, South Africa.Hana Elson\r\n<ul><li>Last year, I wanted to escape the New York winter and travel somewhere warm, but couldn\u2026 [+5593 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Insider Inc.",
+    "title": "OpenAI lays out new policy framework for data centers",
+    "description": "OpenAI backs data-center rules requiring developers to cover grid costs, and disclose all water, energy, noise and job data.",
+    "url": "https://www.businessinsider.com/openai-lays-out-new-policy-framework-for-data-centers-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aec8af2c54bfafa65abf3da?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T14:06:14Z",
+    "content": "Construction of a $16 billion data center in Saline, Michigan, developed by Related Digital for Oracle and OpenAI.: Jim West/UCG/Universal Images Group via Getty Images\r\n<ul><li>OpenAI unveiled measu\u2026 [+2788 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Haley Paskalides",
+    "title": "We visited one of the last remaining Boston Market locations in the country",
+    "description": "We dined at one of the last remaining Boston Market locations in the US. The meal was a great value, but I can see why the chain is struggling.",
+    "url": "https://www.businessinsider.com/visited-one-of-last-remaining-boston-market-locations-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aeca1479270da3cc6668653?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T16:03:01Z",
+    "content": "We visited one of the last remaining Boston Market locations in the country.Haley Paskalides\r\n<ul><li>My husband and I dined at one of the last remaining Boston Market locations in the country.</li><\u2026 [+9254 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Kevin Reilly,Daniel Gessner",
+    "title": "How CIA terrorist hunters actually work, according to a former operative",
+    "description": "Michele Rigby Assad spent 10 years as a CIA officer specializing in counterterrorism and counterintelligence.",
+    "url": "https://www.businessinsider.com/how-cia-terrorist-hunters-actually-work-according-to-an-operative-2026-10#article",
+    "urlToImage": "https://i.insider.com/6ae0ee64876163ee6ce561ea?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T16:45:01Z",
+    "content": "Michele Rigby Assad spent 10 years as a CIA officer specializing in counterterrorism and counterintelligence, with assignments in Iraq and other locations across the Middle East.Assad breaks down how\u2026 [+740 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Jane Ridley",
+    "title": "My mom was diagnosed with Alzheimer's at 58. I helped care for her for 20 years and learned 3 important lessons.",
+    "description": "Karen Finocchio, whose mother showed signs of Alzheimer's at 54, reflects on the positive things she did and those she wish she'd done differently.",
+    "url": "https://www.businessinsider.com/alzheimers-caregiver-three-things-wish-knew-sooner-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aea3f32fcd244796940f38d?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T11:50:01Z",
+    "content": "Karen Finocchio with her mother, Louise, 19 years after she was diagnosed with Alzheimer's.Courtesy of Karen Finocchio\r\n<ul><li>Karen Finocchio's mom started to show signs of Alzheimer's disease at t\u2026 [+6223 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Henry Chandonnet",
+    "title": "An Anthropic engineer warns about 'cognitive surrender' as AI agents take over his work",
+    "description": "\"When you can't explain the answer to a question, even by way of your agent, you've ceded ownership,\" Claude Code engineer Addy Osmani wrote.",
+    "url": "https://www.businessinsider.com/anthropic-engineer-addy-osmani-cognitive-surrender-warning-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aeb404b9270da3cc6667f24?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T10:00:03Z",
+    "content": "Bloomberg/Getty Images\r\n<ul><li>Anthropic engineer Addy Osmani warned about \"cognitive surrender\" among coders.</li><li>\"Nothing in my day-to-day forces critical thinking on me,\" he wrote, citing AI \u2026 [+3025 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Alistair Barr",
+    "title": "The midterm AI backlash just handed the biggest data center companies a surprising win",
+    "description": "The AI data center backlash could strengthen Amazon, Microsoft, and Google by limiting competition and driving up cloud computing prices.",
+    "url": "https://www.businessinsider.com/ai-data-center-backlash-amazon-microsoft-google-midterms-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aebca1c308912814ed7112a?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T10:00:06Z",
+    "content": "Microsoft's data center project in Mount Pleasant, Wisconsin.Joe Timmerman/Wisconsin Watch via Getty Images\r\n<ul><li>The midterm backlash against AI data centers could help the biggest cloud provider\u2026 [+3800 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Jake Epstein",
+    "title": "Ukraine's soldiers are getting new jobs in the robot war",
+    "description": "Ukraine's growing use of robots is changing some soldiers' jobs, shifting from dangerous front-line missions to operating and maintaining machines.",
+    "url": "https://www.businessinsider.com/ukraine-soldiers-new-jobs-robot-war-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aeb7fcd9270da3cc66681b2?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T10:00:01Z",
+    "content": "A robot army is transforming the Ukrainian front lines.\r\nHuman soldiers who once risked life and limb in the kill zone are being replaced by uncrewed ground vehicles that haul ammunition, deliver foo\u2026 [+10991 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Melia Robinson",
+    "title": "Know an up-and-coming venture capitalist? We want to hear from you.",
+    "description": "We're searching for venture capitalists finding the next big thing and those winning the right to invest in proven winners.",
+    "url": "https://www.businessinsider.com/rising-stars-of-venture-capital-nominations-2026-11#article",
+    "urlToImage": "https://i.insider.com/6ae8e70cd8cc18cf795103d2?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T11:00:01Z",
+    "content": "Kendra Schultz, James Flynn, and Mustafa Neemuchwala.Benchstrength; Sequoia Capital; NEA; Business Insider\r\n<ul><li>Business Insider is looking for the rising stars of venture capital.</li><li>The de\u2026 [+1755 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Ben Shimkus",
+    "title": "Apple mostly drops the waitlist for its new Siri AI",
+    "description": "Apple now says it will use a waitlist only during periods of \"high demand\" for Siri AI.",
+    "url": "https://www.businessinsider.com/apple-waitlist-new-siri-ai-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aecc122308912814ed714be?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T19:15:38Z",
+    "content": "Apple just made it easier to get its newly overhauled Siri.Indranil Aditya/Bloomberg via Getty Images\r\n<ul><li>Apple said the waitlist for Siri AI is now reserved only for periods of \"high demand.\"</\u2026 [+1683 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Angela Kingdon",
+    "title": "After a decade in the US, we moved abroad to be closer to my husband's family. I wasn't prepared for my family's response.",
+    "description": "After years of living in the US, we moved abroad to the UK to be near my husband's family. My family's reaction surprised me, but a PowerPoint helped.",
+    "url": "https://www.businessinsider.com/moved-away-from-my-family-to-be-near-husbands-surprise-2026-11#article",
+    "urlToImage": "https://i.insider.com/6adb78aadc67b5b4d01f6dcd?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T18:16:01Z",
+    "content": "After some creative communication, I was able to communicate more effectively with my family about my husband and my decision to relocate abroad.Courtesy of Angela Kingdon\r\n<ul><li>When my husband an\u2026 [+4595 chars]"
+   },
+   {
+    "source": {
+     "id": "business-insider",
+     "name": "Business Insider"
+    },
+    "author": "Shubhangi Goel,Alice Tecotzky",
+    "title": "Jack Dorsey's Block makes second round of job cuts this year",
+    "description": "Block said in an email to staff that it's \"reducing the number of roles, changing some responsibilities, and shifting some reporting lines.\"",
+    "url": "https://www.businessinsider.com/jack-dorsey-block-layoffs-second-round-job-cuts-cash-app-2026-11#article",
+    "urlToImage": "https://i.insider.com/6aec5325308912814ed711dc?width=1200&format=jpeg",
+    "publishedAt": "2026-11-05T17:03:57Z",
+    "content": "Jack Dorsey cited AI as a factor in Block's February layoffs.Eva Marie Uzcategui/Bloomberg via Getty Images\r\n<ul><li>Block is cutting jobs for the second time this year, days after reporting better-t\u2026 [+2960 chars]"
+   }
+  ],
+  "entertainment": [
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Ryan McCaffrey",
+    "title": "Bethesda Is Already Selling The Elder Scrolls 6: Sentinel Merch",
+    "description": "Hot on the heels of Bethesda Game Studios officially announcing the full name of its highly anticipated next project, The Elder Scrolls 6: Sentinel, the developer has already put up merch for the upcoming RPG on its online shop. You can be the first person in\u2026",
+    "url": "https://www.ign.com/articles/bethesda-is-already-selling-the-elder-scrolls-6-sentinel-merch",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/05/sentinel-shirt-1793908989285.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-05T20:00:09Z",
+    "content": "Hot on the heels of Bethesda Game Studios officially announcing the full name of its highly anticipated next project, The Elder Scrolls 6: Sentinel, the developer has already put up merch for the upc\u2026 [+1846 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Jacqueline Thomas",
+    "title": "World of Warcraft Forever's Launch Was Running on Over 200,000 Gigabytes of RAM",
+    "description": "World of Warcraft Forever launched last night, and while there were a ton of people playing, the servers were remarkably stable. And, it turns out that Blizzard dedicated a ton of resources to making those servers stable.",
+    "url": "https://www.ign.com/articles/world-of-warcraft-forevers-launch-was-running-on-over-200000-gigabytes-of-ram",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/03/wowthumb-1793742518107.png?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-05T17:27:56Z",
+    "content": "World of Warcraft Forever launched last night, and while there were a ton of people playing, the servers were remarkably stable. It turns out that Blizzard dedicated a ton of resources to making sure\u2026 [+2868 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Kirk McKeand",
+    "title": "Japanese News Show Features Drinkable Street Fighter Trading Cards",
+    "description": "A Japanese news show claims it\u2019s found the next popular thing in Japan: drinkable Street Fighter 6 trading cards. Each card contains a shot of energy, 12ml to be precise, and features designs from Capcom\u2019s fighting game roster.",
+    "url": "https://www.ign.com/articles/drinkable-street-fighter-trading-cards",
+    "urlToImage": "https://assets-prd.ignimgs.com/2023/03/24/streetfighter6zangief-blog-1679661087129.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-05T16:25:37Z",
+    "content": "A Japanese news show claims its found the next popular thing in Japan: drinkable Street Fighter 6 trading cards. Each card contains a shot of energy, 12ml to be precise, and features designs from Cap\u2026 [+2119 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Wesley Yin-Poole",
+    "title": "Nintendo Rules Out Further Switch 2 Price Rises as Console Sales and Profit Fall",
+    "description": "Nintendo has ruled out further Switch 2 price rises while reporting falling console sales and reduced profit.",
+    "url": "https://www.ign.com/articles/nintendo-rules-out-further-switch-2-price-rises-as-console-sales-and-profit-fall",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/05/thelegendofzeldaocarinaoftime-48-1793873529240.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-05T10:21:34Z",
+    "content": "Nintendo has ruled out further Switch 2 price rises while reporting falling console sales and reduced profit.\r\nAccording to Bloomberg, operating profit fell 16% to 73.9 billion yen (approx. $467 mill\u2026 [+3276 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Matt Purslow",
+    "title": "I\u2019m Excited For Elder Scrolls 6: Sentinel To Be Nothing Like Skyrim",
+    "description": "The Elder Scrolls is headed to the desert region of Hammerfell and I hope the world of Sentinel looks and feels nothing like Skyrim.",
+    "url": "https://www.ign.com/articles/im-excited-for-elder-scrolls-6-sentinel-to-be-nothing-like-skyrim",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/05/tes6-sentinel-weird-blogroll-1793875467517.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-05T15:30:00Z",
+    "content": "This is an opinion piece from writer Tim Brinkhof. IGN's opinion columns represent the personal viewpoints of the writer, drawing on their own experiences and research to explore the exciting world o\u2026 [+8553 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Myles Obenza",
+    "title": "The Official Elder Scrolls Cookbook Is at Its Lowest Price All Year Before Black Friday",
+    "description": null,
+    "url": "https://www.ign.com/articles/the-official-elder-scrolls-cookbook-deal-black-friday-2026",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/05/81tr0r-nifl-sl1500-1-1793907471346.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-05T19:38:52Z",
+    "content": "Right in time for both Black Friday deals and The Elder Scrolls V: Skyrim's 15th anniversary, you can buy the Elder Scrolls official cookbook at its lowest price we've seen it all year. You can pick \u2026 [+1410 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Cade Onder",
+    "title": "Rapper Kodak Black Will Be in NPC in GTA 6, Creating Speculation Over Other Artists Appearing In-Game",
+    "description": "Rapper Kodak Black has been confirmed to be featured as an NPC in GTA 6 via a new batch of screenshots.",
+    "url": "https://www.ign.com/articles/rapper-kodak-black-will-be-in-npc-in-gta-6-creating-speculation-over-other-artists-appearing-in-game",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/05/gta-6-kodak-black-1793895386725.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-05T17:32:34Z",
+    "content": "Rapper Kodak Black has been confirmed to be featured as an NPC in GTA 6 via a new batch of screenshots.\r\nRockstar Games released a batch of 39 new screenshots from GTA 6 to celebrate the game being t\u2026 [+2123 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Henry Dansicker",
+    "title": "Good Luck Deciding If These Hypothetical People Should Be Canceled",
+    "description": "These hypotheticals are spooky!View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/henrydansicker/can-you-decide-if-these-people-should-be-canceled",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/02/20/thumb/_M41LtXUZ.jpg?crop=1249:654;0,21%26downsize=1250:*",
+    "publishedAt": "2026-11-05T00:31:02Z",
+    "content": "by Henry DansickerBuzzFeed\r\nBuzzFeed StaffFashion and pop culture writer and editor with a soft spot for red carpets, trend cycles, and iconic celebrity moments!"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Hannah Loewentheil",
+    "title": "Older Women Are Sharing \"Puzzling\" Things That Younger Women Do These Days, And The Generational Divide Is Real",
+    "description": "\"I teach high school math and all of my students do it. I think it's weird as hell.\"View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/hannahloewentheil/older-women-share-puzzling-things-that-younger-women-fs2",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2023-05/9/20/enhanced/1b2ea16eb2e3/original-1248-1683663476-2.jpg?crop=1243:829;0,0&resize=1250:830",
+    "publishedAt": "2026-11-05T01:01:02Z",
+    "content": "by Hannah LoewentheilBuzzFeed\r\nBuzzFeed StaffHi, Im Hannah Loewentheil, and as a Senior Writer at BuzzFeed I write about all things lifestyle, especially parenting, travel, and food."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Matthew Huff",
+    "title": "40 Photos From The 1970s That'll Make You Realize Just How Much The World Has Changed In 50 Years",
+    "description": "Sooooooooo many payphones.View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/matthewhuff/vintage-1970s-photos",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/02/13/thumb/4pyq4gI3-.jpg?crop=4121:2158;0,56%26downsize=1250:*",
+    "publishedAt": "2026-11-05T12:16:02Z",
+    "content": "by Matthew HuffBuzzFeed Contributor@huffmatt // Podcast Co-Host: PS You're Wrong // Author: Marathoner (Rizzoli, 2021) // Improviser: Magnet Theater // Wannabe Slurpee Influencer"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Sarah Aspler",
+    "title": "This Game Challenges You To Herd Escaping Puppies Before A BuzzFeed Celebrity Interview Starts Filming, And It\u2019s Total Chaos",
+    "description": "HURRY! Tom Holland is coming!View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/sarahaspler/puppy-interview-wrangler-game",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/05/16/thumb/bqxXEGOfAg.jpg?crop=1245:830;3,0&resize=1250:830",
+    "publishedAt": "2026-11-05T16:36:08Z",
+    "content": "by Sarah AsplerBuzzFeed\r\nBuzzFeed Staff, CanadaIm an Editorial Director at BuzzFeed, where I lead games strategy, which means I spend my days figuring out what makes people come back to play tomorrow\u2026 [+25 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Lily Grossinger",
+    "title": "\"This Gremlin Does Not Speak For Us\": Fathers Are Calling Out Aerosmith's Steven Tyler Over The Disgusting Way He Allegedly Described His Daughter In A Resurfaced Interview",
+    "description": "\"No amount of context could save this comment.\"View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/lily_grossinger/steven-tyler-liv-tyler-resurfaced-comments",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/03/21/thumb/wF4ZBBKWG.jpg?crop=3745:1961;0,0%26downsize=1250:*",
+    "publishedAt": "2026-11-05T19:31:02Z",
+    "content": "by Lily GrossingerBuzzFeed\r\nBuzzFeed StaffI'm an NYC-based Viral Resident Writer covering what people are talking about online, from the culturally revealing to the deeply personal to the genuinely u\u2026 [+7 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Audrey Engvalson",
+    "title": "If You Can Unscramble These Political TV Shows, Your Brain Deserves A Standing Ovation",
+    "description": "Sliver #42 - November 5, 2026View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/audreyworboys/sliver-november-5-2026",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/23/17/thumb/NVKtNFpz-.jpg?crop=3000:1571;0,215%26downsize=1250:*",
+    "publishedAt": "2026-11-05T05:01:03Z",
+    "content": "by Audrey EngvalsonBuzzFeed\r\nBuzzFeed StaffIm the Senior Editor of New Formats here at BuzzFeed, pioneering interactive experiences and bringing them to our quizzes."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Grace Holtzclaw",
+    "title": "30 Subtle Signs To Look Out For That Could Keep You Safe When Visiting Small Towns Across America",
+    "description": "\u201cIf the first prize in the local church raffle is a semi-automatic rifle.\u201d RUN!View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/graceholtzclaw/30-rural-red-flags-to-steer-clear-of-in-small-towns",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/28/04/thumb/wj9dfjlUO.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+    "publishedAt": "2026-11-05T04:31:02Z",
+    "content": "theglassisfullfull\r\nThe three Ks instead of Cs is absolutely a thing. These businesses often have folks inside who find every opportunity to say shit that allows you to conclude that they're racist A\u2026 [+335 chars]"
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Harrison Berger",
+    "title": "If You Can Get 5/5 On This Pop Culture Trivia Quiz, Your Cultured AND Smart",
+    "description": "Test your pop culture knowledge!View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/harrisonberger/daily-trivia-november-5-2026",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/04/21/thumb/7va5Akzk8.jpg?crop=3000:1571;0,126%26downsize=1250:*",
+    "publishedAt": "2026-11-05T05:01:05Z",
+    "content": "by Harrison BergerBuzzFeed\r\nBuzzFeed StaffI'm a resident writer at BuzzFeed, crafting quizzes and covering entertainment and pop culture content."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Avalon Lustick",
+    "title": "You're Going To Start Playing This Liquid Sorting Game And Suddenly It'll Be 3 AM",
+    "description": "Pour Decisions #17 - November 5, 2026View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/avalonlustick/pour-decisions-november-5-2026",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/03/15/thumb/YA5MCx6_5.jpg?crop=2000:1333;0,0&resize=1250:830",
+    "publishedAt": "2026-11-05T05:01:06Z",
+    "content": "Theres something ridiculously soothing about sorting pretty colors into neat little tubes. Suddenly, your five-minute break has become a whole evening. Whoops."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Leyla Mohammed",
+    "title": "A Fox News Host Was Caught On Air Asking To \u201cDo A Spin On The Races\u201d During The Midterm Results \u2014 And Now He\u2019s Clearing Things Up",
+    "description": "\u201cOh, I\u2019m sorry...I guess we\u2019re on TV now.\u201dView Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/leylamohammed/fox-news-host-bret-baier-spin-comment-midterm-results",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/05/12/thumb/u52cAWBu9.jpg?crop=1250:654;0,0%26downsize=1250:*",
+    "publishedAt": "2026-11-05T13:38:59Z",
+    "content": "by Leyla MohammedBuzzFeed\r\nBuzzFeed StaffAs a Celebrity Reporter, I cover everything from fashion and\u00a0award shows to TV, film, and cultural conversations."
+   },
+   {
+    "source": {
+     "id": "buzzfeed",
+     "name": "Buzzfeed"
+    },
+    "author": "Jenna Guillaume",
+    "title": "\"These Get Gross SO Quickly\": 33 Things In Your House That Are Way More Disgusting Than You Think, Because You're Not Cleaning Them NEARLY Enough",
+    "description": "\"I shudder thinking of all the sweat, skin, and dirt in there.\"View Entire Post \u203a",
+    "url": "https://www.buzzfeed.com/jennaguillaume/things-people-dont-clean-enough",
+    "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/03/19/thumb/NS8IAByzK.jpg?crop=3000:1571;0,0%26downsize=1250:*",
+    "publishedAt": "2026-11-05T13:01:02Z",
+    "content": "I shudder thinking of all the sweat, skin, and dirt in there."
+   }
+  ],
+  "health": [
+   {
+    "source": {
+     "id": "medical-news-today",
+     "name": "Medical News Today"
+    },
+    "author": "Peter Morales-Brown",
+    "title": "FDA reports raise concerns about energy drinks and heart problems in young adults",
+    "description": "A preliminary study presented at AHA Scientific Sessions 2026 highlights FDA adverse-event reports linking energy drink consumption with cardiac arrest and heart attack in young adults.",
+    "url": "https://www.medicalnewstoday.com/articles/fda-reports-raise-concerns-about-energy-drinks-heart-problems-young-adults",
+    "urlToImage": "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2026/11/getty_2293155300_facebook_1200x630-1200x628.jpg",
+    "publishedAt": "2026-11-05T11:42:00Z",
+    "content": "<ul><li>FDA reports involving caffeine- and stimulant-containing energy drinks and supplements were about 11 times more likely to mention cardiac arrest and 4.5 times more likely to mention heart att\u2026 [+12452 chars]"
+   }
+  ],
+  "science": [
+   {
+    "source": {
+     "id": "next-big-future",
+     "name": "Next Big Future"
+    },
+    "author": "Brian Wang",
+    "title": "Space AI Became Urgent \u2013 Brian Wang and InvestAnwers LIVESTREAM",
+    "description": "The Space economy just became urgent. \u2705 The Midterm catalyst no one on Wall St is pricing in \u2705 Exact merger probability & timeline \u2705 Standalone Valuation vs. Combined 2030 Projections \u2705 Portfolio prep: How to prepare the Family post 2030 Kalshi (sponsor) \u2014 si\u2026",
+    "url": "https://www.nextbigfuture.com/2026/11/space-ai-became-urgent-brian-wang-and-investanwers-livestream.html",
+    "urlToImage": null,
+    "publishedAt": "2026-11-05T14:47:33Z",
+    "content": "The Space economy just became urgent.The Midterm catalyst no one on Wall St is pricing inExact merger probability &amp; timelineStandalone Valuation vs. Combined 2030 ProjectionsPortfolio prep: How t\u2026 [+1729 chars]"
+   },
+   {
+    "source": {
+     "id": "next-big-future",
+     "name": "Next Big Future"
+    },
+    "author": "Brian Wang",
+    "title": "How Will SpaceX Leapfrog ATT & Verizon",
+    "description": "SpaceX is in talks to buy Boost Mobile which has about seven million subscribers. That will not be the deal. SpaceX will buy the rest of EchoStar instead, because the ATT could try to block a Boost-only deal. This is more than phones. It is about getting Star\u2026",
+    "url": "https://www.nextbigfuture.com/2026/11/how-will-spacex-leapfrog-att-verizon.html",
+    "urlToImage": null,
+    "publishedAt": "2026-11-05T23:14:54Z",
+    "content": "SpaceX is in talks to buy Boost Mobile which has about seven million subscribers. That will not be the deal. SpaceX will buy the rest of EchoStar instead, because the ATT could try to block a Boost-o\u2026 [+2063 chars]"
+   },
+   {
+    "source": {
+     "id": "next-big-future",
+     "name": "Next Big Future"
+    },
+    "author": "cybernewswire",
+    "title": "OpenMatter Network Positions Decentralized Computing as an Alternative to Data Centers for AI",
+    "description": "Melbourne, Florida, 5th November 2026, CyberNewswire",
+    "url": "https://www.nextbigfuture.com/2026/11/openmatter-network-positions-decentralized-computing-as-an-alternative-to-data-centers-for-ai.html",
+    "urlToImage": null,
+    "publishedAt": "2026-11-05T14:55:30Z",
+    "content": "Melbourne, Florida, November 5th, 2026, CyberNewswire\r\nOpenMatter Network, a pioneer in decentralized infrastructure for agentic artificial intelligence, is positioning its decentralized computing pl\u2026 [+4165 chars]"
+   },
+   {
+    "source": {
+     "id": "national-geographic",
+     "name": "National Geographic"
+    },
+    "author": "@NatGeoTravel",
+    "title": "TV Historian Bettany Hughes on the Silk Road and Greek Epics",
+    "description": "The historian and TV presenter shares her most memorable experiences, from Greek sailing voyages to silk road adventures.",
+    "url": "https://www.nationalgeographic.com/travel/article/tv-historian-bettany-hughes-on-the-silk-road-and-greek-epics",
+    "urlToImage": "https://i.natgeofe.com/n/b963634b-5420-43e8-b7ea-ad5d7e10c589/ET_My_Travels_DSC01225_HR_16x9.jpg?w=1200",
+    "publishedAt": "2026-11-05T00:00:00Z",
+    "content": "This article was produced by National Geographic Traveller(UK).\r\nFarida Zeynalova: Tell us about your first travel memory.\r\nBettany Hughes: My familys summer drive to the south coast, particularly Ke\u2026 [+3074 chars]"
+   },
+   {
+    "source": {
+     "id": "national-geographic",
+     "name": "National Geographic"
+    },
+    "author": "@NatGeo",
+    "title": "More Than Money",
+    "description": "Learn how innovation is helping people support family and friends across borders with greater confidence, flexibility, and choice.",
+    "url": "https://www.nationalgeographic.com/science/article/paid-content-more-than-money",
+    "urlToImage": "https://i.natgeofe.com/n/2ab13702-eeb9-4676-96ff-63cb3a92f090/55a355c1-6c6d-466e-8d29-9cc6560f074f_16x9.jpg?w=1200",
+    "publishedAt": "2026-11-05T00:00:00Z",
+    "content": "On the surface, an international money transfer might appear simple. Enter an amount, choose a recipient, and, within minutes, the money arrives thousands of miles away. But behind each exchange lies\u2026 [+1651 chars]"
+   },
+   {
+    "source": {
+     "id": "national-geographic",
+     "name": "National Geographic"
+    },
+    "author": "@NatGeo",
+    "title": "These Shooting Stars Can Outshine Venus. Here\u2019s When to See Them.",
+    "description": "The annual Taurid meteor shower is peaking, offering skywatchers a chance to spot unusually bright meteors.",
+    "url": "https://www.nationalgeographic.com/science/article/taurid-meteor-shower-fireballs-when-to-watch",
+    "urlToImage": "https://i.natgeofe.com/n/b921c3e1-7742-4589-9440-66a700cec58e/2_SPI-2475320_16x9.jpg?w=1200",
+    "publishedAt": "2026-11-05T00:00:00Z",
+    "content": "Both showers appear to radiate from Taurus, though the Northern Taurids radiant is farther north than the Southern Taurids, hence their names.\r\nAstronomer Bramuel Oduori Nakholi, observatory and astr\u2026 [+848 chars]"
+   },
+   {
+    "source": {
+     "id": "national-geographic",
+     "name": "National Geographic"
+    },
+    "author": "@NatGeo",
+    "title": "Scientists Uncover a Trove of Ice Age Bones in Peruvian Tar Pit",
+    "description": "Researchers in Peru discovered a 15,000-year-old Ice Age tar pit overflowing with fossilized predators, microfossils, and evidence of ancient climate change.",
+    "url": "https://www.nationalgeographic.com/science/article/peru-tar-pit-bonanza",
+    "urlToImage": "https://i.natgeofe.com/n/3f17a85f-e56a-406f-aa95-c6637a7652fc/Direwolffemur4_16x9.jpg?w=1200",
+    "publishedAt": "2026-11-05T00:00:00Z",
+    "content": "The team used small chisels and dental tools to remove some 300 fossils from the new tar pit, which may contain tens of thousands of bones. They encased larger specimens, like the pelvis and jaw of a\u2026 [+3139 chars]"
+   },
+   {
+    "source": {
+     "id": "national-geographic",
+     "name": "National Geographic"
+    },
+    "author": "@NatGeo",
+    "title": "The Case for Buying Kefir Over Yogurt",
+    "description": "The centuries-old drink is a microbiome powerhouse, packed with health benefits.",
+    "url": "https://www.nationalgeographic.com/health/article/kefir-gut-microbiome-health-benefits",
+    "urlToImage": "https://i.natgeofe.com/n/8ecc88f3-6b7d-49cc-a3a0-82f26d7a04af/MM10664_20260914_381_V6_16x9.jpg?w=1200",
+    "publishedAt": "2026-11-05T00:00:00Z",
+    "content": "The expanding health evidence may be partially why global sales have risen to an estimated $1.4 billion this year and are projected to top $1.7 billion in 2030, according to the firm Grand View Resea\u2026 [+2681 chars]"
+   },
+   {
+    "source": {
+     "id": "national-geographic",
+     "name": "National Geographic"
+    },
+    "author": "@NatGeo",
+    "title": "The Teeth That Changed the Story of Human Evolution",
+    "description": "In East Africa in the 1990s, Meave Leakey and the Hominid Gang discovered apelike creatures who walked upright four million years ago.",
+    "url": "https://www.nationalgeographic.com/history/article/teeth-hominid-discovery-meave-leakey",
+    "urlToImage": "https://i.natgeofe.com/n/512d3882-4477-4ebc-9bd5-5a25268b18e7/SPI-505776_16x9.jpg?w=1200",
+    "publishedAt": "2026-11-05T00:00:00Z",
+    "content": "Unfortunately, in five years of collecting abundant animal fossils we found only two possibly hominid teeth. I had to conclude that our ancestors between five and seven million years ago preferred a \u2026 [+5727 chars]"
+   }
+  ],
+  "sports": [
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Polymarket Promo Code FOX: Claim $25 in Bonuses for Tonight's NBA Slate, Including Cavs vs. Thunder",
+    "description": "Polymarket Promo Code FOX: Claim $25 in Bonuses for Tonight's NBA Slate, Including Cavs vs. Thunder.",
+    "url": "https://www.foxsports.com/stories/betting/polymarket-promo-code-fox-claim-25-bonuses-tonights-nba-slate-including-cavs-vs-thunder",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/luka-scaled-e1793839348825.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-05T00:42:51Z",
+    "content": "This page may contain affiliate links to legal sports betting\r\n partners. If you sign up or place a wager, FOX Sports may be compensated. Read more about\u00a0Sports Betting on FOX Sports\r\n.\u00a0\r\nThe NBA sla\u2026 [+2068 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How A Goofy Rookie Called 'Gronk' Transformed Into The Best Tight End Ever",
+    "description": "As Rob Gronkowski enters the Patriots' Hall of Fame, we look back at where it all began to unearth the birth of the legend of \"The Gronk.\"",
+    "url": "https://www.foxsports.com/stories/nfl/how-rob-gronkowski-transformed-best-tight-end-all-time",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/legend-of-gronk-16x9-1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-05T15:00:17Z",
+    "content": "You cant be serious when youre smiling all the time.\r\nUnless youre Gronk.\r\nBack in 2010, the New England Patriots had yet to figure that out. So they didnt know what to make of Rob Gronkowski, then a\u2026 [+21168 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "2027 NFL Mock Draft: Drew Mestemaker First Of 6 QBs Selected In First Round",
+    "description": "What is each NFL team's biggest need and who is the best prospect to fill it in the 2027 draft? Rob Rang offers his latest first-round projection.",
+    "url": "https://www.foxsports.com/stories/nfl/2027-nfl-mock-draft-drew-mestemaker-first-6-qbs-selected-first-round",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/16x9-2.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-05T18:00:07Z",
+    "content": "We arent quite halfway through the 2026 NFL season yet some fans and their beloved teams are already looking ahead to the 2027 draft.\u00a0\r\nWe've been examining the quarterback class for months. And whil\u2026 [+15446 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How Much Are College Football Players Really Making? Position-By-Position Breakdown",
+    "description": "The College Sports Commission released detailed data about how much college athletes are being paid during this new-look ecoystem that has lacked transparency.",
+    "url": "https://www.foxsports.com/stories/college-football/nil-players-salary-money-position-quarterback",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/16x9-2026-11-05t094442.251.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-05T18:04:33Z",
+    "content": "Its been a heck of a week for the College Football Playoff selection committee.\r\nAs much as we all like to argue about the rankings and the first batch released on Tuesday brought plenty of consterna\u2026 [+8118 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How to Watch Chattanooga vs. Penn State: TV Channel, Live Stream, Time",
+    "description": "Chattanooga vs. Penn State tips off Thursday, Nov. 5, at 6 p.m. ET on Big Ten Network. Get the FOX One streaming info and players to watch for this game in University Park.",
+    "url": "https://www.foxsports.com/stories/mens-college-basketball/how-watch-chattanooga-vs-penn-state-tv-channel-live-stream-time-nov-5-2026",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/how-to-watch-chattanooga-mocs-vs-penn-state-nittany-lions-horizontal.png?ve=1&tl=1",
+    "publishedAt": "2026-11-05T15:03:21Z",
+    "content": "The Chattanooga Mocs visit the Penn State Nittany Lions on Thursday, Nov. 5, 2026, at 6 p.m. ET from the Bryce Jordan Center in University Park, Pennsylvania.\r\nPenn State reshaped its backcourt with \u2026 [+2449 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Vikings Starting Carson Wentz At QB vs. Bills Amid Kyler Murray Injury",
+    "description": "The Minnesota Vikings are turning to Carson Wentz at quarterback in Week 9 with Kyler Murray injured.",
+    "url": "https://www.foxsports.com/stories/nfl/kyler-murray-hamstring-update-carson-wentz-stats-bills-vikings-injury-report",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/wentz2.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-05T18:52:19Z",
+    "content": "Carson Wentz is inevitable.\r\nMinnesota Vikings head coach Kevin O'Connell announced in a press conference on Thursday afternoon that Wentz will start at quarterback for the team's Monday night bout a\u2026 [+1806 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How Marathon Training Has Put Kyle Larson On Brink Of Third NASCAR Title",
+    "description": "In an exclusive interview, Kyle Larson shares how training for his very first marathon has paid dividends on the track.",
+    "url": "https://www.foxsports.com/stories/nascar/how-marathon-training-has-put-kyle-larson-brink-third-nascar-title",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/nascar-16x9-4.png?ve=1&tl=1",
+    "publishedAt": "2026-11-05T19:32:43Z",
+    "content": "Homestead-Miami Speedway (Homestead, Fla.) Kyle Larson has plans before he gets into his NASCAR Cup Series car Friday for one of the most important practice sessions for the season.\r\nHe'll go run 15 \u2026 [+6525 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How to Watch Jaguars vs. Ravens: TV Channel, Live Stream, Time",
+    "description": "Jacksonville visits Baltimore on Thursday, November 5, 2026. Here is how to watch the Jaguars vs. Ravens matchup, plus four players to watch.",
+    "url": "https://www.foxsports.com/stories/nfl/how-to-watch-jaguars-vs-ravens-tv-channel-live-stream-time-nov-5-2026",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/how-to-watch-jacksonville-jaguars-vs-baltimore-ravens-horizontal.png?ve=1&tl=1",
+    "publishedAt": "2026-11-05T15:30:04Z",
+    "content": "The Jacksonville Jaguars visit the Baltimore Ravens in Week 9 of the 2026 NFL season on Thursday, Nov. 5, 2026, at 8:15 p.m. ET from M&amp;T Bank Stadium in Baltimore.\r\nThe Ravens are 4-4 after a 36-\u2026 [+2220 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "CFB Week 10 Betting Report: 'We\u2019ve Had This Game Circled For Weeks'",
+    "description": "Books and bettors alike are pumped for the Miami-Notre Dame showdown. Patrick Everson breaks down the action on the weekend's biggest games.",
+    "url": "https://www.foxsports.com/stories/college-football/college-football-week-10-betting-report",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/miami-115.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-05T22:16:39Z",
+    "content": "College football Week 10 odds have a host of huge games attracting bettors attention. But the matchups dont get any bigger than Miami vs. Notre Dame.\r\nLast years meeting won by the Hurricanes at home\u2026 [+6561 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Ohio State Captain Says It's 'Playoff Time Now' For No. 11 Buckeyes",
+    "description": "Ohio State football is focusing on mental preparation this week after dropping from No. 2 to No. 11 in the Associated Press poll.",
+    "url": "https://www.foxsports.com/stories/college-football/ohio-state-oregon-ducks-college-football-playoff-cfp",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/dayh1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-05T19:53:50Z",
+    "content": "In between playing two of the more physically gifted teams on the schedule, Ohio State footballs focus this week is more on the mental side of things.\r\nThe Buckeyes (6-2, 4-1 Big Ten, No. 12 CFP) dro\u2026 [+4115 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Sammy\u2019s Sportsbook Whispers: Miami, OSU, Texas \u2014 Overrated Or Underrated?",
+    "description": "Sammy P sent a whisper to his friends in Vegas, who answered whether three college football juggernauts are actually that.",
+    "url": "https://www.foxsports.com/stories/college-football/sammys-sportsbook-whispers-miami-osu-texas-overrated-underrated",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/artboard-1-31.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-05T00:13:00Z",
+    "content": "How much did we learn about Ohio State last Saturday?\r\nSure, the Buckeyes (6-2 SU, 5-3 ATS) lost as 6.5-point favorites at USC, but were they really that bad? The ol Westgate SuperBook adage says, \"G\u2026 [+3179 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Tom Brady's NFL Power Rankings: Are The Bears Really The Best Team In The League?",
+    "description": "Was the Bears' win over the Seahawks convincing enough to put them at No. 1 over the Bills, 49ers and Broncos in Tom Brady's power rankings?",
+    "url": "https://www.foxsports.com/stories/nfl/tom-bradys-nfl-power-rankings-bears-bills-49ers-patriots-chiefs-lions-broncos",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/26brady-power-rankings-week-8-a.png?ve=1&tl=1",
+    "publishedAt": "2026-11-05T00:35:37Z",
+    "content": "When Tom Brady unveiled his power rankings last week, he teased that the Chicago Bears could jump from No. 6 to No. 1 if they defeated the Seattle Seahawks and that was before they added All-Pro defe\u2026 [+8683 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "NFL Catchup: Ravens Trade For Jacoby Brissett; Myles Garrett, Micah Parsons Practice",
+    "description": "Here's the latest news from around the NFL ahead of Week 9.",
+    "url": "https://www.foxsports.com/stories/nfl/nfl-catchup-ravens-trade-jacoby-brissett-myles-garrett-micah-parsons-practice",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/nfl-catchup-1.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-05T00:56:54Z",
+    "content": "Wednesday brought a mix of good and bad injury news around the league as teams prepared for Week 9.\u00a0\r\nThe Baltimore Ravens traded for Jacoby Brissett after Lamar Jacksons likely season-ending thumb i\u2026 [+7733 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Goalscorers Have Personality And A Big Ego. Ronaldo Was The Best At All That.",
+    "description": "Elite goalscorers, by nature, have to be selfish. Which is why Cristiano Ronaldo excelled at being both.",
+    "url": "https://www.foxsports.com/stories/soccer/cristiano-ronaldo-portugal-retires-world-cup-euro-goals",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/portugalmain.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-05T21:27:19Z",
+    "content": "By the time Cristiano Ronaldo was 12 years old, the decision had been made for him to leave his home on the island of Madeira and move to the Portuguese capital of Lisbon. Here was a boy, who shared \u2026 [+5528 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "Patriots QB Drake Maye Talks Impact Of 'Legend' Tom Brady Calling Week 9 Game",
+    "description": "New England Patriots quarterback Drake Maye expressed what it means to have franchise icon Tom Brady call their Week 9 game.",
+    "url": "https://www.foxsports.com/stories/nfl/drake-maye-tom-brady-patriots-packers",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/maye.jpg?ve=1&tl=1",
+    "publishedAt": "2026-11-05T15:08:18Z",
+    "content": "Tom Brady is going home for the weekend.\r\nBrady has been an NFL color commentator for 49 combined regular season and postseason games on FOX, but this Sunday, the NFL's all-time passing leader will c\u2026 [+1883 chars]"
+   }
+  ],
+  "technology": [],
+  "general": [
+   {
+    "source": {
+     "id": "cnn",
+     "name": "CNN"
+    },
+    "author": "Alejandra Jaramillo, CNN",
+    "title": "Trump seeks landmark status for 2 White House rooms he's redecorated",
+    "description": "The Oval Office is set for a meeting between US President Donald Trump and Norway's Prime Minister Jonas Gahr Store at the White House on April 24, 2025. - Chip Somodevilla/Getty Images/File\r\n\nPresident Donald Trump signed a proclamation on Thursday that he s\u2026",
+    "url": "https://www.cnn.com/2026/11/05/politics/trump-oval-office-cabinet-room-landmarks",
+    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2211811959.jpg?c=16x9&q=w_800,c_fill",
+    "publishedAt": "2026-11-05T22:12:01Z",
+    "content": "President Donald Trump signed a proclamation on Thursday that he said would designate the White Houses Oval Office and Cabinet Room as national landmarks a move he said would protect the two West Win\u2026 [+1572 chars]"
+   },
+   {
+    "source": {
+     "id": "cnn",
+     "name": "CNN"
+    },
+    "author": "Chris Boyette, Maria Aguilar Prieto, CNN",
+    "title": "Winning ticket drawn in New Jersey for $835 million Powerball jackpot",
+    "description": "A customer holds a number slip for Powerball lottery tickets in Hawthorne, California, on August 25, 2025. - Patrick T. Fallon/AFP/Getty Images\r\n\nA lucky Powerball ticket in New Jersey has won an estimated $835 million after matching all six numbers in Wednes\u2026",
+    "url": "https://www.cnn.com/2026/11/04/us/powerball-jackpot-lottery",
+    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2231384569-20251225184711282.jpg?c=16x9&q=w_800,c_fill",
+    "publishedAt": "2026-11-05T05:26:26Z",
+    "content": "A single Powerball ticket in New Jersey has won an estimated $847 million after matching all six numbers in Wednesdays drawing, the company said Thursday.\r\nThe winning numbers were 15, 34, 41, 53, 56\u2026 [+1294 chars]"
+   },
+   {
+    "source": {
+     "id": "cnn",
+     "name": "CNN"
+    },
+    "author": "Chris Isidore, CNN",
+    "title": "Musk bet big on keeping Texas red \u2014 and lost. Will he face new scrutiny from Dem leaders?",
+    "description": "Elon Musk speaks via videolink on the day of SpaceX's initial public offering in New York on June 12. - Brendan McDermid/Reuters/File\r\n\nElon Musk poured nearly half a billion dollars into the midterms to support Republican candidates, most to help Ken Paxton \u2026",
+    "url": "https://www.cnn.com/2026/11/05/business/musk-texas-donations-midterms-spacex-tesla",
+    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/2026-06-12t143900z-190786290-rc2dsla2m9vg-rtrmadp-3-spacex-ipo.jpg?c=16x9&q=w_800,c_fill",
+    "publishedAt": "2026-11-05T13:20:58Z",
+    "content": "Elon Musk poured nearly half a billion dollars into the midterms to support Republican candidates, most to help Ken Paxton defeat Democrat James Talarico in the Texas Senate race.\r\nTalarico won. But \u2026 [+4318 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-news",
+     "name": "Fox News"
+    },
+    "author": null,
+    "title": "Fake Amazon invoice scam uses $988 iPad order as bait",
+    "description": "A fake Amazon invoice charging $988.18 for an iPad lists the same customer support phone number three times to steer panicked victims into calling.",
+    "url": "https://www.foxnews.com/tech/fake-amazon-invoice-scam-uses-988-ipad-order-bait",
+    "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2026/11/man-works-laptop-computer.jpg",
+    "publishedAt": "2026-11-05T18:30:44Z",
+    "content": "You open your email and see an invoice from Amazon. It says you bought a new iPad for nearly $1,000. The order has supposedly shipped, and your payment has already gone through. There's even a custom\u2026 [+19443 chars]"
+   },
+   {
+    "source": {
+     "id": "google-news",
+     "name": "Google News"
+    },
+    "author": null,
+    "title": "Sailing Solo Around Britain",
+    "description": "Dark Star a twin keel Leisure 27 \nDark Star may be over 40 years old but she was robustly built in glass fibre. I have owned her for over 29 years. and in recent years I have replaced engine, saildrive, fuel tank, rudder, mast, standing/running rigging and sa\u2026",
+    "url": "https://sites.google.com/view/sailing-solo-around-britain/leisure-27-dark-star",
+    "urlToImage": null,
+    "publishedAt": "2026-11-05T13:23:40Z",
+    "content": "Dark Star a twin keel Leisure 27\u00a0\r\nDark Star may be over 40 years old but she was robustly built in glass fibre. I have owned her for over 29 years. and in recent years I have replaced engine, saildr\u2026 [+9658 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Visualising how the US midterms turned the map blue",
+    "description": "Who voted, which seats flipped and who made history? A look at the numbers behind the 2026 US midterm elections.",
+    "url": "https://www.aljazeera.com/news/2026/11/5/visualising-how-the-us-midterms-turned-the-map-blue",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/INTERACTIVE_MIDTERM_WINS-06-1793872466.png?resize=1200%2C630",
+    "publishedAt": "2026-11-05T11:09:58Z",
+    "content": "A Democratic wave swept the United States Congress as Americans turned out in near-record numbers to strip President Donald Trumps Republicans of their majorities in both the House of Representatives\u2026 [+4935 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Historic firsts redraw US political map in 2026 midterm elections",
+    "description": "The 2026 US midterms delivered a wave of historic firsts for women, Black, Muslim,  gay and Native American politicians.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/historic-firsts-redraw-us-political-map-in-2026-midterm-elections",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793838251.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-05T00:24:20Z",
+    "content": "The 2026 US midterms delivered a wave of historic firsts for women, Black, Muslim, gay and Native American politicians. Heres a look at some of them."
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Al Jazeera Staff",
+    "title": "Syria, Saudi Arabia sign defence cooperation deal, agree $403m in loans",
+    "description": "Defence cooperation deal signed as Syria's President al-Sharaa visits Riyadh for the second time in less than a month.",
+    "url": "https://www.aljazeera.com/news/2026/11/5/syria-saudi-arabia-sign-defence-cooperation-deal-agree-403m-in-loans",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-04T133126Z_1613091127_RC20HOA0YAP0_RTRMADP_3_IRAN-CRISIS-SAUDI-SYRIA-1793849420_9ef96f-1793849462.jpg?resize=1200%2C630&quality=80",
+    "publishedAt": "2026-11-05T03:46:13Z",
+    "content": "Syrias President Ahmed al-Sharaa and Saudi Arabias Crown Prince Mohammed bin Salman have overseen the signing of several agreements, including a defence cooperation deal, and more than $403m in Saudi\u2026 [+2749 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Champions League: Liverpool suffer 3-2 loss at Fenerbahce, Como thump Lens",
+    "description": "Como equal Champions League record with stunning 9-1 win at Lens as Haaland rescues Manchester City at Leipzig.",
+    "url": "https://www.aljazeera.com/sports/2026/11/5/champions-league-liverpool-suffer-3-2-loss-at-fenerbahce-como-thump-lens",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-04T204636Z_636421665_RC27HOAQFE54_RTRMADP_3_SOCCER-CHAMPIONS-FB-LIV-1793859457_5b8250-1793860924.jpg?resize=1200%2C630&quality=80",
+    "publishedAt": "2026-11-05T07:21:01Z",
+    "content": "Fenerbahces interim head coach Dirk Kuyt has praised his sides intensity and fighting spirit after they twice came from behind to beat his former club Liverpool 3-2 at home in the Champions League.\r\n\u2026 [+4781 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Germany\u2019s Merz expects Trump to keep ignoring Congress",
+    "description": "German Chancellor Friedrich Merz expects US President Donald Trump to keep bypassing Congress despite midterm losses.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/germanys-merz-expects-trump-to-keep-ignoring-congress",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/wide-thumb-merz-1793863516.png?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-05T07:25:56Z",
+    "content": "Germany doesnt expect Trump to change following the midterm losses. Chancellor Friedrich Merz believes the US president will keep using his powers to bypass the Democrats in Congress, a position he a\u2026 [+15 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Padel\u2019s Olympic ambition",
+    "description": "Padel is the fastest growing racket sport in the world, and is pushing to make its Olympic debut.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/padels-olympic-ambition",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793885039.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-05T13:25:01Z",
+    "content": "Padel is the fastest growing racket sport in the world, and is pushing to make its Olympic debut at the Brisbane Games in 2032. Al Jazeeras Tom Sizeland was at the Padel World Cup in Doha, where the \u2026 [+42 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Police bodycam captures moments before deadly Russian strike in Ukraine",
+    "description": "Bodycam footage released by Ukraine\u2019s National Police shows people rushing into an underground shelter.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/police-bodycam-captures-moments-before-deadly-russian-strike-in-ukraine",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793885249.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-05T13:28:12Z",
+    "content": "Bodycam footage released by Ukraines National Police shows people rushing into an underground shelter as Russian bombs approach. A November 2 attack on the site, which was being used as a shelter and\u2026 [+77 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Shola Lawal",
+    "title": "Why Guinea-Bissau halted a controversial hepatitis vaccine trial for babies",
+    "description": "Experts have said the US-funded trial would deny critical vaccines to thousands of infants.",
+    "url": "https://www.aljazeera.com/news/2026/11/5/why-guinea-bissau-halted-a-controversial-hepatitis-vaccine-trial-for-babies",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-08-30T185628Z_446838099_RC239NAZ62CY_RTRMADP_3_BISSAU-POLITICS-REFERENDUM-1793883857.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-05T15:01:35Z",
+    "content": "Guinea-Bissau has reportedly halted a controversial United States-funded hepatitis B virus vaccine (HBV) trial which drew global scrutiny when experts said it involved withholding lifesaving shots fr\u2026 [+6942 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Al Jazeera Staff",
+    "title": "Russell Brand found guilty of rape and sexual assault by UK court",
+    "description": "British comedian was convicted by jury at London court of one count of rape and three counts of sexual assault.",
+    "url": "https://www.aljazeera.com/news/2026/11/5/russell-brand-found-guilty-of-rape-and-sexual-assault-by-uk-court",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6aec9312e736-1793889042.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-05T14:43:09Z",
+    "content": "British comedian and actor Russell Brand has been found guilty of rape and sexual assault by a London court and could face a lengthy prison sentence.\r\nA jury at Londons Southwark Crown Court on Thurs\u2026 [+2742 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Jerusalem Daily: Settler pogroms in Hebron",
+    "description": "Israel\u2019s president consults party leaders on forming a government, as Israeli forces attack Palestinians in Gaza.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/jerusalem-daily-settler-pogroms-in-hebron",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793891425.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-05T15:10:42Z",
+    "content": "Israels president consults party leaders on forming a government, as Israeli forces attack Palestinians across Gaza and the occupied West Bank.\r\nAl Jazeeras Hala Al Shami has the latest."
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Anushe Engineer",
+    "title": "Ronaldo in records: International milestones from the football icon",
+    "description": "Ronaldo, 41, ended an illustrious 23-year career that spanned six World Cups and six European Championships.",
+    "url": "https://www.aljazeera.com/sports/2026/11/5/ronaldo-in-records-international-milestones-from-the-football-icon",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aec64386b6aa-1793877048_8e29cd-1793888455.jpg?resize=1200%2C630&quality=80",
+    "publishedAt": "2026-11-05T15:09:31Z",
+    "content": "Portuguese football legend Cristiano Ronaldo announced his retirement from international football, where he has left an indelible mark as one of the sports greatest players.\r\nThe 41-year-old, who has\u2026 [+3681 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Al Jazeera Staff",
+    "title": "Serbian officers arrested for using \u2018excessive force\u2019 against protesters",
+    "description": "Ten suspects are accused of abusing and torturing several people in the garage of a government compound in Belgrade.",
+    "url": "https://www.aljazeera.com/news/2026/11/5/serbian-officers-arrested-for-using-excessive-force-against-protesters",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/05/AP26143694196977-1779609534.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-05T10:34:42Z",
+    "content": "Nine active Serbian police officers and one former officer have been arrested over accusations of using excessive force against students last year during protests that culminated in Octobers electora\u2026 [+1894 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Eyad Qatrawi",
+    "title": "\u2018Helpless\u2019: The families facing winter in tents on the beach in Gaza",
+    "description": "An innovative idea to turn damaged cooking pots into seawater barriers is providing families in Gaza with some relief.",
+    "url": "https://www.aljazeera.com/features/2026/11/5/helpless-the-families-facing-winter-in-tents-on-the-beach-in-gaza",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/5-1793869110.jpg?resize=1200%2C630",
+    "publishedAt": "2026-11-05T10:25:28Z",
+    "content": "Khan Younis, Gaza A few metres from the sea, near al-Qarara port on Gazas coast, Anas al-Shami, 33, is trying to keep his family of six warm and dry in a dilapidated tent. It offers little protection\u2026 [+5481 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Brazilian airport torn apart by violent storm",
+    "description": "Dramatic footage captured the moment a powerful tornado struck Chapec\u00f3 Airport in Santa Catarina, Brazil",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/brazilian-airport-torn-apart-by-violent-storm",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793851907.jpg?resize=1760%2C1080&quality=80",
+    "publishedAt": "2026-11-05T04:12:11Z",
+    "content": "Dramatic footage captured the moment a powerful tornado struck Chapec\u00f3 Airport in Santa Catarina, Brazil, sending people rushing for shelter. Airport operations were suspended as emergency teams asse\u2026 [+15 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Jason Jones",
+    "title": "It\u2019s Gaza, stupid",
+    "description": "The midterms sent a warning to both parties: Voters enraged by Gaza are rejecting politicians who back Israel\u2019s wars.",
+    "url": "https://www.aljazeera.com/opinions/2026/11/5/its-gaza-stupid",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aec4f3dce6b9-1793871677.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-05T09:44:33Z",
+    "content": "The American publics outrage over Gaza just decided Tuesdays midterms.\r\nDemocrats have now won control of both the United States House of Representatives and the Senate, taking them from a belligeren\u2026 [+8009 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Al Jazeera Staff",
+    "title": "Bomb threat diverts Dublin-Rome flight to France",
+    "description": "A separate incident has been reported in Bulgaria, amid a string of bomb threats disrupting air travel across Europe.",
+    "url": "https://www.aljazeera.com/news/2026/11/5/bomb-threat-diverts-dublin-rome-flight-to-france",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aec4ebd43ad7-1793871549.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-05T09:50:08Z",
+    "content": "An airliner flying from Dublin to Rome has been rerouted to France, where it was escorted by military aircraft after a suspected bomb threat, French authorities said.\r\nIn a separate incident, Bulgari\u2026 [+1010 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Al Jazeera Staff",
+    "title": "Security \u2060officer killed in stabbing attack in Jordan\u2019s capital",
+    "description": "This is a breaking news story.",
+    "url": "https://www.aljazeera.com/news/2026/11/5/security-%e2%81%a0officer-killed-in-stabbing-attack-in-jordans-capital",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6adeedf700d45-1792994807.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-05T12:04:00Z",
+    "content": "One person has been killed and another wounded in a stabbing attack in Jordans capital, Amman.\r\nJordans Public Security Directorate said that a member of its forces was assaulted with a sharp object \u2026 [+1351 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Vote counting underway in critical South Africa elections",
+    "description": "Votes are being counted across South Africa after a record 29.2 million people registered to vote.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/vote-counting-underway-in-critical-south-africa-elections",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793846578.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-05T02:43:04Z",
+    "content": "Votes are being counted across South Africa after a record 29.2 million people registered to vote in local municipal councils. The election is seen as a test for the national ANC party, which has lar\u2026 [+53 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": null,
+    "title": "Africa\u2019s richest man launches mega oil tank farm in Namibia",
+    "description": "Nigerian billionaire Aliko Dangote launched a fuel storage facility in Namibia to future-proof Southern Africa's supply.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/africas-richest-man-launches-mega-oil-tank-farm-in-namibia",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793839138.jpg?resize=1920%2C1080&quality=80",
+    "publishedAt": "2026-11-05T00:39:18Z",
+    "content": "Nigerian billionaire Aliko Dangote has launched a mega fuel storage facility in Namibia to future-proof Southern Africas fuel supply. The $2.5 billion tank farm in Walvis Bay is the latest of Dangote\u2026 [+33 chars]"
+   }
+  ]
+ }
+}
