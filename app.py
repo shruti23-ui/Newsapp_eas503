@@ -350,17 +350,20 @@ app.callback(Output("root", "className"), Output("theme-btn", "children"), Outpu
 STORY_MATCH = 0.10   # a headline counts toward a story when its similarity to the story is at least this
 
 
-def story_card(i, cluster, matched):
+def story_card(i, cluster, matched, numbered=True):
     counts = matched["category"].value_counts()
     total = int(counts.sum())
     # stacked bar: one colored segment per category, width = its share of the story's headlines
     bar = html.Div([html.Span(style={"width": f"{n / total:.0%}", "background": CAT_COLORS.get(c, "#999")}, title=f"{c.title()}: {n}")
                     for c, n in counts.items()], className="story-bar") if total else None
-    meta = f"{total} headline{'s' if total != 1 else ''} · " + ", ".join(c.title() for c in counts.index) if total else "No matching headlines"
+    meta = (f"Based on {total} headline{'s' if total != 1 else ''} · " + ", ".join(c.title() for c in counts.index)
+            if total else "No matching headlines")
     # all matched headlines are listed; CSS shows only the first two until "Read more" is clicked
     links = [html.Li(html.A(r.title, href=r.url, target="_blank")) for r in matched.itertuples()]
     return html.Div([
-        html.Div([html.Span(str(i + 1), className="story-num"), html.H4(cluster.get("title", ""))], className="story-head"),
+        # numbered when every card is an AI story; labelled when AI stories sit next to single headlines
+        html.Div([html.Span(str(i + 1), className="story-num") if numbered else html.Span("AI story", className="tag"),
+                  html.H4(cluster.get("title", ""))], className="story-head" if numbered else "story-head stacked"),
         html.P(cluster.get("summary", ""), className="story-text"),
         bar, html.Div(meta, className="story-meta"),
         html.Ul(links, className="story-links") if links else None,
@@ -368,7 +371,7 @@ def story_card(i, cluster, matched):
                   html.Button([html.Span(className="icon-speaker"), "Listen"], id={"type": "story-listen", "index": i},
                               className="link-btn", n_clicks=0, title="Read this story aloud")], className="story-actions"),
         dcc.Loading(html.Div(id={"type": "story-audio", "index": i}), type="dot"),
-    ], id={"type": "story", "index": i}, className="story")
+    ], id={"type": "story", "index": i}, className="story ai")
 
 
 ROW = 4   # cards per row in the filtered view; "Load more" adds one more row
@@ -387,7 +390,7 @@ def story_cards(snap, cats):
         matched = heads[(heads["cluster"] == i) & (heads["similarity"] >= STORY_MATCH)].sort_values("similarity", ascending=False)
         if cats and matched.empty:
             continue   # with a category filter, skip stories that have no headline from it
-        cards.append(story_card(i, cluster, matched))
+        cards.append(story_card(i, cluster, matched, numbered=not cats))
     return cards
 
 
@@ -399,6 +402,7 @@ def headline_tiles(snap, cats, count):
     sub["rank"] = sub.groupby("category").cumcount()
     sub = sub.sort_values("rank", kind="stable")
     tiles = [html.Div([
+        html.Span("Top headline", className="tag plain"),
         html.Div([dot(r.category), r.category.title(), " · ", r.source], className="story-meta"),
         html.A(r.title, href=r.url, target="_blank", className="tile-title"),
         html.P(r.description, className="story-text tile-text") if r.description else None,
@@ -435,7 +439,7 @@ def summary_cards(snap, cats=None):
     if not summ:
         intro = "No AI summary was made for this date, so these are the top headlines from NewsAPI."
     else:
-        intro = "Numbered cards are AI stories that use these categories. The rest are the top headlines."
+        intro = "AI story cards summarise several headlines. Top headline cards are single articles, in NewsAPI's order."
     return card(title, intro, headline_section(snap, cats), wide=True)
 
 
@@ -547,8 +551,10 @@ app.callback(Output("b-sent-note", "children"), Output("b-pol-note", "children")
 
 # story cards: each card has its own buttons, matched by index (MATCH = the card that was clicked)
 def toggle_story(n_clicks, class_name):
-    is_open = "open" in (class_name or "")
-    return ("story" if is_open else "story open"), ("Read more" if is_open else "Show less")
+    classes = (class_name or "story").split()
+    if "open" in classes:   # close it: remove only the "open" class, keep the others
+        return " ".join(c for c in classes if c != "open"), "Read more"
+    return " ".join(classes + ["open"]), "Show less"
 
 
 app.callback(Output({"type": "story", "index": MATCH}, "className"), Output({"type": "story-more", "index": MATCH}, "children"),
