@@ -1,6 +1,5 @@
 # The Buffalo Times: News Intelligence Dashboard
 
-**Course:** EAS 503, Programming and Database Fundamentals for Data Scientists
 **Assignment:** Extra credit, three missed opportunities in the class news app
 **Student:** Shruti Priya
 **Demo video:** [VIDEO_URL]

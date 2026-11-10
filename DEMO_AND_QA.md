@@ -9,7 +9,7 @@ an Ask question so everything is cached. Then record. Nothing will wait on the n
 | 0:20–1:00 | Entity Explorer (EC 1) | Untick Places, set How many = 10, click **Donald Trump** in the bar chart, show the detail and co-mentions; click a heatmap cell | "spaCy entities were computed but never used. I fixed its mislabels first: it called 'AI' a country and Trump an organization." |
 | 1:00–1:45 | Echo Index (EC 2) | Show the echo trend line rising; scroll to the déjà vu list; click **billion** in the rising-words chart | "Each notebook secretly saved a different day's news. Comparing them shows the news repeating itself more each day, from 0.12 to 0.19." |
 | 1:45–2:40 | Newsroom Check (EC 3) | Show the 11% coverage and 3 of 7 categories left out; drag the threshold; click **Verify**, **Rewrite and re-audit** (before/after), **Make the radio bulletin** and play 5 seconds; click **Download report** | "The AI summary skipped Entertainment, Science and Technology. Tavily checks the weak claims, Gemini fixes it, the same metric proves the fix, and ElevenLabs reads it." |
-| 2:40–3:00 | Ask The Buffalo Times | Ask "What is happening with Iran?", show the citations and the grounding check | "Answers cite headlines, and every sentence is checked against its sources." |
+| 2:40–3:00 | Ask | Ask "What is happening with Iran?", show the citations and the grounding check | "Answers cite headlines, and every sentence is checked against its sources." |
 
 # Questions the professor might ask
 

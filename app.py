@@ -1,4 +1,4 @@
-"""The Buffalo Times - Dash news dashboard (EAS 503). Run: python app.py"""
+"""The Buffalo Times - Dash news dashboard. Run: python app.py"""
 import io
 import json
 import re
@@ -52,6 +52,7 @@ def nice_date(label):
 
 
 LOW_CONF = 0.6     # zero-shot labels below this probability are treated as uncertain
+ZSC_OK = analytics.sentiment_agreement(DF)[0] is not None   # False when the zero-shot model is not installed
 SNAP_OPTIONS = [{"label": nice_date(s), "value": s} for s in reversed(SNAPS)]
 CAT_OPTIONS = [{"label": c.title(), "value": c} for c in CATS]
 
@@ -128,13 +129,39 @@ def dot(category):
 
 
 # 3. LAYOUT
+def guide():
+    steps = [("1", "Pick a tab"), ("2", "Use the filters at the top of the tab"),
+             ("3", "Click any bar, cell or word to see the headlines behind it"), ("4", "Hover over charts for details")]
+    return html.Div([html.Span([html.B(n + ". "), text]) for n, text in steps], className="guide")
+
+
+def headline_columns():
+    cols = [("title", "Headline", True), ("category", "Category", False), ("source", "Source", False),
+            ("polarity", "Mood", False), ("subjectivity", "Opinion", False), ("sentiment", "Sentiment", False)]
+    if ZSC_OK:
+        cols.append(("confidence", "Confidence", False))
+    return cols
+
+
+def agreement_panel():
+    # only shown when the zero-shot model ran, otherwise there is nothing to compare
+    if not ZSC_OK:
+        return None
+    return html.Div([card("Do the two sentiment models agree?",
+                          "TextBlob vs the zero-shot model. Kappa = agreement beyond chance (1 = perfect). Click a cell to read those headlines.",
+                          html.Div(id="b-kappa"), graph("b-agree")),
+                     card("Headlines in the selected cell", None, table("b-agree-table", [
+                         ("title", "Headline", True), ("textblob", "TextBlob", False),
+                         ("zsc", "Zero-shot", False), ("polarity", "Mood", False)], 6))], className="row")
+
+
 def header():
-    badge = STATUS["message"].split(".")[0] if STATUS["message"] else "Ready"
+    badge = "Live news" if IS_LIVE else "Saved news (offline)"
     return html.Header([
-        html.Div([html.Div("EAS 503 · News Intelligence Dashboard", className="kicker"),
+        html.Div([html.Div("What's in the news, and how it's told", className="kicker"),
                   html.H1(["The Buffalo ", html.Span("Times")], className="title")]),
         html.Div([html.Span(badge, className="badge"),
-                  html.Span(f"{DF['uid'].nunique() if not DF.empty else 0} headlines · {len(SNAPS)} snapshots", className="badge"),
+                  html.Span(f"{DF['uid'].nunique() if not DF.empty else 0} headlines · {len(SNAPS)} dates", className="badge"),
                   html.Button("Light mode", id="theme-btn", className="theme-btn", n_clicks=0)],
                  className="badges"),
     ], className="masthead")
@@ -156,58 +183,49 @@ def tickers():
 
 def bluesky_panel():
     if not BLUESKY:
-        body = html.Div(f"{BLUESKY_STATUS}. Posts appear here when the public Bluesky API is reachable.", className="notice")
+        body = html.Div("Bluesky posts could not be loaded right now.", className="notice")
     else:
         body = html.Div([html.Div([html.H4("@" + p["source"]), html.P(p["text"][:280]),
                                    html.A("Open on Bluesky", href=p["link"], target="_blank")], className="mini")
                          for p in BLUESKY[:6]], className="row")
-    return card("Publisher posts on Bluesky", f"Class-provided Bluesky code with its bugs fixed · {BLUESKY_STATUS}", body, wide=True)
+    return card("News outlets on Bluesky", "Latest posts from major publishers", body, wide=True)
 
 
 def tab_briefing():
     return html.Div([
-        html.Div([control("Snapshot", dcc.Dropdown(id="b-snap", options=SNAP_OPTIONS, value=LATEST, clearable=False)),
+        html.Div([control("Date", dcc.Dropdown(id="b-snap", options=SNAP_OPTIONS, value=LATEST, clearable=False)),
                   control("Categories", dcc.Dropdown(id="b-cats", options=CAT_OPTIONS, multi=True, placeholder="All categories"))],
                  className="controls"),
         html.Div(id="b-summary"),
-        html.Div([card("Sentiment labels", f"Method: {SENTIMENT_METHOD}", graph("b-sent")),
-                  card("TextBlob polarity", "Distribution of headline polarity (−1 to +1)", graph("b-pol")),
-                  card("Mean polarity by category", None, graph("b-catpol"))], className="row"),
-        card("Opinion map", "TextBlob subjectivity was computed in class but never shown. Each dot is a headline: "
-             "left/right = polarity, bottom/top = how opinionated the wording is. Hover for the headline.", graph("b-opinion"), wide=True),
-        card("Headlines", "Search, sort and open any article", table("b-table", [
-            ("title", "Headline", True), ("category", "Category", False), ("source", "Source", False),
-            ("polarity", "Polarity", False), ("subjectivity", "Subjectivity", False), ("sentiment", "Label", False),
-            ("confidence", "Label confidence", False)], 10),
-             html.P(f"Label confidence is the zero-shot model's probability for its chosen label (class code computed it but never used it). "
-                    f"Labels under {LOW_CONF:.0%} are shown faded: the model was unsure.", className="sub"), wide=True),
-        html.Div([card("Do the two sentiment models agree?",
-                       "TextBlob label (polarity banded at ±0.05) vs zero-shot label. Cohen's kappa corrects raw agreement for chance. Click a cell to read those headlines.",
-                       html.Div(id="b-kappa"), graph("b-agree")),
-                  card("Headlines in the selected cell", None, table("b-agree-table", [
-                      ("title", "Headline", True), ("textblob", "TextBlob", False),
-                      ("zsc", "Zero-shot", False), ("polarity", "Polarity", False)], 6))], className="row"),
+        html.Div([card("Headline mood", "How many headlines read positive, negative or neutral", graph("b-sent")),
+                  card("Mood scores", "From −1 (very negative) to +1 (very positive)", graph("b-pol")),
+                  card("Average mood by category", None, graph("b-catpol"))], className="row"),
+        card("Opinion map", "Each dot is a headline. Left to right: negative to positive. "
+             "Bottom to top: factual to opinionated. Hover over a dot to read it.", graph("b-opinion"), wide=True),
+        card("All headlines", "Click a column name to sort. Click a headline to open the article.", table("b-table", headline_columns(), 10),
+             html.P(f"Confidence is how sure the sentiment model was. Labels under {LOW_CONF:.0%} are faded.", className="sub")
+             if ZSC_OK else None, wide=True),
+        agreement_panel(),
         bluesky_panel(),
     ], className="section")
 
 
 def tab_entities():
     return html.Div([
-        html.P("Who is the news about? spaCy finds people, organizations and places in each headline. "
-               "A short rule list fixes names the small model mislabels on Title Case headlines before anything is counted.",
-               className="intro"),
-        html.Div([control("Snapshot", dcc.Dropdown(id="e-snap", clearable=False, value="ALL",
-                                                   options=[{"label": "All snapshots", "value": "ALL"}] + SNAP_OPTIONS)),
+        html.P("Who is the news about? Names of people, organizations and places are found in every headline and counted. "
+               "Click a bar or a heatmap cell to see the headlines behind it.", className="intro"),
+        html.Div([control("Date", dcc.Dropdown(id="e-snap", clearable=False, value="ALL",
+                                               options=[{"label": "All dates", "value": "ALL"}] + SNAP_OPTIONS)),
                   control("Categories", dcc.Dropdown(id="e-cats", options=CAT_OPTIONS, multi=True, placeholder="All categories")),
                   control("Entity types", dcc.Checklist(id="e-types", className="checklist", value=["PERSON", "ORG", "PLACE"],
                                                         options=[{"label": "People", "value": "PERSON"},
                                                                  {"label": "Organizations", "value": "ORG"},
                                                                  {"label": "Places", "value": "PLACE"}], inline=True)),
-                  control("How many", dcc.Slider(id="e-topn", min=5, max=25, step=5, value=15,
+                  control("Show top", dcc.Slider(id="e-topn", min=5, max=25, step=5, value=15,
                                                  marks={i: str(i) for i in range(5, 30, 5)}))], className="controls"),
-        html.Div([card("Most-mentioned entities", "Bar = headlines naming the entity · color = their average polarity. Click a bar to drill in.", graph("e-bar")),
-                  card("Entity × category", "Where each entity shows up. Click a cell to drill in.", graph("e-heat"))], className="row"),
-        html.Div([control("Selected entity", dcc.Dropdown(id="e-select", clearable=False))], className="controls"),
+        html.Div([card("Most mentioned", "Bar length = number of headlines. Color = their average mood. Click a bar for details.", graph("e-bar")),
+                  card("Where they appear", "Headlines per name and category. Click a cell for details.", graph("e-heat"))], className="row"),
+        html.Div([control("Show details for", dcc.Dropdown(id="e-select", clearable=False))], className="controls"),
         html.Div(id="e-detail"),
     ], className="section")
 
@@ -215,57 +233,55 @@ def tab_entities():
 def tab_echo():
     focus_opts = [o for o in SNAP_OPTIONS if o["value"] != (SNAPS[0] if SNAPS else None)]
     return html.Div([
-        html.P("Is today's news actually new? Every fetch is archived as a snapshot. Each headline is compared (TF-IDF cosine) "
-               "with every earlier headline: echo = similarity to its closest earlier headline, from 0 (brand new) to 1 (a repeat).",
-               className="intro"),
-        html.Div([control("Focus snapshot", dcc.Dropdown(id="x-focus", options=focus_opts, clearable=False,
+        html.P("Is today's news actually new? Each headline is compared with every headline from earlier dates. "
+               "Its echo score runs from 0 (a brand new story) to 1 (the same story again).", className="intro"),
+        html.Div([control("Date to check", dcc.Dropdown(id="x-focus", options=focus_opts, clearable=False,
                                                          value=focus_opts[0]["value"] if focus_opts else None)),
                   control("Categories", dcc.Dropdown(id="x-cats", options=CAT_OPTIONS, multi=True, placeholder="All categories"))],
                  className="controls"),
         html.Div(id="x-kpis", className="row"),
-        html.Div([card("Echo over time", "Mean echo per snapshot. Rising = each day repeats more of the archive.", graph("x-trend")),
-                  card("Echo by category", "Mean echo in the focus snapshot", graph("x-cat"))], className="row"),
-        html.Div([card("Déjà vu: headlines that repeat the past", "Each with the earlier headline it most resembles", html.Div(id="x-deja")),
-                  card("Genuinely new", "Nothing similar anywhere in the earlier snapshots", html.Div(id="x-fresh"))], className="row"),
-        html.Div([card("Rising and fading words", "Log-odds with an informative Dirichlet prior (Monroe et al., 2008), focus vs all earlier snapshots. |z| below 2 means directional only. Click a word.", graph("x-terms")),
+        html.Div([card("Echo over time", "Average echo score per date. A rising line means more repeated stories.", graph("x-trend")),
+                  card("Echo by category", "Average echo score on the selected date", graph("x-cat"))], className="row"),
+        html.Div([card("Repeated stories", "Each shown with the earlier headline it most resembles", html.Div(id="x-deja")),
+                  card("New stories", "Nothing similar on any earlier date", html.Div(id="x-fresh"))], className="row"),
+        html.Div([card("Rising and fading words", "Words used more (right) or less (left) on this date than before. Click a word to see its headlines.", graph("x-terms")),
                   card("Headlines with the selected word", None, table("x-term-table", [
                       ("snapshot", "Date", False), ("category", "Category", False), ("title", "Headline", True)], 8))], className="row"),
-        card("Sentiment by category over time", "Mean TextBlob polarity per category in each snapshot", graph("x-senttime"), wide=True),
+        card("Mood by category over time", "Average mood score per category on each date", graph("x-senttime"), wide=True),
     ], className="section")
 
 
 def tab_newsroom():
     audit_opts = [o for o in SNAP_OPTIONS if o["value"] in SUMMARIES]
     return html.Div([
-        html.P("Can we trust the AI summary? Step 1 measures how much of the news Gemini's summary actually covers. "
-               "Step 2 checks weak claims against other outlets with Tavily. Step 3 asks Gemini for a balanced rewrite and re-measures it "
-               "with the same metric. Step 4 reads the fixed bulletin aloud with ElevenLabs.", className="intro"),
-        html.Div([control("Summary of snapshot", dcc.Dropdown(id="n-snap", options=audit_opts, clearable=False,
+        html.P("How well does the AI summary cover the news? Go through the four steps in order: "
+               "measure it, check its weakest claims, fix it, then listen to it.", className="intro"),
+        html.Div([control("Summary date", dcc.Dropdown(id="n-snap", options=audit_opts, clearable=False,
                                                               value=audit_opts[0]["value"] if audit_opts else None)),
-                  control("Match threshold (cosine similarity)", dcc.Slider(id="n-th", min=0.05, max=0.30, step=0.01, value=0.10,
+                  control("Match strictness (higher = stricter)", dcc.Slider(id="n-th", min=0.05, max=0.30, step=0.01, value=0.10,
                                                                             marks={v: f"{v:.2f}" for v in [0.05, 0.10, 0.15, 0.20, 0.25, 0.30]}))],
                  className="controls"),
-        html.H3("Step 1 · Audit", style={"margin": "8px 0 0"}),
+        html.H3("Step 1 · Measure coverage", style={"margin": "8px 0 0"}),
         html.Div(id="n-kpis", className="row"),
-        html.Div([card("Coverage by category", "Share of each category's headlines represented in the summary", graph("n-cov")),
-                  card("What each story cluster draws on", None, html.Div(id="n-clusters"))], className="row"),
-        card("Left out of the summary", "Headlines from categories with zero coverage at this threshold", html.Div(id="n-left"), wide=True),
-        card("Claim check", "Every summary sentence, weakest support first. Orange rows score under 0.25 against their closest headline.",
+        html.Div([card("Coverage by category", "Share of each category's headlines that the summary mentions", graph("n-cov")),
+                  card("Headlines behind each summary section", None, html.Div(id="n-clusters"))], className="row"),
+        card("Left out of the summary", "Headlines from categories the summary skips entirely", html.Div(id="n-left"), wide=True),
+        card("Claim check", "Each sentence of the summary, weakest first. Orange = little support in the headlines.",
              table("n-claims", [("where", "Section", False), ("sentence", "Claim", False),
                                 ("support", "Support", False), ("best_headline", "Closest headline", False)], 8), wide=True),
-        html.H3("Step 2 · Verify with Tavily", style={"margin": "8px 0 0"}),
-        card("Do other outlets back the weakest claims?", "Searches recent news for the three least supported sentences. Results are cached.",
+        html.H3("Step 2 · Check weak claims", style={"margin": "8px 0 0"}),
+        card("Do other news sites back them up?", "Searches recent news on the web for the three weakest sentences.",
              html.Button("Verify weakest claims", id="n-verify", className="btn", n_clicks=0),
              dcc.Loading(html.Div(id="n-verify-out")), wide=True),
-        html.H3("Step 3 · Fix with Gemini", style={"margin": "8px 0 0"}),
-        card("Balanced rewrite, re-audited", "Gemini rewrites the bulletin to cover every category using only the headlines. The same audit then scores it.",
+        html.H3("Step 3 · Fix the summary", style={"margin": "8px 0 0"}),
+        card("Balanced rewrite", "The AI rewrites the summary to cover every category, then it is scored again the same way.",
              html.Button("Rewrite and re-audit", id="n-fix", className="btn", n_clicks=0),
              dcc.Loading(html.Div(id="n-fix-out")), wide=True),
         html.H3("Step 4 · Listen", style={"margin": "8px 0 0"}),
-        card("Buffalo Times Radio", "ElevenLabs reads the balanced bulletin: one anchor voice, a different voice for each desk.",
+        card("Radio bulletin", "The rewritten summary read aloud, one voice per section. Do Step 3 first.",
              html.Button("Make the radio bulletin", id="n-listen", className="btn", n_clicks=0),
              dcc.Loading(html.Div(id="n-listen-out")), wide=True),
-        card("Audit report", "Download claims, coverage, Tavily sources and the balanced bulletin as a ZIP of CSV/JSON files.",
+        card("Download report", "Everything on this page as a ZIP of CSV and JSON files.",
              html.Button("Download report", id="n-dl-btn", className="btn", n_clicks=0), dcc.Download(id="n-dl"), wide=True),
         dcc.Store(id="n-verify-store"), dcc.Store(id="n-bulletin-store"),
     ], className="section")
@@ -273,16 +289,15 @@ def tab_newsroom():
 
 def tab_ask():
     return html.Div([
-        html.P("Ask a question about the news. The app retrieves the most similar headlines (TF-IDF cosine), Gemini answers "
-               "using only those headlines with numbered citations, and every answer sentence is checked against the headlines it cites.",
-               className="intro"),
+        html.P("Ask a question about the news. The answer uses only the matching headlines, cites them by number, "
+               "and each sentence is checked against its sources.", className="intro"),
         html.Div([control("Your question", dcc.Input(id="a-q", type="text", debounce=False, n_submit=0,
                                                      placeholder="e.g. What is happening with Iran?",
                                                      style={"minHeight": "40px", "padding": "0 12px", "borderRadius": "8px",
                                                             "border": "1px solid var(--border)", "background": "var(--panel2)",
                                                             "color": "var(--text)", "font": "inherit"})),
-                  control("Search in", dcc.Dropdown(id="a-snap", clearable=False, value="ALL",
-                                                    options=[{"label": "All snapshots", "value": "ALL"}] + SNAP_OPTIONS)),
+                  control("Dates to search", dcc.Dropdown(id="a-snap", clearable=False, value="ALL",
+                                                          options=[{"label": "All dates", "value": "ALL"}] + SNAP_OPTIONS)),
                   html.Button("Ask", id="a-go", className="btn", n_clicks=0)], className="controls"),
         dcc.Loading(html.Div(id="a-out")),
     ], className="section")
@@ -294,13 +309,13 @@ server = app.server   # for gunicorn / Render
 app.layout = html.Div(id="root", className="app theme-dark", children=[
     dcc.Store(id="theme", data="dark", storage_type="local"),
     header(), tickers(),
-    html.Div(dcc.Tabs(id="tabs", value="briefing", children=[
+    html.Div([guide(), dcc.Tabs(id="tabs", value="briefing", children=[
         dcc.Tab(label="Daily Briefing", value="briefing", className="tab", selected_className="tab--selected", children=tab_briefing()),
-        dcc.Tab(label="Entity Explorer · EC 1", value="entities", className="tab", selected_className="tab--selected", children=tab_entities()),
-        dcc.Tab(label="Echo Index · EC 2", value="echo", className="tab", selected_className="tab--selected", children=tab_echo()),
-        dcc.Tab(label="Newsroom Check · EC 3", value="newsroom", className="tab", selected_className="tab--selected", children=tab_newsroom()),
-        dcc.Tab(label="Ask The Buffalo Times", value="ask", className="tab", selected_className="tab--selected", children=tab_ask()),
-    ]), className="tabs-wrap"),
+        dcc.Tab(label="Entity Explorer", value="entities", className="tab", selected_className="tab--selected", children=tab_entities()),
+        dcc.Tab(label="Echo Index", value="echo", className="tab", selected_className="tab--selected", children=tab_echo()),
+        dcc.Tab(label="Newsroom Check", value="newsroom", className="tab", selected_className="tab--selected", children=tab_newsroom()),
+        dcc.Tab(label="Ask", value="ask", className="tab", selected_className="tab--selected", children=tab_ask()),
+    ])], className="tabs-wrap"),
 ])
 
 # 4. CALLBACKS
@@ -325,9 +340,9 @@ def summary_cards(snap):
     summ = SUMMARIES.get(snap)
     if not summ:
         return card("Today's story clusters", None,
-                    html.Div("No Gemini summary exists for this snapshot. Add GEMINI_API_KEY and run live to create one.", className="notice"), wide=True)
+                    html.Div("No AI summary for this date yet.", className="notice"), wide=True)
     minis = [html.Div([html.H4(c.get("title", "")), html.P(c.get("summary", ""))], className="mini") for c in summ["clusters"]]
-    return card("Today's story clusters", f"{SUMMARY_STATUS} · parsed from Gemini's JSON reply",
+    return card("Today's top stories", "AI summary of the day's headlines, grouped by theme",
                 html.P(summ.get("global_summary", ""), style={"margin": 0, "fontSize": "15px", "lineHeight": "1.55"}),
                 html.Div(minis, className="row"), wide=True)
 
@@ -350,14 +365,14 @@ def update_briefing(snap, cats, theme):
                                    marker_color=THEMES[theme]["accent"]))
     f_pol.add_vline(x=0, line_dash="dash", line_color=THEMES[theme]["muted"])
     f_pol = styled(f_pol, theme, 300)
-    f_pol.update_xaxes(title="Polarity")
+    f_pol.update_xaxes(title="Mood score")
     f_pol.update_yaxes(title="Headlines")
 
     means = sub.groupby("category")["polarity"].mean().sort_values()
     f_cat = styled(go.Figure(go.Bar(x=means.values, y=means.index, orientation="h",
                                     marker_color=[CAT_COLORS.get(c, "#999") for c in means.index],
                                     text=[f"{v:+.2f}" for v in means.values], textposition="outside")), theme, 300)
-    f_cat.update_xaxes(title="Mean polarity")
+    f_cat.update_xaxes(title="Average mood (−1 to +1)")
 
     f_op = go.Figure()
     for c in [c for c in CATS if c in set(sub["category"])]:
@@ -365,7 +380,7 @@ def update_briefing(snap, cats, theme):
         f_op.add_trace(go.Scatter(x=g["polarity"], y=g["subjectivity"], mode="markers", name=c.title(),
                                   marker=dict(color=CAT_COLORS[c], size=9, opacity=0.8,
                                               line=dict(width=0.5, color=THEMES[theme]["grid"])),
-                                  text=g["title"], hovertemplate="%{text}<br>polarity %{x:.2f} · subjectivity %{y:.2f}<extra></extra>"))
+                                  text=g["title"], hovertemplate="%{text}<br>mood %{x:.2f} · opinion %{y:.2f}<extra></extra>"))
     f_op.add_vline(x=0, line_dash="dot", line_color=THEMES[theme]["muted"])
     f_op.add_hline(y=0.5, line_dash="dot", line_color=THEMES[theme]["muted"])
     for x, y, label in [(-0.95, 0.97, "opinionated · negative"), (0.95, 0.97, "opinionated · positive"),
@@ -373,13 +388,13 @@ def update_briefing(snap, cats, theme):
         f_op.add_annotation(x=x, y=y, text=label, showarrow=False, xanchor="left" if x < 0 else "right",
                             font=dict(color=THEMES[theme]["muted"], size=12))
     f_op = styled(f_op, theme, 420)
-    f_op.update_xaxes(title="Polarity (−1 negative … +1 positive)", range=[-1.05, 1.05])
-    f_op.update_yaxes(title="Subjectivity (0 factual … 1 opinion)", range=[-0.05, 1.05])
+    f_op.update_xaxes(title="Mood (−1 negative … +1 positive)", range=[-1.05, 1.05])
+    f_op.update_yaxes(title="Opinion (0 factual … 1 opinionated)", range=[-0.05, 1.05])
 
     rows = [{"title": link(r.title, r.url), "category": r.category, "source": r.source,
              "polarity": round(r.polarity, 2), "subjectivity": round(r.subjectivity, 2),
              "sentiment": r.zsc_sentiment,
-             "confidence": round(r.zsc_scores, 2) if pd.notna(r.zsc_scores) else "n/a (TextBlob fallback)"}
+             "confidence": round(r.zsc_scores, 2) if pd.notna(r.zsc_scores) else ""}
             for r in sub.itertuples()]
     return summary_cards(snap), f_sent, f_pol, f_cat, f_op, rows
 
@@ -407,7 +422,7 @@ def update_agreement(theme):
 
 
 app.callback(Output("b-table", "style_data_conditional"), Input("theme", "data"))(
-    lambda theme: [{"if": {"filter_query": f"{{confidence}} < {LOW_CONF}"}, "opacity": 0.55, "fontStyle": "italic"}])
+    lambda theme: [{"if": {"filter_query": f"{{confidence}} < {LOW_CONF}"}, "opacity": 0.55, "fontStyle": "italic"}] if ZSC_OK else [])
 
 
 app.callback(Output("b-kappa", "children"), Output("b-agree", "figure"), Input("theme", "data"))(update_agreement)
@@ -437,10 +452,10 @@ def update_entities(snap, cats, types, topn, theme):
     s = summ.iloc[::-1]
     bar = go.Figure(go.Bar(x=s["mentions"], y=s["entity"], orientation="h",
                            marker=dict(color=s["mean_polarity"], colorscale=[[0, "#F2994A"], [0.5, "#8C9AB3"], [1, "#4C9BE8"]],
-                                       cmin=-0.5, cmax=0.5, colorbar=dict(title="Polarity", thickness=10)),
+                                       cmin=-0.5, cmax=0.5, colorbar=dict(title="Mood", thickness=10)),
                            customdata=list(zip(s["label"].map(TYPE_NAMES), s["mean_polarity"].round(2), s["snapshots"])),
                            hovertemplate="<b>%{y}</b><br>%{customdata[0]}<br>%{x} headlines<br>"
-                                         "mean polarity %{customdata[1]}<br>in %{customdata[2]} snapshots<extra></extra>"))
+                                         "average mood %{customdata[1]}<br>on %{customdata[2]} dates<extra></extra>"))
     bar = styled(bar, theme, max(320, 26 * len(s) + 60))
     bar.update_xaxes(title="Headlines mentioning")
 
@@ -449,7 +464,7 @@ def update_entities(snap, cats, types, topn, theme):
             .pivot_table(index="entity", columns="category", values="uid", aggfunc="count", fill_value=0)
             .reindex(index=names[::-1], columns=CATS, fill_value=0))
     heat = go.Figure(go.Heatmap(z=grid.values, x=[c.title() for c in grid.columns], y=grid.index,
-                                colorscale="Blues", text=grid.values, texttemplate="%{text}", showscale=False,
+                                colorscale=[[0, "#1D2D47" if theme == "dark" else "#EEF2F7"], [1, THEMES[theme]["accent"]]], text=grid.values, texttemplate="%{text}", showscale=False,
                                 hovertemplate="%{y} in %{x}: %{z}<extra></extra>"))
     heat = styled(heat, theme, max(320, 26 * len(s) + 60))
     options = [{"label": f"{n}  ({m})", "value": n} for n, m in zip(summ["entity"], summ["mentions"])]
@@ -488,8 +503,8 @@ def entity_detail(name, snap, cats, types, theme):
     pol = sub["polarity"].mean()
     rows = sub.sort_values("snapshot", ascending=False)
     return html.Div([
-        html.Div([kpi("Headlines", str(len(sub))), kpi("Snapshots present", f"{sub['snapshot'].nunique()} of {len(SNAPS)}"),
-                  kpi("Mean polarity", f"{pol:+.2f}", "TextBlob, −1 to +1", warn=pol < -0.05),
+        html.Div([kpi("Headlines", str(len(sub))), kpi("Dates mentioned", f"{sub['snapshot'].nunique()} of {len(SNAPS)}"),
+                  kpi("Average mood", f"{pol:+.2f}", "from −1 to +1", warn=pol < -0.05),
                   kpi("Categories", str(sub["category"].nunique()), ", ".join(sorted(sub["category"].unique())))], className="row"),
         html.Div([
             card(f"{name} appears together with", "Other top entities in the same headline",
@@ -497,7 +512,7 @@ def entity_detail(name, snap, cats, types, theme):
                           [html.Span("No other top entity shares a headline with it.", className="sub")])),
             card(f"Headlines naming {name}", None,
                  html.Div([html.Div([html.Span([dot(r.category), r.title]),
-                                     html.Span(f"{nice_date(r.snapshot)} · {r.category} · polarity {r.polarity:+.2f}", className="meta")],
+                                     html.Span(f"{nice_date(r.snapshot)} · {r.category} · mood {r.polarity:+.2f}", className="meta")],
                                     className="list-item") for r in rows.head(8).itertuples()]))], className="row"),
     ], className="section")
 
@@ -520,11 +535,11 @@ def update_echo(focus, cats, theme):
         ec = ec[ec["category"].isin(cats)]
     cur = ec[ec["snapshot"] == focus]
     if cur.empty:
-        e = empty_fig("Echo needs at least two snapshots", theme)
+        e = empty_fig("Echo needs at least two dates", theme)
         return [], e, e, [], [], e, e
-    kpis = [kpi("Mean echo", f"{cur['echo'].mean():.2f}", f"{len(cur)} headlines on {nice_date(focus)}"),
-            kpi("Near-repeats (echo ≥ 0.5)", str(int((cur['echo'] >= 0.5).sum())), "recurring formats and continuing stories", warn=True),
-            kpi("Brand new (echo < 0.1)", str(int((cur['echo'] < 0.1).sum())), "nothing similar in the archive")]
+    kpis = [kpi("Average echo", f"{cur['echo'].mean():.2f}", f"{len(cur)} headlines on {nice_date(focus)}"),
+            kpi("Repeated stories", str(int((cur['echo'] >= 0.5).sum())), "echo score 0.5 or higher", warn=True),
+            kpi("New stories", str(int((cur['echo'] < 0.1).sum())), "echo score under 0.1")]
 
     trend = go.Figure()
     for c in (cats or CATS):
@@ -535,13 +550,13 @@ def update_echo(focus, cats, theme):
     trend.add_trace(go.Scatter(x=[nice_date(s) for s in overall.index], y=overall.values, name="All", mode="lines+markers",
                                line=dict(color=THEMES[theme]["text"], width=3, dash="dash")))
     trend = styled(trend, theme, 340)
-    trend.update_yaxes(title="Mean echo", rangemode="tozero")
+    trend.update_yaxes(title="Average echo", rangemode="tozero")
 
     by_cat = cur.groupby("category")["echo"].mean().sort_values()
     f_cat = styled(go.Figure(go.Bar(x=by_cat.values, y=by_cat.index, orientation="h",
                                     marker_color=[CAT_COLORS[c] for c in by_cat.index],
                                     text=[f"{v:.2f}" for v in by_cat.values], textposition="outside")), theme, 340)
-    f_cat.update_xaxes(title="Mean echo")
+    f_cat.update_xaxes(title="Average echo")
 
     srt = cur.sort_values("echo", ascending=False)
     deja = [echo_item(r, "--warn") for r in srt.head(5).itertuples()]
@@ -557,7 +572,7 @@ def update_echo(focus, cats, theme):
                                    customdata=list(zip(t["focus_count"], t["earlier_count"])),
                                    hovertemplate="<b>%{y}</b><br>z = %{x:.2f}<br>%{customdata[0]} now · %{customdata[1]} before<extra></extra>"))
         f_terms = styled(f_terms, theme, 420)
-        f_terms.update_xaxes(title="z-score (positive = rising)")
+        f_terms.update_xaxes(title="Change score (right = rising, left = fading)")
 
     st = analytics.sentiment_over_time(DF)
     if cats:
@@ -569,7 +584,7 @@ def update_echo(focus, cats, theme):
                                   mode="lines+markers", line=dict(color=CAT_COLORS[c], width=2)))
     f_st.add_hline(y=0, line_dash="dot", line_color=THEMES[theme]["muted"])
     f_st = styled(f_st, theme, 340)
-    f_st.update_yaxes(title="Mean polarity")
+    f_st.update_yaxes(title="Average mood")
     return kpis, trend, f_cat, deja, fresh, f_terms, f_st
 
 
@@ -614,15 +629,15 @@ def update_audit(snap, th, theme):
     theme = theme or "dark"
     audit = AUDITS.get(snap)
     if not audit or audit["heads"].empty:
-        e = empty_fig("No Gemini summary to audit for this snapshot", theme)
+        e = empty_fig("No AI summary for this date", theme)
         return [], e, [], [], []
     heads, sents, summ = audit["heads"], audit["sents"], SUMMARIES[snap]
     fig, cov = coverage_figure(heads, th, theme)
     k, n = int((heads["similarity"] >= th).sum()), len(heads)
     missing = list(cov.loc[cov["represented"] == 0, "category"])
-    kpis = [kpi("Headlines represented", f"{k / n:.0%}", f"{k} of {n} at threshold {th:.2f}"),
+    kpis = [kpi("Headlines covered", f"{k / n:.0%}", f"{k} of {n} headlines"),
             kpi("Categories left out", f"{len(missing)} of {len(CATS)}", ", ".join(missing) or "none", warn=bool(missing)),
-            kpi("Weak claims (support < 0.25)", str(int((sents['support'] < 0.25).sum())), f"of {len(sents)} sentences", warn=True)]
+            kpi("Weak claims", str(int((sents['support'] < 0.25).sum())), f"of {len(sents)} sentences", warn=True)]
     clusters = []
     for i, c in enumerate(summ["clusters"]):
         m = heads[(heads["cluster"] == i) & (heads["similarity"] >= th)].sort_values("similarity", ascending=False)
@@ -682,7 +697,7 @@ def fix_summary(n, snap, th, theme):
     text = [html.P(bulletin.get("intro", ""))] + [html.P([html.B(s.get("category", "").title() + ": "), s.get("text", "")])
                                                   for s in bulletin.get("sections", [])] + [html.P(bulletin.get("outro", ""))]
     return html.Div([
-        html.Div([kpi("Coverage before → after", f"{b_k / total:.0%} → {a_k / total:.0%}", f"threshold {th:.2f}"),
+        html.Div([kpi("Coverage before → after", f"{b_k / total:.0%} → {a_k / total:.0%}", "scored the same way"),
                   kpi("Categories left out", f"{b_miss} → {a_miss}", "same audit metric"),
                   kpi("Source", status.split(" (")[0], status)], className="row"),
         dcc.Graph(figure=fig, config={"displayModeBar": False}),
@@ -749,7 +764,7 @@ def ask_question(n_clicks, n_submit, question, snap, theme):
                            marker_color=[CAT_COLORS.get(c, "#999") for c in hits["category"][::-1]],
                            hovertemplate="%{y}<br>similarity %{x:.2f}<extra></extra>"))
     fig = styled(fig, theme, 40 * len(hits) + 60)
-    fig.update_xaxes(title="Retrieval score (TF-IDF cosine)")
+    fig.update_xaxes(title="How closely it matches your question")
     answer, status = newsroom.ask(question, hits)
     sources = html.Ol([html.Li([html.A(r.title, href=r.url, target="_blank"),
                                 html.Span(f"  {nice_date(r.snapshot)} · {r.category}", className="sub")]) for r in hits.itertuples()])

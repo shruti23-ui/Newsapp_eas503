@@ -30,7 +30,7 @@ def nice(s):
     return A.nice_date(s)
 
 
-st.markdown("##### EAS 503 · News Intelligence Dashboard")
+st.markdown("##### What's in the news, and how it's told")
 st.title("The Buffalo Times")
 st.caption(f"{A.DF['uid'].nunique()} headlines · {len(A.SNAPS)} snapshots · "
            f"Markets: {', '.join(f'{s} {p:,.2f}' for s, p in list(A.PRICES.items())[:8])} …")

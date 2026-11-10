@@ -2,11 +2,11 @@
    Two themes are CSS variables; the theme button swaps the root class. */
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap");
 
-.theme-dark {
+.theme-dark, body:has(.theme-dark) {
   --bg: #0F1A2B; --panel: #17253B; --panel2: #1D2D47; --border: #2A3D5E;
   --text: #E8EEF6; --muted: #A3B3CC; --accent: #7CC4FA; --on-accent: #0F1A2B; --warn: #F2A65A;
 }
-.theme-light {
+.theme-light, body:has(.theme-light) {
   --bg: #F4F6F9; --panel: #FFFFFF; --panel2: #EEF2F7; --border: #D5DCE6;
   --text: #17202E; --muted: #4F5E74; --accent: #1F6FB5; --on-accent: #FFFFFF; --warn: #B45309;
 }
@@ -47,8 +47,6 @@ a { color: var(--accent); }
 .tab { background: transparent !important; color: var(--muted) !important; border: 1px solid var(--border) !important;
        border-radius: 8px !important; margin-right: 8px; padding: 10px 16px !important; font-weight: 600; }
 .tab--selected { color: var(--text) !important; border-color: var(--accent) !important; background: var(--panel2) !important; }
-.ec-tag { margin-left: 8px; font-size: 11px; font-weight: 700; padding: 2px 6px; border-radius: 4px;
-          background: var(--accent); color: var(--on-accent); }
 
 /* ---------- layout pieces ---------- */
 .section { display: flex; flex-direction: column; gap: 18px; padding-top: 18px; }
@@ -81,19 +79,30 @@ a { color: var(--accent); }
 .dot { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; }
 .btn { min-height: 44px; padding: 0 18px; border-radius: 8px; cursor: pointer; font: inherit; font-weight: 600;
        background: var(--accent); color: var(--on-accent); border: none; align-self: flex-start; }
+.guide { display: flex; flex-wrap: wrap; gap: 8px 24px; margin: 0 0 4px; padding: 12px 16px; font-size: 14px;
+         background: var(--panel); border: 1px solid var(--border); border-radius: 10px; color: var(--muted); }
+.guide b { color: var(--text); }
 .notice { font-size: 13px; color: var(--muted); border: 1px dashed var(--border); border-radius: 8px; padding: 10px 12px; }
 
-/* ---------- Dash core component theming ---------- */
-.Select-control, .Select-menu-outer, .Select-value-label, .dash-dropdown .Select-control {
-  background: var(--panel2) !important; color: var(--text) !important; border-color: var(--border) !important; }
-.Select-value-label, .Select-placeholder, .Select-input > input { color: var(--text) !important; }
-.Select-option { background: var(--panel2) !important; color: var(--text) !important; }
-.Select-option.is-focused { background: var(--border) !important; }
-.Select--multi .Select-value { background: var(--panel) !important; color: var(--text) !important; border-color: var(--border) !important; }
-.dash-dropdown, .dash-dropdown * { color: var(--text); }
-.rc-slider-track { background: var(--accent) !important; }
-.rc-slider-handle { border-color: var(--accent) !important; }
-.rc-slider-mark-text { color: var(--muted) !important; }
+/* ---------- Dash 4 controls: map Dash's own variables to our theme ---------- */
+/* Dropdown menus open in a popup attached to <body>, so the variables live on body. */
+body {
+  --Dash-Fill-Inverse-Strong: var(--panel2);       /* input and menu background */
+  --Dash-Text-Primary: var(--text);
+  --Dash-Text-Strong: var(--text);
+  --Dash-Text-Weak: var(--muted);                  /* placeholder text */
+  --Dash-Text-Disabled: var(--muted);
+  --Dash-Stroke-Strong: var(--border);
+  --Dash-Stroke-Weak: var(--border);
+  --Dash-Fill-Interactive-Strong: var(--accent);   /* slider, checkbox, focus ring */
+  --Dash-Fill-Interactive-Weak: var(--panel);
+  --Dash-Fill-Primary-Hover: var(--border);
+  --Dash-Fill-Primary-Active: var(--border);
+  --Dash-Fill-Disabled: var(--panel);
+}
+.dash-dropdown { min-height: 40px; border-radius: 8px; }
+.dash-dropdown-content { border: 1px solid var(--border); }
+.dash-slider-mark { color: var(--muted); }
 .checklist label { margin-right: 14px; font-size: 14px; }
 
 @media (max-width: 700px) {
@@ -101,3 +110,6 @@ a { color: var(--accent); }
   .masthead, .tabs-wrap { padding-left: 16px; padding-right: 16px; }
   .ticker-label { margin-left: 16px; }
 }
+
+/* links inside tables use the theme accent instead of the DataTable default pink */
+.dash-spreadsheet-container a, .dash-cell a { color: var(--accent) !important; }
