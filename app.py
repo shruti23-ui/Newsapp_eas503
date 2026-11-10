@@ -376,7 +376,9 @@ def apply_theme(theme):
     return f"app theme-{theme}", icon, title
 
 
-app.callback(Output("theme", "data"), Input("theme-btn", "n_clicks"), State("theme", "data"))(toggle_theme)
+# prevent_initial_call: otherwise its first "no change" blocks every callback that depends only on the theme
+app.callback(Output("theme", "data"), Input("theme-btn", "n_clicks"), State("theme", "data"),
+             prevent_initial_call=True)(toggle_theme)
 app.callback(Output("root", "className"), Output("theme-btn", "children"), Output("theme-btn", "title"),
              Input("theme", "data"))(apply_theme)
 
