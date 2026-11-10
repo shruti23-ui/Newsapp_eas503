@@ -2,9 +2,9 @@
 
 **Assignment:** Extra credit, EAS 503  
 **Student:** Shruti Priya (50757311)  
-**Demo video:** [VIDEO_URL]  
+**Demo video:** https://ubuffalo-my.sharepoint.com/:v:/r/personal/spriya3_buffalo_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fspriya3_buffalo_edu%2FDocuments%2FAttachments%2FWorking%20Prototype.mp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&share=cQpsy9gVStiTSIrgQJ9YZ0L2EgUBQf69Vp2zb_d446Dq5O5d2w
 **Live app:** https://newsappeas503-ihbxry75s9tguguaepuerb.streamlit.app  
-**Notebook:** [Buffalo_Times.ipynb](Buffalo_Times.ipynb) (runs offline, outputs included)
+**Notebook:** [Buffalo_Times.ipynb](Buffalo_Times.ipynb) 
 
 A Dash dashboard built on the class news app. The class app fetched headlines, ran sentiment and NER, and asked
 Gemini for a summary, but used little of what it computed. This project turns three of those gaps into features.
