@@ -1,4 +1,4 @@
-# The Buffalo Times - tested with Python 3.12 (3.11 should also work)
+# The Buffalo Times - requires Python 3.12
 dash==4.5.0
 plotly==7.1.0
 pandas==3.0.6
@@ -13,5 +13,4 @@ google-generativeai==0.8.6
 python-dotenv==1.2.4
 requests==2.34.2
 streamlit>=1.40     # only for streamlit_app.py (Streamlit Cloud)
-gunicorn>=22.0     # only used for Render deployment
 pytest>=8.0        # only used for tests/

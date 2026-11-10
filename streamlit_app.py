@@ -163,7 +163,7 @@ with st.sidebar:
                else "Offline: the four news snapshots saved in class. Add API keys for live news.")
     st.markdown("[Code on GitHub](https://github.com/shruti23-ui/Newsapp_eas503)")
 
-tabs = st.tabs(["Daily Briefing", "Entity Explorer", "Echo Index", "Newsroom Check", "Ask"])
+tabs = st.tabs(["Daily Briefing", "Entity Explorer", "Echo Index", "Newsroom Check", "Framing", "Ask"])
 
 # Daily Briefing
 with tabs[0]:
@@ -363,8 +363,61 @@ with tabs[3]:
         st.download_button("Download report (ZIP)", base64.b64decode(report["content"]),
                            file_name=report["filename"], mime="application/zip")
 
-# Ask
+        st.subheader("Which Gemini model summarises better?")
+        st.caption("The same prompt on two Gemini models, scored with the same coverage audit (threshold 0.10). "
+                   "Each model summarised each day twice, because Gemini's answers vary.")
+        m_summary, m_fig, m_text = A.model_comparison(THEME)
+        if m_summary is None:
+            st.info("No comparison yet: run python scripts/compare_models.py")
+        else:
+            for col, r in zip(st.columns(len(m_summary)), m_summary.itertuples()):
+                col.metric(r.model, f"{r.coverage:.0%}", f"{r.left_out:.1f} categories left out · {r.weak_share:.0%} weak claims",
+                           delta_color="off")
+            chart(m_fig, "models")
+            note(m_text)
+
+# Framing
 with tabs[4]:
+    st.caption("How is the news told? A zero-shot model (facebook/bart-large-mnli, as in class) tags each headline with one of "
+               "five news frames from Semetko & Valkenburg (2000): conflict, economic, human interest, morality or responsibility.")
+    c1, c2 = st.columns(2)
+    f_snap = c1.selectbox("Date", ["ALL"] + A.SNAPS[::-1], format_func=lambda s: "All dates" if s == "ALL" else nice(s), key="f_snap")
+    f_cats = c2.multiselect("Categories", A.CATS, format_func=str.title, key="f_cats", placeholder="All categories")
+    sub, f_cat, f_time, cat_note, time_note = A.framing_view(f_snap, f_cats or None, THEME)
+    if sub.empty:
+        st.info("No framing data yet: run python scripts/tag_frames.py")
+    else:
+        overall = sub["frame"].value_counts(normalize=True)
+        m1, m2, m3 = st.columns(3)
+        m1.metric("Headlines tagged", len(sub))
+        m2.metric("Most common frame", overall.index[0].title(), f"{overall.iloc[0]:.0%} of headlines", delta_color="off")
+        m3.metric("Model unsure", f"{(sub['score'] < 0.4).mean():.0%}", "confidence under 40%", delta_color="off")
+        a, b = st.columns(2)
+        with a:
+            st.markdown("**Frames by category**")
+            chart(f_cat, "fcat")
+            note(cat_note)
+        with b:
+            st.markdown("**Frames over time**")
+            chart(f_time, "ftime")
+            note(time_note)
+        frame = st.selectbox("Example headlines for", analytics.FRAMES, format_func=str.title)
+        examples = sub[sub["frame"] == frame].sort_values("score", ascending=False).head(40)
+        st.dataframe(examples[["title", "category", "snapshot", "score"]]
+                     .rename(columns={"title": "Headline", "category": "Category", "snapshot": "Date", "score": "Model confidence"}),
+                     hide_index=True, width="stretch")
+    st.markdown("**Does the model agree with a person?** · 50 random headlines labelled by hand")
+    result = analytics.framing_validation(A.FRAMES_ALL, A.HAND) if A.HAND is not None and A.FRAMES_ALL is not None else None
+    if result:
+        accuracy, kappa, n = result
+        v1, v2 = st.columns(2)
+        v1.metric("Model agrees with the hand labels", f"{accuracy:.0%}", f"on {n} headlines", delta_color="off")
+        v2.metric("Cohen's kappa", f"{kappa:.2f}")
+    else:
+        st.info("Hand labels not filled in yet (data/framing/hand_labels.csv).")
+
+# Ask
+with tabs[5]:
     st.caption("Ask a question about the news. The answer uses only the matching headlines, cites them by number, "
                "and each sentence is checked against its sources.")
     q = st.text_input("Your question", placeholder="e.g. What is happening with Iran?")

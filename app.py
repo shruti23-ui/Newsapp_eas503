@@ -35,6 +35,13 @@ ECHO = analytics.echo_scores(DF)
 PRICES, PRICE_STATUS = external.get_stock_prices(IS_LIVE)
 BLUESKY, BLUESKY_STATUS = external.get_bluesky_posts()
 
+# extra analyses: computed offline by scripts/compare_models.py and scripts/tag_frames.py; the app only reads them
+MODEL_RUNS = pd.read_csv(config.MODEL_RUNS_FILE) if config.MODEL_RUNS_FILE.exists() else None
+FRAMES_FILE, HAND_FILE = config.FRAMING_DIR / "frames.csv", config.FRAMING_DIR / "hand_labels.csv"
+FRAMES_ALL = pd.read_csv(FRAMES_FILE) if FRAMES_FILE.exists() else None
+FRAMES = FRAMES_ALL[FRAMES_ALL["uid"].isin(set(DF["uid"]))] if FRAMES_ALL is not None else None   # dates shown in the app
+HAND = pd.read_csv(HAND_FILE, dtype={"my_frame": str}) if HAND_FILE.exists() else None
+
 CATS = config.CATEGORIES
 CAT_COLORS = {"business": "#5AA9E6", "entertainment": "#F2A65A", "health": "#5FC9A8",
               "science": "#B39DDB", "sports": "#E8C547", "technology": "#F07F86", "general": "#A9B6CB"}
@@ -290,7 +297,34 @@ def tab_newsroom():
              dcc.Loading(html.Div(id="n-listen-out")), wide=True),
         card("Download report", "Everything on this page as a ZIP of CSV and JSON files.",
              html.Button("Download report", id="n-dl-btn", className="btn", n_clicks=0), dcc.Download(id="n-dl"), wide=True),
+        html.H3("Which Gemini model summarises better?", style={"margin": "8px 0 0"}),
+        card("Model comparison", "The same prompt on two Gemini models, scored with the same coverage audit (threshold 0.10). "
+             "Each model summarised each day twice, because Gemini's answers vary.",
+             html.Div(id="n-models-kpis", className="row"), graph("n-models"), note("n-models-note"), wide=True),
         dcc.Store(id="n-verify-store"), dcc.Store(id="n-bulletin-store"),
+    ], className="section")
+
+
+def tab_framing():
+    return html.Div([
+        html.P("How is the news told? A zero-shot model (facebook/bart-large-mnli, as in class) tags each headline with one "
+               "of five news frames from Semetko & Valkenburg (2000): conflict, economic, human interest, morality or responsibility.",
+               className="intro"),
+        html.Div([control("Date", dcc.Dropdown(id="f-snap", clearable=False, value="ALL",
+                                               options=[{"label": "All dates", "value": "ALL"}] + SNAP_OPTIONS)),
+                  control("Categories", dcc.Dropdown(id="f-cats", options=CAT_OPTIONS, multi=True, placeholder="All categories"))],
+                 className="controls"),
+        html.Div(id="f-kpis", className="row"),
+        html.Div([card("Frames by category", "Share of each category's headlines in each frame", graph("f-cat"), note("f-cat-note")),
+                  card("Frames over time", "Share of all headlines in each frame, per date", graph("f-time"), note("f-time-note"))],
+                 className="row"),
+        html.Div([card("Example headlines", "For the chosen frame, the headlines the model is most sure about",
+                       dcc.Dropdown(id="f-frame", value="conflict", clearable=False,
+                                    options=[{"label": f.title(), "value": f} for f in analytics.FRAMES]),
+                       table("f-table", [("title", "Headline", False), ("category", "Category", False),
+                                         ("snapshot", "Date", False), ("score", "Model confidence", False)], 8)),
+                  card("Does the model agree with a person?", "50 random headlines labelled by hand, compared with the model. "
+                       "Kappa = agreement beyond chance (1 = perfect, 0 = chance).", html.Div(id="f-valid"))], className="row"),
     ], className="section")
 
 
@@ -311,7 +345,7 @@ def tab_ask():
 
 
 app = Dash(__name__, title=config.APP_NAME, suppress_callback_exceptions=True)
-server = app.server   # for gunicorn / Render
+server = app.server   # the underlying Flask server
 
 app.layout = html.Div(id="root", className="app theme-dark", children=[
     dcc.Store(id="theme", data="dark", storage_type="local"),
@@ -321,6 +355,7 @@ app.layout = html.Div(id="root", className="app theme-dark", children=[
         dcc.Tab(label="Entity Explorer", value="entities", className="tab", selected_className="tab--selected", children=tab_entities()),
         dcc.Tab(label="Echo Index", value="echo", className="tab", selected_className="tab--selected", children=tab_echo()),
         dcc.Tab(label="Newsroom Check", value="newsroom", className="tab", selected_className="tab--selected", children=tab_newsroom()),
+        dcc.Tab(label="Framing", value="framing", className="tab", selected_className="tab--selected", children=tab_framing()),
         dcc.Tab(label="Ask", value="ask", className="tab", selected_className="tab--selected", children=tab_ask()),
     ])], className="tabs-wrap"),
 ])
@@ -984,6 +1019,124 @@ def ask_question(n_clicks, n_submit, question, snap, theme):
 
 app.callback(Output("a-out", "children"), Input("a-go", "n_clicks"), Input("a-q", "n_submit"),
              State("a-q", "value"), State("a-snap", "value"), State("theme", "data"), prevent_initial_call=True)(ask_question)
+
+
+# model comparison (Newsroom Check)
+def model_comparison(theme):
+    """(per-model summary or None, figure, plain-language note) from data/model_comparison.csv."""
+    theme = theme or "dark"
+    if MODEL_RUNS is None or MODEL_RUNS.empty:
+        return None, empty_fig("Run python scripts/compare_models.py to fill this in", theme), ""
+    summary, per_day, test = analytics.compare_models(MODEL_RUNS)
+    fig = go.Figure()
+    for color, model in zip([THEMES[theme]["accent"], THEMES[theme]["warn"]], per_day.columns):
+        fig.add_trace(go.Scatter(x=[nice_date(d) for d in per_day.index], y=per_day[model], mode="lines+markers",
+                                 name=model, line=dict(color=color, width=2)))
+    fig = styled(fig, theme, 320)
+    fig.update_yaxes(title="Headlines covered", tickformat=".0%", rangemode="tozero")
+    text = ""
+    if test.get("n"):
+        better = test["b"] if test["mean_diff"] > 0 else test["a"]
+        text = (f"What this shows: on {test['n']} days, {better} covered {abs(test['mean_diff']) * 100:.1f} percentage points "
+                "more of the headlines on average. ")
+        if pd.isna(test["p"]):
+            text += "There are too few days for a significance test yet."
+        elif test["p"] < 0.05:
+            text += f"The difference is statistically significant (Wilcoxon signed-rank test, p = {test['p']:.3f})."
+        else:
+            text += f"The difference is not statistically significant (Wilcoxon signed-rank test, p = {test['p']:.2f}), so treat it as a tendency."
+    return summary, fig, text
+
+
+def update_model_comparison(theme):
+    summary, fig, text = model_comparison(theme)
+    if summary is None:
+        return html.Div("No comparison yet: run python scripts/compare_models.py (needs GEMINI_API_KEY).", className="notice"), fig, text
+    kpis = [kpi(r.model, f"{r.coverage:.0%}", f"headlines covered · {r.left_out:.1f} categories left out · "
+                f"{r.weak_share:.0%} weak claims · {r.valid_json:.0%} valid JSON") for r in summary.itertuples()]
+    return kpis, fig, text
+
+
+app.callback(Output("n-models-kpis", "children"), Output("n-models", "figure"), Output("n-models-note", "children"),
+             Input("theme", "data"))(update_model_comparison)
+
+
+# Framing
+FRAME_COLORS = {"conflict": "#E5484D", "economic": "#E8C547", "human interest": "#5FC9A8",
+                "morality": "#B39DDB", "responsibility": "#F2A65A"}
+
+
+def framing_view(snap, cats, theme):
+    """Filtered frames, two figures and their notes. Shared by the Dash and Streamlit front ends."""
+    theme = theme or "dark"
+    sub = FRAMES if FRAMES is not None else pd.DataFrame(columns=["uid", "snapshot", "category", "title", "frame", "score"])
+    if snap and snap != "ALL":
+        sub = sub[sub["snapshot"] == snap]
+    if cats:
+        sub = sub[sub["category"].isin(cats)]
+    if sub.empty:
+        e = empty_fig("No framing data: run python scripts/tag_frames.py", theme)
+        return sub, e, e, "", ""
+
+    by_cat = analytics.frame_mix(sub, "category")
+    f_cat = go.Figure([go.Bar(y=[c.title() for c in by_cat.index], x=by_cat[f], name=f.title(), orientation="h",
+                              marker_color=FRAME_COLORS[f]) for f in by_cat.columns])
+    f_cat = styled(f_cat, theme, 340)
+    f_cat.update_layout(barmode="stack")
+    f_cat.update_xaxes(tickformat=".0%", range=[0, 1])
+
+    by_day = analytics.frame_mix(sub, "snapshot")
+    f_time = go.Figure([go.Scatter(x=[nice_date(d) for d in by_day.index], y=by_day[f], name=f.title(), mode="lines+markers",
+                                   line=dict(color=FRAME_COLORS[f], width=2)) for f in by_day.columns])
+    f_time = styled(f_time, theme, 340)
+    f_time.update_yaxes(tickformat=".0%", rangemode="tozero")
+
+    overall = sub["frame"].value_counts(normalize=True)
+    main_frame = overall.index[0]
+    cat_note = f"What this shows: {main_frame} is the most common frame ({overall.iloc[0]:.0%} of headlines)."
+    others = by_cat.drop(columns=main_frame, errors="ignore")
+    if others.shape[1] and others.to_numpy().max() > 0:
+        cat, frame = others.stack().idxmax()      # the strongest lean towards any other frame
+        cat_note += f" Apart from that, {cat.title()} leans most on {frame} ({by_cat.loc[cat, frame]:.0%})."
+    time_note = ""
+    if main_frame in by_day.columns and len(by_day) > 1:
+        share = by_day[main_frame]
+        time_note = f"What this shows: the {main_frame} share ranges from {share.min():.0%} to {share.max():.0%} across dates."
+    return sub, f_cat, f_time, cat_note, time_note
+
+
+def framing_validation_view():
+    if HAND is None or FRAMES_ALL is None:
+        return html.Div("No hand labels yet: run python scripts/tag_frames.py.", className="notice")
+    result = analytics.framing_validation(FRAMES_ALL, HAND)
+    if result is None:
+        return html.Div("Open data/framing/hand_labels.csv, type one frame per headline in the my_frame column "
+                        f"({', '.join(analytics.FRAMES)}), save it and restart the app.", className="notice")
+    accuracy, kappa, n = result
+    strength = "poor" if kappa < 0.2 else "fair" if kappa < 0.4 else "moderate" if kappa < 0.6 else "substantial"
+    return html.Div([kpi("Model agrees with you", f"{accuracy:.0%}", f"on {n} headlines"),
+                     kpi("Cohen's kappa", f"{kappa:.2f}", strength)], className="row")
+
+
+def update_framing(snap, cats, frame, theme):
+    sub, f_cat, f_time, cat_note, time_note = framing_view(snap, cats, theme)
+    if sub.empty:
+        kpis = [html.Div("No framing data yet: run python scripts/tag_frames.py (needs requirements-zsc.txt).", className="notice")]
+        return kpis, f_cat, f_time, cat_note, time_note, [], framing_validation_view()
+    overall = sub["frame"].value_counts(normalize=True)
+    kpis = [kpi("Headlines tagged", str(len(sub))),
+            kpi("Most common frame", overall.index[0].title(), f"{overall.iloc[0]:.0%} of headlines"),
+            kpi("Model unsure", f"{(sub['score'] < 0.4).mean():.0%}", "confidence under 40%")]
+    examples = sub[sub["frame"] == frame].sort_values("score", ascending=False).head(40)
+    rows = [{"title": r.title, "category": r.category, "snapshot": nice_date(r.snapshot), "score": f"{r.score:.0%}"}
+            for r in examples.itertuples()]
+    return kpis, f_cat, f_time, cat_note, time_note, rows, framing_validation_view()
+
+
+app.callback(Output("f-kpis", "children"), Output("f-cat", "figure"), Output("f-time", "figure"),
+             Output("f-cat-note", "children"), Output("f-time-note", "children"), Output("f-table", "data"),
+             Output("f-valid", "children"),
+             Input("f-snap", "value"), Input("f-cats", "value"), Input("f-frame", "value"), Input("theme", "data"))(update_framing)
 
 
 if __name__ == "__main__":

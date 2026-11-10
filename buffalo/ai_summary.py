@@ -71,9 +71,8 @@ def load_summaries():
     return out
 
 
-def summarise_snapshot(snapshot_label: str, headlines):
-    """Live Gemini call (class P7 prompt). Saves the parsed JSON next to its snapshot.
-    Returns (summary or None, status text)."""
+def ask_for_summary(model_name: str, headlines):
+    """One Gemini call with the class P7 prompt. Returns (parsed summary or None, status). Saves nothing."""
     if not config.GEMINI_API_KEY:
         return None, "no GEMINI_API_KEY set"
     if not headlines:
@@ -81,12 +80,18 @@ def summarise_snapshot(snapshot_label: str, headlines):
     try:
         import google.generativeai as genai
         genai.configure(api_key=config.GEMINI_API_KEY)
-        model = genai.GenerativeModel(config.GEMINI_MODEL)
-        response = model.generate_content(PROMPT_TEMPLATE.format(headlines="\n".join(headlines)))
+        response = genai.GenerativeModel(model_name).generate_content(PROMPT_TEMPLATE.format(headlines="\n".join(headlines)))
         parsed = parse_summary_json(getattr(response, "text", ""))
     except Exception as exc:
         return None, f"Gemini call failed ({type(exc).__name__})"
     if not parsed:
         return None, "Gemini reply was not valid JSON"
-    _summary_path(snapshot_label).write_text(json.dumps(parsed, indent=1), encoding="utf-8")
-    return parsed, f"Gemini ({config.GEMINI_MODEL}), live"
+    return parsed, f"Gemini ({model_name}), live"
+
+
+def summarise_snapshot(snapshot_label: str, headlines):
+    """Summarise a snapshot with the default model and save the JSON next to it. Returns (summary or None, status)."""
+    parsed, status = ask_for_summary(config.GEMINI_MODEL, headlines)
+    if parsed:
+        _summary_path(snapshot_label).write_text(json.dumps(parsed, indent=1), encoding="utf-8")
+    return parsed, status

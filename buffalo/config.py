@@ -16,7 +16,9 @@ SNAPSHOT_DIR = DATA_DIR / "snapshots"   # archive of every NewsAPI fetch
 DEMO_DIR = DATA_DIR / "demo"            # saved class outputs (prices, Gemini JSON)
 CACHE_DIR = DATA_DIR / "cache"          # zero-shot + Tavily caches
 SUMMARY_DIR = DATA_DIR / "summaries"    # one Gemini summary per snapshot
-for d in (SNAPSHOT_DIR, DEMO_DIR, CACHE_DIR, SUMMARY_DIR):
+FRAMING_DIR = DATA_DIR / "framing"      # zero-shot news frames + hand labels
+MODEL_RUNS_FILE = DATA_DIR / "model_comparison.csv"   # Gemini model comparison results
+for d in (SNAPSHOT_DIR, DEMO_DIR, CACHE_DIR, SUMMARY_DIR, FRAMING_DIR):
     d.mkdir(parents=True, exist_ok=True)
 
 

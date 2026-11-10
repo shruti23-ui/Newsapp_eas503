@@ -207,3 +207,65 @@ def sentiment_over_time(df):
     arts = unique_articles(df)
     return (arts.groupby(["snapshot", "category"])["polarity"].mean()
                 .reset_index().sort_values("snapshot"))
+
+
+# Extra: Gemini model comparison
+def score_summary(df_snap, summary, threshold=0.10, categories=None):
+    """Audit one summary with the Newsroom Check metric. Returns coverage, categories left out, weak-claim share."""
+    audit = audit_summary(df_snap, summary)
+    if audit["heads"].empty:
+        return {"coverage": np.nan, "left_out": np.nan, "weak_share": np.nan}
+    cov = coverage_by_category(audit["heads"], threshold, categories or sorted(df_snap["category"].unique()))
+    return {"coverage": cov["represented"].sum() / cov["total"].sum(),
+            "left_out": int((cov["represented"] == 0).sum()),
+            "weak_share": float((audit["sents"]["support"] < 0.25).mean()) if len(audit["sents"]) else np.nan}
+
+
+def compare_models(runs):
+    """
+    runs: one row per (model, snapshot, run) with json_ok, coverage, left_out, weak_share.
+    Returns (one row per model, mean coverage per snapshot and model, paired test as a dict).
+    """
+    if "status" in runs.columns:
+        runs = runs[runs["status"] != "api error"]     # quota or network failures say nothing about the model
+    ok = runs[runs["json_ok"]]
+    summary = (runs.groupby("model").agg(runs=("run", "count"), valid_json=("json_ok", "mean"))
+               .join(ok.groupby("model").agg(coverage=("coverage", "mean"), coverage_sd=("coverage", "std"),
+                                             left_out=("left_out", "mean"), weak_share=("weak_share", "mean")))
+               .reset_index())
+    per_day = ok.pivot_table(index="snapshot", columns="model", values="coverage", aggfunc="mean")
+    test = {}
+    if per_day.shape[1] == 2:
+        a, b = list(per_day.columns)
+        diff = (per_day[b] - per_day[a]).dropna()      # paired: same day, same headlines, same metric
+        test = {"a": a, "b": b, "n": len(diff), "mean_diff": float(diff.mean()) if len(diff) else np.nan, "p": np.nan}
+        if len(diff) >= 5 and (diff != 0).any():
+            from scipy.stats import wilcoxon
+            test["p"] = float(wilcoxon(diff).pvalue)   # signed-rank test: no normality assumption
+    return summary, per_day, test
+
+
+# Extra: news framing (Semetko & Valkenburg, 2000)
+FRAMES = ["conflict", "economic", "human interest", "morality", "responsibility"]
+
+
+def frame_mix(frames, by):
+    """Share of headlines in each frame, for each value of `by` (e.g. category or snapshot)."""
+    counts = frames.pivot_table(index=by, columns="frame", values="uid", aggfunc="count", fill_value=0)
+    counts = counts.reindex(columns=[f for f in FRAMES if f in counts.columns])
+    return counts.div(counts.sum(axis=1), axis=0)
+
+
+def framing_validation(frames, hand):
+    """Model frame vs your own label on hand-labelled headlines. Returns (accuracy, kappa, n) or None."""
+    from sklearn.metrics import cohen_kappa_score
+    labelled = hand[hand["my_frame"].fillna("").astype(str).str.strip() != ""].copy()
+    if labelled.empty:
+        return None
+    labelled["my_frame"] = labelled["my_frame"].str.strip().str.lower()
+    merged = labelled.merge(frames[["uid", "frame"]], on="uid")
+    if merged.empty:
+        return None
+    accuracy = float((merged["my_frame"] == merged["frame"]).mean())
+    kappa = float(cohen_kappa_score(merged["my_frame"], merged["frame"]))
+    return accuracy, kappa, len(merged)

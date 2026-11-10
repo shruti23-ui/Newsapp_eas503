@@ -1,41 +1,41 @@
 # The Buffalo Times: News Intelligence Dashboard
 
-**Assignment:** Extra credits- EAS 503
-**Student:** Shruti Priya (50757311)
+**Assignment:** Extra credit, EAS 503  
+**Student:** Shruti Priya (50757311)  
 **Demo video:** [VIDEO_URL]  
 **Live app:** https://newsappeas503-ihbxry75s9tguguaepuerb.streamlit.app  
-**Notebook walkthrough:** [Buffalo_Times.ipynb](Buffalo_Times.ipynb) (runs offline, outputs included)
+**Notebook:** [Buffalo_Times.ipynb](Buffalo_Times.ipynb) (runs offline, outputs included)
 
-## Summary
-
-The class news app fetched headlines, ran sentiment and NER, and asked Gemini for a summary, but it
-did not use most of what it computed. This project turns three of those gaps into analytical features
-in a Dash dashboard. It runs offline on the four real NewsAPI snapshots saved in the class notebooks.
+A Dash dashboard built on the class news app. The class app fetched headlines, ran sentiment and NER, and asked
+Gemini for a summary, but used little of what it computed. This project turns three of those gaps into features.
 
 ## The three features
 
-| # | Tab | Missed opportunity | What it computes |
-|---|---|---|---|
-| 1 | **Entity Explorer** | spaCy entities were extracted but never used | Ranked entities with mean sentiment, entity by category heatmap, co-mentions. An EntityRuler fixes spaCy's mislabels first. |
-| 2 | **Echo Index** | Each notebook saved a different day's news, never compared | Echo score per headline (TF-IDF cosine to the closest earlier headline), repeated stories, rising and fading words (log-odds with Dirichlet prior) |
-| 3 | **Newsroom Check** | Gemini's JSON summary was never parsed or checked | Coverage of the news by the summary, Tavily check of weak claims, Gemini rewrite re-scored with the same metric, ElevenLabs audio bulletin, ZIP report |
+| Feature | Missed opportunity | What it computes |
+|---|---|---|
+| **Entity Explorer** | spaCy entities were extracted but never used | Most-mentioned people, organizations and places, their average sentiment, entity × category heatmap, co-mentions. An EntityRuler fixes spaCy's mislabels first. |
+| **Echo Index** | Each class notebook saved a different day's news, never compared | Echo score per headline (TF-IDF cosine to the closest earlier headline), repeated and new stories, rising and fading words (log-odds with a Dirichlet prior) |
+| **Newsroom Check** | Gemini's JSON summary was never parsed or checked | How much of the news the summary covers, weakest claims checked with Tavily, a Gemini rewrite re-scored with the same metric, an ElevenLabs audio bulletin, a ZIP report |
 
-Also: opinion map (polarity vs subjectivity), Ask The Buffalo Times (cited answers with a grounding check),
-TextBlob vs zero-shot agreement (Cohen's kappa), dark and light themes.
+**Also added:** top stories with Read more / Listen, Ask The Buffalo Times (cited answers with a grounding check),
+an opinion map, a **Gemini model comparison** (two models, same prompt, same audit, Wilcoxon signed-rank test),
+**news framing** (zero-shot tags for conflict, economic, human interest, morality and responsibility frames,
+Semetko & Valkenburg 2000), and **daily snapshots** saved automatically by GitHub Actions.
 
-## How to run
+## Run it
 
-Requires Python 3.12.
+Python 3.12 is required.
 
 ```bash
 python -m venv .venv
 .venv\Scripts\activate            # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 python app.py                     # open http://127.0.0.1:8080
-pytest -q                         # 10 offline tests
+pytest -q                         # offline tests
 ```
 
-With no keys the app runs in demo mode on the saved snapshots. To use live APIs, create a `.env` file:
+Without API keys the app runs offline on the four news snapshots saved in class. For live news (today and the
+past 7 days) and the Newsroom Check steps, create a `.env` file:
 
 ```
 NEWS_API_KEY=...
@@ -44,39 +44,23 @@ TAVILY_API_KEY=...
 ELEVENLABS_API_KEY=...
 ```
 
-API results are cached in `data/cache/`. Optional zero-shot sentiment: `pip install -r requirements-zsc.txt`.
-
 ## Project structure
 
 ```
-app.py                  Dash app: data loading, layout, callbacks (main submission)
-streamlit_app.py        Streamlit version of the same app
-buffalo/
-  config.py             settings and paths, keys read from .env
-  data_pipeline.py      NewsAPI fetch, snapshot archive, DataFrame
-  nlp.py                TextBlob, zero-shot sentiment, spaCy NER
-  analytics.py          statistics for the three features
-  ai_summary.py         Gemini summary and JSON parsing
-  newsroom.py           Gemini rewrite, Ask, ElevenLabs bulletin
-  external.py           Yahoo Finance, Bluesky, Tavily
-assets/style.css        dark and light themes
-data/                   saved class snapshots, Gemini output, stock prices
-docs/                   GitHub Pages showcase
-scripts/build_pages.py  builds docs/data.js
-tests/test_app.py       pytest tests
+app.py                       Dash app (main submission)
+streamlit_app.py             Streamlit version (the live link above)
+Buffalo_Times.ipynb          notebook walkthrough with results
+buffalo/                     data, NLP, analytics and API code shared by both apps
+scripts/compare_models.py    Gemini model comparison -> data/model_comparison.csv
+scripts/tag_frames.py        zero-shot news frames -> data/framing/ (needs requirements-zsc.txt)
+scripts/save_daily_snapshot.py  run daily by .github/workflows/daily-snapshot.yml
+data/snapshots/              NewsAPI snapshots (class notebooks + live fetches)
+data/summaries/              Gemini summaries
+tests/                       pytest tests
 ```
 
-## Data sources
+## Data
 
-NewsAPI (4 snapshots from the class notebooks), Gemini (saved Nov 2 output), Yahoo Finance (saved prices),
-Tavily and ElevenLabs (live, optional).
-
-In live mode the app shows today and the past 7 days, one snapshot per day. Top headlines cannot be
-fetched for past dates, so missing days are filled once from NewsAPI's article search: articles
-published that day by each category's US sources. Offline demo mode uses only the class snapshots.
-
-## Deployment
-
-- **Streamlit Cloud:** New app, pick this repo and `streamlit_app.py`, Python 3.12, add keys under Secrets.
-- **GitHub Pages:** run `python scripts/build_pages.py`, then Settings, Pages, branch `main`, folder `/docs`.
-- **Render:** New Blueprint from this repo (`render.yaml`), add keys as environment variables.
+Four NewsAPI snapshots come from the class notebooks. Live mode adds today and fills the past 7 days once from
+NewsAPI's article search (articles published that day by each category's US sources). The daily GitHub Actions
+job needs repository secrets `NEWS_API_KEY` and `GEMINI_API_KEY`.

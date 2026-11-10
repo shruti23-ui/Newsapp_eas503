@@ -78,3 +78,29 @@ def test_opinion_map_and_confidence_column():
     out = A.update_briefing(FOCUS, None, "dark")
     assert len(out[4].data) >= 5                      # one scatter trace per category
     assert "subjectivity" in out[5][0] and "confidence" in out[5][0]
+
+
+def test_model_comparison_paired_test():
+    import pandas as pd
+    rows = []
+    for day in range(6):                     # model b covers 0.1 more on every day
+        rows.append({"model": "a", "snapshot": f"d{day}", "run": 1, "json_ok": True,
+                     "coverage": 0.10 + day / 100, "left_out": 2, "weak_share": 0.5})
+        rows.append({"model": "b", "snapshot": f"d{day}", "run": 1, "json_ok": True,
+                     "coverage": 0.20 + day / 100, "left_out": 0, "weak_share": 0.3})
+    rows.append({"model": "a", "snapshot": "d0", "run": 2, "json_ok": False})   # a failed reply
+    summary, per_day, test = analytics.compare_models(pd.DataFrame(rows))
+    assert abs(test["mean_diff"] - 0.10) < 1e-9 and test["n"] == 6 and test["p"] < 0.05
+    assert summary.set_index("model").loc["a", "valid_json"] < 1
+
+
+def test_framing_mix_and_validation():
+    import pandas as pd
+    frames = pd.DataFrame({"uid": list("abcd"), "category": ["sports"] * 2 + ["health"] * 2,
+                           "frame": ["conflict", "conflict", "economic", "human interest"]})
+    mix = analytics.frame_mix(frames, "category")
+    assert mix.loc["sports", "conflict"] == 1.0 and mix.loc["health"].sum() == 1.0
+    hand = pd.DataFrame({"uid": list("abcd"), "my_frame": ["Conflict", "conflict", "economic", ""]})
+    accuracy, kappa, n = analytics.framing_validation(frames, hand)
+    assert n == 3 and accuracy == 1.0 and kappa == 1.0
+    assert analytics.framing_validation(frames, hand.assign(my_frame="")) is None

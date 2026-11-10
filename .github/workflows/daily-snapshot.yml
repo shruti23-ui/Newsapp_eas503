@@ -1,0 +1,34 @@
+# Saves NewsAPI top headlines once a day, so the Echo Index grows by itself.
+# Needs repository secrets NEWS_API_KEY and GEMINI_API_KEY (Settings > Secrets and variables > Actions).
+name: Daily news snapshot
+
+on:
+  schedule:
+    - cron: "0 12 * * *"   # every day at 12:00 UTC (7 AM in Buffalo)
+  workflow_dispatch:        # also lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write           # needed to commit the new snapshot
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the few packages the script needs
+        run: pip install newsapi-python==0.2.7 python-dotenv==1.2.4 pandas==3.0.6 google-generativeai==0.8.6
+      - name: Save today's snapshot
+        run: python scripts/save_daily_snapshot.py
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Commit it
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/snapshots data/summaries
+          git diff --cached --quiet || git commit -m "Daily snapshot $(date -u +%F)"
+          git push
