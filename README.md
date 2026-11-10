@@ -34,7 +34,7 @@ python app.py                     # open http://127.0.0.1:8080
 pytest -q                         # offline tests
 ```
 
-Without API keys the app runs offline on the four news snapshots saved in class. For live news (today and the
+Without API keys the app runs offline on the news snapshots saved in the repo. For live news (today and the
 past 7 days) and the Newsroom Check steps, create a `.env` file:
 
 ```

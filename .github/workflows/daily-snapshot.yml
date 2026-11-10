@@ -14,18 +14,35 @@ jobs:
   snapshot:
     runs-on: ubuntu-latest
     steps:
+      # skip (with a warning) instead of failing when the secret is missing, e.g. on a fork
+      - name: Check the NewsAPI key is set
+        id: keys
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+        run: |
+          if [ -z "$NEWS_API_KEY" ]; then
+            echo "::warning::NEWS_API_KEY secret is not set, so no snapshot was saved. Add it under Settings > Secrets and variables > Actions."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/checkout@v4
+        if: steps.keys.outputs.ready == 'true'
       - uses: actions/setup-python@v5
+        if: steps.keys.outputs.ready == 'true'
         with:
           python-version: "3.12"
       - name: Install the few packages the script needs
+        if: steps.keys.outputs.ready == 'true'
         run: pip install newsapi-python==0.2.7 python-dotenv==1.2.4 pandas==3.0.6 google-generativeai==0.8.6
       - name: Save today's snapshot
+        if: steps.keys.outputs.ready == 'true'
         run: python scripts/save_daily_snapshot.py
         env:
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       - name: Commit it
+        if: steps.keys.outputs.ready == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
