@@ -1,0 +1,25 @@
+{
+ "clusters": [
+  {
+   "title": "Stock Market and Economic Updates",
+   "summary": "US equity futures rose as artificial intelligence enthusiasm countered hot inflation concerns. Meanwhile, consumers increasingly turned to cheaper brands as broader economic pressures continued to pinch."
+  },
+  {
+   "title": "Entertainment and Celebrity News",
+   "summary": "The 2027 Coachella lineup was announced, featuring headliners Dua Lipa, Tame Impala, and SZA. In other entertainment news, actor Stacy Keach passed away at the age of 85."
+  },
+  {
+   "title": "Scientific Discoveries and Space Exploration",
+   "summary": "Scientists have uncovered new clues about how the universe took shape using an advanced simulation. Additionally, researchers continue to explore ancient geological formations and deep-space phenomena."
+  },
+  {
+   "title": "Sports and NFL Updates",
+   "summary": "In recent NFL updates, the Cleveland Browns announced plans to start Deshaun Watson, while the Minnesota Vikings traded for quarterback Kirk Cousins. Analysts and teams continue adjusting strategies following recent trade deadlines."
+  },
+  {
+   "title": "Technology and Gaming Developments",
+   "summary": "Sony's PS5 reached the 100 million units sold milestone six years after its launch. Meanwhile, tech companies navigate various hardware updates, software patches, and evolving artificial intelligence integrations."
+  }
+ ],
+ "global_summary": "Today's news covers a broad spectrum of developments, ranging from fluctuating financial markets driven by inflation and AI optimism to major entertainment announcements like the Coachella 2027 lineup. Scientific and technological sectors saw milestones, including major gaming sales and new cosmic simulations, while sports updates highlighted NFL roster changes and trades. Global events and cybersecurity patches also featured prominently across the news cycle."
+}
