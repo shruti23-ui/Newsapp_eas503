@@ -1,0 +1,25 @@
+{
+ "clusters": [
+  {
+   "title": "Stock Market and Economic Volatility",
+   "summary": "Investors are navigating market fragility as AI trade jitters and failed IPOs impact major indexes. Meanwhile, central banks and global analysts adjust strategies to boost liquidity and manage shifting economic forecasts."
+  },
+  {
+   "title": "Health, Wellness, and Medical Breakthroughs",
+   "summary": "Recent studies highlight promising new treatments and routines for warding off diseases like Alzheimer's and knee osteoarthritis. Health officials are also monitoring seasonal trends, including rising flu rates and measles outbreaks."
+  },
+  {
+   "title": "Scientific Discoveries and Space Exploration",
+   "summary": "Researchers have made fascinating breakthroughs, from finding lost dinosaur footprints in Mongolia to discovering a bizarre 'vampire camel' fossil. In space news, missions to Mercury continue alongside new theories on physics and evolution."
+  },
+  {
+   "title": "Sports Highlights and Coaching Changes",
+   "summary": "College football rankings have seen major shakeups following recent upsets and crucial coaching changes. In professional sports, teams and athletes continue to compete through intense weekend matchups and ongoing injury updates."
+  },
+  {
+   "title": "Entertainment, Gaming, and Pop Culture",
+   "summary": "The massive launch of GTA 6 is dominating gaming conversations as players discover hidden features and gameplay mechanics. Elsewhere in entertainment, box office hits continue to thrive alongside new streaming releases and celebrity updates."
+  }
+ ],
+ "global_summary": "Global headlines span a turbulent stock market rattled by AI trade jitters, alongside promising health breakthroughs and significant scientific discoveries in paleontology and space. In entertainment and gaming, the massive launch of GTA 6 captures widespread attention while sports leagues experience major ranking shakeups and coaching changes. Additionally, current events cover ongoing political developments, international climate talks, and early holiday shopping trends."
+}
