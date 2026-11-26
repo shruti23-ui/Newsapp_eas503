@@ -1,0 +1,21 @@
+{
+ "clusters": [
+  {
+   "title": "Stock Market and Tech Industry Turmoil",
+   "summary": "Global markets face heavy pressure as a massive rally in semiconductor stocks unravels amid weakening confidence in the artificial intelligence trade. Concurrently, major tech companies and gaming platforms navigate outages, security issues, and shifting consumer trends ahead of the holiday season."
+  },
+  {
+   "title": "Health Trends and Scientific Discoveries",
+   "summary": "Public health reports highlight rising seasonal illnesses alongside concerning increases in fungal infections and vaccine hesitancy. Meanwhile, researchers continue to make groundbreaking strides in space exploration, paleontology, and disease treatment innovations."
+  },
+  {
+   "title": "Thanksgiving Travel and Severe Weather",
+   "summary": "Millions of travelers face disruptions and high fares over the holiday week due to FAA issues and severe weather systems targeting parts of the country. Regional forecasts warn of heavy rain, high winds, and snow impacting traditional holiday events."
+  },
+  {
+   "title": "Sports Updates and Postseason Action",
+   "summary": "The NFL Week 12 schedule heats up with crucial playoff picture battles, injury reports, and trade value analyses. Elsewhere, basketball updates, college football rankings, and international sports rulings dominate the headlines."
+  }
+ ],
+ "global_summary": "Today's news is dominated by a sharp downturn in the stock market driven by waning confidence in AI stocks and broader economic indicators. Public health officials are closely monitoring rising seasonal illnesses and emerging medical studies while travelers navigate severe holiday weather and transit delays. Meanwhile, developments in tech, entertainment, and sports provide diverse updates across global industries."
+}
