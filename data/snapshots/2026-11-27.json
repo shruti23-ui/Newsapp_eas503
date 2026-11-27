@@ -1,0 +1,1763 @@
+{
+ "snapshot": "2026-11-27",
+ "source_notebook": null,
+ "fetched_by": "live NewsAPI fetch",
+ "articles": {
+  "business": [
+   {
+    "source": {
+     "id": "axios",
+     "name": "Axios"
+    },
+    "author": "Courtenay Brown",
+    "title": "Trump demands investigation into GDP data revisions - Axios",
+    "description": "The allegations could renew concerns about political interference in the production of critical economic data.",
+    "url": "https://www.axios.com/2026/11/26/trump-gdp-investigation-economy-statistics",
+    "urlToImage": "https://images.axios.com/ySswrD444VnuhQC-4BQsHcANGQg=/0x0:5560x3128/1366x768/2026/11/26/1795707986735.jpeg",
+    "publishedAt": "2026-11-26T20:13:57Z",
+    "content": "What they're saying: The Bureau of Economic Analysis on Wednesday substantially revised the third-quarter GDP data, reflecting a 4.3% annualized pace of growth, up from the 3.4% reported less than a \u2026 [+3154 chars]"
+   },
+   {
+    "source": {
+     "id": "the-washington-post",
+     "name": "The Washington Post"
+    },
+    "author": "Victoria Craw",
+    "title": "FCC approves 1 million SpaceX data centers in space. Astronomers are dismayed. - The Washington Post",
+    "description": "Putting data centers in space has long been the goal of SpaceX CEO Elon Musk. Some scientists are skeptical about the reality.",
+    "url": "https://www.washingtonpost.com/technology/2026/11/26/fcc-approves-1-million-spacex-data-centers-space-astronomers-are-dismayed/",
+    "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/O3FEXMOKRYDEVH4MAM4FXFHFTE.JPG&w=1440",
+    "publishedAt": "2026-11-26T19:25:39Z",
+    "content": "The Trump administration has granted SpaceX authorization to deploy a constellation of 1 million data centers in space to fuel the artificial intelligence boom, in a move that is worrying some scient\u2026 [+26 chars]"
+   },
+   {
+    "source": {
+     "id": "cbs-news",
+     "name": "CBS News"
+    },
+    "author": "Ana Maria  Soler, Abby  Dodge",
+    "title": "FedEx cargo plane runs off Miami International Airport runway, causing ground stop during Thanksgiving travel - CBS News",
+    "description": "The National Transportation Safety Board said it was investigating the incident.",
+    "url": "https://www.cbsnews.com/miami/news/miami-international-airport-ground-stop-fedex-md-11-runway-excursion-faa/",
+    "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/26/fc081b36-4577-4499-94a9-f1cd3e206777/thumbnail/1200x630/4938199f2fc0bd1a0329a623a903e4c7/snapshot-33.jpg",
+    "publishedAt": "2026-11-26T18:33:18Z",
+    "content": "A FedEx cargo plane ran off a runway at\u00a0Miami International Airport\u00a0amid wind and rain Wednesday night, prompting a temporary ground stop during one of the busiest travel days of the year.\r\nAccording\u2026 [+3092 chars]"
+   },
+   {
+    "source": {
+     "id": "bloomberg",
+     "name": "Bloomberg"
+    },
+    "author": "Andre Janse Van Vuuren, Rivaldo Jantjies",
+    "title": "Stocks, Nasdaq Futures Climb as AI Trade Rebounds: Markets Wrap - Bloomberg.com",
+    "description": "Stocks rose as investors in Europe and Asia took their cue from a comeback in technology shares on Wall Street after days of sharp swings.",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-25/stock-market-today-dow-s-p-live-updates",
+    "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iitofMfFUQtc/v0/1200x675.png",
+    "publishedAt": "2026-11-26T18:07:43Z",
+    "content": "Stocks rose as investors in Europe and Asia took their cue from a comeback in technology shares on Wall Street after days of sharp swings.\r\nEuropes Stoxx 600 rallied 1.7%. A gauge of Asian stocks cli\u2026 [+258 chars]"
+   },
+   {
+    "source": {
+     "id": "nbc-news",
+     "name": "NBC News"
+    },
+    "author": "Rob Wile",
+    "title": "Pregnant inmate escapes from New Mexico corrections facility - NBC News",
+    "description": "Authorities are searching for a pregnant inmate who escaped from a New Mexico corrections facility on Wednesday.",
+    "url": "https://www.nbcnews.com/news/us-news/pregnant-inmate-escapes-new-mexico-corrections-facility-rcna611443",
+    "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261126-Rebecca-Taylor-rs-2623d0.jpg",
+    "publishedAt": "2026-11-26T17:36:05Z",
+    "content": "A multi-agency search is underway for a pregnant inmate who escaped while being transported from a New Mexico corrections facility Wednesday, while officers stopped to eat.\r\nRebecca Taylor, a woman i\u2026 [+1586 chars]"
+   },
+   {
+    "source": {
+     "id": "the-wall-street-journal",
+     "name": "The Wall Street Journal"
+    },
+    "author": "WSJ",
+    "title": "Nvidia Tells Partners to Pause Shipments to Southeast Asia - WSJ",
+    "description": null,
+    "url": "https://www.wsj.com/tech/nvidia-tells-partners-to-pause-shipments-to-southeast-asia-5b791cb0",
+    "urlToImage": null,
+    "publishedAt": "2026-11-26T17:06:00Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "BBC News"
+    },
+    "author": null,
+    "title": "Hundreds of flights cancelled as severe weather disrupts Thanksgiving travel in US - BBC",
+    "description": "More than 80 million Americans are expected to be traveling as massive storms are forecast on the western and eastern coasts of the US.",
+    "url": "https://www.bbc.com/news/articles/ckm2mz3prq77o",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/260a/live/9b64fe90-e9ac-11f1-859a-37130cd3a1d7.jpg",
+    "publishedAt": "2026-11-26T15:57:26Z",
+    "content": "Ahead of expected severe weather in New Jersey, the state's governor, Mikie Sherrill, declared a state of emergency. Several coastal areas that experienced flooding earlier this autumn could be vulne\u2026 [+23 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Yahoo Entertainment"
+    },
+    "author": "By David Milliken and Phoebe Seers",
+    "title": "Bank of England sees growing financial risks as AI borrowing surges - Yahoo Finance",
+    "description": "By David Milliken and Phoebe Seers LONDON, Nov 26 (Reuters) - The Bank of England said on Thursday that risks in the global financial system had intensified...",
+    "url": "https://finance.yahoo.com/economy/policy/articles/bank-england-sees-growing-financial-153906001.html",
+    "urlToImage": "https://s.yimg.com/lo/mysterio/api/9e7f2264eaef0b519aba5f7663d28d21a37da1e002f7f694d8d43e3838456a42/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F8fe9acd1dd444c21a6f1d0b5ba1b5039.jpg_up.jpg",
+    "publishedAt": "2026-11-26T15:39:06Z",
+    "content": "By David Milliken and Phoebe Seers\r\nLONDON, Nov 26 (Reuters) - The Bank of England said on Thursday that risks in the global financial system had intensified in recent months as the conflict in the M\u2026 [+3642 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "New York Post"
+    },
+    "author": "Ariel Zilber",
+    "title": "Big Apple retail blues: More than 16,000 NYC storefronts sit empty as businesses struggle - New York Post",
+    "description": "As more shoppers ditch their local mom-and-pop for online stores, New York City storefronts are reaching shocking vacancy levels.",
+    "url": "https://nypost.com/2026/11/26/business/big-apple-retail-blues-more-than-16000-nyc-storefronts-sit-empty-as-businesses-struggle/",
+    "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2026/11/150030624.jpg?quality=75&strip=all&w=1200",
+    "publishedAt": "2026-11-26T14:43:00Z",
+    "content": "As more shoppers ditch their local mom-and-pop for online stores, New York City storefronts are reaching shocking vacancy levels.\r\nOver 16,000 storefronts across the five boroughs are sitting empty a\u2026 [+6604 chars]"
+   },
+   {
+    "source": {
+     "id": "the-hill",
+     "name": "The Hill"
+    },
+    "author": "Steff Danielle Thomas",
+    "title": "Denny\u2019s celebrates Jensen Huang return to Nvidia: \u2018Your booth is waiting\u2019 - The Hill",
+    "description": "Denny\u2019s, the popular breakfast spot, celebrated Jensen Huang\u2019s return as Nvidia CEO on Wednesday, highlighting its decades-long ties to the embattled tech executive. The diner chain said it restored a plaque marking the booth at its San Jose, Calif., restaura\u2026",
+    "url": "https://thehill.com/policy/technology/6244572-dennys-jensen-huang-nvidia-comeback-trump-administration/",
+    "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2026/11/AP26294365742048-e1795702021365.jpg?w=1280",
+    "publishedAt": "2026-11-26T14:31:00Z",
+    "content": "Skip to content\r\nDenny\u2019s, the popular breakfast spot, celebrated Jensen Huang\u2019s return as Nvidia CEO on Wednesday, highlighting its decades-long ties to the embattled tech executive.\r\nThe diner chain\u2026 [+2416 chars]"
+   },
+   {
+    "source": {
+     "id": "cnn",
+     "name": "CNN"
+    },
+    "author": "Billy Stockwell",
+    "title": "Huge plume of black smoke seen from space after Houthis claim strike on Saudi\u2019s biggest oil refinery - CNN",
+    "description": "Satellite imagery taken Wednesday showed a huge plume of black smoke rising from Saudi Arabia\u2019s coastal Ras Tanura peninsula after Yemen\u2019s Iran-backed Houthi rebels claimed to have attacked the kingdom\u2019s biggest oil refinery.",
+    "url": "https://www.cnn.com/2026/11/26/middleeast/houthi-saudi-oil-refinery-strike-satellite-imagery-intl",
+    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/2026-11-25t142116z-1374332128-rc22voaez5qy-rtrmadp-3-iran-crisis-saudi-houthi.JPG?c=16x9&q=w_800,c_fill",
+    "publishedAt": "2026-11-26T12:23:29Z",
+    "content": "Satellite imagery taken Wednesday showed a huge plume of black smoke rising from Saudi Arabias coastal Ras Tanura peninsula after Yemens Iran-backed Houthi rebels claimed to have attacked the kingdom\u2026 [+3086 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "BBC News"
+    },
+    "author": null,
+    "title": "Norse Atlantic suspends all flights as it faces potential collapse - BBC",
+    "description": "The carrier is looking for urgent funding, but will file for bankruptcy without a financial lifeline.",
+    "url": "https://www.bbc.com/news/articles/c9kgmd0ldy0lo",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/df47/live/6f07a020-e98c-11f1-9d1c-4dcc8fcde666.jpg",
+    "publishedAt": "2026-11-26T11:38:45Z",
+    "content": "Rory Boland, Which? travel editor, said: \"If Norse does go bust, whether you get a refund depends on how you booked and paid. If you booked directly with Norse, you may be able to claim a refund via \u2026 [+55 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Variety"
+    },
+    "author": "K.J. Yossman",
+    "title": "Former Disney Boss Bob Iger \u2018Got ABC Employee Pregnant\u2019 During Affair, New Book Claims - Variety",
+    "description": "A new book claims former Disney boss Bob Iger impregnated an employee during a consensual extra-marital relationship.",
+    "url": "https://variety.com/2026/film/global/bob-iger-employee-pregnant-new-book-1236958840/",
+    "urlToImage": "https://variety.com/wp-content/uploads/2026/11/Philadelphia-Eagles-v-Green-Bay-Packers-1000.jpg?w=1000&h=563&crop=1",
+    "publishedAt": "2026-11-26T10:24:00Z",
+    "content": "Former Disney boss Bob Iger allegedly impregnated an employee in the 1990s, according to an explosive new book, per the New York Times.\r\nThe newspaper has published an interview with Wall Street Jour\u2026 [+1683 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "MarketWatch"
+    },
+    "author": "Nora Redmond",
+    "title": "The tech rout should bottom soon, with a 25% rally for the S&P 500 to follow, says Deutsche Bank - MarketWatch",
+    "description": "",
+    "url": "https://www.marketwatch.com/story/the-tech-rout-should-bottom-soon-with-a-25-rally-for-the-s-p-500-to-follow-says-deutsche-bank-c9070bf6",
+    "urlToImage": "https://images.mktw.net/im-59635589/social",
+    "publishedAt": "2026-11-26T10:11:00Z",
+    "content": "The selloff in technology stocks should subside soon, which could help the S&amp;P 500 to gain upward of 25%, according to Deutsche Bank.\r\nSince mid-October, the Nasdaq-100 \r\nNDX has plunged about 12\u2026 [+515 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Daily Beast"
+    },
+    "author": "Leigh Kimmins",
+    "title": "Fox News Serves Trump Humiliating Thanksgiving Reality Check - The Daily Beast",
+    "description": "Bret Baier is not afraid to take on the president.",
+    "url": "https://www.thedailybeast.com/fox-news-serves-trump-humiliating-thanksgiving-reality-check",
+    "urlToImage": "https://media.thedailybeast.com/resizer/v2/OVKAVEBS2ZGDZG6HOITNHYDCNA.jpg?auth=43dd95f86a4e0aa391e0cec5e446954364c1fc28dc1be7903f77766ca1f8d50e&width=1200&height=630&focal=320%2C180",
+    "publishedAt": "2026-11-26T10:02:01Z",
+    "content": "Fox News host Bret Baier has served President Donald Trump a humiliating Thanksgiving reality check on prices. Speaking on Special Report on Wednesday, the host noted that the price of a festive meal\u2026 [+3576 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "InStyle"
+    },
+    "author": "https://www.facebook.com/InStyle",
+    "title": "People Always Ask Me What to Buy on Black Friday\u2014Here Are 10 Amazon Deals I Never Skip, From $8 - InStyle",
+    "description": "An InStyle editor, whose friends and family always ask her what they should buy, found the 10 best Amazon Black Friday deals. Shop fleece-lined boots, Oprah Winfrey\u2019s go-to moisturizer, a cozy Hanes sweatshirt, and soft matching sets from $8 during Amazon\u2019s B\u2026",
+    "url": "https://www.instyle.com/what-to-buy-amazon-black-friday-2026-12194664",
+    "urlToImage": "https://www.instyle.com/thmb/mXIcReUiYC5Sw9EroQ6EWUyXPOA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/112326-bf-amazon-soc-7c445ca5404f40c18789398878a3cf10.jpg",
+    "publishedAt": "2026-11-26T10:00:00Z",
+    "content": "If theres one thing Im known for among my friends, its my shopping advice. Sure, Im a skilled cheerer-upper and a reliable venting outlet, but finding people things they love? Thats my specialty. Its\u2026 [+3722 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Benzinga"
+    },
+    "author": "Ananya Gairola",
+    "title": "Abdul El-Sayed Says \u2018Too Big to Fail\u2019 Wasn't Pretty Last Time: Trump Chose Stock Market Over National Security - Benzinga",
+    "description": "El-Sayed accused Trump of putting Nvidia\u2019s market interests ahead of national security by pushing for Jensen Huang\u2019s return as CEO.",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63659951/trump-nvidia-jensen-huang-backlash",
+    "urlToImage": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/11/26/Democratic-gubernatorial-candidate-Abdul.jpg",
+    "publishedAt": "2026-11-26T06:11:26Z",
+    "content": "President Donald Trumpsintervention inNvidia Corps(NASDAQ:NVDA) leadership has sparked backlash from Democratic Sen.-elect Abdul El-Sayed, who warned that the chipmaker may have become too important \u2026 [+3105 chars]"
+   },
+   {
+    "source": {
+     "id": "bloomberg",
+     "name": "Bloomberg"
+    },
+    "author": "Peter Vercoe",
+    "title": "Musk Says Every US Kid to Get Two SpaceX Shares, Doubling Pledge - Bloomberg.com",
+    "description": "Elon Musk and SpaceX will give every child in the US two shares in the space exploration company, doubling a commitment the world\u2019s richest person made just last month.",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-26/musk-says-every-us-kid-to-get-two-spacex-shares-doubling-pledge",
+    "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/insF8BIOkECw/v0/1200x800.jpg",
+    "publishedAt": "2026-11-26T04:57:47Z",
+    "content": "Elon Musk and SpaceX will give every child in the US two shares in the space exploration company, doubling a commitment the worlds richest person made just last month. \r\nSpaceX will contribute one ne\u2026 [+268 chars]"
+   }
+  ],
+  "entertainment": [
+   {
+    "source": {
+     "id": null,
+     "name": "NPR"
+    },
+    "author": "Chloe Veltman",
+    "title": "Black and tan coonhound Rocker is top dog at the 2026 National Dog Show - NPR",
+    "description": "Around 2,000 dogs competed in the latest edition of the National Dog Show, a beloved Thanksgiving tradition hosted by the Kennel Club of Philadelphia and broadcast by NBC.",
+    "url": "https://www.npr.org/2026/11/26/nx-s1-6054881/2026-national-dog-show-coonhound-rocker",
+    "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4670x2627+0+243/resize/1400/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff1%2F58%2Fa5ad2fbe4885be94763f638069b5%2Faz3y1564-1.jpg",
+    "publishedAt": "2026-11-26T19:00:00Z",
+    "content": "An enthusiastic black and tan coonhound with a glossy coat and big floppy ears named Rocker is top dog at this year's National Dog Show the most widely viewed dog competition in the country.\r\nRocker \u2026 [+2439 chars]"
+   },
+   {
+    "source": {
+     "id": "associated-press",
+     "name": "Associated Press"
+    },
+    "author": "Thomas Adamson",
+    "title": "French cinema star G\u00e9rard Depardieu ordered to stand trial for rape and sexual assault - AP News",
+    "description": "French actor G\u00e9rard Depardieu has been ordered to stand trial on charges of raping and sexually assaulting a young actress at his Paris home in 2018. The Paris Court of Appeal ruled on Thursday that Depardieu should face trial over allegations of rape and sex\u2026",
+    "url": "https://apnews.com/article/france-depardieu-rape-allegations-trial-68a9679a92161ef5b77027aee3fd988a",
+    "urlToImage": "https://dims.apnews.com/dims4/default/66a0dad/2147483647/strip/true/crop/2888x1926+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F30%2F24%2F8ef571a97c3ae8d510b83463c4c3%2F85c8bf52bbd748459598416456d34df2",
+    "publishedAt": "2026-11-26T17:07:00Z",
+    "content": "PARIS (AP) G\u00e9rard Depardieu, for decades one of Frances most celebrated actors, has been ordered to stand trial on charges of raping and sexually assaulting a young actress, authorities said Thursday\u2026 [+3524 chars]"
+   },
+   {
+    "source": {
+     "id": "newsweek",
+     "name": "Newsweek"
+    },
+    "author": "Jack Royston",
+    "title": "Prince William and Harry's rift has a new victim\u2014their Diana charity - AOL.com",
+    "description": "The Diana Award filed for bankruptcy a year before the 30th anniversary Princess Diana's death.",
+    "url": "https://www.newsweek.com/prince-william-harry-rift-victimtheir-diana-award-charity-12770709",
+    "urlToImage": "https://hermes.media.static.aol.com/media/2026/11/26/45d8e861-901b-3fcc-9298-26cfbc3d90de/1cd4d22c-993a-43c1-b125-2381a4c99e69.jpg",
+    "publishedAt": "2026-11-26T17:05:48Z",
+    "content": "A charity created in Princess Dianas memory announced it has filed for bankruptcy a year before the 30th anniversary of her death, severing one of the final links between her warring sons, Prince Wil\u2026 [+4902 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Page Six"
+    },
+    "author": "Bernie Zilio",
+    "title": "Travis Barker makes \u2018awkward\u2019 confession to Khlo\u00e9 Kardashian about his and Kourtney\u2019s marriage - Page Six",
+    "description": "The Blink-183 drummer confronted Khlo\u00e9 about her concerns over \u201cnever\u201d seeing her sister anymore.",
+    "url": "https://pagesix.com/2026/11/26/celebrity-news/travis-barker-makes-awkward-confession-to-khloe-kardashian-about-his-and-kourtneys-marriage/",
+    "urlToImage": "https://pagesix.com/wp-content/uploads/sites/3/2026/11/travis-barker-marriage-confession.jpg?quality=75&strip=all&w=1200",
+    "publishedAt": "2026-11-26T16:48:00Z",
+    "content": "Travis Barker made an \u201cawkward\u201d confession about his marriage to Kourtney Kardashian to her sister Khlo\u00e9 Kardashian.\r\nOn this week\u2019s episode of \u201cThe Kardashians,\u201d the Blink-182 drummer approached Khl\u2026 [+2652 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Page Six"
+    },
+    "author": "Nola Ojomu",
+    "title": "Khlo\u00e9 Kardashian makes shock marriage admission after demisexuality reveal - Page Six",
+    "description": "The mom of two made yet another candid revelation about her dating life during a conversation with influencer Colt Paulsen on Thursday\u2019s episode of \u201cThe Kardashians.\u201d",
+    "url": "https://pagesix.com/2026/11/26/celebrity-news/khloe-kardashian-makes-shock-lavender-marriage-admission/",
+    "urlToImage": "https://pagesix.com/wp-content/uploads/sites/3/2026/11/150109533.jpg?quality=75&strip=all&w=1200",
+    "publishedAt": "2026-11-26T16:13:00Z",
+    "content": "Khlo\u00e9 Kardashian is keeping an open mind when it comes to her future relationships.\r\nDuring Thursday\u2019s episode of \u201cThe Kardashians,\u201d the reality star revealed her interest in exploring a \u201clavender ma\u2026 [+4023 chars]"
+   },
+   {
+    "source": {
+     "id": "the-verge",
+     "name": "The Verge"
+    },
+    "author": "Sheena Vasani",
+    "title": "Disney Plus, Hulu, and HBO Max are all over 50 percent off for Black Friday - The Verge",
+    "description": "We\u2019ve rounded up the best Black Friday streaming deals on HBO Max, Disney Plus, Hulu, Peacock, Paramount Plus, Apple TV, and more starting at just $2.99 a month.",
+    "url": "https://www.theverge.com/gadgets/1041762/best-black-friday-streaming-deals-2026",
+    "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/peter-claffey-dexter-sol-ansell.jpg?quality=90&strip=all&crop=0%2C13.791312172775%2C92.21171875%2C72.41737565445&w=1200",
+    "publishedAt": "2026-11-26T16:00:00Z",
+    "content": "<ul><li></li><li></li><li></li></ul>\r\nMany services are offering discounts that last anywhere from two months to a full year.\r\nMany services are offering discounts that last anywhere from two months \u2026 [+9990 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Tara Bennett",
+    "title": "The Rings of Power Season 3 Showrunners Promise That They Know What the Last Shot of the Series Will Be - IGN",
+    "description": "The Rings of Power Season 3  just ended, so showrunners J. D. Payne and Patrick McKay break down everything that happened - and what to expect next.",
+    "url": "https://www.ign.com/articles/the-rings-of-power-season-3-ending-explained-with-showrunners-j-d-payne-and-patrick-mckay",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/25/rings-of-power-season-3-ending-explained-thumb-1795646574546.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-26T13:00:00Z",
+    "content": "Spoilers follow for The Lord of the Rings: The Rings of Power\r\n Season 3.\r\nThe last frame of The Lord of the Rings: The Rings of Power Season 3 focuses on Sauron (Charlie Vickers) looking straight to\u2026 [+8901 chars]"
+   },
+   {
+    "source": {
+     "id": "usa-today",
+     "name": "USA Today"
+    },
+    "author": "Jennifer Hassan",
+    "title": "Katy Perry shares loved up photos with Justin Trudeau, new haircut - USA Today",
+    "description": "Katy Perry is sharing a glimpse of her recent trip to Europe with Justin Trudeau, where the singer's new hair makes its \"euro debut.\"",
+    "url": "https://www.usatoday.com/story/entertainment/music/2026/11/26/katy-perry-justin-trudeau-europe-photos-hair-transformation/92969484007/",
+    "urlToImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/11/26/USAT/92969555007-20260920-t-040713-z-78432233-rc-2-rmnaknmdm-rtrmadp-3-filmlucasmuseum.JPG?crop=5499,3093,x0,y550&width=3200&height=1800&format=pjpg&auto=webp",
+    "publishedAt": "2026-11-26T12:52:00Z",
+    "content": "Katy Perry and her new hairstyle are rocking Europe.\r\n\"The bobs euro debut,\" the pop star wrote as she shared a series of snaps to Instagram on Wednesday, Nov. 25.\r\nThe first photo shows the singer l\u2026 [+1870 chars]"
+   },
+   {
+    "source": {
+     "id": "usa-today",
+     "name": "USA Today"
+    },
+    "author": "Brian Truitt",
+    "title": "'The Mosquito Bowl' \u2013 The true story behind Netflix's WWII movie - USA Today",
+    "description": "College football stars head off to battle Japanese forces in Netflix's \"The Mosquito Bowl.\" Here's what's fact vs. fiction in the World War II movie.",
+    "url": "https://www.usatoday.com/story/entertainment/movies/2026/11/26/the-mosquito-bowl-movie-fact-check-true-story/92913070007/",
+    "urlToImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/11/25/USAT/92960362007-mb-20250804-01955-r.JPG?crop=4196,2362,x2,y0&width=3200&height=1802&format=pjpg&auto=webp",
+    "publishedAt": "2026-11-26T12:30:00Z",
+    "content": "Spoiler alert! We're discussing important plot points in \"The Mosquito Bowl\" (streaming now on Netflix), so beware if you want to go in completely cold.\r\nThe Mosquito Bowl mines real-life history to \u2026 [+5713 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Variety"
+    },
+    "author": "Ellise Shafer",
+    "title": "Richard Hammond Says He Was Approached About \u2018Top Gear\u2019 Return, but Decided: \u2018No, I\u2019m Too Old\u2019 - Variety",
+    "description": "Former \"Top Gear\" host Richard Hammond revealed he was approached about returning to the BBC's revived version of the car show, but declined.",
+    "url": "https://variety.com/2026/tv/news/top-gear-richard-hammond-declined-return-1236958870/",
+    "urlToImage": "https://variety.com/wp-content/uploads/2026/11/richard-hammond.jpg?w=1000&h=563&crop=1",
+    "publishedAt": "2026-11-26T11:33:00Z",
+    "content": "Former \u201cTop Gear\u201d co-host Richard Hammond has revealed that he was approached about returning to the BBC\u2018s revived version of the car show, but declined because he\u2019s \u201ctoo old.\u201d\r\nHammond appeared on T\u2026 [+2008 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Yahoo Entertainment"
+    },
+    "author": "Taryn Ryder",
+    "title": "'The Hunting Wives' is bringing steamy intrigue to Thanksgiving watchlists. Its creator explains the art of unapologetically trashy TV. - Yahoo",
+    "description": "\"The Hunting Wives\" creator Rebecca Cutter on Season 2's sex, scandal and the chemistry that keeps viewers hooked.",
+    "url": "https://www.yahoo.com/entertainment/tv/article/the-hunting-wives-is-bringing-steamy-intrigue-to-thanksgiving-watchlists-its-creator-explains-the-art-of-unapologetically-trashy-tv-110000565.html",
+    "urlToImage": "https://s.yimg.com/lo/mysterio/api/96f48106253b5d6d8530fcf960088867ccb9ead21242cd0db354674d2510e951/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Flead-hunting-wives-1_5755.jpg",
+    "publishedAt": "2026-11-26T11:00:00Z",
+    "content": "If you want a side of erotic intrigue with your pumpkin pie this year, The Hunting Wives is happy to oblige. You might just want to consider if your family is still on the couch before you press play\u2026 [+6292 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "BBC News"
+    },
+    "author": null,
+    "title": "Veruschka: Striking images of one of the world's first supermodels, who has died aged 87 - BBC",
+    "description": "Veruschka was a model and artist who became one of one of the first global fashion stars in the 1960s.",
+    "url": "https://www.bbc.com/news/articles/cmn50ezxdnewo",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/d995/live/d7575180-e977-11f1-acd8-af22a7ebb474.jpg",
+    "publishedAt": "2026-11-26T10:32:20Z",
+    "content": "\"She worked with Yves Saint Laurent, Karl Lagerfeld, and Valentino, but also immersed herself in avant-garde photography projects in which she painted, staged, and deconstructed her body."
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "WDIV ClickOnDetroit"
+    },
+    "author": "Samantha Sayles",
+    "title": "Watch live: America\u2019s Thanksgiving Parade, presented by Gardner White - ClickOnDetroit | WDIV Local 4",
+    "description": "The 100th America\u2019s Thanksgiving Parade, presented by Gardner White, returns to Downtown Detroit on Nov. 26! Here\u2019s what you need to know.",
+    "url": "https://www.clickondetroit.com/news/local/2026/11/26/watch-live-americas-thanksgiving-parade-presented-by-gardner-white/",
+    "urlToImage": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/5GV57R3OFJBCZGTJVM4ZAXN3W4.png?api_key=clickondetroit_06f87fefb2123598",
+    "publishedAt": "2026-11-26T10:00:00Z",
+    "content": "The 100th Americas Thanksgiving Parade, presented by Gardner White, returns to Downtown Detroit on Nov. 26! Heres what you need to know.\r\nThe parade is held on Thanksgiving morning, Nov. 26, 2026.\r\nT\u2026 [+864 chars]"
+   },
+   {
+    "source": {
+     "id": "cnn",
+     "name": "CNN"
+    },
+    "author": "Lauren Mascarenhas",
+    "title": "The story of America\u2019s favorite Thanksgiving duo is being adapted for a Lifetime movie - CNN",
+    "description": "It started back in 2016, when an invitation to Wanda Dench\u2019s family Thanksgiving dinner, intended for one of her grandchildren, ended up on Jamal Hinton\u2019s phone.",
+    "url": "https://www.cnn.com/2026/11/26/us/viral-thanksgiving-text-tradition-lifetime",
+    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/img-1390.jpg?c=16x9&q=w_800,c_fill",
+    "publishedAt": "2026-11-26T09:00:15Z",
+    "content": "Wanda Dench and Jamal Hinton sat side by side on a park bench in Arizona this Tuesday, gaming out logistics.\r\nThey have a lot on their plates: Scheduling Thanksgiving celebrations with each of their \u2026 [+4668 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "NBC4 Washington"
+    },
+    "author": "Andrew Dalton and Mallika Sen | The Associated Press",
+    "title": "Angelina Jolie and Brad Pitt settle winery fight lawsuit that surfaced abuse allegations - NBC4 Washington",
+    "description": "Angelina Jolie and Brad Pitt have reached a settlement in their dispute over ownership of a French winery.",
+    "url": "https://www.nbcwashington.com/entertainment/entertainment-news/angelina-jolie-brad-pitt-settle-winery-fight-lawsuit/4188270/",
+    "urlToImage": "https://media.nbcwashington.com/2019/09/GettyImages-74207457-Pitt-Jolie-2007.jpg?quality=85&strip=all&crop=87px%2C87px%2C1113px%2C626px&resize=1200%2C675",
+    "publishedAt": "2026-11-26T07:02:35Z",
+    "content": "The long-running legal battles between Angelina Jolie and Brad Pitt have come to an end a decade after the A-list celebrity couple split, with the actors settling a dispute over the ownership of a Fr\u2026 [+4061 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "NPR"
+    },
+    "author": "The Associated Press",
+    "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65 - NPR",
+    "description": "Taylor revealed his battle with Stage 4 metastatic prostate cancer in 2022. He was the guitarist of the 1980s English band Duran Duran, whose pop hits included \"Hungry Like the Wolf\" and \"Rio\".",
+    "url": "https://www.npr.org/2026/11/26/g-s1-155934/andy-taylor-duran-duran-obit",
+    "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1851x1041+0+96/resize/1400/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F40%2F0b%2Fd938374d4546b030f31d11e27027%2Fap26329783844907.jpg",
+    "publishedAt": "2026-11-26T06:34:20Z",
+    "content": "Andy Taylor, the original guitarist of the 1980s English new wave band Duran Duran, whose huge pop hits included \"Hungry Like the Wolf,\" \"The Reflex\" and \"Rio\" and were inextricably linked to the lau\u2026 [+7098 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Variety"
+    },
+    "author": "Payton Turkeltaub",
+    "title": "Candace Cameron Bure Says She Still Gets \u2018Substantial\u2019 \u2018Full House\u2019 Residuals and Wasn\u2019t Surprised the Olsen Twins Skipped \u2018Fuller House\u2019: No One \u2018Stayed Close\u2019 With Them - Variety",
+    "description": "Candace Cameron Bure discussed the \u201csubstantial\u201d residuals she still gets from \u201cFull House.\u201d",
+    "url": "https://variety.com/2026/tv/news/candace-cameron-bure-full-house-residuals-olsen-twins-1236958774/",
+    "urlToImage": "https://variety.com/wp-content/uploads/2022/01/Bob-Saget-Full-House.jpg?w=1000&h=563&crop=1",
+    "publishedAt": "2026-11-26T06:13:00Z",
+    "content": "Candace Cameron Bure appeared on the \u201cMcBride Rewind\u201d podcast on Tuesday and discussed the \u201csubstantial\u201d residuals she still gets from \u201cFull House,\u201d as well as why she wasn\u2019t surprised that Mary-Kate\u2026 [+2105 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "San Francisco Chronicle"
+    },
+    "author": "Aidin Vaziri",
+    "title": "Man who died in West Hollywood condo fall was UC Berkeley grad, son of wah-wah pedal inventor - San Francisco Chronicle",
+    "description": "Chris Kacher, 58, a UC Berkeley-trained nuclear physicist and son of wah-wah pedal inventor Del Casher, died after falling from a condo in West Hollywood.",
+    "url": "https://www.sfchronicle.com/california/article/chris-kacher-west-hollywood-22550812.php",
+    "urlToImage": "https://s.hdnux.com/photos/01/70/03/07/31470041/3/rawImage.jpg",
+    "publishedAt": "2026-11-26T06:08:39Z",
+    "content": "Chris Kacher, 58, was identified as the man who died after falling from an 18th-floor unit at West Hollywoods Sierra Towers.\u00a0\r\nUC Berkeley\r\nThe man who died after falling from an 18th-floor condomini\u2026 [+4023 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Rolling Stone"
+    },
+    "author": "Charisma Madarang",
+    "title": "U2 Perform Dolly Parton\u2019s Final Recording During NFL Halftime Show - Rolling Stone",
+    "description": "U2 performed the Dolly Parton and Bono duet, \"Torn,\" during the NFL Thanksgiving Eve halftime show.",
+    "url": "http://www.rollingstone.com/music/music-news/u2-tribute-dolly-parton-torn-thanksgiving-nfl-halftime-show-1235664834/",
+    "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2026/11/u2-halftime-show-dolly-parton-tribute.jpg?w=1600&h=900&crop=1",
+    "publishedAt": "2026-11-26T05:15:21Z",
+    "content": "On the eve of Thanksgiving at the NFL halftime show, U2 performed the Dolly Parton and Bono duet, \u201cTorn,\u201d as the country great\u2019s image was projected on screens surrounding the stage.\r\nIt was a poigna\u2026 [+1476 chars]"
+   }
+  ],
+  "health": [
+   {
+    "source": {
+     "id": null,
+     "name": "New York Post"
+    },
+    "author": "Rachel Sacks",
+    "title": "The Thanksgiving dinner staple behind 50% of holiday choking cases - New York Post",
+    "description": "The risk of choking exponentially increases around holidays thanks to one dinner staple in particular, which accounts for half of hospital visits.",
+    "url": "https://nypost.com/2026/11/26/health/the-thanksgiving-dinner-staple-behind-50-of-holiday-choking-cases/",
+    "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2026/11/crop-42116266.jpg?quality=75&strip=all&w=1200",
+    "publishedAt": "2026-11-26T14:00:00Z",
+    "content": "Beware of fowl play before gobbling down Thanksgiving dinner.\r\nWhile the abundance of food served every holiday is technically enough to make your stomach explode, there\u2019s another risk you should be \u2026 [+3054 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "NPR"
+    },
+    "author": "The Associated Press",
+    "title": "Congo Ebola outbreak reaches 12,000 cases as some responders evacuate - NPR",
+    "description": "As the fast-moving outbreak continues to spread in eastern Congo, fighting between rebels and the army is disrupting efforts to contain the spread of the disease.",
+    "url": "https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders",
+    "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5760x3240+0+300/resize/1400/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F5c%2Fce%2F2b1557be47b9bc08a682a6d8f98f%2Fap26329472681866.jpg",
+    "publishedAt": "2026-11-26T13:47:09Z",
+    "content": "BUNIA, Congo The fast-moving Ebola outbreak in eastern Congo has topped 12,000 confirmed cases, government data showed Thursday, as fighting between rebels and the army disrupts efforts to contain th\u2026 [+2154 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "HuffPost"
+    },
+    "author": null,
+    "title": "Can Sparkling Water Increase Your Risk Of Colorectal Cancer? - HuffPost",
+    "description": "If you sip on canned sparkling water or seltzer regularly, listen up.",
+    "url": "https://www.huffpost.com/entry/can-sparkling-water-increase-your-risk-of-colorectal-cancer-g_l_6b047b64e4b0cf294a12551f",
+    "urlToImage": "https://img.huffingtonpost.com/asset/69ce8e301700008c5376ef46.jpeg?cache=d3cAWWNMzY&ops=500_281%2Cscalefit_1200_630",
+    "publishedAt": "2026-11-26T12:00:18Z",
+    "content": "It seems as though every day another product is linked to a higher risk of cancer. Growing evidence suggests deli meats, alcohol, sugar-sweetened beverages and ultra-processed snacks may contribute t\u2026 [+4768 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Science Daily"
+    },
+    "author": null,
+    "title": "Common supplements rival antibiotics in treating severe gum disease - ScienceDaily",
+    "description": "A combination of omega-3 and low-dose aspirin produced results comparable to antibiotics when used alongside standard treatment for severe gum disease, with benefits persisting long after supplementation ended. The surprising discovery could offer an alternat\u2026",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261126033031.htm",
+    "urlToImage": "https://www.sciencedaily.com/images/1920/woman-showing-inflamed-gum-disease.webp",
+    "publishedAt": "2026-11-26T11:44:19Z",
+    "content": "A familiar dietary supplement combined with low-dose aspirin may offer an unexpected alternative to antibiotics for people with severe gum disease. In a year-long clinical trial, patients who receive\u2026 [+9836 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "syracuse.com"
+    },
+    "author": "Syracuse.com",
+    "title": "CWD confirmed again in Upstate NY wild deer population - Syracuse.com",
+    "description": null,
+    "url": "https://www.syracuse.com/news/2026/11/chronic-wasting-disease-found-in-2nd-wild-deer-in-upstate-ny.html",
+    "urlToImage": null,
+    "publishedAt": "2026-11-26T11:05:00Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": "the-washington-post",
+     "name": "The Washington Post"
+    },
+    "author": "Liam Scott",
+    "title": "Missing Maryland man with Alzheimer\u2019s shows up in Philadelphia, plays a piano - The Washington Post",
+    "description": "His daughter said the 78-year-old traveled more than 100 miles in an effort to return to where he grew up in Pennsylvania.",
+    "url": "https://www.washingtonpost.com/dc-md-va/2026/11/26/missing-maryland-man-with-alzheimers-shows-up-philadelphia-plays-piano/",
+    "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/HDCFOFULKRHNNGGYPTE56E3ZPI.JPG&w=1440",
+    "publishedAt": "2026-11-26T11:02:45Z",
+    "content": "No one may ever know exactly how Frank Grow made his way more than 100 miles from Maryland to Pennsylvania last week. But about a few hours after Grow, who has Alzheimers, disappeared, he turned up i\u2026 [+74 chars]"
+   },
+   {
+    "source": {
+     "id": "the-washington-post",
+     "name": "The Washington Post"
+    },
+    "author": "Trisha Pasricha, MD",
+    "title": "Why you should take a \u2018fart walk\u2019 after a big Thanksgiving meal - The Washington Post",
+    "description": "As a gastroenterologist, I recommend you take a short walk after eating to help you feel less bloated.",
+    "url": "https://www.washingtonpost.com/wellness/2026/11/25/why-fart-walk-should-be-your-post-thanksgiving-plan/",
+    "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https%3A%2F%2Farc-anglerfish-washpost-prod-washpost.s3.amazonaws.com%2Fpublic%2FCQDUXOA2POIM75OXIMZGWXF754_size-normalized.jpg&w=1200",
+    "publishedAt": "2026-11-26T05:52:34Z",
+    "content": "Its the day before Thanksgiving. Is your turkey still frozen? If so, dont panic. Its possible to roast a bird from frozen on Thanksgiving Day with delicious results. Heres how to avert a culinary cri\u2026 [+2076 chars]"
+   },
+   {
+    "source": {
+     "id": "cnn",
+     "name": "CNN"
+    },
+    "author": "Diana Anos",
+    "title": "Their mother awoke from a coma and told her children they needed surgery next - CNN",
+    "description": "Dr. Annette Wagner always knew that her arteries could fail her. Within six months, three of her children would have procedures to avoid the same situation she faced.",
+    "url": "https://www.cnn.com/2026/11/26/health/family-health-history-loeys-dietz",
+    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/back-row-from-left-charles-gavin-madison-bottom-from-left-hadley-vold-annette-kirstin-michela.JPG?c=16x9&q=w_800,c_fill",
+    "publishedAt": "2026-11-26T05:01:15Z",
+    "content": "Dr. Annette Wagner always knew that her arteries could fail her.\r\nOne morning last year, while in her clinic with a patient, the pediatric dermatologist felt breathtaking and excruciating pain in her\u2026 [+10818 chars]"
+   },
+   {
+    "source": {
+     "id": "axios",
+     "name": "Axios"
+    },
+    "author": "Caitlin Owens, Megan Cardona",
+    "title": "COVID on the rise in North Texas - Axios",
+    "description": "Dallas County's COVID levels were high heading into the Thanksgiving holiday.",
+    "url": "https://www.axios.com/local/dallas/2026/11/25/covid-north-texas-dallas",
+    "urlToImage": "https://images.axios.com/4ByP4T_lzE22kVNsV1vpMS4hnUM=/1366x768/smart/2023/09/26/172020-1695748820041.jpg",
+    "publishedAt": "2026-11-26T03:25:08Z",
+    "content": "Zoom in: Dallas County's COVID levels were high heading into the Thanksgiving holiday, according to data collected by the Pandemic Mitigation Collaborative, a Tulane University project.\r\n<ul><li>COVI\u2026 [+1001 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "WISHTV.com"
+    },
+    "author": "Gina Glaros",
+    "title": "Breathing machine gives 41-year-old mom time to recover from severe pneumonia - WISH-TV",
+    "description": "The extracorporeal membrane oxygenation, or ECMO, machine can temporarily do the work of failing lungs.",
+    "url": "https://www.wishtv.com/news/health-spotlight/breathing-machine-gives-41-year-old-mom-time-to-recover-from-severe-pneumonia/",
+    "urlToImage": "https://www.wishtv.com/wp-content/uploads/2026/11/26/BREATH-OF-HOPE_-ECMO-GIVES-MOM-A-SECOND-CHANCE-PKG.transfer_frame_451.jpg",
+    "publishedAt": "2026-11-26T02:00:00Z",
+    "content": "INDIANAPOLIS As people gather around the table for Thanksgiving, they also head into cold and respiratory virus season.\r\nWhile most people recover without serious problems, some viral infections can \u2026 [+2222 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "nj.com"
+    },
+    "author": "NJ.com",
+    "title": "A rabid raccoon has been confirmed in this South Jersey town - NJ.com",
+    "description": null,
+    "url": "https://www.nj.com/camden/2026/11/a-rabid-raccoon-has-been-confirmed-in-this-south-jersey-town.html",
+    "urlToImage": null,
+    "publishedAt": "2026-11-25T23:07:00Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Nature.com"
+    },
+    "author": null,
+    "title": "Heterogeneity co-evolves with architecture to determine colon cancer outcome - Nature",
+    "description": "Architectural interfaces in colorectal cancer drive cell state diversification through mechanochemical reprogramming of stem cell identities.",
+    "url": "https://www.nature.com/articles/s41586-026-11301-0",
+    "urlToImage": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-026-11301-0/MediaObjects/41586_2026_11301_Fig1_HTML.png",
+    "publishedAt": "2026-11-25T22:15:03Z",
+    "content": "Patient samples\r\nThe study uses a previously described cohort58 comprising 1,342 patients who underwent resection for colorectal cancer at Central Finland Central Hospital between 1 January 2000 and \u2026 [+45034 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Nature.com"
+    },
+    "author": null,
+    "title": "A gut\u2013brain sensory-motor circuit regulates sugar ingestion in Drosophila - Nature",
+    "description": "In flies, sugar-sensing enteric neurons activate brain neurons that inhibit crop duct motor neurons, relaxing the foregut muscles to facilitate food transfer to the crop, which sustains ingestion and regulates food intake.",
+    "url": "https://www.nature.com/articles/s41586-026-11315-8",
+    "urlToImage": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-026-11315-8/MediaObjects/41586_2026_11315_Fig1_HTML.png",
+    "publishedAt": "2026-11-25T22:08:40Z",
+    "content": "<li>Yapici, N., Cohn, R., Schusterreiter, C., Ruta, V. &amp; Vosshall, L. B. A taste circuit that regulates ingestion by integrating food and hunger signals. Cell165, 715729 (2016).\r\nArticle\u00a0\r\n PubMe\u2026 [+12822 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "San Francisco Chronicle"
+    },
+    "author": "Cara Anthony, KFF Health News",
+    "title": "He survived a shooting. Then spent 475 days in a hospital because he had nowhere to go - San Francisco Chronicle",
+    "description": "He survived a shooting. Then spent 475 days in a hospital because he had nowhere to go",
+    "url": "https://www.sfchronicle.com/health/article/teen-475-days-hospital-after-shooting-no-home-22550178.php",
+    "urlToImage": "https://s.hdnux.com/photos/01/70/02/67/31469041/3/rawImage.jpg",
+    "publishedAt": "2026-11-25T19:15:10Z",
+    "content": "Since he was released from Cardinal Glennon Childrens Hospital for a third time following his gun injuries, Jaloni spends most of his time alone and indoors at home to avoid the threat of more violen\u2026 [+16639 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Science.org"
+    },
+    "author": null,
+    "title": "Photothermally gated nanorobots for active blood-brain barrier transcytosis and brain delivery - Science | AAAS",
+    "description": "A controllable nanorobotic strategy uses photothermally gated propulsion to actively cross the blood-brain barrier.",
+    "url": "https://www.science.org/doi/10.1126/scirobotics.aef1928",
+    "urlToImage": "https://www.science.org/cms/asset/febf8409-9f4c-43f1-bb57-dd38f5d3f2c2/scirobotics.aef1928-keyimage.gif",
+    "publishedAt": "2026-11-25T19:07:51Z",
+    "content": "eLetters is a forum for ongoing peer review. eLetters are not edited, proofread, or indexed, but they are screened. eLetters should provide substantive and scholarly commentary on the article. Neithe\u2026 [+506 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "ScienceAlert"
+    },
+    "author": "David Nield",
+    "title": "Human 'Mini Brains' Spent 40 Days in Space. Scientists Found Clues to Alzheimer's. - ScienceAlert",
+    "description": "There are multiple difficulties in studying Alzheimer's disease: it takes a long time to develop, involves many different neural processes, and happens deep in the brain where live tissue analysis is particularly tricky.",
+    "url": "https://www.sciencealert.com/scientists-sent-mini-human-brains-into-space-to-study-alzheimers-heres-what-they-discovered",
+    "urlToImage": "https://www.sciencealert.com/images/2026/11/BrainOrganoidWithNeurons-1200x675.png",
+    "publishedAt": "2026-11-25T19:04:08Z",
+    "content": "There are multiple difficulties in studying Alzheimer's disease: it takes a long time to develop, involves many different neural processes, and happens deep in the brain where live tissue analysis is\u2026 [+4710 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "New York Post"
+    },
+    "author": "McKenzie Beard",
+    "title": "Hidden health risk in young adulthood linked to worse memory by age 55: study - New York Post",
+    "description": "Forgetfulness could be in your future \u2014 and a key warning sign may already be flowing through your veins.",
+    "url": "https://nypost.com/2026/11/25/health/health-risk-in-young-adulthood-linked-to-worse-memory-in-midlife/",
+    "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2026/11/newspress-collage-mtyv4osvb-1795632588746.jpg?quality=75&strip=all&1795614620&w=1200",
+    "publishedAt": "2026-11-25T18:52:00Z",
+    "content": "Forgetfulness could be in your future and a key warning sign may already be flowing through your veins.\r\nNew research suggests that changes in an often-overlooked health marker beginning in young adu\u2026 [+4893 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Nature.com"
+    },
+    "author": null,
+    "title": "Dengue has exploded globally with shocking speed - Nature",
+    "description": "The number of recorded cases of the mosquito-borne disease worldwide rose by a factor of 34 over 34 years.",
+    "url": "https://www.nature.com/articles/d41586-026-03813-6",
+    "urlToImage": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03813-6/d41586-026-03813-6_54010930.jpg",
+    "publishedAt": "2026-11-25T18:23:56Z",
+    "content": "A pregnant person with dengue speaks to a nurse in Peru, which has been hit by a surge of cases this year. Credit: Juan Carlos Cisneros/AFP/Getty\r\nThe debilitating viral disease called dengue has exp\u2026 [+3836 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Nature.com"
+    },
+    "author": null,
+    "title": "Single-cell variant-to-enhancer-to-gene map for coronary artery disease - Nature",
+    "description": "A multi-omic gene-expression and chromatin-accessibility map of human coronary artery disease provides a framework for mapping disease-associated genetic variants to cell types, chromatin states and gene programmes in human disease.",
+    "url": "https://www.nature.com/articles/s41586-026-11275-z",
+    "urlToImage": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-026-11275-z/MediaObjects/41586_2026_11275_Fig1_HTML.png",
+    "publishedAt": "2026-11-25T16:28:32Z",
+    "content": "Ethical approval for human specimens\r\nThe study is compliant with all relevant ethical regulations and has been approved by the Washington University School of Medicine Institutional Review Board (no\u2026 [+50010 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "CNBC"
+    },
+    "author": "Michelle Gielan",
+    "title": "I count on my kids eavesdropping on me\u2014how I make sure what they overhear builds \u2018resilience and optimism,\u2019 says happiness expert - CNBC",
+    "description": "\"Resilient Optimism\" author and positive psychology researcher Michelle Gielan says that she wants her kids to overhear her talk about both setbacks and joys.",
+    "url": "https://www.cnbc.com/make-it/2026/11/25/kids-overhear-resilience-optimism.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/108557699-1795459930785-gettyimages-2154490519-abk00095-editcopy.jpeg?v=1795459944&w=1920&h=1080",
+    "publishedAt": "2026-11-25T15:15:01Z",
+    "content": "One afternoon about a month ago, my husband, Shawn, and I were in the kitchen admiring some of our 8-year-old daughter's schoolwork. We noticed that her handwriting had improved a great deal and we w\u2026 [+6671 chars]"
+   }
+  ],
+  "science": [
+   {
+    "source": {
+     "id": null,
+     "name": "Discoverwildlife.com"
+    },
+    "author": "Kevin Parr",
+    "title": "Lurking in North America's waters is a prehistoric giant with needle-like teeth and a torpedo-shaped body \u2013 and it's making a comeback - BBC Wildlife Magazine",
+    "description": "The alligator gar is as sinister-looking as its namesake",
+    "url": "https://www.discoverwildlife.com/animal-facts/fish/alligator-gar",
+    "urlToImage": "https://d2rj6cu2ik1biv.cloudfront.net/193c804a-a673-47bd-b09b-11baf4822a17/9ac494a4-627d-4fea-a827-dcf588dd6f96/29baaf1e-1e6a-412a-8bea-d5093c9b7bd4/thumbnails/3fa08c83-ff15-42a3-94cf-619ca2c5ccc0.jpg?appId=f347d34d-c1a6-4a00-b570-b78c2dcb3211&platform=WEB&w=1200",
+    "publishedAt": "2026-11-26T17:07:59Z",
+    "content": "Among the largest freshwater fish of North America is a prehistoric giant that looks as though it could have been stitched together on\u00a0The Island of Dr Moreau.\r\nWith the head of an alligator and the \u2026 [+1785 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Hackaday"
+    },
+    "author": "Maya Posch",
+    "title": "NASA\u2019s Perseverance And Odyssey Teams Investigate Technical Issues - Hackaday",
+    "description": "Teams over at NASA are currently dealing with two major issues affecting the\u00a0Perseverance rover and the\u00a02001 Mars Odyssey orbiter, with the former losing one of its two UHF radios and the latter li\u2026",
+    "url": "https://hackaday.com/2026/11/26/nasas-perseverance-and-odyssey-teams-investigate-technical-issues/",
+    "urlToImage": "https://hackaday.com/wp-content/uploads/2021/04/perseverance-ingenuity-selfie.jpg",
+    "publishedAt": "2026-11-26T12:00:00Z",
+    "content": "Teams over at NASA are currently dealing with two major issues affecting the\u00a0Perseverance rover and the\u00a02001 Mars Odyssey orbiter, with the former losing one of its two UHF radios and the latter limp\u2026 [+2185 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Geekspin.co"
+    },
+    "author": "Christian Saclao",
+    "title": "Scientists link a 10-mile Oklahoma crater to a mass extinction - Yahoo",
+    "description": "A massive asteroid impact may have left behind more than just a giant crater beneath Oklahoma. It could also be connected to one of the most devastating exti...",
+    "url": "https://geekspin.co/oklahoma-crater-linked-to-mass-extinction/",
+    "urlToImage": "https://s.yimg.com/lo/mysterio/api/283a9e36ddc52d6c8509c95109f02fe3641c0c21cd950978e683c0a1b8fc1abd/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fgeekspin_390%2Fc483d20e162173309943aa097b54d0ef.jpg",
+    "publishedAt": "2026-11-26T11:45:31Z",
+    "content": "A massive asteroid impact may have left behind more than just a giant crater beneath Oklahoma. It could also be connected to one of the most devastating extinction events in Earth's history. Scientis\u2026 [+5200 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Hindustan Times"
+    },
+    "author": "Bhavya Sukheja",
+    "title": "Indian-origin NASA astronaut Anil Menon shares real-time video of Moon rising and setting from space. Watch | Trending - Hindustan Times",
+    "description": "The videos show the Moon gradually appearing above the Earth\u2019s horizon in one clip and disappearing beyond it in another.  | Trending",
+    "url": "https://www.hindustantimes.com/trending/indianorigin-nasa-astronaut-anil-menon-shares-real-time-video-of-moon-rising-and-setting-from-space-watch-101795690589231.html",
+    "urlToImage": "https://www.hindustantimes.com/ht-img/img/2026/11/26/1600x900/logo/moonset_1795691398004_zMn0_1795691407212_4XH1_f636bcdf-8a63-4041-870c-0b0c0bf3adc9_E2SR.jpg",
+    "publishedAt": "2026-11-26T11:14:12Z",
+    "content": "Indian-origin NASA astronaut Anil Menon recently shared fascinating real-time videos showing the Moon rising and setting, as seen from the International Space Station (ISS). The videos offer a rare g\u2026 [+3108 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Science Daily"
+    },
+    "author": null,
+    "title": "This 345-million-year-old fossil had scientists fooled for decades - ScienceDaily",
+    "description": "A famous 345-million-year-old fossil has turned out to be something entirely different from what scientists believed for decades. Advanced X-ray imaging revealed hidden gills and thousands of tiny teeth, exposing a primitive aquatic or amphibious creature rat\u2026",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261125045307.htm",
+    "urlToImage": "https://www.sciencedaily.com/images/1920/westlothiana-reconstruction.webp",
+    "publishedAt": "2026-11-26T10:47:52Z",
+    "content": "A small fossil discovered in Scotland and regarded for nearly three decades as one of the earliest known reptiles has turned out to be a very different kind of prehistoric animal. New research publis\u2026 [+5291 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "ScienceAlert"
+    },
+    "author": "Fiona MacDonald",
+    "title": "Scientists Identify The World's Largest Known Scorpion, The Size of a Dog - ScienceAlert",
+    "description": "Long before mammals, reptiles, or birds roamed Earth's surface, another predator stalked the floodplains.",
+    "url": "https://www.sciencealert.com/scientists-identify-the-worlds-largest-known-scorpion-the-size-of-a-dog",
+    "urlToImage": "https://www.sciencealert.com/images/2026/11/WorldsLargestScorpion2026-1200x675.png",
+    "publishedAt": "2026-11-26T09:00:40Z",
+    "content": "Long before mammals, reptiles, or birds roamed Earth's surface, another predator stalked the floodplains.\r\nIt wasn't a dinosaur it was a scorpion. \r\nAnd not a small one, either.\r\nFossils of the creat\u2026 [+3742 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "The Detroit News"
+    },
+    "author": "The Detroit News",
+    "title": "Fireball meteor flashes across Michigan night sky - The Detroit News",
+    "description": "A bright fireball meteor lit up the sky over Michigan and surrounding states Wednesday night, stunning observers.",
+    "url": "https://www.detroitnews.com/story/news/local/michigan/2026/11/26/meteor-streaks-across-michigan-night-sky/92968613007/",
+    "urlToImage": "https://www.detroitnews.com/gcdn/authoring/authoring-images/2026/11/26/PDTN/92968464007-screenshot-20261126-at-120544-am.png?crop=1020,574,x137,y0&width=1020&height=574&format=pjpg&auto=webp",
+    "publishedAt": "2026-11-26T07:00:00Z",
+    "content": "A brief but unusually bright fireball meteor streaked across the Michigan sky Wednesday night, wowing observers as far away as Fort Wayne and Cleveland.\r\nMultiple reports of the fireball were recorde\u2026 [+1448 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "YourTango"
+    },
+    "author": "Allison Peterson",
+    "title": "Humblebragging About These 5 Things Is A Very Good Way To Annoy People - YourTango",
+    "description": "When people humblebrag, it's not out of modesty. Unfortunately, their insincerity annoys the people around them, especially when it's related to certain topics.",
+    "url": "https://www.yourtango.com/self/people-humblebrag-these-things-annoy-everyone-around-them",
+    "urlToImage": "https://www.yourtango.com/sites/default/files/image_blog/2026-11/people-humblebrag-these-things-annoy-everyone-around-them.png",
+    "publishedAt": "2026-11-26T06:32:11Z",
+    "content": "Humblebragging is something people do when they want to show off without coming off as arrogant.\r\nUnfortunately, the opposite often happens. What sounds like modesty is actually quite annoying to oth\u2026 [+4805 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "ScienceAlert"
+    },
+    "author": "Carly Cassella",
+    "title": "Another Organism Created GMO Sweet Potatoes Long Before Humans - ScienceAlert",
+    "description": "Humans were not the first genetic engineers.",
+    "url": "https://www.sciencealert.com/another-organism-created-gmo-sweet-potatoes-long-before-humans",
+    "urlToImage": "https://www.sciencealert.com/images/2026/11/GettyImages-2227427125-2560x1440-1.jpg",
+    "publishedAt": "2026-11-26T06:04:55Z",
+    "content": "Humans were not the first genetic engineers.\r\nOther organisms were creating GMO plants millions of years before we began splicing foreign DNA into crops.\r\nOne staple of the Thanksgiving table is a pe\u2026 [+3728 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Science Daily"
+    },
+    "author": null,
+    "title": "Scientists discover mysterious lakes more than a mile beneath the Red Sea - ScienceDaily",
+    "description": "More than a mile beneath the surface of the Red Sea, scientists have discovered rare underwater lakes that could reveal secrets about Earth&apos;s ancient oceans and the possibility of alien life. Known as brine pools, these extremely salty, oxygen-free envir\u2026",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261125045259.htm",
+    "urlToImage": "https://www.sciencedaily.com/images/1920/deep-sea-brine-pool.webp",
+    "publishedAt": "2026-11-26T02:45:37Z",
+    "content": "More than a mile below the surface of the Red Sea, researchers from the University of Miami (UM) Rosenstiel School of Marine and Atmospheric Science discovered rare deep-sea brine pools in the Gulf o\u2026 [+3549 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Yahoo Entertainment"
+    },
+    "author": "Daniel John",
+    "title": "Scientists in Japan get hamster cells to accept algae DNA despite a billion-year evolutionary gap - Yahoo",
+    "description": "\"Our ultimate goal is to activate these biological pathways and give animal cells some of the unique abilities of plants and algae.\"",
+    "url": "https://www.yahoo.com/news/science/articles/scientists-japan-hamster-cells-accept-023000495.html",
+    "urlToImage": "https://s.yimg.com/lo/mysterio/api/07d6d47331f21f818eaebae9046f027f37244ce619320979de85c23d7e9623e2/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_cool_down_737%2Fb2001bb21799cd3f8e565abf521fd8aa.jpg",
+    "publishedAt": "2026-11-26T02:30:00Z",
+    "content": "Scientists in Japan have created hybrid \"planimal\" cells that retained algae DNA for 155 cell generations, bringing together organisms that diverged over a billion years ago.\r\nHere's what to know\r\nA \u2026 [+2947 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "SpaceNews"
+    },
+    "author": "Jeff Foust",
+    "title": "NASA nuclear propulsion demo mission to make limited use of nuclear propulsion - SpaceNews",
+    "description": "A NASA mission billed as the first in-space test of nuclear propulsion will be propelled by nuclear power for only the \u201cinitial\u201d part of its journey.",
+    "url": "https://spacenews.com/nasa-nuclear-propulsion-demo-mission-to-make-limited-use-of-nuclear-propulsion/",
+    "urlToImage": "https://spacenews.com/wp-content/uploads/2026/11/sr1-nov2026-scaled.jpeg",
+    "publishedAt": "2026-11-25T23:09:59Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": "ars-technica",
+     "name": "Ars Technica"
+    },
+    "author": "Stephen Clark",
+    "title": "European spacecraft finds chaotic scene after asteroid deflection experiment - Ars Technica",
+    "description": "DART made a really, really large mess. However, we didn\u2019t really know what kind of mess.\"",
+    "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+    "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/hera_arrival1-1020x648.jpg",
+    "publishedAt": "2026-11-25T22:36:45Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Space.com"
+    },
+    "author": "Anthony Wood",
+    "title": "December full moon 2026: When, where and how to see the Cold Moon - Space",
+    "description": "Your guide to December's full Cold Moon, from peak times to skywatching highlights.",
+    "url": "https://www.space.com/stargazing/december-full-moon-2026-when-where-and-how-to-see-the-cold-moon",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/yXTMppHWSFX67pVvTxZ3fS-2000-80.jpg",
+    "publishedAt": "2026-11-25T22:00:00Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Space.com"
+    },
+    "author": "Hanneke Weitering, Elizabeth Howell",
+    "title": "On this day in space! Nov. 25, 1970: NASA's 'wingless' M2-F3 'lifting body' aircraft makes its 1st powered flight ahead of supersonic tests - Space",
+    "description": "The M2-F3 aircraft was a heavyweight \"lifting body\" designed to test its ability to produce most of its lift through its fuselage instead of wings.",
+    "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-25-2026",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/URffNfRfWDDK8WBZgHsEMJ-2560-80.jpg",
+    "publishedAt": "2026-11-25T21:22:27Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Phys.Org"
+    },
+    "author": "Shreejaya Karantha",
+    "title": "Giant lambda-shaped stellar nursery found in the Milky Way's outskirts - Phys.org",
+    "description": "Massive stars often form in dense regions, called \"hubs,\" where filamentary structures made of star-forming materials meet. These star-forming complexes are \"hub-filament\" systems. Astronomers have discovered one such large network of molecular gas filaments \u2026",
+    "url": "https://phys.org/news/2026-11-giant-lambda-stellar-nursery-milky.html",
+    "urlToImage": "https://scx2.b-cdn.net/gfx/news/2026/giant-lambda-shaped-st.jpg",
+    "publishedAt": "2026-11-25T20:20:06Z",
+    "content": "Massive stars often form in dense regions, called \"hubs,\" where filamentary structures made of star-forming materials meet. These star-forming complexes are \"hub-filament\" systems. Astronomers have d\u2026 [+5651 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Science.org"
+    },
+    "author": null,
+    "title": "Universal 3D nanoscale assembly with DNA polycubes - Science | AAAS",
+    "description": "A minimal-kit DNA polycube platform enables the programmable self-assembly of arbitrary 3D nanoscale architectures.",
+    "url": "https://www.science.org/doi/10.1126/scirobotics.aeh7974",
+    "urlToImage": "https://www.science.org/cms/asset/5f031016-78a9-459b-bbd0-2af80992d312/scirobotics.aeh7974-keyimage.gif",
+    "publishedAt": "2026-11-25T19:58:09Z",
+    "content": "eLetters is a forum for ongoing peer review. eLetters are not edited, proofread, or indexed, but they are screened. eLetters should provide substantive and scholarly commentary on the article. Neithe\u2026 [+506 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Gizmodo.com"
+    },
+    "author": "Matthew Phelan",
+    "title": "Scientists Discover That Hairy Dwarf Porcupines Glow in UV Light - Gizmodo",
+    "description": "Mexico\u2019s hairy dwarf porcupine glows in vivid shades of blue, green, and yellow under ultraviolet (UV) light, according to new research.",
+    "url": "https://gizmodo.com/mexicos-nocturnal-porcupine-has-been-keeping-a-secret-it-glows-in-neon-colors-under-uv-light-2000845483",
+    "urlToImage": "https://gizmodo.com/app/uploads/2026/11/ECOSUR-UV-hairy-dwarf-porcupine-1200x675.jpeg",
+    "publishedAt": "2026-11-25T19:25:10Z",
+    "content": "The trees of Mexicos seaside city of Chetumal, along its southern border with Belize, have a small, solitary, nocturnal interloper who smells deceptively like human gym-rat body odor, the Mexican hai\u2026 [+4315 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Phys.Org"
+    },
+    "author": null,
+    "title": "NASA's Hubble views ocean of stars in groundwork for Roman - Phys.org",
+    "description": "An expanse of stars gleams in a rainbow of colors in these NASA Hubble Space Telescope images of the Milky Way. The images focus on an area of sky toward the galactic bulge, a densely packed, spherical region of stars that surrounds the center of a galaxy's d\u2026",
+    "url": "https://phys.org/news/2026-11-nasa-hubble-views-ocean-stars.html",
+    "urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2026/blue-and-white-stars-f.jpg",
+    "publishedAt": "2026-11-25T18:50:01Z",
+    "content": "An expanse of stars gleams in a rainbow of colors in these NASA Hubble Space Telescope images of the Milky Way. The images focus on an area of sky toward the galactic bulge, a densely packed, spheric\u2026 [+3579 chars]"
+   }
+  ],
+  "sports": [
+   {
+    "source": {
+     "id": null,
+     "name": "Yahoo Entertainment"
+    },
+    "author": "Yahoo Sports Staff",
+    "title": "Bears vs. Lions live updates, score: Colston Loveland carted to locker room with apparent lower-body injury - Yahoo Sports",
+    "description": "The Bears and Lions open up Thanksgiving football.",
+    "url": "https://sports.yahoo.com/nfl/live/bears-lions-score-live-updates-inactives-highlights-stats-where-to-watch-week-12-thanksgiving-164414224.html",
+    "urlToImage": "https://s.yimg.com/lo/mysterio/api/1e9a2bed0335f3734c0905b2a7869bf6c7fac7b303bc269cb5edb67324b4525d/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F096423da-1e5b-4282-8235-84ea76c8b843",
+    "publishedAt": "2026-11-26T20:39:47Z",
+    "content": "The NFL is starting Thanksgiving off with a feast, with the top two teams in the NFC North facing off in the first game of the slate. The Detroit Lions and the Chicago Bears both enter Thursday's gam\u2026 [+10043 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "NBCSports.com"
+    },
+    "author": "Zachary Krueger",
+    "title": "Christian Watson in concussion protocol Thursday - NBC Sports",
+    "description": "NFL Network's Ian Rapoport reports Christian Watson has entered the league's concussion protocol.",
+    "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-26/christian-watson-in-concussion-protocol-thursday",
+    "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/e3ce25d/2147483647/strip/true/crop/100x56+0+39/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F23%2F85%2F4af05b8e4f8087b9e6d22eae2d9d%2Fwatson-christian.jpg",
+    "publishedAt": "2026-11-26T18:06:47Z",
+    "content": "A Division of NBCUniversal.\r\nDISCLAIMER: This site and the products offered are for entertainment purposes only, and there is no gambling offered on this site. This service is intended for adult audi\u2026 [+153 chars]"
+   },
+   {
+    "source": {
+     "id": "espn",
+     "name": "ESPN"
+    },
+    "author": "NFL Nation",
+    "title": "NFL Week 12: Highlights of Thanksgiving games - ESPN",
+    "description": "Our team reporters are set to keep you updated on all the biggest plays and highlights.",
+    "url": "https://www.espn.com/nfl/story/_/id/50599365/nfl-week-12-highlights-touchdowns-plays",
+    "urlToImage": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1002%2Fr1724970_1296x729_16%2D9.jpg",
+    "publishedAt": "2026-11-26T18:06:00Z",
+    "content": "DETROIT -- There's a smorgasbord of games on Thanksgiving Thursday, beginning with the Chicago Bears visiting the Detroit Lions.\r\nThe afternoon game is an NFC East matchup between the Dallas Cowboys \u2026 [+234 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Pittsburgh Post-Gazette"
+    },
+    "author": "Gerry Dulac",
+    "title": "Art Rooney II backs Mike McCarthy as the Steelers\u2019 coach, says \u2018a change had to be made\u2019 with Aaron Rodgers - Pittsburgh Post-Gazette",
+    "description": "In an interview with the Post-Gazette, Art Rooney II said Aaron Rodgers was insubordinate and not a \"good teammate\" for airing his grievances about Mike McCarthy on national TV.",
+    "url": "https://www.post-gazette.com/sports/steelers/art-rooney-aaron-rodgers-mike-mccarthy-OWI5SSIIDJC6FKGMOJ4BFAN32Q/",
+    "urlToImage": "https://www.post-gazette.com/resizer/v2/HE5PEKFSQELCO52EHIWTXGGACY.jpg?auth=1183adbafcf89185a5a73dc9e5dd84727556a0da1d4d4494d8de01938cfe82b6&width=1280&height=720&focal=1300,363&quality=85",
+    "publishedAt": "2026-11-26T17:17:00Z",
+    "content": "Steelers president Art Rooney II said insubordination will not be tolerated and the organization is 100% committed to coach Mike McCarthy for years to come following the release of Aaron Rodgers and \u2026 [+3745 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "BBC News"
+    },
+    "author": "Emma Sanders",
+    "title": "Laura Freigang: Germany forward banned for missing drugs tests - BBC",
+    "description": "Germany international Laura Freigang is suspended from football for 16 months over issues relating to three drugs tests.",
+    "url": "https://www.bbc.com/sport/football/articles/cqlym4rd3y52o",
+    "urlToImage": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5436/live/5b4afef0-e9b5-11f1-8d2a-f5d2aabc11cb.jpg",
+    "publishedAt": "2026-11-26T17:12:45Z",
+    "content": "Germany international Laura Freigang has been suspended from football for 16 months over issues with three drugs tests.\r\nThe 28-year-old will miss the Women's World Cup next summer and is banned from\u2026 [+1822 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "CBS Sports"
+    },
+    "author": "Shanna McCarriston",
+    "title": "What all 32 NFL teams should be thankful for this Thanksgiving - CBS Sports",
+    "description": "From MVP candidates Joe Burrow and Brock Purdy to promising rookies, new coaches and future draft picks, here is one reason each of the NFL's 32 teams can give thanks",
+    "url": "https://www.cbssports.com/nfl/news/nfl-thanksgiving-2026-grateful/",
+    "urlToImage": "https://sportshub.cbsistatic.com/i/r/2026/11/26/40f4a4d3-da4d-4922-ad0a-ac249efcb7a2/thumbnail/1200x675/77eb40cd5476593ebcbca898434ab7f2/nfl-thanksgiving.jpg",
+    "publishedAt": "2026-11-26T16:56:18Z",
+    "content": "On an electric NFL Thanksgiving, I brought together my fellow CBS Sports writers Bryan DeArdo, Jordan Dajani, Carter Bahns and Garrett Podell to find one thing each team can be thankful for this holi\u2026 [+15236 chars]"
+   },
+   {
+    "source": {
+     "id": "nfl-news",
+     "name": "NFL News"
+    },
+    "author": "Grant Gordon",
+    "title": "Happy birthday, Blake! Corum turns 26, carries Rams to win over Packers with 184 rushing yards - NFL.com",
+    "description": "Celebrating his 26th birthday on Thanksgiving Eve, Blake Corum enjoyed a career game with 184 rushing yards (and 205 total yards) in the Los Angeles Rams' 26-13 win over the Green Bay Packers.",
+    "url": "https://www.nfl.com/news/happy-birthday-blake-corum-turns-26-carries-rams-to-win-over-packers-with-184-rushing-yards",
+    "urlToImage": "https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/kqf4wh1xv4ogtrnloq52",
+    "publishedAt": "2026-11-26T16:21:15Z",
+    "content": "Beyond being a birthday wish granted, Corums performance was a game for the ages.\u00a0The Michigan products previous NFL high was 128 yards against the Arizona Cardinals in Week 14 of last season.\u00a0He ran\u2026 [+2629 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "BBC News"
+    },
+    "author": "Andrew Benson",
+    "title": "Qatar Grand Prix: George Russell says Max Verstappen's criticism of him is 'quite amusing' - BBC",
+    "description": "George Russell says Max Verstappen can \"say what he wants\" and that he found the Red Bull driver's criticisms of him after the Las Vegas Grand Prix \"quite amusing\".",
+    "url": "https://www.bbc.com/sport/formula1/articles/c5lykr98yd88o",
+    "urlToImage": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/8256/live/ae2c5130-e9ad-11f1-859a-37130cd3a1d7.jpg",
+    "publishedAt": "2026-11-26T16:10:58Z",
+    "content": "Asked whether he wanted to pursue reconciliation with Dutchman Verstappen, Russell said: \"We're all competitors out there. There's no right or wrong way about the mentality everybody has.\r\n\"We are al\u2026 [+1372 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "247Sports"
+    },
+    "author": "Chris Nee",
+    "title": "Intel: Schumann's FSU introduction, recruiting, and coordinators - 247Sports",
+    "description": "Some news and notes gathered over the past 2448 hours pertaining to Florida State Seminoles football",
+    "url": "https://247sports.com/college/florida-state/longformarticle/fsu-football-intel-glenn-schumann-introduction-high-school-recruiting-and-coordinator-hires-293339652/",
+    "urlToImage": "https://s3media.247sports.com/Uploads/Assets/833/760/14760833.jpg?width=1200&height=628&crop=1.91:1&fit=cover",
+    "publishedAt": "2026-11-26T15:37:49Z",
+    "content": "\u00a9 2005-2026CBS INTERACTIVE ALL RIGHTS RESERVED. CBS Sports is a registered trademark of CBS Broadcasting Inc. 247Sports is a registered service mark of CBT Sports, LLC. Scout is a registered service \u2026 [+421 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "New York Post"
+    },
+    "author": "Bridget Reilly",
+    "title": "Trinity Rodman-Ben Shelton breakup takes a twist with eye-opening Instagram posts - New York Post",
+    "description": "The cryptic social media posts have started for Ben Shelton and Trinity Rodman. A day after the sports power couple were reported to have split after nearly two years of dating, both took to Instag\u2026",
+    "url": "https://nypost.com/2026/11/26/sports/trinity-rodman-ben-shelton-breakup-takes-a-twist-with-instagram-posts/",
+    "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2026/11/newspress-collage-y2ndftdjz-1795702041313.jpg?quality=75&strip=all&1795684163&w=1200",
+    "publishedAt": "2026-11-26T15:22:00Z",
+    "content": "The cryptic social media posts have started for Ben Shelton and Trinity Rodman. \r\nA day after the sports power couple were reported to have split after nearly two years of dating, both took to Instag\u2026 [+2591 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Yahoo Entertainment"
+    },
+    "author": "Chris Cwik",
+    "title": "USC marching band will not perform at Rose Bowl after members vandalized UCLA building with lewd phrase - Yahoo Sports",
+    "description": "USC marching band members responsible for the vandalism will be \"subject to discipline\" from the school.",
+    "url": "https://sports.yahoo.com/college-football/article/usc-marching-band-will-not-perform-at-rose-bowl-after-members-vandalized-ucla-building-with-lewd-phrase-151747325.html",
+    "urlToImage": "https://s.yimg.com/lo/mysterio/api/e031254ddc1643fc58c7ef5297073e5a629b4173f787acd6af7c3c89443d2f3a/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Ff6f8a9ff-c86b-4332-b3d5-ce8269086a24",
+    "publishedAt": "2026-11-26T15:17:47Z",
+    "content": "The USC marching band will not perform at the Rose Bowl on Saturday after its members vandalized a building on UCLA's campus. USC president Beong-Soo Kim announced the news in a statement Wednesday, \u2026 [+1556 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "BBC News"
+    },
+    "author": "Elizabeth Botcherby",
+    "title": "Davis Cup Finals 2026: Great Britain beat Germany to reach semi-finals - BBC",
+    "description": "Great Britain advance to the semi-finals of the Davis Cup for the first time since 2019 as Henry Patten and Neal Skupski win a decisive doubles tie against Germany in Bologna.",
+    "url": "https://www.bbc.com/sport/tennis/articles/c5m2lvevrk1mo",
+    "urlToImage": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/329b/live/596995c0-e9aa-11f1-a094-5fdc692f3e33.jpg",
+    "publishedAt": "2026-11-26T15:05:58Z",
+    "content": "Great Britain advanced to the semi-finals of the Davis Cup for the first time since 2019 as Henry Patten and Neal Skupski won a decisive doubles tie against third seeds Germany in Bologna.\r\nPatten an\u2026 [+1237 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "CBS Sports"
+    },
+    "author": "David Cobb",
+    "title": "College Football Playoff resume rankings: No committee conspiracies; Indiana got what it deserved - CBS Sports",
+    "description": "An objective, data-backed look at college football resumes shows that Indiana got what it deserved by falling outside the top 12",
+    "url": "https://www.cbssports.com/college-football/news/college-football-playoff-resume-rankings-conspiracies-indiana/",
+    "urlToImage": "https://sportshub.cbsistatic.com/i/r/2026/11/25/cedc7441-2fc5-4c60-a4c1-f7ef78d3370a/thumbnail/1200x675/6dd52484534048c887e869ac39ba9c80/resmue-rankings-1.jpg",
+    "publishedAt": "2026-11-26T15:04:01Z",
+    "content": "Following Indiana's second loss and subsequent drop from No. 8 to No. 14 in the latest College Football Playoff rankings, cries of injustice are emanating from Bloomington. While Hoosiers coach Curt \u2026 [+17268 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Abcnews.com"
+    },
+    "author": "The Associated Press",
+    "title": "FIFA says it has been victim of a cyberattack accessing 'personal and business information' - ABC News - Breaking News, Latest News and Videos",
+    "description": "FIFA says it was the victim of a cyberattack that saw hackers gain access to what soccer\u2019s world governing body describes as a \u201climited set of personal and business information.\"",
+    "url": "https://abcnews.com/Sports/wireStory/fifa-victim-cyberattack-accessing-personal-business-information-138465369",
+    "urlToImage": "https://i.abcnewsfe.com/a/f04a959d-408f-472f-b0fa-76fe5ce71ad0/wirestory_6de93d5f8bcc655c774e2e41e2dfea1f_16x9.jpg?w=1600",
+    "publishedAt": "2026-11-26T14:31:34Z",
+    "content": "ZURICH -- FIFA was the victim of a cyberattack that saw hackers gain access to what soccers world governing body describes as a limited set of personal and business information,\" it said Thursday.\r\nF\u2026 [+1275 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How to Watch Bears vs. Lions: TV Channel, Live Stream, Time - FOX Sports",
+    "description": "Bears vs. Lions kicks off Thursday, Nov. 26, at 1 p.m. ET on CBS. Get the TV channel, streaming options and players to watch for this game in Detroit.",
+    "url": "https://www.foxsports.com/stories/nfl/how-to-watch-bears-vs-lions-tv-channel-live-stream-time-nov-26-2026",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/ea8be40a38fa83593a45c1f785c1881a682e1d21b1a1f3d1660f53e1908f9a20.png?ve=1&tl=1",
+    "publishedAt": "2026-11-26T14:05:45Z",
+    "content": "The Chicago Bears visit the Detroit Lions in Week 12 of the 2026 NFL season on Thursday, Nov. 26, 2026, at 1 p.m. ET from Ford Field in Detroit.\r\nChicago and Detroit are both 8-2, with Minnesota a ga\u2026 [+2826 chars]"
+   },
+   {
+    "source": {
+     "id": "google-news",
+     "name": "Google News"
+    },
+    "author": "PhillyVoice",
+    "title": "Week 12 NFL picks: Thanksgiving and Black Friday edition - PhillyVoice",
+    "description": null,
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR2hmYWpYY3FUSVlmYWtHVFppZlVZQndGOVo4SlNOeVYyYTB2cEN1Ri1yeVFLSVk3WWY2SGl4Z0ZGdDNERW5QOXpzUHFmaVExaTZ3bUJ2YmVUZkhmcTdTbzlfYVY2R3JxTk1DYjR1RUZIdjE4WGdXVEJTenZWdmdEeDBfTlg0S0VzQjg5dHYzTFZHd3o0S0RPWERLbERnYWl4Z2lpNWtJdmMxcm9PQ3hfZTBnY2lRcE9MS1ROMmpnV0xLQQ?oc=5",
+    "urlToImage": null,
+    "publishedAt": "2026-11-26T13:21:14Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "NBCSports.com"
+    },
+    "author": "Shawn Robinson",
+    "title": "How to watch the Kansas City Chiefs vs Buffalo Bills: TV/live stream info for Thanksgiving night - NBC Sports",
+    "description": "Thursday also marks the first Thanksgiving game played in Buffalo and NBC\u2019s 50th Thanksgiving football broadcast.",
+    "url": "https://www.nbcsports.com/nfl/news/how-to-watch-the-kansas-city-chiefs-vs-buffalo-bills-tv-live-stream-info-for-thanksgiving-night",
+    "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/74d87ce/2147483647/strip/true/crop/1920x1080+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fhdliveextra-a.akamaihd.net%2FHD%2Fimage_sports%2FNBCU_Sports_Group_-_nbcsports%2F848%2F291%2Fnbc_pftpm_chiefsbills_261125.jpg",
+    "publishedAt": "2026-11-26T13:04:18Z",
+    "content": "Thanksgiving Day football concludes with one of the NFLs defining rivalries of the decade, as Josh Allen and the Buffalo Bills host Patrick Mahomes and the Kansas City Chiefs at Highmark Stadium.\r\nTh\u2026 [+3905 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Sports Illustrated"
+    },
+    "author": "Stacey Blackwood",
+    "title": "5 College Football Programs That Could Replace LSU if SEC Kicks the Tigers Out - Sports Illustrated",
+    "description": "If LSU ever left the SEC, five ACC programs would offer different ways to fill the vacancy. Here\u2019s who would make the most sense and why.",
+    "url": "https://www.si.com/fannation/college/cfb-hq/news/5-college-football-programs-replace-lsu-sec",
+    "urlToImage": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_3392,h_1908/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/college_football_hq/01m8bwfzn2rj602z3bnc.jpg",
+    "publishedAt": "2026-11-26T12:30:00Z",
+    "content": "What would the SEC look for if it suddenly had to replace LSU? The Next Round posed that hypothetical on X, floating candidates ranging from Notre Dame to Texas Tech and weighing everything from nati\u2026 [+3954 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "CBS Sports"
+    },
+    "author": "Tom Fornelli",
+    "title": "The Six Pack: Picks for Nebraska-Iowa, USC-UCLA and Tom Fornelli's lock for Week 13 - CBS Sports",
+    "description": "Trust The Process as the regular season races toward its exciting finale",
+    "url": "https://www.cbssports.com/college-football/news/picks-nebraska-iowa-usc-ucla-the-six-pack-tom-fornellis-week-13/",
+    "urlToImage": "https://sportshub.cbsistatic.com/i/r/2026/11/25/d5ad595d-bf18-4958-a926-76e11807a097/thumbnail/1200x675/de56c2eb3df5f495f4e0c4e7f238dbf9/usc-sixer-1.jpg",
+    "publishedAt": "2026-11-26T12:26:43Z",
+    "content": "It's the final weekend of the 2026 regular season, but while there's a sadness that comes with knowing it's just about over, this is also the best weekend of the year.\r\nAs much as college football ha\u2026 [+8745 chars]"
+   },
+   {
+    "source": {
+     "id": "espn",
+     "name": "ESPN"
+    },
+    "author": "Rob Demovsky",
+    "title": "Packers' Parsons calls for accountability after Rams run wild - ESPN",
+    "description": "\"That wasn't a championship attitude, competitiveness, drive,\" Micah Parsons said of the Packers allowing the Rams to rush for a season-high 241 yards.",
+    "url": "https://www.espn.com/nfl/story/_/id/50602564/packers-micah-parsons-accountability-rams-return",
+    "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1126%2Fr1751546_1296x729_16%2D9.jpg",
+    "publishedAt": "2026-11-26T07:33:00Z",
+    "content": "INGLEWOOD, Calif. -- Twelve snaps. That's all it took for Green Bay Packers star edge rusher Micah Parsons to record his first sack since he ripped apart his left knee nearly a year ago.\r\nForty-seven\u2026 [+4273 chars]"
+   }
+  ],
+  "technology": [
+   {
+    "source": {
+     "id": null,
+     "name": "Tom's Guide"
+    },
+    "author": "https://www.tomsguide.com/author/tom-pritchard, https://www.tomsguide.com/author/dave-leclair, https://www.tomsguide.com/author/louis-ramirez, https://www.tomsguide.com/author/erin-bashford",
+    "title": "I've covered Black Friday TV deals for 19 years and these are the best discounts on LG, Samsung, Sony, TCL and more - Tom's Guide",
+    "description": "Thanksgiving Day is one of the best times to buy a new TV. Our experts are tracking the best Black Friday TV deals at Amazon, Best Buy, and more.",
+    "url": "https://www.tomsguide.com/live/news/black-friday-tv-deals-thursday-november-26-2026",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/QT9ACRfWZVtAzaY8jdon98-2000-80.jpg",
+    "publishedAt": "2026-11-26T20:05:26Z",
+    "content": "2026-11-26T20:05:26.421Z$3.52 per inch\r\n(Image credit: TCL)\r\nWho doesn't want a 65-inch 4K TV for only $229? If my math is correct, that's $3.52 per inch of TV, which sounds like a fantastic bargain \u2026 [+19550 chars]"
+   },
+   {
+    "source": {
+     "id": "ars-technica",
+     "name": "Ars Technica"
+    },
+    "author": "Jonathan M. Gitlin",
+    "title": "Ford unveils the GT41 as it hopes to win Le Mans again - Ars Technica",
+    "description": "Ford enters the World Endurance Championship in 2027 with the new prototype.",
+    "url": "https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/",
+    "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ford-GT41-and-GT40_06-1152x648.jpg",
+    "publishedAt": "2026-11-26T18:00:29Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Push Square"
+    },
+    "author": "Stephen Tailby",
+    "title": "Despite No Disc, GTA 6 Recorded the UK's Biggest Physical Launch Since 2019 - Push Square",
+    "description": "People love plastic boxes",
+    "url": "https://www.pushsquare.com/news/2026/11/despite-no-disc-gta-6-recorded-the-uks-biggest-physical-launch-since-2019",
+    "urlToImage": "https://images.pushsquare.com/1f0b2869d39fd/1280x720.jpg",
+    "publishedAt": "2026-11-26T18:00:00Z",
+    "content": "Image: Push Square\r\nGTA 6 has been breaking records all over the place, so it doesn't come as much of a surprise to learn that its performance at physical retail has been mighty impressive.\r\nAs repor\u2026 [+1178 chars]"
+   },
+   {
+    "source": {
+     "id": "cnn",
+     "name": "CNN"
+    },
+    "author": "Mike Andronico",
+    "title": "I found the 21 best Black Friday laptop computer deals after 13 years of testing - CNN",
+    "description": "Computers are too pricey these days, so our PC expert found the best Black Friday laptop and desktop deals that bring them back to a reasonable price.",
+    "url": "https://www.cnn.com/cnn-underscored/deals/black-friday-laptop-computer-deals-2026-11-26",
+    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/apple-imac-m6-cnnu-03.jpg?c=16x9&q=w_800,c_fill",
+    "publishedAt": "2026-11-26T17:20:00Z",
+    "content": "Want more deals? Visit CNN Underscoreds Guide to Black Friday for wall-to-wall coverage of the best discounts to be found during the biggest shopping event of the year.\r\nWere technically a day away f\u2026 [+5155 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "BBC News"
+    },
+    "author": null,
+    "title": "Staff at Grand Theft Auto VI developer vote against union recognition - BBC",
+    "description": "Workers at Rockstar voted against a move to formally recognise the IWGB union.",
+    "url": "https://www.bbc.com/news/articles/cq4gnze58gx6o",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/559d/live/a5139640-e9b6-11f1-8d2a-f5d2aabc11cb.jpg",
+    "publishedAt": "2026-11-26T16:49:09Z",
+    "content": "Jennifer Kolbe, head of publishing at Rockstar Games, said: \"This result reflects our team's strong support for continuing the direct relationships, collaboration and open dialogue that have helped m\u2026 [+43 chars]"
+   },
+   {
+    "source": {
+     "id": "the-verge",
+     "name": "The Verge"
+    },
+    "author": "Andrew Webster",
+    "title": "Why GTA VI\u2019s version of Florida feels so real - The Verge",
+    "description": "UC Berkeley assistant professor Emma Fraser explains what makes the open world of GTA 6 so believable.",
+    "url": "https://www.theverge.com/entertainment/1042629/gta-6-city-design",
+    "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/1a20dbee8d365-screenshotUrl.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+    "publishedAt": "2026-11-26T15:00:00Z",
+    "content": "<ul><li></li><li></li><li></li></ul>\r\nVirtual city expert Emma Fraser explains what makes Rockstars latest open world work.\r\nby\r\nAndrew WebsterClose\r\nSenior entertainment editor\r\nPosts from this auth\u2026 [+7500 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Simon Cardy",
+    "title": "Rockstar North Chief Was Praying GTA 6's Big Story Reveal Stayed Under Wraps Ahead of Launch - IGN",
+    "description": "Rockstar North has explained why it was so important that GTA 6's big early story reveal stayed under wraps before the game came out.",
+    "url": "https://www.ign.com/articles/rockstar-north-chief-was-praying-gta-6s-big-story-reveal-stayed-under-wraps-ahead-of-launch",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/26/gtavi-16-1795703303348.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-26T14:40:52Z",
+    "content": "Warning! This article contains spoilers for the prologue of GTA 6.\r\nGTA 6s prologue hides a surprise that somehow managed to stay a secret all the way up to players finding out for themselves. And Ro\u2026 [+2772 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Push Square"
+    },
+    "author": "Sammy Barker",
+    "title": "PS Plus Essential Games for December 2026 Announced - Push Square",
+    "description": "Skateboards, spiky hair, and scares",
+    "url": "https://www.pushsquare.com/news/2026/11/ps-plus-essential-games-for-december-2026-announced",
+    "urlToImage": "https://images.pushsquare.com/77d92d244a597/1280x720.jpg",
+    "publishedAt": "2026-11-26T14:18:13Z",
+    "content": "Sonys announced the December 2026 lineup for PS Plus Essential, with three games available for all base subscribers to download from Tuesday, 1st December, 2026.\r\nThey are:\r\nJust in case you need a g\u2026 [+1758 chars]"
+   },
+   {
+    "source": {
+     "id": "ign",
+     "name": "IGN"
+    },
+    "author": "Kirk McKeand",
+    "title": "GTA 6 Players Discover Cheeky New Strat for Stealing ATMs Before the Cops Can Even Respond - IGN",
+    "description": "Somewhere around the middle of GTA 6 you unlock the ability to rob ATMs. Any ATM marked green can be pulled out of the wall and cracked open.",
+    "url": "https://www.ign.com/articles/robbing-gta-6-atms-quickly",
+    "urlToImage": "https://assets-prd.ignimgs.com/2026/11/26/gtavi-12-1795702599377.jpg?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2026-11-26T14:17:07Z",
+    "content": "Warning! Potential spoilers for GTA 6 follow.\r\nSomewhere around the middle of GTA 6 you unlock the ability to rob ATMs. Any ATM marked green can be pulled out of the wall and cracked open (check out \u2026 [+3163 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "9to5Mac"
+    },
+    "author": "Justin Kahn",
+    "title": "Best Apple Black Friday Thanksgiving deals: AirPods, MacBook, Apple Watch, AirTag 2, more - 9to5Mac",
+    "description": "Amazon has now launched its massive Thanksgiving Black Friday sale and the deals are seriously wild on Apple gear.",
+    "url": "https://9to5mac.com/2026/11/26/best-apple-black-friday-thanksgiving-deals/",
+    "urlToImage": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/Best-Black-Friday-Apple-deals-2026.jpg?quality=82&strip=all&resize=1200,628",
+    "publishedAt": "2026-11-26T14:05:00Z",
+    "content": "Amazon has now launched its massive Thanksgiving Black Friday sale and the deals are seriously wild on Apple gear. Not only do we have AirPods Pro 3 at $100 off the list price, but you can now score \u2026 [+5405 chars]"
+   },
+   {
+    "source": {
+     "id": "the-verge",
+     "name": "The Verge"
+    },
+    "author": "John Higgins",
+    "title": "Samsung\u2019s R95H TV shows off RGB LED backlight tech - The Verge",
+    "description": "The excellent matte screen and ability to display a vast amount of colors makes the R95H one of the top RGB LED TVs available.\ufeff",
+    "url": "https://www.theverge.com/tech/1042613/samsung-r95h-rgb-led-tv-review",
+    "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268593_Samsung_R95H_RGB_LED_TV_JHiggins_0014.jpg?quality=90&strip=all&crop=0%2C7.6134042997563%2C100%2C78.534031413613&w=1200",
+    "publishedAt": "2026-11-26T14:00:00Z",
+    "content": "<ul><li></li><li></li><li></li></ul>\r\nThe excellent matte screen and ability to display a vast amount of colors makes the R95H one of the top RGB LED TVs available.\r\nIf you buy something from a link,\u2026 [+8820 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Nintendo Life"
+    },
+    "author": "Ollie Reynolds",
+    "title": "Nintendo Promises To Fix The Long Load Times On Pikmin 4 - Switch 2 Edition - Nintendo Life",
+    "description": "\"We apologise for the inconvenience\"",
+    "url": "https://www.nintendolife.com/news/2026/11/nintendo-promises-to-fix-the-long-load-times-on-pikmin-4-switch-2-edition",
+    "urlToImage": "https://images.nintendolife.com/226eca7fe50a1/1280x720.jpg",
+    "publishedAt": "2026-11-26T14:00:00Z",
+    "content": "Image: Nintendo\r\nNintendo has issued a statement acknowledging load time issues on Pikmin 4 - Nintendo Switch 2 Edition + Dandori Academy on Switch 2.\r\nThe company has promised to released a patch ad\u2026 [+1619 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "MacRumors"
+    },
+    "author": "Tim Hardwick",
+    "title": "iPhone 20 Pro Could Feature Ceramic in Limited-Edition Model - MacRumors",
+    "description": "Apple could offer a limited-edition iPhone 20 Pro model that incorporates ceramic, according to the Chinese leaker known as Fixed Focus Digital.   In...",
+    "url": "https://www.macrumors.com/2026/11/26/iphone-20-pro-ceramic-limited-edition-model/",
+    "urlToImage": "https://images.macrumors.com/t/rDmZlbklPkfdX7mDcmAzs955Zyg=/1600x/article-new/2018/03/iphone-x-flexible-oled-display.jpg",
+    "publishedAt": "2026-11-26T12:24:29Z",
+    "content": "Apple could offer a limited-edition iPhone 20 Pro model that incorporates ceramic, according to the Chinese leaker known as Fixed Focus Digital.\r\nIn a post on Weibo ('https://weibo.com/5821279480/Rt9\u2026 [+2356 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Wccftech"
+    },
+    "author": "Francesco De Meo",
+    "title": "Grand Theft Auto VI Is the \u201cToughest Real-World PlayStation 5 Stress Test\u201d to Date, As It Pulls 220 W With Barely Anything Happening On Screen - Wccftech",
+    "description": "Grand Theft Auto VI pushes PlayStation 5 power draw to 274W, exposing VRM and cooling issues on older consoles",
+    "url": "https://wccftech.com/grand-theft-auto-vi-toughest-playstation-5-stress-test/",
+    "urlToImage": "https://cdn.wccftech.com/wp-content/uploads/2026/11/Grand-Theft-Auto-VI-PlayStation-5-Stress-Test-1920x1080.jpg",
+    "publishedAt": "2026-11-26T11:23:42Z",
+    "content": "Even before release, everyone was well aware that Rockstar Games would push the PlayStation 5 and Xbox Series X|S hardware hard with Grand Theft Auto VI, and the expectations were fully met when the \u2026 [+2020 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Buttondown.com"
+    },
+    "author": "Retro Game Corps",
+    "title": "Black Friday 2026 Handheld Deals (and More) - Buttondown",
+    "description": "Here is a roundup of Black Friday deals this year.",
+    "url": "https://buttondown.com/retrogamecorps/archive/Black-Friday-2026/",
+    "urlToImage": "https://assets.buttondown.email/images/3db9935f-a7e8-4250-ad3e-c6a123379536.jpg?w=960&fit=max",
+    "publishedAt": "2026-11-26T11:23:05Z",
+    "content": "Read this issue in a browser\r\nI know, its not Friday yet, but these deals keep coming in sooner and sooner each year. I held out as long as I could! Here are the current best deals that Ive found aro\u2026 [+9376 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "TrueAchievements"
+    },
+    "author": null,
+    "title": "Free Play Days features two free Xbox games this weekend - TrueAchievements",
+    "description": "This weekend, Xbox players can try out two free games with Free Play Days, including Bulwark Studio's turn-based strategy title, Warhammer 40,000: Mechanicus.",
+    "url": "https://www.trueachievements.com/news/xbox-free-play-days-november-26-2026",
+    "urlToImage": "https://www.trueachievements.com/imgs/181410/xbox-free-play-days-november-26-2026.jpg",
+    "publishedAt": "2026-11-26T11:14:04Z",
+    "content": "It's almost the weekend, so it's time to check out this week's free Xbox games with Free Play Days. This week, Warhammer 40,000: Mechanicus and Little Rocket Lab are free for all Game Pass subscriber\u2026 [+1327 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Pokemon GO Hub"
+    },
+    "author": "MeteorAsh15",
+    "title": "Pok\u00e9mon GO Champions Celebration: Raids, GO Pass & Rewards - Pok\u00e9mon GO Hub",
+    "description": "Get the Pok\u00e9mon GO Champions Celebration raid lineup, Special Background dates, GO Pass bonuses, and steps to unlock Professor Willow\u2019s outfit in Pok\u00e9mon Champions.",
+    "url": "https://pokemongohub.net/post/event/pokemon-champions-celebration-2026/",
+    "urlToImage": "https://pokemongohub.net/wp-content/uploads/2026/11/pokemon-champions-celebration.jpg",
+    "publishedAt": "2026-11-26T05:20:13Z",
+    "content": "Starts\r\nTuesday, December 8, 2026, at \r\n 10:00 AM Local Time\r\nEnds\r\nMonday, December 14, 2026, at \r\n 8:00 PM Local Time\r\nThe Pok\u00e9mon Champions Celebration runs from Tuesday, December 8, at 10:00 a.m.\u2026 [+4249 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Android Police"
+    },
+    "author": "Jade Bryan Jardinico",
+    "title": "Samsung says One UI 9.5 will fix the frustrating battery bug on Galaxy phones - Android Police",
+    "description": "If your phone's battery is draining faster than usual, you may be affected",
+    "url": "https://www.androidpolice.com/samsung-confirms-one-ui-95-will-fix-frustrating-battery-bug-on-galaxy-phones/",
+    "urlToImage": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/03/galaxy-s26-ultra-screen-ai-wallpaper.JPG?w=1600&h=900&fit=crop",
+    "publishedAt": "2026-11-26T05:01:35Z",
+    "content": "One UI 9 has reached more devices, and theres plenty to admire in the Android 17-based major upgrade. That includes improved battery life and more stable performance, both of which many users praise,\u2026 [+2905 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Nintendo Life"
+    },
+    "author": "Liam Doolan",
+    "title": "\"No One Gets Left Behind\" - CDPR On The Witcher 4 Releasing On All Platforms At The Same Time - Nintendo Life",
+    "description": "\"Switch 2 is clearly getting left behind\"",
+    "url": "https://www.nintendolife.com/news/2026/11/no-one-gets-left-behind-cdpr-on-the-witcher-4-releasing-for-all-platforms-at-the-same-time",
+    "urlToImage": "https://images.nintendolife.com/27449059c43b8/1280x720.jpg",
+    "publishedAt": "2026-11-26T03:35:00Z",
+    "content": "Image: CD Projekt Red\r\nThis week, CD Projekt Red and Sony announced an exclusive marketing deal for Ciri's upcoming title, The Witcher 4. It's raised some concerns online about the fourth outing pote\u2026 [+1603 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Nintendo Life"
+    },
+    "author": "Liam Doolan",
+    "title": "Video: Xenoblade Chronicles 3 - Switch 2 Edition Overview Trailer Showcases New Features & Enhancements - Nintendo Life",
+    "description": "Here's what you can expect from this upgrade",
+    "url": "https://www.nintendolife.com/news/2026/11/video-xenoblade-chronicles-3-switch-2-edition-overview-trailer-showcases-new-features-and-enhancements",
+    "urlToImage": "https://images.nintendolife.com/969f77044296e/1280x720.jpg",
+    "publishedAt": "2026-11-26T01:05:00Z",
+    "content": "Following a game update last week, preparing for the release of Xenoblade Chronicles 3 - Switch 2 Edition, Nintendo has now released a new overview trailer for this version of the game.\r\nIt once agai\u2026 [+2026 chars]"
+   }
+  ],
+  "general": [
+   {
+    "source": {
+     "id": "axios",
+     "name": "Axios"
+    },
+    "author": "Courtenay Brown",
+    "title": "Trump demands investigation into GDP data revisions - Axios",
+    "description": "The allegations could renew concerns about political interference in the production of critical economic data.",
+    "url": "https://www.axios.com/2026/11/26/trump-gdp-investigation-economy-statistics",
+    "urlToImage": "https://images.axios.com/ySswrD444VnuhQC-4BQsHcANGQg=/0x0:5560x3128/1366x768/2026/11/26/1795707986735.jpeg",
+    "publishedAt": "2026-11-26T20:13:57Z",
+    "content": "What they're saying: The Bureau of Economic Analysis on Wednesday substantially revised the third-quarter GDP data, reflecting a 4.3% annualized pace of growth, up from the 3.4% reported less than a \u2026 [+3154 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "WXII12 Winston-Salem"
+    },
+    "author": "Erin Burnett, Christina Solano, Holly Hodges",
+    "title": "Tracking Thanksgiving Storm Damage across the Triad - WXII",
+    "description": "We are tracking Thanksgiving storm damage across the Triad",
+    "url": "https://www.wxii12.com/article/tracking-thanskgiving-storm-damage-across-the-triad/74531860",
+    "urlToImage": "https://kubrick.htvapps.com/htv-prod/images/d1c9784b-1d33-4685-bec9-7db2cb9c84d7.png?crop=1.00xw%3A0.754xh%3B0%2C0&resize=1200%3A*",
+    "publishedAt": "2026-11-26T18:12:00Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": "ars-technica",
+     "name": "Ars Technica"
+    },
+    "author": "Jonathan M. Gitlin",
+    "title": "Ford unveils the GT41 as it hopes to win Le Mans again - Ars Technica",
+    "description": "Ford enters the World Endurance Championship in 2027 with the new prototype.",
+    "url": "https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/",
+    "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ford-GT41-and-GT40_06-1152x648.jpg",
+    "publishedAt": "2026-11-26T18:00:29Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Pittsburgh Post-Gazette"
+    },
+    "author": "Gerry Dulac",
+    "title": "Art Rooney II backs Mike McCarthy as the Steelers\u2019 coach, says \u2018a change had to be made\u2019 with Aaron Rodgers - Pittsburgh Post-Gazette",
+    "description": "In an interview with the Post-Gazette, Art Rooney II said Aaron Rodgers was insubordinate and not a \"good teammate\" for airing his grievances about Mike McCarthy on national TV.",
+    "url": "https://www.post-gazette.com/sports/steelers/art-rooney-aaron-rodgers-mike-mccarthy-OWI5SSIIDJC6FKGMOJ4BFAN32Q/",
+    "urlToImage": "https://www.post-gazette.com/resizer/v2/HE5PEKFSQELCO52EHIWTXGGACY.jpg?auth=1183adbafcf89185a5a73dc9e5dd84727556a0da1d4d4494d8de01938cfe82b6&width=1280&height=720&focal=1300,363&quality=85",
+    "publishedAt": "2026-11-26T17:17:00Z",
+    "content": "Steelers president Art Rooney II said insubordination will not be tolerated and the organization is 100% committed to coach Mike McCarthy for years to come following the release of Aaron Rodgers and \u2026 [+3745 chars]"
+   },
+   {
+    "source": {
+     "id": "the-wall-street-journal",
+     "name": "The Wall Street Journal"
+    },
+    "author": "WSJ",
+    "title": "Nvidia Tells Partners to Pause Shipments to Southeast Asia - WSJ",
+    "description": null,
+    "url": "https://www.wsj.com/tech/nvidia-tells-partners-to-pause-shipments-to-southeast-asia-5b791cb0",
+    "urlToImage": null,
+    "publishedAt": "2026-11-26T17:06:00Z",
+    "content": null
+   },
+   {
+    "source": {
+     "id": "nfl-news",
+     "name": "NFL News"
+    },
+    "author": "Grant Gordon",
+    "title": "Happy birthday, Blake! Corum turns 26, carries Rams to win over Packers with 184 rushing yards - NFL.com",
+    "description": "Celebrating his 26th birthday on Thanksgiving Eve, Blake Corum enjoyed a career game with 184 rushing yards (and 205 total yards) in the Los Angeles Rams' 26-13 win over the Green Bay Packers.",
+    "url": "https://www.nfl.com/news/happy-birthday-blake-corum-turns-26-carries-rams-to-win-over-packers-with-184-rushing-yards",
+    "urlToImage": "https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/kqf4wh1xv4ogtrnloq52",
+    "publishedAt": "2026-11-26T16:21:15Z",
+    "content": "Beyond being a birthday wish granted, Corums performance was a game for the ages.\u00a0The Michigan products previous NFL high was 128 yards against the Arizona Cardinals in Week 14 of last season.\u00a0He ran\u2026 [+2629 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "Page Six"
+    },
+    "author": "Nola Ojomu",
+    "title": "Khlo\u00e9 Kardashian makes shock marriage admission after demisexuality reveal - Page Six",
+    "description": "The mom of two made yet another candid revelation about her dating life during a conversation with influencer Colt Paulsen on Thursday\u2019s episode of \u201cThe Kardashians.\u201d",
+    "url": "https://pagesix.com/2026/11/26/celebrity-news/khloe-kardashian-makes-shock-lavender-marriage-admission/",
+    "urlToImage": "https://pagesix.com/wp-content/uploads/sites/3/2026/11/150109533.jpg?quality=75&strip=all&w=1200",
+    "publishedAt": "2026-11-26T16:13:00Z",
+    "content": "Khlo\u00e9 Kardashian is keeping an open mind when it comes to her future relationships.\r\nDuring Thursday\u2019s episode of \u201cThe Kardashians,\u201d the reality star revealed her interest in exploring a \u201clavender ma\u2026 [+4023 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "BBC News"
+    },
+    "author": null,
+    "title": "Hundreds of flights cancelled as severe weather disrupts Thanksgiving travel in US - BBC",
+    "description": "More than 80 million Americans are expected to be traveling as massive storms are forecast on the western and eastern coasts of the US.",
+    "url": "https://www.bbc.com/news/articles/ckm2mz3prq77o",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/260a/live/9b64fe90-e9ac-11f1-859a-37130cd3a1d7.jpg",
+    "publishedAt": "2026-11-26T15:57:26Z",
+    "content": "Ahead of expected severe weather in New Jersey, the state's governor, Mikie Sherrill, declared a state of emergency. Several coastal areas that experienced flooding earlier this autumn could be vulne\u2026 [+23 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "BBC News"
+    },
+    "author": null,
+    "title": "Med Emre: Diesel tanker carrying tonnes capsizes near Ibiza, killing one - BBC",
+    "description": "The possible environmental damage is still being assessed by Spain's sea rescue service.",
+    "url": "https://www.bbc.com/news/articles/c9gklryvj24do",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/3e73/live/33d0e9f0-e99e-11f1-b880-15b494ba858d.jpg",
+    "publishedAt": "2026-11-26T15:17:18Z",
+    "content": "The Med Emre, a Malta-flagged vessel, was carrying 17 crew members who were all rescued. However seven were taken to hospital and one was later pronounced dead, Balearic Islands emergency services co\u2026 [+7 chars]"
+   },
+   {
+    "source": {
+     "id": "al-jazeera-english",
+     "name": "Al Jazeera English"
+    },
+    "author": "Virginia Pietromarchi",
+    "title": "Andalusia offers a glimpse into Spain\u2019s future as far right gains ground - Al Jazeera",
+    "description": "Ahead of Sunday\u2019s election, Vox\u2019s influence is already clear in Andalusia, where right-wing alliances reshape politics.",
+    "url": "https://www.aljazeera.com/news/2026/11/26/andalusia-offers-a-glimpse-of-spains-future-as-the-far-right-gains-ground",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-21T181649Z_1730866814_RC2ISOA1DC35_RTRMADP_3_SPAIN-ELECTION-VOX-1795696932.jpg?resize=1920%2C1440",
+    "publishedAt": "2026-11-26T15:16:04Z",
+    "content": "Andalusia, Spain Surrounded by shelves heaving with canned goods and cured meats, the owners of a family-run grocery store are locked in a debate about Spains upcoming elections.\r\nAll politicians are\u2026 [+8546 chars]"
+   },
+   {
+    "source": {
+     "id": "cnn",
+     "name": "CNN"
+    },
+    "author": "Billy Stockwell, Sharon Braithwaite, Ibrahim Dahman, Mohammed Tawfeeq",
+    "title": "Two Italians killed in alleged Iranian drone attack on Kuwait; Tehran denies involvement - CNN",
+    "description": "Two Italian nationals were killed on Thursday in an Iranian drone attack on the Gulf nation of Kuwait, Italy\u2019s Foreign Minister said. Tehran denied any involvement in the incident.",
+    "url": "https://www.cnn.com/2026/11/26/middleeast/italians-killed-iranian-attack-kuwait-intl",
+    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/kuwait-iran-attack-november-26-map.jpg?c=16x9&q=w_800,c_fill",
+    "publishedAt": "2026-11-26T14:14:25Z",
+    "content": "Two Italian nationals were killed on Thursday in an Iranian drone attack on the Gulf nation of Kuwait, Italys Foreign Minister said. Tehran denied any involvement in the incident.\r\nAntonio Tajani sai\u2026 [+2725 chars]"
+   },
+   {
+    "source": {
+     "id": "associated-press",
+     "name": "Associated Press"
+    },
+    "author": "Chan Ho-him",
+    "title": "China and other US trading partners hit back at Trump\u2019s new tariff plans - AP News",
+    "description": "China, Japan, and other U.S. trading partners have protested planned tariff hikes by President Donald Trump's administration. The new tariffs, announced Wednesday, follow a Section 301 probe on excess capacity and production in their manufacturing sectors and\u2026",
+    "url": "https://apnews.com/article/us-tariffs-china-japan-singapore-b94a693004ad8f9b5e78f7aafb196a71",
+    "urlToImage": "https://dims.apnews.com/dims4/default/1f64ee3/2147483647/strip/true/crop/4000x2522+0+0/resize/1200x757!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2c%2F1a%2F6c077935c55b8867cc9bb7e99a43%2Fecf07c8f5d6049389f0fd1c2fa0e3b57",
+    "publishedAt": "2026-11-26T14:13:00Z",
+    "content": "HONG KONG (AP) China, Japan and other U.S. trading partners protested planned tariff hikes by the Trump administration and hit back Thursday at allegations they have excess manufacturing capacity.\r\nT\u2026 [+3713 chars]"
+   },
+   {
+    "source": {
+     "id": "fox-sports",
+     "name": "Fox Sports"
+    },
+    "author": null,
+    "title": "How to Watch Bears vs. Lions: TV Channel, Live Stream, Time - FOX Sports",
+    "description": "Bears vs. Lions kicks off Thursday, Nov. 26, at 1 p.m. ET on CBS. Get the TV channel, streaming options and players to watch for this game in Detroit.",
+    "url": "https://www.foxsports.com/stories/nfl/how-to-watch-bears-vs-lions-tv-channel-live-stream-time-nov-26-2026",
+    "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/11/1294/728/ea8be40a38fa83593a45c1f785c1881a682e1d21b1a1f3d1660f53e1908f9a20.png?ve=1&tl=1",
+    "publishedAt": "2026-11-26T14:05:45Z",
+    "content": "The Chicago Bears visit the Detroit Lions in Week 12 of the 2026 NFL season on Thursday, Nov. 26, 2026, at 1 p.m. ET from Ford Field in Detroit.\r\nChicago and Detroit are both 8-2, with Minnesota a ga\u2026 [+2826 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "9to5Mac"
+    },
+    "author": "Justin Kahn",
+    "title": "Best Apple Black Friday Thanksgiving deals: AirPods, MacBook, Apple Watch, AirTag 2, more - 9to5Mac",
+    "description": "Amazon has now launched its massive Thanksgiving Black Friday sale and the deals are seriously wild on Apple gear.",
+    "url": "https://9to5mac.com/2026/11/26/best-apple-black-friday-thanksgiving-deals/",
+    "urlToImage": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/Best-Black-Friday-Apple-deals-2026.jpg?quality=82&strip=all&resize=1200,628",
+    "publishedAt": "2026-11-26T14:05:00Z",
+    "content": "Amazon has now launched its massive Thanksgiving Black Friday sale and the deals are seriously wild on Apple gear. Not only do we have AirPods Pro 3 at $100 off the list price, but you can now score \u2026 [+5405 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "NPR"
+    },
+    "author": "The Associated Press",
+    "title": "Congo Ebola outbreak reaches 12,000 cases as some responders evacuate - NPR",
+    "description": "As the fast-moving outbreak continues to spread in eastern Congo, fighting between rebels and the army is disrupting efforts to contain the spread of the disease.",
+    "url": "https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders",
+    "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5760x3240+0+300/resize/1400/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F5c%2Fce%2F2b1557be47b9bc08a682a6d8f98f%2Fap26329472681866.jpg",
+    "publishedAt": "2026-11-26T13:47:09Z",
+    "content": "BUNIA, Congo The fast-moving Ebola outbreak in eastern Congo has topped 12,000 confirmed cases, government data showed Thursday, as fighting between rebels and the army disrupts efforts to contain th\u2026 [+2154 chars]"
+   },
+   {
+    "source": {
+     "id": null,
+     "name": "AccuWeather.com"
+    },
+    "author": null,
+    "title": "Major snowstorm buries St. Louis in time for Thanksgiving - AccuWeather",
+    "description": "A snowstorm formidable even for the middle of winter will bring major travel disruptions and power outages on Thanksgiving day in portions of Illinois and Missouri, including the St. Louis area.",
+    "url": "https://www.accuweather.com/en/winter-weather/major-snowstorm-buries-st-louis-in-time-for-thanksgiving/1964313",
+    "urlToImage": "https://cms.accuweather.com/wp-content/uploads/2026/11/Snow-Wednesday-to-Thursday-evening-1.jpeg?w=768",
+    "publishedAt": "2026-11-26T13:37:59Z",
+    "content": "A snowstorm formidable even for the middle of winter will bring major travel disruptions and power outages on Thanksgiving day in portions of Illinois and Missouri, including the St. Louis area.\r\nSno\u2026 [+4945 chars]"
+   },
+   {
+    "source": {
+     "id": "the-hill",
+     "name": "The Hill"
+    },
+    "author": "Caroline Vakil",
+    "title": "Trump rips Obama, CNN as he touts \u2018perfect\u2019 Iowa detonation - The Hill",
+    "description": "President Trump took swipes at former President Obama and CNN over what he described as his administration\u2019s \u201cperfect\u201d detonation of degraded lead azide in Iowa \u2014 a controversial move that has raised questions around how the explosive material accumulated to \u2026",
+    "url": "https://thehill.com/homenews/administration/6244532-trump-obama-cnn-army-iowa-lead-azide-detonation/",
+    "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2026/11/AP26328774593930-e1795697958345.jpg?w=1280",
+    "publishedAt": "2026-11-26T13:08:00Z",
+    "content": "Skip to content\r\nPresident Trump took swipes at former President Obama and CNN over what he described as his administration\u2019s \u201cperfect\u201d detonation of degraded lead azide in Iowa \u2014 a controversial mov\u2026 [+2107 chars]"
+   },
+   {
+    "source": {
+     "id": "cbs-news",
+     "name": "CBS News"
+    },
+    "author": "Ahmed  Shawkat, Frank  Andrews",
+    "title": "Egypt tanker explosion kills 31 people as driver crashes into fuel truck in fiery highway crash - CBS News",
+    "description": "A massive fire killed 31 people in Egypt after a speeding driver allegedly crashed into a fuel tanker truck.",
+    "url": "https://www.cbsnews.com/news/egypt-fuel-tanker-explosion-deaths-giza-cairo/",
+    "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/26/9e7a084a-1686-4415-8d3c-90ee7d6b4c1e/thumbnail/1200x630g8/df8f770c2a7b232813231cf4255b256f/egypt-tanker-fire-giza.jpg",
+    "publishedAt": "2026-11-26T11:27:25Z",
+    "content": "Cairo \u2014 A massive fire on an Egyptian highway killed 31 people and injured 21 others after a car slammed into a fuel tanker truck at high speed, Egypt's Public Prosecution office said Thursday.\r\nThe \u2026 [+1746 chars]"
+   }
+  ]
+ }
+}
